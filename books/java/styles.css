@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700;800&display=swap');
 :root{--ink:#163244;--muted:#596c76;--teal:#087e87;--line:#e3e9ea;--paper:#f8fbfa;--navy:#102f41}
 html{scroll-behavior:smooth}
 body{font-family:'IBM Plex Sans Arabic',Tahoma,Arial,sans-serif;line-height:1.95;color:var(--ink);font-size:1.04rem;direction:rtl;text-align:right;background:#fdfefe}
@@ -51,3 +50,209 @@ details summary{cursor:pointer;font-weight:700}
 .book-footer-note{font-size:.86rem;color:#61747b;border-top:1px solid #dfe9e9;margin-top:3rem;padding-top:.8rem}
 @media(max-width:700px){.section-cards{grid-template-columns:1fr}.stats-line{grid-template-columns:repeat(3,minmax(0,1fr))}.stat{padding:.7rem}.stat strong{font-size:1.35rem}.book-hero{border-radius:16px}}
 @media print{.book-hero{background:#eef7f5;color:#143747}.book-hero h2,.book-hero p{color:#143747}}
+
+
+/* ------------------------------------------------------------------
+   Reading-first accessibility redesign (v1.1)
+   Removes competing columns, tones down heavy visual elements, and
+   improves long-form Arabic reading on desktop and mobile.
+   ------------------------------------------------------------------ */
+:root{
+  --reading-ink:#20343d;
+  --reading-subtle:#52646a;
+  --reading-accent:#166f77;
+  --reading-border:#dde5e1;
+  --reading-bg:#fafbf8;
+  --reading-panel:#ffffff;
+  --bs-body-bg:#fafbf8;
+  --bs-body-color:#20343d;
+}
+html{background:var(--reading-bg);scroll-behavior:smooth}
+body{
+  background:var(--reading-bg);
+  color:var(--reading-ink);
+  font-family:"Segoe UI",Tahoma,Arial,sans-serif!important;
+  font-size:1.08rem;
+  line-height:1.92;
+  text-align:right;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4,.sidebar-title,.quarto-title{
+  font-family:"Segoe UI",Tahoma,Arial,sans-serif!important;
+  text-wrap:pretty;
+}
+h1{font-size:clamp(1.65rem,2.1vw,2.13rem)!important;line-height:1.47!important;font-weight:750}
+h2{font-size:clamp(1.34rem,1.65vw,1.55rem)!important;line-height:1.55!important;margin-top:2.8rem!important;margin-bottom:1.25rem!important;color:#23404b;border-bottom:1px solid #e3e9e6}
+h3{font-size:1.16rem!important;line-height:1.55!important;margin-top:2.1rem!important}
+p,li{line-height:1.9;overflow-wrap:break-word}
+p{margin-bottom:1.15rem}
+a{color:var(--reading-accent)}
+a:hover{color:#12535b}
+#quarto-margin-sidebar{display:none!important}
+#quarto-document-content{width:100%;max-width:860px;margin-inline:auto;padding:1.5rem 1.7rem 6rem}
+#title-block-header{margin-bottom:1rem}
+#quarto-content:has(.book-hero) #title-block-header{display:none}
+#quarto-content:has(.book-hero) .level1 > h1:first-child{
+  position:absolute!important;width:1px!important;height:1px!important;
+  padding:0!important;margin:-1px!important;border:0!important;
+  overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;
+}
+#quarto-content:has(.book-hero) #quarto-document-content{padding-top:1.2rem}
+.quarto-page-breadcrumbs{font-size:.76rem;opacity:.74}
+.quarto-page-breadcrumbs .breadcrumb{gap:.35rem}
+#quarto-sidebar{
+  background:#f4f7f5!important;
+  border-left:1px solid var(--reading-border);
+  padding:1rem .8rem 3rem;
+  color:#38515a;
+  font-size:.9rem;
+  line-height:1.6;
+  scrollbar-color:#b8cbc7 transparent;
+}
+#quarto-sidebar .sidebar-header{padding:0!important;margin:0 0 1.15rem!important}
+#quarto-sidebar .sidebar-logo-link{display:none!important}
+#quarto-sidebar .sidebar-title{font-size:1.06rem!important;font-weight:750;color:#23444d;text-align:right!important;line-height:1.35}
+#quarto-sidebar .sidebar-search{margin-top:.7rem;margin-bottom:1rem}
+#quarto-sidebar .sidebar-menu-container{padding-top:.25rem}
+#quarto-sidebar .sidebar-item-container{padding-top:2px;padding-bottom:2px}
+#quarto-sidebar .sidebar-item-text,#quarto-sidebar .sidebar-item a{
+  font-size:.86rem;
+  line-height:1.52;
+  overflow-wrap:break-word;
+  color:#465a61;
+  text-decoration:none;
+}
+#quarto-sidebar .sidebar-item a.active{font-weight:750;color:#116b71}
+#quarto-sidebar .sidebar-item-container:hover{background:#e9f2ef;border-radius:7px}
+#quarto-sidebar .sidebar-item-section>.sidebar-item-container{
+  font-weight:700;
+  padding-block:6px;
+}
+#quarto-sidebar .sidebar-tools-main{gap:.5rem}
+.book-hero{
+  background:linear-gradient(120deg,#f0f7f3 0%,#f6faf8 70%,#ffffff 100%)!important;
+  border:1px solid #dce7e1;
+  box-shadow:none!important;
+  color:var(--reading-ink)!important;
+  padding:clamp(1.5rem,3vw,2.7rem)!important;
+  min-height:0!important;
+  margin:0 0 1.3rem!important;
+  border-radius:18px!important;
+}
+.book-hero:after{display:none!important}
+.book-hero h2{
+  color:#203d44!important;
+  border:0!important;
+  font-size:clamp(1.8rem,3vw,2.58rem)!important;
+  line-height:1.58!important;
+  margin:.45rem 0 .85rem!important;
+  letter-spacing:0!important;
+}
+.book-hero p{color:#52666a!important;line-height:1.83!important;font-size:1rem!important;max-width:55ch;margin-bottom:1.3rem}
+.book-hero .eyebrow{color:#387b78!important;letter-spacing:.12em!important;font-size:.7rem}
+.book-hero .hero-btn{
+  color:#fff!important;
+  background:#246e72!important;
+  box-shadow:none!important;
+  font-size:.94rem;
+  padding:.5rem 1.2rem;
+  border-radius:10px;
+  font-weight:700;
+}
+.book-hero .hero-btn:hover{background:#174d56!important}
+.book-hero .hero-steps{justify-content:flex-start;direction:ltr;gap:.38rem;margin-top:1.3rem!important}
+.book-hero .hero-steps span{
+  color:#39716f!important;background:#ffffff99!important;border:1px solid #dce8e5!important;
+  font-size:.67rem!important;padding:.28rem .52rem!important;border-radius:6px!important;
+}
+.stats-line{margin:.9rem 0 1.45rem;gap:.7rem}
+.stat{
+  background:#fff!important;
+  border:1px solid var(--reading-border)!important;
+  border-radius:12px!important;
+  box-shadow:none;
+  padding:.9rem 1rem!important;
+}
+.stat strong{font-size:1.6rem!important;color:#246e72!important}
+.stat small{font-size:.78rem;line-height:1.5;color:#657578}
+.section-cards{gap:.75rem}
+.section-card{
+  background:#fff!important;border-color:var(--reading-border)!important;
+  min-height:120px!important;border-radius:14px!important;
+  padding:1rem 1.15rem!important;box-shadow:none!important;
+}
+.section-card:hover{transform:none;box-shadow:0 5px 14px #1c454314!important;border-color:#bdd7d0!important}
+.section-card strong{font-size:1.05rem;line-height:1.5}
+.section-card p{font-size:.89rem;color:#637378}
+.section-card .chip{color:#2a706b;background:#ecf5f2;font-size:.66rem}
+.lesson-banner{
+  border-right:3px solid #41948a!important;
+  background:#f0f6f2!important;
+  padding:1.05rem 1.35rem!important;
+  box-shadow:none;border-radius:11px!important;
+  line-height:1.93!important;
+}
+.lesson-meta{gap:.4rem;margin:.7rem 0 1.45rem!important}
+.lesson-meta span{
+  background:#f0f5f3!important;border:1px solid #dce7e1!important;
+  border-radius:7px!important;padding:.25rem .52rem!important;
+  color:#466e6e!important;font-size:.68rem!important;font-weight:700;
+}
+.english-term{
+  direction:ltr;text-align:left;unicode-bidi:isolate;display:block;
+  margin:.5rem 0 1.15rem;color:#426b75!important;
+  font-weight:700;font-size:.82rem;letter-spacing:.01em;
+}
+p code,li code,td code,th code{
+  direction:ltr;unicode-bidi:isolate;display:inline-block;white-space:normal;
+  border-radius:4px;padding:.02rem .19rem;font-size:.88em;
+}
+div.sourceCode{border:1px solid #d9e5e3!important;border-radius:12px!important;box-shadow:none!important}
+pre{background:#f4f7f8!important;color:#223c44!important}
+.visual-frame{background:#fff!important;border:1px solid #e1e8e6!important;box-shadow:none!important;border-radius:12px!important;padding:.8rem!important}
+.callout{box-shadow:none!important;border-radius:12px!important}
+details{border-color:#dce6e2!important;background:#f5f9f7!important}
+blockquote{border-right:3px solid #8ebcb7}
+table{font-size:.92rem;line-height:1.65}
+table th{background:#edf3f1!important}
+@media(min-width:992px){
+  #quarto-document-content{padding-top:1.3rem}
+  body.docked #quarto-content.page-columns{column-gap:0}
+}
+@media(max-width:991.98px){
+  nav.quarto-secondary-nav{background:#fbfcfa!important;border-bottom:1px solid #e1e8e5!important;min-height:52px!important}
+  nav.quarto-secondary-nav .quarto-page-breadcrumbs{display:none!important}
+  nav.quarto-secondary-nav .container-fluid::after{
+    content:"JAVA  ·  LEARNING LIBRARY";
+    direction:ltr;unicode-bidi:isolate;
+    font-size:.69rem;font-family:Arial,sans-serif;
+    letter-spacing:.075em;color:#416b6b;font-weight:750;
+    margin-inline:auto;
+  }
+  #quarto-document-content{max-width:780px;padding:1.3rem 1.15rem 4rem}
+  h1{font-size:1.7rem!important}
+  p,li{line-height:1.88}
+  .book-hero h2{font-size:1.85rem!important}
+}
+@media(max-width:600px){
+  body{font-size:1.05rem!important}
+  #quarto-document-content{padding:1rem 1.1rem 4.3rem!important}
+  .book-hero{padding:1.4rem 1.2rem!important;border-radius:14px!important}
+  .book-hero h2{font-size:1.62rem!important;line-height:1.55!important}
+  .book-hero p{font-size:.96rem!important;line-height:1.75!important}
+  .book-hero .hero-steps{display:none!important}
+  .stats-line{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:.4rem}
+  .stat{padding:.6rem .55rem!important}
+  .stat strong{font-size:1.3rem!important}
+  .stat small{font-size:.68rem!important}
+  .section-cards{grid-template-columns:1fr!important}
+  .section-card{min-height:0!important}
+  .lesson-meta span{font-size:.63rem!important}
+  .lesson-banner{padding:.85rem 1rem!important}
+  h2{font-size:1.32rem!important;margin-top:2.25rem!important}
+  h3{font-size:1.12rem!important}
+  table{display:block;overflow-x:auto}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+}
