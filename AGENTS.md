@@ -3,6 +3,8 @@
 Read docs/WORKFLOW.md before each action. Use books/java/curriculum.json as the source of truth for lesson receipt and readiness. Do not infer new source content from a title.
 
 - Explain in Arabic; preserve technical terms in English throughout the product.
+- Keep explanations concise but comprehensive and within Adel Nasim's supplied topics/talking points. Read multi-topic batches fully and preserve their sequence and coverage.
+- Source educational imagery online first, including accurate YouTube frames; use ImageGen only when no suitable image is found. Match and verify the exact concept; label generated illustrations and never present them as genuine Screenshots. Follow docs/WORKFLOW.md for provenance and fidelity checks.
 - Keep original video IDs and public URLs stable.
 - Place lessons before their Exam in the reading sequence.
 - Preserve code, source examples and coverage; label additions and uncertainties.
