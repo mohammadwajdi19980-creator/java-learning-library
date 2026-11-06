@@ -1,0 +1,16 @@
+# S26 — الواجهات
+
+<div class="lesson-meta"><span>M10</span><span>S26</span><span>#055–#058</span></div>
+
+هذا **Subject** داخل [M10 — التجريد والواجهات](../modules/m10.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+
+## الدروس الأصلية
+
+- **`#055`** — Interface Part1 (Real-Life Example, UML, Convention) — *لم يصل التفريغ بعد*
+- **`#056`** — Interface Part2 (Practical, Implement Multiple Interfaces, Extends Multiple Interfaces) — *لم يصل التفريغ بعد*
+- **`#057`** — Interface Part3 (Default - Private - Static Methods, Nested Interface) — *لم يصل التفريغ بعد*
+- **`#058`** — Interface Part4 (Marker or Tagging Interface, Generic Interface, Benefits of Interface) — *لم يصل التفريغ بعد*
+
+## اختبار نهاية الموضوع
+
+عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ الكود، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.

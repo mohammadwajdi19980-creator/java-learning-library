@@ -1,0 +1,15 @@
+# S23 — ArrayList: الإنشاء والتعديل
+
+<div class="lesson-meta"><span>M09</span><span>S23</span><span>#048–#050</span></div>
+
+هذا **Subject** داخل [M09 — القوائم الديناميكية](../modules/m09.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+
+## الدروس الأصلية
+
+- **`#048`** — ArrayList Class — *لم يصل التفريغ بعد*
+- **`#049`** — ArrayList, Declaration, Print, Methods (Add, Get, AddAll, Copy Constructor, Clone) — *لم يصل التفريغ بعد*
+- **`#050`** — ArrayList Methods (Set, Remove, Remove All, Remove Range) Polymorphic ArrayList — *لم يصل التفريغ بعد*
+
+## اختبار نهاية الموضوع
+
+عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ الكود، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.

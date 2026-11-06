@@ -1,0 +1,23 @@
+# Source Register & Editorial Notes
+
+هذا الكتاب يعيد صياغة **النصوص التي يقدّمها القارئ** من سلسلة عادل نسيم، ولا يفترض تفاصيل فيديو لم نستلم نصه. جميع الأمثلة والرسومات التي نصنعها تُميّز كمحتوى توضيحي.
+
+## حالة المصادر
+
+- `#00 — Introduction`: النص مستلَم، ومسودة الدرس منشورة للمراجعة.
+- `#01–#076`: العناوين مستلمة، والتفريغات لم تصل بعد.
+
+## Technical accuracy notes
+
+- `#08`: `instanceof` operator، ليس method.
+- `#034`: `finalize()` قديم ومهمل ومعلَّم للإزالة؛ نشرح البدائل الحديثة عند الوصول للدرس.
+- `#036`: نفرق بين static nested class والـ top-level classes.
+- `#037`: Java تمرر معاملات الدوال بـ pass-by-value حتى لمراجع الكائنات.
+- `#062`: الاسم الصحيح للدالة هو `compareTo()`.
+
+## مراجع تأسيسية
+
+- [Java learning — Oracle](https://dev.java/learn/)
+- [Java Language Specification — Oracle](https://docs.oracle.com/javase/specs/)
+- [Apache NetBeans](https://netbeans.apache.org/)
+- [Quarto Books](https://quarto.org/docs/books/)

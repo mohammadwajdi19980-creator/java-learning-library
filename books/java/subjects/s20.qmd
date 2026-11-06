@@ -1,0 +1,15 @@
+# S20 — تعدد الأشكال
+
+<div class="lesson-meta"><span>M08</span><span>S20</span><span>#041–#043</span></div>
+
+هذا **Subject** داخل [M08 — الوراثة وتعدد الأشكال والعلاقات](../modules/m08.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+
+## الدروس الأصلية
+
+- **`#041`** — Polymorphism (Method Overloading and Method Overriding) — *لم يصل التفريغ بعد*
+- **`#042`** — Polymorphism (Explanation of Examples, Static Methods) — *لم يصل التفريغ بعد*
+- **`#043`** — Polymorphism (Late binding "Dynamic Polymorphism", Early binding "Static Polymorphism") — *لم يصل التفريغ بعد*
+
+## اختبار نهاية الموضوع
+
+عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ الكود، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.

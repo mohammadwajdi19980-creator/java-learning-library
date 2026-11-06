@@ -1,0 +1,240 @@
+# فهرس المنهج — 77 فيديو
+
+الترقيم الأصلي محفوظ كما أرسلته، من `#00` حتى `#076`. **العناوين لم تتحوّل تلقائيًا لدروس**؛ الدرس الأول فقط يحتوي شرحًا حقيقيًا حتى الآن.
+
+<div class="stats-line"><div class="stat"><strong>77</strong><small>Original video topics</small></div><div class="stat"><strong>13</strong><small>Modules</small></div><div class="stat"><strong>35</strong><small>Subjects</small></div></div>
+
+## [M01 — مدخل Java وإعداد الأدوات](modules/m01.qmd)
+
+<span class="english-term">Java & Tools · Beginner · #00–#02</span>
+
+### [S01 — المقدمة والتثبيت](subjects/s01.qmd)
+
+- **`#00`** — Introduction — [اقرأ الدرس](lessons/lesson-000.qmd)
+- **`#01`** — Installing the Java Development Tools (JDK, Apache NetBeans IDE) — *بانتظار النص*
+
+### [S02 — التعليقات والرموز الخاصة](subjects/s02.qmd)
+
+- **`#02`** — Escape Sequences and Comments — *بانتظار النص*
+
+## [M02 — البيانات والعمليات والإدخال](modules/m02.qmd)
+
+<span class="english-term">Core Syntax & Input · Beginner · #03–#06</span>
+
+### [S03 — الأنواع والعمليات الحسابية](subjects/s03.qmd)
+
+- **`#03`** — Data Types — *بانتظار النص*
+- **`#04`** — Arithmetic Operators — *بانتظار النص*
+- **`#05`** — Arithmetic Operators (Prefix & Postfix) — *بانتظار النص*
+
+### [S04 — الإدخال وتنسيق المخرجات](subjects/s04.qmd)
+
+- **`#06`** — Java User Input (Scanner), Printf methods — *بانتظار النص*
+
+## [M03 — اتخاذ القرارات](modules/m03.qmd)
+
+<span class="english-term">Decisions · Beginner · #07–#09</span>
+
+### [S05 — الشروط والمقارنات](subjects/s05.qmd)
+
+- **`#07`** — Selection Statement (if - if else - if else if) — *بانتظار النص*
+- **`#08`** — Selection Statement (Exercises, Practice, Ternary Operator), Instanceof Method — *بانتظار النص*
+
+### [S06 — الاختيار المتعدد](subjects/s06.qmd)
+
+- **`#09`** — Selection Statement (Switch Statements) — *بانتظار النص*
+
+## [M04 — الحلقات والتحكم في التكرار](modules/m04.qmd)
+
+<span class="english-term">Loops & Branching · Beginner · #010–#017</span>
+
+### [S07 — الحلقة While وشروط الإيقاف](subjects/s07.qmd)
+
+- **`#010`** — Repetition Control Statement (While Loop) — *بانتظار النص*
+- **`#011`** — Sentinel and Flag-Controlled While Loops — *بانتظار النص*
+
+### [S08 — حلقات Do-While وFor والتمارين](subjects/s08.qmd)
+
+- **`#012`** — Repetition Control Statement (Do-While Loop) — *بانتظار النص*
+- **`#013`** — Repetition Control Statement (For Loop) — *بانتظار النص*
+- **`#014`** — Questions and Exercises in Loops — *بانتظار النص*
+
+### [S09 — الحلقات المتداخلة والتحكم](subjects/s09.qmd)
+
+- **`#015`** — Branching Statements (Break/Continue) — *بانتظار النص*
+- **`#016`** — Repetition Control Statement (Nested Loops) — *بانتظار النص*
+- **`#017`** — Branching Statements (Labeled Break / Labeled Continue) — *بانتظار النص*
+
+## [M05 — الدوال والاستدعاء الذاتي](modules/m05.qmd)
+
+<span class="english-term">Methods & Recursion · Beginner · #018–#023</span>
+
+### [S10 — الدوال وتعدد التواقيع](subjects/s10.qmd)
+
+- **`#018`** — Method / Function Part 1 — *بانتظار النص*
+- **`#019`** — Method / Function Part 2 (Examples) — *بانتظار النص*
+- **`#020`** — Built in Method / Function — *بانتظار النص*
+- **`#021`** — Overloading Method / Function — *بانتظار النص*
+
+### [S11 — الاستدعاء الذاتي](subjects/s11.qmd)
+
+- **`#022`** — Recursion/Recursive Methods Part 1 — *بانتظار النص*
+- **`#023`** — Recursion/Recursive Methods Part 2 — *بانتظار النص*
+
+## [M06 — المصفوفات والنصوص](modules/m06.qmd)
+
+<span class="english-term">Arrays & Strings · Beginner · #024–#029</span>
+
+### [S12 — المصفوفات أحادية البعد](subjects/s12.qmd)
+
+- **`#024`** — One Dimensional Arrays (1D Array) — *بانتظار النص*
+- **`#025`** — One Dimensional Array (Exercises, Practice) — *بانتظار النص*
+- **`#026`** — One Dimensional Array (Char Array) — *بانتظار النص*
+- **`#027`** — Passing Arrays to Methods — *بانتظار النص*
+
+### [S13 — المصفوفات متعددة الأبعاد](subjects/s13.qmd)
+
+- **`#028`** — Multidimensional Arrays & Passing Multidimensional Arrays to Methods — *بانتظار النص*
+
+### [S14 — النصوص والمصفوفات النصية](subjects/s14.qmd)
+
+- **`#029`** — String & Array String — *بانتظار النص*
+
+## [M07 — الكائنات والصفوف والإنشاء](modules/m07.qmd)
+
+<span class="english-term">Classes & Objects · Intermediate · #030–#038</span>
+
+### [S15 — مبادئ البرمجة كائنية التوجه](subjects/s15.qmd)
+
+- **`#030`** — Introduction to Object-Oriented Programming — *بانتظار النص*
+- **`#031`** — Classes and Objects — *بانتظار النص*
+- **`#032`** — Questions and Exercises - Classes and Objects — *بانتظار النص*
+
+### [S16 — Constructors ودورة حياة الموارد](subjects/s16.qmd)
+
+- **`#033`** — Constructor (No-Arg, Parameterized, Default) — *بانتظار النص*
+- **`#034`** — Constructor (Copy Constructor) / Finalizers vs Destructor — *بانتظار النص*
+
+### [S17 — الأعضاء المشتركة Static](subjects/s17.qmd)
+
+- **`#035`** — Static keyword (Static Variable and Methods) — *بانتظار النص*
+- **`#036`** — Static keyword (Static Block - Static Class) — *بانتظار النص*
+
+### [S18 — تمرير الكائنات وإعادتها](subjects/s18.qmd)
+
+- **`#037`** — Passing Objects to Methods (by Value vs by Reference / Passing Objects as Arguments) — *بانتظار النص*
+- **`#038`** — Passing Objects to Methods (Returning Objects / Comparing Objects) — *بانتظار النص*
+
+## [M08 — الوراثة وتعدد الأشكال والعلاقات](modules/m08.qmd)
+
+<span class="english-term">Inheritance & Polymorphism · Intermediate · #039–#047</span>
+
+### [S19 — الوراثة](subjects/s19.qmd)
+
+- **`#039`** — Inheritance (Types of Inheritance / Access Modifiers and inheritance) — *بانتظار النص*
+- **`#040`** — Inheritance (Super Keyword / Object Class / Package-Private vs Protected) — *بانتظار النص*
+
+### [S20 — تعدد الأشكال](subjects/s20.qmd)
+
+- **`#041`** — Polymorphism (Method Overloading and Method Overriding) — *بانتظار النص*
+- **`#042`** — Polymorphism (Explanation of Examples, Static Methods) — *بانتظار النص*
+- **`#043`** — Polymorphism (Late binding "Dynamic Polymorphism", Early binding "Static Polymorphism") — *بانتظار النص*
+
+### [S21 — علاقات الكائنات](subjects/s21.qmd)
+
+- **`#044`** — Types of Relationships (Association, Aggregation "has-a", Composition "part-of") — *بانتظار النص*
+- **`#045`** — Types of Relationships (Association, Aggregation, Composition) With Example — *بانتظار النص*
+
+### [S22 — استخدام Final](subjects/s22.qmd)
+
+- **`#046`** — Final Keyword (Final Variable, Final Blank Variable, Static Final Blank Variable) — *بانتظار النص*
+- **`#047`** — Final Keyword (Final Parameters, Final Methods, Final Classes, Final References) — *بانتظار النص*
+
+## [M09 — القوائم الديناميكية](modules/m09.qmd)
+
+<span class="english-term">ArrayList · Intermediate · #048–#051</span>
+
+### [S23 — ArrayList: الإنشاء والتعديل](subjects/s23.qmd)
+
+- **`#048`** — ArrayList Class — *بانتظار النص*
+- **`#049`** — ArrayList, Declaration, Print, Methods (Add, Get, AddAll, Copy Constructor, Clone) — *بانتظار النص*
+- **`#050`** — ArrayList Methods (Set, Remove, Remove All, Remove Range) Polymorphic ArrayList — *بانتظار النص*
+
+### [S24 — ArrayList: الفحص والفرز](subjects/s24.qmd)
+
+- **`#051`** — ArrayList Methods (contains, retainAll, subList, clear, ensureCapacity, sort, min, max) — *بانتظار النص*
+
+## [M10 — التجريد والواجهات](modules/m10.qmd)
+
+<span class="english-term">Abstraction & Interfaces · Intermediate · #052–#058</span>
+
+### [S25 — الصفوف المجردة](subjects/s25.qmd)
+
+- **`#052`** — Abstraction (Real-Life Examples, Introduction to Abstract Class, UML Abstract Class) — *بانتظار النص*
+- **`#053`** — Abstract Class part 1 (Examples, Abstract rules) — *بانتظار النص*
+- **`#054`** — Abstract Class part 2 (Polymorphism, Benefits of Abstract Class) — *بانتظار النص*
+
+### [S26 — الواجهات](subjects/s26.qmd)
+
+- **`#055`** — Interface Part1 (Real-Life Example, UML, Convention) — *بانتظار النص*
+- **`#056`** — Interface Part2 (Practical, Implement Multiple Interfaces, Extends Multiple Interfaces) — *بانتظار النص*
+- **`#057`** — Interface Part3 (Default - Private - Static Methods, Nested Interface) — *بانتظار النص*
+- **`#058`** — Interface Part4 (Marker or Tagging Interface, Generic Interface, Benefits of Interface) — *بانتظار النص*
+
+## [M11 — الصفوف المجهولة والتعدادات](modules/m11.qmd)
+
+<span class="english-term">Anonymous Classes & Enums · Intermediate · #059–#063</span>
+
+### [S27 — الصفوف المجهولة وLambda](subjects/s27.qmd)
+
+- **`#059`** — Anonymous Inner Class (Extends Class, Implements Interface, Defined Arguments, Lambda) — *بانتظار النص*
+- **`#060`** — Anonymous Inner Class (Constructor, Extra Methods, Local Variables, Var Keyword) — *بانتظار النص*
+
+### [S28 — Enum وملحقاتها](subjects/s28.qmd)
+
+- **`#061`** — Java Enum (What is Enum, Examples, UML, Enum with switch, Attributes & Methods) — *بانتظار النص*
+- **`#062`** — Java Enum (Real life example, ordinal, compreTo, toString, name, valueOf, values) — *بانتظار النص*
+- **`#063`** — Java Enum (EnumSet & EnumMap classes, Benefits of Enums, Enums vs Classes) — *بانتظار النص*
+
+## [M12 — الاستثناءات وإدارة الأخطاء](modules/m12.qmd)
+
+<span class="english-term">Exceptions · Applied Core · #064–#066</span>
+
+### [S29 — التقاط الاستثناءات وتمريرها](subjects/s29.qmd)
+
+- **`#064`** — Exception Handling (Try-catch block, Multi-catch blocks, Union-catch blocks) — *بانتظار النص*
+- **`#065`** — Exception Handling (Finally Block, Throws Keyword, Checked vs Unchecked Exception) — *بانتظار النص*
+
+### [S30 — الاستثناءات المخصصة](subjects/s30.qmd)
+
+- **`#066`** — Exception Handling (Throw keyword, Throw vs Throws, Throw & finally, Custom exception) — *بانتظار النص*
+
+## [M13 — الملفات وتخزين البيانات](modules/m13.qmd)
+
+<span class="english-term">File I/O · Applied Core · #067–#076</span>
+
+### [S31 — التعامل مع الملفات الثنائية](subjects/s31.qmd)
+
+- **`#067`** — File Handling (java.io, Byte & Character stream, InputStream & OutputStream subclasses) — *بانتظار النص*
+- **`#068`** — File Handling (FileInputStream class, Character size vs String size) — *بانتظار النص*
+- **`#069`** — File Handling (FileOutputStream class, Reading and Writing images, Arabic letters) — *بانتظار النص*
+
+### [S32 — الملفات والمجلدات](subjects/s32.qmd)
+
+- **`#070`** — File Handling (File class) — *بانتظار النص*
+- **`#071`** — File Handling (File class, Directories Add/Remove, Constructors) — *بانتظار النص*
+
+### [S33 — قراءة وكتابة النصوص](subjects/s33.qmd)
+
+- **`#072`** — File Handling (Reader class/Writer class hierarchy, FileWriter & FileReader) — *بانتظار النص*
+- **`#073`** — File Handling (BufferedReader / BufferedWriter classes, Read file line by line) — *بانتظار النص*
+- **`#074`** — File Handling (PrintWriter class, Constructors & Methods) — *بانتظار النص*
+
+### [S34 — قراءة الملفات باستخدام Scanner](subjects/s34.qmd)
+
+- **`#075`** — File Handling (Scanner class, Constructors & Methods, useDelimiter, delimiter) — *بانتظار النص*
+
+### [S35 — Serialization](subjects/s35.qmd)
+
+- **`#076`** — File Handling (Serialization and Deserialization, Read & Write multiple objects) — *بانتظار النص*
+

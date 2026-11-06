@@ -1,0 +1,85 @@
+# Glossary — قاموس المصطلحات
+
+هاي الصفحة مش مجرد ترجمة كلمة. مع كل مصطلح بنفهم معناه بالعربي، والتعريف الدقيق بالإنجليزي، وكيف يرتبط بالمواضيع الأخرى. راح يتوسع القاموس مع كل درس.
+
+## Programming
+
+<span class="english-term">English term: Programming</span>
+
+**بالعربية:** البرمجة هي عملية تصميم تعليمات واضحة يمكن معالجتها وتنفيذها بواسطة جهاز أو بيئة تشغيل. قبل ما نكتب الأوامر، بنفهم المشكلة، ثم نحدد المدخلات والخطوات والنتيجة المطلوبة. البرمجة تشمل كمان اختبار الحل وإصلاح الأخطاء.
+
+**English definition:** Programming is the process of designing, expressing, testing, and maintaining instructions that a computing system can execute to accomplish a task.
+
+**مثال:** برنامج يقرأ رقمين، يجمعهما، ثم يعرض النتيجة.
+
+## Source Code
+
+<span class="english-term">English term: Source Code</span>
+
+**بالعربية:** النص البرمجي اللي بيكتبه المطور بلغة مثل Java. غالبًا بنحفظه في ملفات تنتهي بـ `.java`. قبل ما يتنفذ بالصورة المعتادة، يحتاج ترجمة أو معالجة بواسطة أدوات مناسبة.
+
+**English definition:** Human-readable program instructions written in a programming language before being compiled or otherwise processed for execution.
+
+## Syntax
+
+<span class="english-term">English term: Syntax</span>
+
+**بالعربية:** قواعد كتابة أوامر اللغة. مثلًا أقواس وتهجئة الكلمات المحجوزة وعلامات الإنهاء إلها مواضع معينة. مخالفة القواعد تؤدي عادةً إلى خطأ أثناء الترجمة، لكن الالتزام فيها وحده مش ضمان لصحة منطق البرنامج.
+
+**English definition:** The grammatical rules that define how valid expressions, statements, and other constructs must be written in a programming language.
+
+## Compiler
+
+<span class="english-term">English term: Compiler · javac</span>
+
+**بالعربية:** أداة بترجم الكود من صيغة إلى أخرى، وغالبًا تجري فحوصًا أثناء الترجمة. مترجم Java الشائع `javac` يحوّل ملفات `.java` إلى ملفات `.class` التي تحتوي على Bytecode.
+
+**English definition:** A program that translates source code into another representation, typically performing syntax and type checking. Java's `javac` normally produces class files containing bytecode.
+
+## Bytecode
+
+<span class="english-term">English term: Bytecode</span>
+
+**بالعربية:** تعليمات وسيطة لا ترتبط مباشرة بمعالج محدد. Java بتستخدمها حتى تقدر بيئات تشغيل JVM المتوافقة تنفّذها على أنظمة مختلفة. عادةً بتنحفظ داخل ملفات `.class`.
+
+**English definition:** A platform-neutral intermediate instruction format executed by a virtual machine, commonly stored in Java class files.
+
+## Java Virtual Machine
+
+<span class="english-term">English term: Java Virtual Machine · JVM</span>
+
+**بالعربية:** بيئة افتراضية لتنفيذ تعليمات Java الوسيطة. بتوفّر سلوكًا محددًا للتنفيذ، وبتدير تفاصيل مثل تحميل الصفوف والذاكرة، وبتستخدم التفسير أو الترجمة وقت التشغيل حسب تنفيذها. مش هي نفسها مترجم `javac`.
+
+**English definition:** An abstract execution machine that loads, verifies, and executes Java bytecode using mechanisms such as interpretation and just-in-time compilation.
+
+## JDK
+
+<span class="english-term">English term: Java Development Kit · JDK</span>
+
+**بالعربية:** مجموعة أدوات تطوير Java، ومنها المترجم `javac` وأدوات أخرى لبناء البرامج. راح نشوف تثبيتها عمليًا في الفيديو `#01`.
+
+**English definition:** A distribution of tools and runtime components used to develop, compile, and run Java applications.
+
+## IDE
+
+<span class="english-term">English term: Integrated Development Environment · IDE</span>
+
+**بالعربية:** برنامج بيساعدك تكتب الكود، ترتّبه، تشغله، وتكتشف مشاكله. رح نستعمل Apache NetBeans في الكورس.
+
+**English definition:** Software that integrates source editing, building, debugging, and project management in one development interface.
+
+## Object-Oriented Programming
+
+<span class="english-term">English term: Object-Oriented Programming · OOP</span>
+
+**بالعربية:** طريقة لتنظيم البرامج باستخدام كائنات ذات معلومات وسلوك. هذا تعريف أولي فقط؛ التفاصيل الدقيقة تأتي في Module 07.
+
+**English definition:** A programming paradigm that organizes software around objects encapsulating state and behavior and uses mechanisms such as abstraction and polymorphism.
+
+## Write Once, Run Anywhere
+
+<span class="english-term">English term: Write Once, Run Anywhere · WORA</span>
+
+**بالعربية:** قابلية تشغيل برنامج Java المترجم على أكثر من نظام، بشرط وجود JVM متوافقة وعدم اعتماد البرنامج على تفاصيل خاصة بنظام معيّن.
+
+**English definition:** A Java portability principle in which compiled bytecode can execute across compatible platforms without recompilation, subject to dependencies and runtime compatibility.

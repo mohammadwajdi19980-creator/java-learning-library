@@ -1,0 +1,14 @@
+# S27 — الصفوف المجهولة وLambda
+
+<div class="lesson-meta"><span>M11</span><span>S27</span><span>#059–#060</span></div>
+
+هذا **Subject** داخل [M11 — الصفوف المجهولة والتعدادات](../modules/m11.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+
+## الدروس الأصلية
+
+- **`#059`** — Anonymous Inner Class (Extends Class, Implements Interface, Defined Arguments, Lambda) — *لم يصل التفريغ بعد*
+- **`#060`** — Anonymous Inner Class (Constructor, Extra Methods, Local Variables, Var Keyword) — *لم يصل التفريغ بعد*
+
+## اختبار نهاية الموضوع
+
+عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ الكود، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.

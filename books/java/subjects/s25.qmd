@@ -1,0 +1,15 @@
+# S25 — الصفوف المجردة
+
+<div class="lesson-meta"><span>M10</span><span>S25</span><span>#052–#054</span></div>
+
+هذا **Subject** داخل [M10 — التجريد والواجهات](../modules/m10.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+
+## الدروس الأصلية
+
+- **`#052`** — Abstraction (Real-Life Examples, Introduction to Abstract Class, UML Abstract Class) — *لم يصل التفريغ بعد*
+- **`#053`** — Abstract Class part 1 (Examples, Abstract rules) — *لم يصل التفريغ بعد*
+- **`#054`** — Abstract Class part 2 (Polymorphism, Benefits of Abstract Class) — *لم يصل التفريغ بعد*
+
+## اختبار نهاية الموضوع
+
+عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ الكود، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.

@@ -1,0 +1,14 @@
+# S22 — استخدام Final
+
+<div class="lesson-meta"><span>M08</span><span>S22</span><span>#046–#047</span></div>
+
+هذا **Subject** داخل [M08 — الوراثة وتعدد الأشكال والعلاقات](../modules/m08.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+
+## الدروس الأصلية
+
+- **`#046`** — Final Keyword (Final Variable, Final Blank Variable, Static Final Blank Variable) — *لم يصل التفريغ بعد*
+- **`#047`** — Final Keyword (Final Parameters, Final Methods, Final Classes, Final References) — *لم يصل التفريغ بعد*
+
+## اختبار نهاية الموضوع
+
+عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ الكود، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.
