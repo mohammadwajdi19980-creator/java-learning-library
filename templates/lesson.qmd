@@ -1,0 +1,32 @@
+---
+title: "English Lesson Title"
+subtitle: "وصف عربي قصير وواضح"
+---
+
+<!-- Set the original video ID, Module/Subject, source receipt and prerequisites in curriculum.json first. -->
+
+## Learning Goals
+
+شرح ما سيتمكن القارئ من فهمه أو تطبيقه.
+
+## English Concept Name
+
+<!-- Put a registered, validated visual here when it explains this concept. -->
+
+شرح عربي يبدأ من المعرفة المطلوبة، مع إبقاء أسماء المصطلحات بالإنجليزية.
+
+## Worked Example
+
+<!-- Full runnable Java example, stated filename, input, Output, important execution steps. -->
+
+## Practice
+
+<!-- Source exercises and complete solutions; keep added exercises labeled. -->
+
+## Knowledge Check
+
+<!-- Attempt first; show answers in a details section. -->
+
+## Source & Additions
+
+<!-- Original source link/timestamps, distinct additions, ambiguities, versions and verification. -->

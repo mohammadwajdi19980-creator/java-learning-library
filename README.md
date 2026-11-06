@@ -1,47 +1,45 @@
 # Java Learning Library
 
-An Arabic-first, illustrated, **living Java textbook** created incrementally from 77 original Adel Nasim video transcripts.
+A visual, Arabic-first Java textbook based progressively on 77 Adel Nasim videos. Technical terms stay in English. The same source builds the online book and EPUB.
 
-**Current verified state:** 77 topic titles mapped · 13 modules · 35 subjects · 2 transcripts received (#00–#01) · 2 teaching chapters in draft/review.
+[Read the book](https://mohammadwajdi19980-creator.github.io/java-learning-library/)
 
-## Read online
+## Current scope
 
-https://mohammadwajdi19980-creator.github.io/java-learning-library/
+Two lessons are available (#00 and #01); three transcripts have been received (#00–#02). Lesson #02 has not been written. All 77 original video titles are mapped. Receipt, editorial readiness, publication, and learner mastery are separate states.
 
-The website is generated via GitHub Actions; GitHub Pages needs to be configured with **GitHub Actions** as its publishing source. Deployment may take a short time after commits.
+## Editing
 
-## Structure
+Read [AGENTS.md](AGENTS.md), [the working guide](docs/WORKFLOW.md), and [release checklist](docs/RELEASE-CHECKLIST.md) before changes.
 
-- `books/java/_quarto.yml`: Quarto book navigation and publishing setup.
-- `books/java/index.qmd`: visual book landing page.
-- `books/java/roadmap.qmd`: complete original source lesson registry.
-- `books/java/modules/`: 13 module overviews.
-- `books/java/subjects/`: 35 subject overviews, **not falsely marked complete**.
-- `books/java/lessons/lesson-000.qmd`: introduction lesson.
-- `books/java/lessons/lesson-001.qmd`: JDK, NetBeans, first runnable project, annotated diagrams and error types.
-- `books/java/subjects/s01.qmd`: completed subject-level exam with worked answers.
-- `books/java/glossary.qmd`: bilingual technical glossary.
-- `books/java/projects.qmd`: staged practice projects.
-- `books/java/exams.qmd`: subject, module and book exam structure.
+- `books/java/curriculum.json`: canonical video mapping and source/readiness state.
+- `scripts/sync_curriculum.py`: generates Home and Contents and synchronizes navigation counts.
+- `books/java/lessons/`: teaching chapters, preserving original IDs and public URLs.
+- `books/java/subjects/`: Subject overviews and assessments; S01 Exam follows both lessons.
+- `books/java/assets/registry.json`: image types, attribution and provenance.
+- `templates/lesson.qmd`: reusable lesson template.
+- `docs/AUDIT-2026-11-06.md`: historical audit, before the redesign.
 
-## Build locally
+## Verify and build
 
-Install [Quarto](https://quarto.org/docs/get-started/), then run:
+Use Quarto 1.11.9 and JDK 25 (Temurin in CI). The Java examples use conventional syntax supported by earlier modern JDKs too.
 
 ```bash
+python3 scripts/sync_curriculum.py
+python3 scripts/validate_book.py
+python3 scripts/verify_java.py
 quarto render books/java
+python3 scripts/validate_book.py --rendered
 ```
 
-This builds HTML and EPUB under `books/java/_book/`. PDF requires a later Arabic-aware PDF render profile and fonts and is not yet advertised as available.
+Generated HTML and EPUB live in `books/java/_book/`, which is ignored by Git. GitHub Actions validates source, Java examples, rendered links/anchors, SVG files and EPUB availability before publishing main.
 
-## Editorial rules
+## Reading design
 
-1. Keep original IDs (`#00`–`#076`) and source title mappings.
-2. Natural spoken-style Arabic explanation; put technical English terms in separate text blocks or code spans.
-3. Explain WHY → WHAT → HOW → verified example → visual → exercises → exam/project.
-4. Label supplemental explanations separately; never invent unseen video material.
-5. True NetBeans screenshots only, never fabricated screenshots described as real.
-6. Write readable accessible visual diagrams as inline or linked SVG assets.
-7. Keep the glossary cumulative and bilingual.
+Warm background, self-hosted Arabic fonts, dark text, a short navigation, expandable local contents, English direction isolation, persistent text-size controls, book search and mobile-specific concept diagrams. Images open at full size. The default Quarto navigation remains as a fallback without JavaScript.
 
-This project is free/open-source and runs on GitHub Pages. 
+Authentic NetBeans Screenshots are attributed to the official tutorial and clearly identified as historical Maven examples. The lesson's step-by-step exercise uses Ant. They are not presented as Screenshots from NetBeans 31.
+
+## Publication
+
+The existing GitHub Pages deployment is retained. Check the live website after a successful workflow; build success alone is not proof of visual correctness. PDF is not currently offered.

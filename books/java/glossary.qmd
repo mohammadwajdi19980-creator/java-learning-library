@@ -1,4 +1,4 @@
-# Glossary — قاموس المصطلحات
+# Glossary
 
 هاي الصفحة مش مجرد ترجمة كلمة. مع كل مصطلح بنفهم معناه بالعربي، والتعريف الدقيق بالإنجليزي، وكيف يرتبط بالمواضيع الأخرى. راح يتوسع القاموس مع كل درس.
 
@@ -6,7 +6,7 @@
 
 <span class="english-term">English term: Programming</span>
 
-**بالعربية:** البرمجة هي عملية تصميم تعليمات واضحة يمكن معالجتها وتنفيذها بواسطة جهاز أو بيئة تشغيل. قبل ما نكتب الأوامر، بنفهم المشكلة، ثم نحدد المدخلات والخطوات والنتيجة المطلوبة. البرمجة تشمل كمان اختبار الحل وإصلاح الأخطاء.
+**بالعربية:** Programming هي عملية تصميم تعليمات واضحة يمكن معالجتها وتنفيذها بواسطة جهاز أو بيئة تشغيل. قبل ما نكتب الأوامر، بنفهم المشكلة، ثم نحدد Input والخطوات والنتيجة المطلوبة. Programming تشمل كمان اختبار الحل وإصلاح الأخطاء.
 
 **English definition:** Programming is the process of designing, expressing, testing, and maintaining instructions that a computing system can execute to accomplish a task.
 
@@ -16,7 +16,7 @@
 
 <span class="english-term">English term: Source Code</span>
 
-**بالعربية:** النص البرمجي اللي بيكتبه المطور بلغة مثل Java. غالبًا بنحفظه في ملفات تنتهي بـ `.java`. قبل ما يتنفذ بالصورة المعتادة، يحتاج ترجمة أو معالجة بواسطة أدوات مناسبة.
+**بالعربية:** Source Code اللي بيكتبه المطور بلغة مثل Java. غالبًا بنحفظه في ملفات تنتهي بـ `.java`. قبل ما يتنفذ بالصورة المعتادة، يحتاج ترجمة أو معالجة بواسطة أدوات مناسبة.
 
 **English definition:** Human-readable program instructions written in a programming language before being compiled or otherwise processed for execution.
 
@@ -32,7 +32,7 @@
 
 <span class="english-term">English term: Compiler · javac</span>
 
-**بالعربية:** أداة بترجم الكود من صيغة إلى أخرى، وغالبًا تجري فحوصًا أثناء الترجمة. مترجم Java الشائع `javac` يحوّل ملفات `.java` إلى ملفات `.class` التي تحتوي على Bytecode.
+**بالعربية:** أداة بترجم Code من صيغة إلى أخرى، وغالبًا تجري فحوصًا أثناء الترجمة. Java Compiler الشائع `javac` يحوّل ملفات `.java` إلى ملفات `.class` التي تحتوي على Bytecode.
 
 **English definition:** A program that translates source code into another representation, typically performing syntax and type checking. Java's `javac` normally produces class files containing bytecode.
 
@@ -48,7 +48,7 @@
 
 <span class="english-term">English term: Java Virtual Machine · JVM</span>
 
-**بالعربية:** بيئة افتراضية لتنفيذ تعليمات Java الوسيطة. بتوفّر سلوكًا محددًا للتنفيذ، وبتدير تفاصيل مثل تحميل الصفوف والذاكرة، وبتستخدم التفسير أو الترجمة وقت التشغيل حسب تنفيذها. مش هي نفسها مترجم `javac`.
+**بالعربية:** بيئة افتراضية لتنفيذ تعليمات Java الوسيطة. بتوفّر سلوكًا محددًا للتنفيذ، وبتدير تفاصيل مثل تحميل Classes وMemory، وبتستخدم التفسير أو الترجمة Runtime حسب تنفيذها. مش هي نفسها Compiler المسمّى `javac`.
 
 **English definition:** An abstract execution machine that loads, verifies, and executes Java bytecode using mechanisms such as interpretation and just-in-time compilation.
 
@@ -56,7 +56,7 @@
 
 <span class="english-term">English term: Java Development Kit · JDK</span>
 
-**بالعربية:** مجموعة أدوات تطوير Java، ومنها المترجم `javac` وأدوات أخرى لبناء البرامج. راح نشوف تثبيتها عمليًا في الفيديو `#01`.
+**بالعربية:** مجموعة أدوات تطوير Java، ومنها Compiler `javac` وأدوات أخرى لبناء البرامج. راح نشوف تثبيتها عمليًا في الفيديو `#01`.
 
 **English definition:** A distribution of tools and runtime components used to develop, compile, and run Java applications.
 
@@ -64,7 +64,7 @@
 
 <span class="english-term">English term: Integrated Development Environment · IDE</span>
 
-**بالعربية:** برنامج بيساعدك تكتب الكود، ترتّبه، تشغله، وتكتشف مشاكله. رح نستعمل Apache NetBeans في الكورس.
+**بالعربية:** برنامج بيساعدك تكتب Code، ترتّبه، تشغله، وتكتشف مشاكله. رح نستعمل Apache NetBeans في الكورس.
 
 **English definition:** Software that integrates source editing, building, debugging, and project management in one development interface.
 
@@ -72,7 +72,7 @@
 
 <span class="english-term">English term: Object-Oriented Programming · OOP</span>
 
-**بالعربية:** طريقة لتنظيم البرامج باستخدام كائنات ذات معلومات وسلوك. هذا تعريف أولي فقط؛ التفاصيل الدقيقة تأتي في Module 07.
+**بالعربية:** طريقة لتنظيم البرامج باستخدام Objects ذات معلومات وسلوك. هذا تعريف أولي فقط؛ التفاصيل الدقيقة تأتي في Module 07.
 
 **English definition:** A programming paradigm that organizes software around objects encapsulating state and behavior and uses mechanisms such as abstraction and polymorphism.
 
@@ -80,7 +80,7 @@
 
 <span class="english-term">English term: Write Once, Run Anywhere · WORA</span>
 
-**بالعربية:** قابلية تشغيل برنامج Java المترجم على أكثر من نظام، بشرط وجود JVM متوافقة وعدم اعتماد البرنامج على تفاصيل خاصة بنظام معيّن.
+**بالعربية:** قابلية تشغيل برنامج Java Compiler على أكثر من نظام، بشرط وجود JVM متوافقة وعدم اعتماد البرنامج على تفاصيل خاصة بنظام معيّن.
 
 **English definition:** A Java portability principle in which compiled bytecode can execute across compatible platforms without recompilation, subject to dependencies and runtime compatibility.
 
@@ -93,7 +93,7 @@
 
 <span class="english-term">English term: Apache NetBeans · IDE</span>
 
-**بالعربية:** برنامج مجاني ومفتوح المصدر، يجمّع محرر الكود والمشاريع وأدوات البناء والتشغيل والتنقيح بواجهة واحدة. الـ IDE بتساعدك تكتشف مشاكل الكتابة بسرعة، لكن لا تضمن صحة منطق الحل.
+**بالعربية:** برنامج مجاني ومفتوح المصدر، يجمّع محرر Code والمشاريع وأدوات البناء والتشغيل والتنقيح بواجهة واحدة. الـ IDE بتساعدك تكتشف مشاكل الكتابة بسرعة، لكن لا تضمن صحة منطق الحل.
 
 **English definition:** Apache NetBeans is an open-source integrated development environment that provides source editing, project management, builds, execution, and debugging features in one interface.
 
@@ -119,7 +119,7 @@
 
 <span class="english-term">English term: Class</span>
 
-**بالعربية:** تعريف برمجي يصف نوعًا من الكائنات وما يتضمنه من بيانات وسلوكيات. في أول درس استخدمناه كوعاء للـ Main Method؛ لاحقًا رح نبني كائنات منه.
+**بالعربية:** تعريف برمجي يصف نوعًا من Objects وما يتضمنه من بيانات وسلوكيات. في أول درس استخدمناه كوعاء للـ Main Method؛ لاحقًا رح نبني Objects منه.
 
 **English definition:** A class is a type declaration that can define fields, methods, constructors, and other members used to describe object behavior and state.
 
@@ -127,7 +127,7 @@
 
 <span class="english-term">English term: Method</span>
 
-**بالعربية:** جزء من الكود له اسم ومهمة، ويمكن استدعاؤه لتأدية العملية. `main` هي Method تبدأ منها تطبيقات Java التقليدية، و`println` Method للطباعة.
+**بالعربية:** جزء من Code له اسم ومهمة، ويمكن استدعاؤه لتأدية العملية. `main` هي Method تبدأ منها تطبيقات Java التقليدية، و`println` Method للطباعة.
 
 **English definition:** A method is a named operation defined by a type and optionally accepting parameters, performing actions, and returning a value or completing without a value.
 
@@ -135,7 +135,7 @@
 
 <span class="english-term">English term: public static void main(String[] args)</span>
 
-**بالعربية:** الصيغة التقليدية لنقطة دخول تطبيق Java مستقل. وقت التشغيل بينادي البيئة هذه Method للبدء. `args` مصفوفة نصوص يمكن أن تحمل معاملات من سطر الأوامر. التفاصيل الدقيقة لـ public وstatic وvoid وString[] ستأتي لاحقًا.
+**بالعربية:** الصيغة التقليدية لنقطة دخول تطبيق Java مستقل. Runtime بينادي البيئة هذه Method للبدء. `args` مصفوفة نصوص يمكن أن تحمل معاملات من سطر الأوامر. التفاصيل الدقيقة لـ public وstatic وvoid وString[] ستأتي لاحقًا.
 
 **English definition:** The conventional Java application entry-point method, accepting an array of command-line arguments and returning no value.
 
@@ -143,7 +143,7 @@
 
 <span class="english-term">English term: System.out.println</span>
 
-**بالعربية:** أمر شائع لطباعة قيمة أو نص على مجرى الإخراج القياسي، يليها انتقال إلى سطر جديد. `System` Class و`out` حقل للطباعة، و`println` اسم Method.
+**بالعربية:** أمر شائع لطباعة قيمة أو نص على مجرى الإخراج القياسي، يليها انتقال إلى سطر جديد. `System` Class و`out` Field للطباعة، و`println` اسم Method.
 
 **English definition:** A Java PrintStream method invoked on the standard output stream to print a value followed by a line terminator.
 
@@ -175,7 +175,7 @@
 
 <span class="english-term">English term: Compile-Time Error</span>
 
-**بالعربية:** خطأ بيكتشفه المترجم قبل إنشاء البرنامج القابل للتشغيل بشكل طبيعي، مثل اسم غير معروف أو بناء جملة غير صحيح. عادةً بيمنع إتمام الترجمة حتى نصلحه.
+**بالعربية:** خطأ بيكتشفه Compiler قبل إنشاء البرنامج القابل للتشغيل بشكل طبيعي، مثل اسم غير معروف أو بناء جملة غير صحيح. عادةً بيمنع إتمام الترجمة حتى نصلحه.
 
 **English definition:** An error detected during compilation, such as a syntax violation, type mismatch, or unresolved symbol, preventing a successful build.
 
@@ -218,3 +218,4 @@
 **بالعربية:** إعداد في نظام التشغيل يحدد المجلدات التي يبحث فيها الـ Terminal عن البرامج عند كتابة اسمها. لما أمر `javac` لا يعمل رغم تثبيت JDK، ممكن يكون السبب أن مجلد أدوات JDK غير موجود في PATH.
 
 **English definition:** An operating-system environment variable listing directories searched to locate executable programs invoked from a shell.
+

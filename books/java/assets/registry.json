@@ -1,0 +1,136 @@
+[
+  {
+    "id": "netbeans-proj-wizard-maven2",
+    "file": "assets/screenshots/proj-wizard-maven2.png",
+    "type": "official-screenshot",
+    "source": "https://netbeans.apache.org/tutorial/main/_images/kb/docs/java/proj-wizard-maven2.png",
+    "source_page": "https://netbeans.apache.org/tutorial/main/kb/docs/java/quickstart/",
+    "version": "Historical official tutorial; exact IDE version unspecified",
+    "project_type": "Maven",
+    "notes": "Reference UI only; lesson uses Ant. Not represented as a capture of NetBeans 31.",
+    "license": "Apache NetBeans tutorial material; attribution retained",
+    "validated": true
+  },
+  {
+    "id": "netbeans-file-opened-maven",
+    "file": "assets/screenshots/file-opened-maven.png",
+    "type": "official-screenshot",
+    "source": "https://netbeans.apache.org/tutorial/main/_images/kb/docs/java/file-opened-maven.png",
+    "source_page": "https://netbeans.apache.org/tutorial/main/kb/docs/java/quickstart/",
+    "version": "Historical official tutorial; exact IDE version unspecified",
+    "project_type": "Maven",
+    "notes": "Reference UI only; lesson uses Ant. Not represented as a capture of NetBeans 31.",
+    "license": "Apache NetBeans tutorial material; attribution retained",
+    "validated": true
+  },
+  {
+    "id": "netbeans-run-output-maven",
+    "file": "assets/screenshots/run-output-maven.png",
+    "type": "official-screenshot",
+    "source": "https://netbeans.apache.org/tutorial/main/_images/kb/docs/java/run-output-maven.png",
+    "source_page": "https://netbeans.apache.org/tutorial/main/kb/docs/java/quickstart/",
+    "version": "Historical official tutorial; exact IDE version unspecified",
+    "project_type": "Maven",
+    "notes": "Reference UI only; lesson uses Ant. Not represented as a capture of NetBeans 31.",
+    "license": "Apache NetBeans tutorial material; attribution retained",
+    "validated": true
+  },
+  {
+    "id": "java-worlds",
+    "file": "assets/diagrams/java-worlds.svg",
+    "type": "educational-diagram",
+    "source": "Original book illustration",
+    "validated": true
+  },
+  {
+    "id": "java-error-types-01",
+    "file": "assets/diagrams/java-error-types-01.svg",
+    "type": "educational-diagram",
+    "source": "Original book illustration",
+    "validated": true
+  },
+  {
+    "id": "java-pipeline",
+    "file": "assets/diagrams/java-pipeline.svg",
+    "type": "educational-diagram",
+    "source": "Original book illustration",
+    "validated": true
+  },
+  {
+    "id": "java-first-program-01",
+    "file": "assets/diagrams/java-first-program-01.svg",
+    "type": "educational-diagram",
+    "source": "Original book illustration",
+    "validated": true
+  },
+  {
+    "id": "java-dev-tools-01",
+    "file": "assets/diagrams/java-dev-tools-01.svg",
+    "type": "educational-diagram",
+    "source": "Original book illustration",
+    "validated": true
+  },
+  {
+    "id": "netbeans-interface-01",
+    "file": "assets/diagrams/netbeans-interface-01.svg",
+    "type": "educational-diagram",
+    "source": "Original book illustration",
+    "validated": true
+  },
+  {
+    "id": "java-project-tree-01",
+    "file": "assets/diagrams/java-project-tree-01.svg",
+    "type": "educational-diagram",
+    "source": "Original book illustration",
+    "validated": true
+  },
+  {
+    "id": "java-pipeline-mobile",
+    "file": "assets/diagrams/java-pipeline-mobile.svg",
+    "type": "educational-diagram",
+    "source": "Original mobile adaptation",
+    "validated": true
+  },
+  {
+    "id": "java-worlds-mobile",
+    "file": "assets/diagrams/java-worlds-mobile.svg",
+    "type": "educational-diagram",
+    "source": "Original mobile adaptation",
+    "validated": true
+  },
+  {
+    "id": "java-dev-tools-01-mobile",
+    "file": "assets/diagrams/java-dev-tools-01-mobile.svg",
+    "type": "educational-diagram",
+    "source": "Original mobile adaptation",
+    "validated": true
+  },
+  {
+    "id": "java-project-tree-01-mobile",
+    "file": "assets/diagrams/java-project-tree-01-mobile.svg",
+    "type": "educational-diagram",
+    "source": "Original mobile adaptation",
+    "validated": true
+  },
+  {
+    "id": "java-error-types-01-mobile",
+    "file": "assets/diagrams/java-error-types-01-mobile.svg",
+    "type": "educational-diagram",
+    "source": "Original mobile adaptation",
+    "validated": true
+  },
+  {
+    "id": "java-first-program-01-mobile",
+    "file": "assets/diagrams/java-first-program-01-mobile.svg",
+    "type": "educational-diagram",
+    "source": "Original mobile adaptation",
+    "validated": true
+  },
+  {
+    "id": "netbeans-interface-01-mobile",
+    "file": "assets/diagrams/netbeans-interface-01-mobile.svg",
+    "type": "educational-diagram",
+    "source": "Original mobile adaptation",
+    "validated": true
+  }
+]

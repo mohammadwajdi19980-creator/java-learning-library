@@ -1,4 +1,4 @@
-# M04 — الحلقات والتحكم في التكرار
+# M04 — Loops & Branching
 
 <div class="lesson-meta"><span>M04</span><span>BEGINNER</span><span>#010–#017</span></div>
 
@@ -8,10 +8,11 @@
 
 ## مواضيع الوحدة
 
-- [S07 — الحلقة While وشروط الإيقاف](../subjects/s07.qmd) — `#010–#011`
-- [S08 — حلقات Do-While وFor والتمارين](../subjects/s08.qmd) — `#012–#014`
-- [S09 — الحلقات المتداخلة والتحكم](../subjects/s09.qmd) — `#015–#017`
+- [S07 — While Loops](../subjects/s07.qmd) — `#010–#011`
+- [S08 — Do-While & For Loops](../subjects/s08.qmd) — `#012–#014`
+- [S09 — Nested Loops & Branching](../subjects/s09.qmd) — `#015–#017`
 
 ## اختبار الوحدة والمشروع
 
 بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+

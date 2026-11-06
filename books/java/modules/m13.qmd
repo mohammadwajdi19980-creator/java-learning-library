@@ -1,4 +1,4 @@
-# M13 — الملفات وتخزين البيانات
+# M13 — File I/O
 
 <div class="lesson-meta"><span>M13</span><span>APPLIED CORE</span><span>#067–#076</span></div>
 
@@ -8,12 +8,13 @@
 
 ## مواضيع الوحدة
 
-- [S31 — التعامل مع الملفات الثنائية](../subjects/s31.qmd) — `#067–#069`
-- [S32 — الملفات والمجلدات](../subjects/s32.qmd) — `#070–#071`
-- [S33 — قراءة وكتابة النصوص](../subjects/s33.qmd) — `#072–#074`
-- [S34 — قراءة الملفات باستخدام Scanner](../subjects/s34.qmd) — `#075–#075`
+- [S31 — Byte Streams](../subjects/s31.qmd) — `#067–#069`
+- [S32 — Files & Directories](../subjects/s32.qmd) — `#070–#071`
+- [S33 — Character Streams](../subjects/s33.qmd) — `#072–#074`
+- [S34 — Scanner for Files](../subjects/s34.qmd) — `#075–#075`
 - [S35 — Serialization](../subjects/s35.qmd) — `#076–#076`
 
 ## اختبار الوحدة والمشروع
 
 بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+

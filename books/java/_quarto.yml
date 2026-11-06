@@ -1,123 +1,105 @@
 project:
   type: book
   output-dir: _book
-
+  pre-render: python3 ../../scripts/sync_curriculum.py
+  resources:
+    - curriculum.json
+    - assets/**
 lang: ar
 dir: rtl
-
 book:
   title: "Java Learning Library"
-  subtitle: "من الصفر إلى بناء البرامج — كتاب مصوّر ومتجدد"
-  author: "Java Learning Library — Community Study Edition"
-  description: "كتاب Java بالعربية مع الحفاظ على المصطلحات التقنية بالإنجليزية، مبني تدريجيًا على 77 تفريغًا."
+  author: "Java Learning Library"
   site-url: https://mohammadwajdi19980-creator.github.io/java-learning-library/
   repo-url: https://github.com/mohammadwajdi19980-creator/java-learning-library
+  repo-subdir: books/java
+  repo-branch: main
   repo-actions: [source]
   search: true
   sidebar:
-    title: "فهرس Java"
-    style: docked
+    title: "Java Library"
     collapse-level: 1
-    logo: assets/java-mark.svg
   chapters:
     - index.qmd
-    - roadmap.qmd
-    - part: "M01 | مدخل Java وإعداد الأدوات"
+    - part: "M01 · Java & Tools"
       chapters:
         - modules/m01.qmd
-        - subjects/s01.qmd
         - lessons/lesson-000.qmd
         - lessons/lesson-001.qmd
+        - subjects/s01.qmd
         - subjects/s02.qmd
-    - part: "M02 | البيانات والعمليات والإدخال"
+    - roadmap.qmd
+    - projects.qmd
+    - exams.qmd
+    - part: "Planned Curriculum"
       chapters:
         - modules/m02.qmd
+        - modules/m03.qmd
+        - modules/m04.qmd
+        - modules/m05.qmd
+        - modules/m06.qmd
+        - modules/m07.qmd
+        - modules/m08.qmd
+        - modules/m09.qmd
+        - modules/m10.qmd
+        - modules/m11.qmd
+        - modules/m12.qmd
+        - modules/m13.qmd
         - subjects/s03.qmd
         - subjects/s04.qmd
-    - part: "M03 | اتخاذ القرارات"
-      chapters:
-        - modules/m03.qmd
         - subjects/s05.qmd
         - subjects/s06.qmd
-    - part: "M04 | الحلقات والتحكم في التكرار"
-      chapters:
-        - modules/m04.qmd
         - subjects/s07.qmd
         - subjects/s08.qmd
         - subjects/s09.qmd
-    - part: "M05 | الدوال والاستدعاء الذاتي"
-      chapters:
-        - modules/m05.qmd
         - subjects/s10.qmd
         - subjects/s11.qmd
-    - part: "M06 | المصفوفات والنصوص"
-      chapters:
-        - modules/m06.qmd
         - subjects/s12.qmd
         - subjects/s13.qmd
         - subjects/s14.qmd
-    - part: "M07 | الكائنات والصفوف والإنشاء"
-      chapters:
-        - modules/m07.qmd
         - subjects/s15.qmd
         - subjects/s16.qmd
         - subjects/s17.qmd
         - subjects/s18.qmd
-    - part: "M08 | الوراثة وتعدد الأشكال والعلاقات"
-      chapters:
-        - modules/m08.qmd
         - subjects/s19.qmd
         - subjects/s20.qmd
         - subjects/s21.qmd
         - subjects/s22.qmd
-    - part: "M09 | القوائم الديناميكية"
-      chapters:
-        - modules/m09.qmd
         - subjects/s23.qmd
         - subjects/s24.qmd
-    - part: "M10 | التجريد والواجهات"
-      chapters:
-        - modules/m10.qmd
         - subjects/s25.qmd
         - subjects/s26.qmd
-    - part: "M11 | الصفوف المجهولة والتعدادات"
-      chapters:
-        - modules/m11.qmd
         - subjects/s27.qmd
         - subjects/s28.qmd
-    - part: "M12 | الاستثناءات وإدارة الأخطاء"
-      chapters:
-        - modules/m12.qmd
         - subjects/s29.qmd
         - subjects/s30.qmd
-    - part: "M13 | الملفات وتخزين البيانات"
-      chapters:
-        - modules/m13.qmd
         - subjects/s31.qmd
         - subjects/s32.qmd
         - subjects/s33.qmd
         - subjects/s34.qmd
         - subjects/s35.qmd
-    - projects.qmd
-    - exams.qmd
   appendices:
     - glossary.qmd
     - sources.qmd
   downloads: [epub]
-
 format:
   html:
-    theme: cosmo
+    theme: default
     css: styles.css
-    toc: false
+    toc: true
+    toc-location: body
+    toc-title: "In this lesson"
     toc-depth: 2
+    anchor-sections: false
     code-copy: true
-    code-overflow: wrap
+    code-overflow: scroll
     number-sections: false
-    smooth-scroll: true
+    number-depth: 0
     highlight-style: github
+    include-before-body: includes/shell.html
+    include-after-body: includes/scripts.html
   epub:
     toc: true
-
+    css: epub.css
 execute:
   freeze: auto

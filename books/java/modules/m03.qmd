@@ -1,4 +1,4 @@
-# M03 — اتخاذ القرارات
+# M03 — Selection Statements
 
 <div class="lesson-meta"><span>M03</span><span>BEGINNER</span><span>#07–#09</span></div>
 
@@ -8,9 +8,10 @@
 
 ## مواضيع الوحدة
 
-- [S05 — الشروط والمقارنات](../subjects/s05.qmd) — `#07–#08`
-- [S06 — الاختيار المتعدد](../subjects/s06.qmd) — `#09–#09`
+- [S05 — Conditions & Comparisons](../subjects/s05.qmd) — `#07–#08`
+- [S06 — Switch Statements](../subjects/s06.qmd) — `#09–#09`
 
 ## اختبار الوحدة والمشروع
 
 بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+

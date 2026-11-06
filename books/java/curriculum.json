@@ -1,0 +1,973 @@
+{
+  "schema_version": 1,
+  "modules": [
+    {
+      "id": "M01",
+      "title": "Java & Tools"
+    },
+    {
+      "id": "M02",
+      "title": "Data, Operators & Input"
+    },
+    {
+      "id": "M03",
+      "title": "Selection Statements"
+    },
+    {
+      "id": "M04",
+      "title": "Loops & Branching"
+    },
+    {
+      "id": "M05",
+      "title": "Methods & Recursion"
+    },
+    {
+      "id": "M06",
+      "title": "Arrays & Strings"
+    },
+    {
+      "id": "M07",
+      "title": "Classes & Objects"
+    },
+    {
+      "id": "M08",
+      "title": "Inheritance & Polymorphism"
+    },
+    {
+      "id": "M09",
+      "title": "ArrayList"
+    },
+    {
+      "id": "M10",
+      "title": "Abstraction & Interfaces"
+    },
+    {
+      "id": "M11",
+      "title": "Anonymous Classes & Enums"
+    },
+    {
+      "id": "M12",
+      "title": "Exception Handling"
+    },
+    {
+      "id": "M13",
+      "title": "File I/O"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "S01",
+      "title": "Introduction & Setup"
+    },
+    {
+      "id": "S02",
+      "title": "Escape Sequences & Comments"
+    },
+    {
+      "id": "S03",
+      "title": "Data Types & Operators"
+    },
+    {
+      "id": "S04",
+      "title": "Input & Formatted Output"
+    },
+    {
+      "id": "S05",
+      "title": "Conditions & Comparisons"
+    },
+    {
+      "id": "S06",
+      "title": "Switch Statements"
+    },
+    {
+      "id": "S07",
+      "title": "While Loops"
+    },
+    {
+      "id": "S08",
+      "title": "Do-While & For Loops"
+    },
+    {
+      "id": "S09",
+      "title": "Nested Loops & Branching"
+    },
+    {
+      "id": "S10",
+      "title": "Methods & Overloading"
+    },
+    {
+      "id": "S11",
+      "title": "Recursion"
+    },
+    {
+      "id": "S12",
+      "title": "One-Dimensional Arrays"
+    },
+    {
+      "id": "S13",
+      "title": "Multidimensional Arrays"
+    },
+    {
+      "id": "S14",
+      "title": "Strings"
+    },
+    {
+      "id": "S15",
+      "title": "OOP Foundations"
+    },
+    {
+      "id": "S16",
+      "title": "Constructors & Object Lifecycle"
+    },
+    {
+      "id": "S17",
+      "title": "Static Members"
+    },
+    {
+      "id": "S18",
+      "title": "Passing & Returning Objects"
+    },
+    {
+      "id": "S19",
+      "title": "Inheritance"
+    },
+    {
+      "id": "S20",
+      "title": "Polymorphism"
+    },
+    {
+      "id": "S21",
+      "title": "Object Relationships"
+    },
+    {
+      "id": "S22",
+      "title": "Final Keyword"
+    },
+    {
+      "id": "S23",
+      "title": "ArrayList Fundamentals"
+    },
+    {
+      "id": "S24",
+      "title": "ArrayList Operations"
+    },
+    {
+      "id": "S25",
+      "title": "Abstract Classes"
+    },
+    {
+      "id": "S26",
+      "title": "Interfaces"
+    },
+    {
+      "id": "S27",
+      "title": "Anonymous Classes & Lambda"
+    },
+    {
+      "id": "S28",
+      "title": "Enums"
+    },
+    {
+      "id": "S29",
+      "title": "Handling Exceptions"
+    },
+    {
+      "id": "S30",
+      "title": "Custom Exceptions"
+    },
+    {
+      "id": "S31",
+      "title": "Byte Streams"
+    },
+    {
+      "id": "S32",
+      "title": "Files & Directories"
+    },
+    {
+      "id": "S33",
+      "title": "Character Streams"
+    },
+    {
+      "id": "S34",
+      "title": "Scanner for Files"
+    },
+    {
+      "id": "S35",
+      "title": "Serialization"
+    }
+  ],
+  "lessons": [
+    {
+      "id": 0,
+      "source_id": "#00",
+      "original_title": "Introduction",
+      "module": "M01",
+      "subject": "S01",
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-000.html"
+    },
+    {
+      "id": 1,
+      "source_id": "#01",
+      "original_title": "Installing the Java Development Tools (JDK, Apache NetBeans IDE)",
+      "module": "M01",
+      "subject": "S01",
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-001.html",
+      "source_url": "https://www.youtube.com/watch?v=wJKgqYj4mtU"
+    },
+    {
+      "id": 2,
+      "source_id": "#02",
+      "original_title": "Escape Sequences and Comments",
+      "module": "M01",
+      "subject": "S02",
+      "source_status": "received",
+      "editorial_status": "not_written",
+      "url": null,
+      "source_url": "https://www.youtube.com/watch?v=vtHwpyk5v08"
+    },
+    {
+      "id": 3,
+      "source_id": "#03",
+      "original_title": "Data Types",
+      "module": "M02",
+      "subject": "S03",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 4,
+      "source_id": "#04",
+      "original_title": "Arithmetic Operators",
+      "module": "M02",
+      "subject": "S03",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 5,
+      "source_id": "#05",
+      "original_title": "Arithmetic Operators (Prefix & Postfix)",
+      "module": "M02",
+      "subject": "S03",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 6,
+      "source_id": "#06",
+      "original_title": "Java User Input (Scanner), Printf methods",
+      "module": "M02",
+      "subject": "S04",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 7,
+      "source_id": "#07",
+      "original_title": "Selection Statement (if - if else - if else if)",
+      "module": "M03",
+      "subject": "S05",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 8,
+      "source_id": "#08",
+      "original_title": "Selection Statement (Exercises, Practice, Ternary Operator), Instanceof Method",
+      "module": "M03",
+      "subject": "S05",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 9,
+      "source_id": "#09",
+      "original_title": "Selection Statement (Switch Statements)",
+      "module": "M03",
+      "subject": "S06",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 10,
+      "source_id": "#010",
+      "original_title": "Repetition Control Statement (While Loop)",
+      "module": "M04",
+      "subject": "S07",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 11,
+      "source_id": "#011",
+      "original_title": "Sentinel and Flag-Controlled While Loops",
+      "module": "M04",
+      "subject": "S07",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 12,
+      "source_id": "#012",
+      "original_title": "Repetition Control Statement (Do-While Loop)",
+      "module": "M04",
+      "subject": "S08",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 13,
+      "source_id": "#013",
+      "original_title": "Repetition Control Statement (For Loop)",
+      "module": "M04",
+      "subject": "S08",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 14,
+      "source_id": "#014",
+      "original_title": "Questions and Exercises in Loops",
+      "module": "M04",
+      "subject": "S08",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 15,
+      "source_id": "#015",
+      "original_title": "Branching Statements (Break/Continue)",
+      "module": "M04",
+      "subject": "S09",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 16,
+      "source_id": "#016",
+      "original_title": "Repetition Control Statement (Nested Loops)",
+      "module": "M04",
+      "subject": "S09",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 17,
+      "source_id": "#017",
+      "original_title": "Branching Statements (Labeled Break / Labeled Continue)",
+      "module": "M04",
+      "subject": "S09",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 18,
+      "source_id": "#018",
+      "original_title": "Method / Function Part 1",
+      "module": "M05",
+      "subject": "S10",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 19,
+      "source_id": "#019",
+      "original_title": "Method / Function Part 2 (Examples)",
+      "module": "M05",
+      "subject": "S10",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 20,
+      "source_id": "#020",
+      "original_title": "Built in Method / Function",
+      "module": "M05",
+      "subject": "S10",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 21,
+      "source_id": "#021",
+      "original_title": "Overloading Method / Function",
+      "module": "M05",
+      "subject": "S10",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 22,
+      "source_id": "#022",
+      "original_title": "Recursion/Recursive Methods Part 1",
+      "module": "M05",
+      "subject": "S11",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 23,
+      "source_id": "#023",
+      "original_title": "Recursion/Recursive Methods Part 2",
+      "module": "M05",
+      "subject": "S11",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 24,
+      "source_id": "#024",
+      "original_title": "One Dimensional Arrays (1D Array)",
+      "module": "M06",
+      "subject": "S12",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 25,
+      "source_id": "#025",
+      "original_title": "One Dimensional Array (Exercises, Practice)",
+      "module": "M06",
+      "subject": "S12",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 26,
+      "source_id": "#026",
+      "original_title": "One Dimensional Array (Char Array)",
+      "module": "M06",
+      "subject": "S12",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 27,
+      "source_id": "#027",
+      "original_title": "Passing Arrays to Methods",
+      "module": "M06",
+      "subject": "S12",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 28,
+      "source_id": "#028",
+      "original_title": "Multidimensional Arrays & Passing Multidimensional Arrays to Methods",
+      "module": "M06",
+      "subject": "S13",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 29,
+      "source_id": "#029",
+      "original_title": "String & Array String",
+      "module": "M06",
+      "subject": "S14",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 30,
+      "source_id": "#030",
+      "original_title": "Introduction to Object-Oriented Programming",
+      "module": "M07",
+      "subject": "S15",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 31,
+      "source_id": "#031",
+      "original_title": "Classes and Objects",
+      "module": "M07",
+      "subject": "S15",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 32,
+      "source_id": "#032",
+      "original_title": "Questions and Exercises - Classes and Objects",
+      "module": "M07",
+      "subject": "S15",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 33,
+      "source_id": "#033",
+      "original_title": "Constructor (No-Arg, Parameterized, Default)",
+      "module": "M07",
+      "subject": "S16",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 34,
+      "source_id": "#034",
+      "original_title": "Constructor (Copy Constructor) / Finalizers vs Destructor",
+      "module": "M07",
+      "subject": "S16",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 35,
+      "source_id": "#035",
+      "original_title": "Static keyword (Static Variable and Methods)",
+      "module": "M07",
+      "subject": "S17",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 36,
+      "source_id": "#036",
+      "original_title": "Static keyword (Static Block - Static Class)",
+      "module": "M07",
+      "subject": "S17",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 37,
+      "source_id": "#037",
+      "original_title": "Passing Objects to Methods (by Value vs by Reference / Passing Objects as Arguments)",
+      "module": "M07",
+      "subject": "S18",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 38,
+      "source_id": "#038",
+      "original_title": "Passing Objects to Methods (Returning Objects / Comparing Objects)",
+      "module": "M07",
+      "subject": "S18",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 39,
+      "source_id": "#039",
+      "original_title": "Inheritance (Types of Inheritance / Access Modifiers and inheritance)",
+      "module": "M08",
+      "subject": "S19",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 40,
+      "source_id": "#040",
+      "original_title": "Inheritance (Super Keyword / Object Class / Package-Private vs Protected)",
+      "module": "M08",
+      "subject": "S19",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 41,
+      "source_id": "#041",
+      "original_title": "Polymorphism (Method Overloading and Method Overriding)",
+      "module": "M08",
+      "subject": "S20",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 42,
+      "source_id": "#042",
+      "original_title": "Polymorphism (Explanation of Examples, Static Methods)",
+      "module": "M08",
+      "subject": "S20",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 43,
+      "source_id": "#043",
+      "original_title": "Polymorphism (Late binding \"Dynamic Polymorphism\", Early binding \"Static Polymorphism\")",
+      "module": "M08",
+      "subject": "S20",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 44,
+      "source_id": "#044",
+      "original_title": "Types of Relationships (Association, Aggregation \"has-a\", Composition \"part-of\")",
+      "module": "M08",
+      "subject": "S21",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 45,
+      "source_id": "#045",
+      "original_title": "Types of Relationships (Association, Aggregation, Composition) With Example",
+      "module": "M08",
+      "subject": "S21",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 46,
+      "source_id": "#046",
+      "original_title": "Final Keyword (Final Variable, Final Blank Variable, Static Final Blank Variable)",
+      "module": "M08",
+      "subject": "S22",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 47,
+      "source_id": "#047",
+      "original_title": "Final Keyword (Final Parameters, Final Methods, Final Classes, Final References)",
+      "module": "M08",
+      "subject": "S22",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 48,
+      "source_id": "#048",
+      "original_title": "ArrayList Class",
+      "module": "M09",
+      "subject": "S23",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 49,
+      "source_id": "#049",
+      "original_title": "ArrayList, Declaration, Print, Methods (Add, Get, AddAll, Copy Constructor, Clone)",
+      "module": "M09",
+      "subject": "S23",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 50,
+      "source_id": "#050",
+      "original_title": "ArrayList Methods (Set, Remove, Remove All, Remove Range) Polymorphic ArrayList",
+      "module": "M09",
+      "subject": "S23",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 51,
+      "source_id": "#051",
+      "original_title": "ArrayList Methods (contains, retainAll, subList, clear, ensureCapacity, sort, min, max)",
+      "module": "M09",
+      "subject": "S24",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 52,
+      "source_id": "#052",
+      "original_title": "Abstraction (Real-Life Examples, Introduction to Abstract Class, UML Abstract Class)",
+      "module": "M10",
+      "subject": "S25",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 53,
+      "source_id": "#053",
+      "original_title": "Abstract Class part 1 (Examples, Abstract rules)",
+      "module": "M10",
+      "subject": "S25",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 54,
+      "source_id": "#054",
+      "original_title": "Abstract Class part 2 (Polymorphism, Benefits of Abstract Class)",
+      "module": "M10",
+      "subject": "S25",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 55,
+      "source_id": "#055",
+      "original_title": "Interface Part1 (Real-Life Example, UML, Convention)",
+      "module": "M10",
+      "subject": "S26",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 56,
+      "source_id": "#056",
+      "original_title": "Interface Part2 (Practical, Implement Multiple Interfaces, Extends Multiple Interfaces)",
+      "module": "M10",
+      "subject": "S26",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 57,
+      "source_id": "#057",
+      "original_title": "Interface Part3 (Default - Private - Static Methods, Nested Interface)",
+      "module": "M10",
+      "subject": "S26",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 58,
+      "source_id": "#058",
+      "original_title": "Interface Part4 (Marker or Tagging Interface, Generic Interface, Benefits of Interface)",
+      "module": "M10",
+      "subject": "S26",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 59,
+      "source_id": "#059",
+      "original_title": "Anonymous Inner Class (Extends Class, Implements Interface, Defined Arguments, Lambda)",
+      "module": "M11",
+      "subject": "S27",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 60,
+      "source_id": "#060",
+      "original_title": "Anonymous Inner Class (Constructor, Extra Methods, Local Variables, Var Keyword)",
+      "module": "M11",
+      "subject": "S27",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 61,
+      "source_id": "#061",
+      "original_title": "Java Enum (What is Enum, Examples, UML, Enum with switch, Attributes & Methods)",
+      "module": "M11",
+      "subject": "S28",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 62,
+      "source_id": "#062",
+      "original_title": "Java Enum (Real life example, ordinal, compreTo, toString, name, valueOf, values)",
+      "module": "M11",
+      "subject": "S28",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 63,
+      "source_id": "#063",
+      "original_title": "Java Enum (EnumSet & EnumMap classes, Benefits of Enums, Enums vs Classes)",
+      "module": "M11",
+      "subject": "S28",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 64,
+      "source_id": "#064",
+      "original_title": "Exception Handling (Try-catch block, Multi-catch blocks, Union-catch blocks)",
+      "module": "M12",
+      "subject": "S29",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 65,
+      "source_id": "#065",
+      "original_title": "Exception Handling (Finally Block, Throws Keyword, Checked vs Unchecked Exception)",
+      "module": "M12",
+      "subject": "S29",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 66,
+      "source_id": "#066",
+      "original_title": "Exception Handling (Throw keyword, Throw vs Throws, Throw & finally, Custom exception)",
+      "module": "M12",
+      "subject": "S30",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 67,
+      "source_id": "#067",
+      "original_title": "File Handling (java.io, Byte & Character stream, InputStream & OutputStream subclasses)",
+      "module": "M13",
+      "subject": "S31",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 68,
+      "source_id": "#068",
+      "original_title": "File Handling (FileInputStream class, Character size vs String size)",
+      "module": "M13",
+      "subject": "S31",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 69,
+      "source_id": "#069",
+      "original_title": "File Handling (FileOutputStream class, Reading and Writing images, Arabic letters)",
+      "module": "M13",
+      "subject": "S31",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 70,
+      "source_id": "#070",
+      "original_title": "File Handling (File class)",
+      "module": "M13",
+      "subject": "S32",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 71,
+      "source_id": "#071",
+      "original_title": "File Handling (File class, Directories Add/Remove, Constructors)",
+      "module": "M13",
+      "subject": "S32",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 72,
+      "source_id": "#072",
+      "original_title": "File Handling (Reader class/Writer class hierarchy, FileWriter & FileReader)",
+      "module": "M13",
+      "subject": "S33",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 73,
+      "source_id": "#073",
+      "original_title": "File Handling (BufferedReader / BufferedWriter classes, Read file line by line)",
+      "module": "M13",
+      "subject": "S33",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 74,
+      "source_id": "#074",
+      "original_title": "File Handling (PrintWriter class, Constructors & Methods)",
+      "module": "M13",
+      "subject": "S33",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 75,
+      "source_id": "#075",
+      "original_title": "File Handling (Scanner class, Constructors & Methods, useDelimiter, delimiter)",
+      "module": "M13",
+      "subject": "S34",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    },
+    {
+      "id": 76,
+      "source_id": "#076",
+      "original_title": "File Handling (Serialization and Deserialization, Read & Write multiple objects)",
+      "module": "M13",
+      "subject": "S35",
+      "source_status": "awaiting",
+      "editorial_status": "not_written",
+      "url": null
+    }
+  ]
+}

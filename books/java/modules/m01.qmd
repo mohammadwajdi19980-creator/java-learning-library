@@ -1,16 +1,21 @@
-# M01 — مدخل Java وإعداد الأدوات
+# M01 — Java & Tools
 
 <div class="lesson-meta"><span>M01</span><span>BEGINNER</span><span>#00–#02</span></div>
 
 <span class="english-term">Java & Tools</span>
 
-هذه الوحدة تضم 3 فيديوهات أصلية. صفحات المواضيع في الأسفل مواضعها جاهزة؛ أي موضوع لم يصل نصه بعد لن يُقدَّم على أنه مشروح.
+هذه الوحدة تضم 3 فيديوهات أصلية. درسا #00 و#01 متاحان؛ تفريغ #02 مستلَم والدرس لم يُكتب بعد.
 
 ## مواضيع الوحدة
 
-- [S01 — المقدمة والتثبيت](../subjects/s01.qmd) — `#00–#01`
-- [S02 — التعليقات والرموز الخاصة](../subjects/s02.qmd) — `#02–#02`
+- [S01 — Introduction & Setup](../subjects/s01.qmd) — `#00–#01`
+- [S02 — Escape Sequences & Comments](../subjects/s02.qmd) — `#02–#02`
 
 ## اختبار الوحدة والمشروع
 
 بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+
+
+## Start Reading
+
+[Lesson #00 — Introduction to Java](../lessons/lesson-000.qmd) → [Lesson #01 — Java Development Tools](../lessons/lesson-001.qmd) → [S01 — Review & Exam](../subjects/s01.qmd).

@@ -1,0 +1,27 @@
+<script>
+(()=>{'use strict';
+const path=location.pathname,nested=path.match(/^(.*\/)(?:lessons|subjects|modules)\/[^/]+$/),base=nested?nested[1]:path.slice(0,path.lastIndexOf('/')+1);
+document.querySelectorAll('[data-book-path]').forEach(a=>{a.href=base+a.dataset.bookPath;if(a.href===location.href.split('#')[0]||(a.dataset.bookPath==='index.html'&&path===base))a.setAttribute('aria-current','page');});
+document.documentElement.classList.add('reader-ready');
+ document.body.prepend(document.querySelector('.reader-topbar'),document.getElementById('menu-backdrop'),document.getElementById('reader-nav'));
+ document.getElementById('book-search').addEventListener('click',()=>{if(document.body.classList.contains('menu-open'))toggle(false);window.quartoOpenSearch?.();});
+const menu=document.getElementById('menu-toggle'),backdrop=document.getElementById('menu-backdrop'),nav=document.getElementById('reader-nav');
+function syncNav(){nav.inert=matchMedia('(max-width:800px)').matches&&!document.body.classList.contains('menu-open');}
+ addEventListener('resize',syncNav);syncNav();
+ function toggle(open){document.body.classList.toggle('menu-open',open);menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close navigation':'Open navigation');backdrop.hidden=!open;syncNav();(open?nav.querySelector('a'):menu).focus();}
+menu.addEventListener('click',()=>toggle(menu.getAttribute('aria-expanded')!=='true'));backdrop.addEventListener('click',()=>toggle(false));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu.getAttribute('aria-expanded')==='true')toggle(false);if(e.key==='Tab'&&document.body.classList.contains('menu-open')){const items=[...nav.querySelectorAll('a')];if(e.shiftKey&&document.activeElement===items[0]){e.preventDefault();menu.focus();}else if(!e.shiftKey&&document.activeElement===items.at(-1)){e.preventDefault();menu.focus();}else if(document.activeElement===menu){e.preventDefault();(e.shiftKey?items.at(-1):items[0]).focus();}}});
+let size=19;try{size=Math.max(18,Math.min(25,Number(localStorage.getItem('java-reader-size'))||19));}catch{}
+function apply(){document.documentElement.style.setProperty('--reader-size',size+'px');document.getElementById('text-smaller').disabled=size<=18;document.getElementById('text-larger').disabled=size>=25;try{localStorage.setItem('java-reader-size',String(size));}catch{}}
+document.getElementById('text-smaller').addEventListener('click',()=>{size=Math.max(18,size-1);apply();});document.getElementById('text-larger').addEventListener('click',()=>{size=Math.min(25,size+1);apply();});apply();
+if(document.querySelector('.home-intro'))document.body.classList.add('home-page');
+const main=document.querySelector('main');
+if(main){
+const walker=document.createTreeWalker(main,NodeFilter.SHOW_TEXT,{acceptNode(n){return !n.parentElement.closest('pre,code,script,style,bdi,svg,[dir="ltr"],.english-term,.mini-code,.mini-diagram')&&/[A-Za-z]/.test(n.textContent)?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;}});
+const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+for(const node of nodes){const re=/[A-Za-z][A-Za-z0-9_.$#()\[\]/+&:—–→ -]*/g,frag=document.createDocumentFragment();let prev=0;for(const match of node.textContent.matchAll(re)){frag.append(node.textContent.slice(prev,match.index));const b=document.createElement('bdi');b.dir='ltr';b.textContent=match[0];if(match[0].trim().length<=30&&!node.parentElement.closest('h1,h2,h3,h4'))b.className='term-inline';frag.append(b);prev=match.index+match[0].length;}frag.append(node.textContent.slice(prev));node.replaceWith(frag);}
+const toc=document.getElementById('TOC');if(toc){const d=document.createElement('details');d.className='lesson-contents';const s=document.createElement('summary');s.textContent='محتويات الصفحة';d.append(s);toc.before(d);d.append(toc);toc.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>d.open=false));}
+const mobile=matchMedia('(max-width:540px)');main.querySelectorAll('img[src*="assets/diagrams/"]').forEach(img=>{const original=img.src;const set=()=>img.src=mobile.matches?original.replace('.svg','-mobile.svg'):original;set();mobile.addEventListener('change',set);});
+ main.querySelectorAll('img').forEach(img=>{if(img.closest('a'))return;const a=document.createElement('a');a.href=img.src;a.target='_blank';a.rel='noopener';a.className='figure-zoom';a.setAttribute('aria-label','Open image at full size: '+img.alt);img.before(a);a.append(img);});
+}
+})();</script>

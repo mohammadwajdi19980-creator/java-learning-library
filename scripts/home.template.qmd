@@ -1,0 +1,33 @@
+---
+title: "Java Learning Library"
+format:
+  html:
+    toc: false
+page-layout: full
+---
+
+```{=html}
+<section class="home-intro">
+<p class="eyebrow" dir="ltr">YOUR VISUAL JAVA BOOK</p>
+<h1>افهم الفكرة.<br>اكتبها بنفسك.</h1>
+<p class="home-description">كتابك لتعلّم <bdi>Java</bdi> من الصفر، خطوة بخطوة.<br>شرح واضح، أمثلة تعمل، وصور تجعل الأفكار أقرب.</p>
+<div class="hero-actions"><a class="primary-link" href="lessons/lesson-000.html">ابدأ التعلّم <span aria-hidden="true">←</span></a><a class="quiet-link" href="roadmap.html">استكشف المنهج</a></div>
+</section>
+
+<div class="home-proof" dir="ltr"><span>77 original videos</span><span>Arabic explanations</span><span>English terminology</span></div>
+
+<div class="section-heading"><div><p class="eyebrow" dir="ltr">ONE STEP AT A TIME</p><h2>ابدأ من هنا</h2></div><span class="availability">{{AVAILABLE}} lessons available</span></div>
+
+<div class="lesson-grid">
+<a class="lesson-card" href="lessons/lesson-000.html"><div class="lesson-card-top"><span class="lesson-number">00</span><span class="status-dot">AVAILABLE</span></div><div class="mini-diagram" aria-hidden="true"><span>.java</span><i>→</i><span>JVM</span><i>→</i><span>Run</span></div><p class="card-label">THE FOUNDATIONS</p><h3 dir="ltr">Introduction to Java</h3><p>شو هي؟ ليش نستخدمها؟ وكيف تتحوّل الأوامر إلى برنامج يعمل؟</p><span class="card-action">افتح الدرس <span aria-hidden="true">←</span></span></a>
+<a class="lesson-card" href="lessons/lesson-001.html"><div class="lesson-card-top"><span class="lesson-number">01</span><span class="status-dot">AVAILABLE</span></div><div class="mini-code" aria-hidden="true"><span>System</span>.out.println(<em>"Hello!"</em>);</div><p class="card-label">YOUR FIRST PROGRAM</p><h3 dir="ltr">Java Development Tools</h3><p>جهّز أدواتك، تعرّف على بيئة العمل، وشغّل أول برنامج بإيدك.</p><span class="card-action">افتح الدرس <span aria-hidden="true">←</span></span></a>
+</div>
+
+<a class="review-strip" href="subjects/s01.html"><span class="review-icon" aria-hidden="true">✓</span><div><strong dir="ltr">S01 · Review & Exam</strong><p>بعد الدرسين: اختبر فهمك، وراجع الحلول مع أسبابها.</p></div><span class="review-marks" dir="ltr">20 marks →</span></a>
+
+<section class="next-chapter"><span class="next-number" aria-hidden="true">02</span><div><p class="eyebrow" dir="ltr">UP NEXT</p><h2 dir="ltr">Escape Sequences & Comments</h2><p>التفريغ مستلَم. الدرس قيد الانتظار حتى يُكتب ويُراجع.</p></div><span class="pending-label">Source received</span></section>
+
+<section class="library-tools"><a href="glossary.html"><span dir="ltr">01 / GLOSSARY</span><h3>كل مصطلح في مكانه</h3><p>الاسم بالإنجليزية، والمعنى بشرح عربي واضح.</p></a><a href="roadmap.html"><span dir="ltr">02 / CONTENTS</span><h3>شوف الصورة كاملة</h3><p>الـ 77 فيديو، مرتّبة حسب الموضوع، مع حالة كل درس.</p></a></section>
+
+<p class="book-state">{{AVAILABLE}} lessons available · {{RECEIVED}} transcripts received · 77 videos mapped</p>
+```

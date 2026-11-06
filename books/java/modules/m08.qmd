@@ -1,4 +1,4 @@
-# M08 — الوراثة وتعدد الأشكال والعلاقات
+# M08 — Inheritance & Polymorphism
 
 <div class="lesson-meta"><span>M08</span><span>INTERMEDIATE</span><span>#039–#047</span></div>
 
@@ -8,11 +8,12 @@
 
 ## مواضيع الوحدة
 
-- [S19 — الوراثة](../subjects/s19.qmd) — `#039–#040`
-- [S20 — تعدد الأشكال](../subjects/s20.qmd) — `#041–#043`
-- [S21 — علاقات الكائنات](../subjects/s21.qmd) — `#044–#045`
-- [S22 — استخدام Final](../subjects/s22.qmd) — `#046–#047`
+- [S19 — Inheritance](../subjects/s19.qmd) — `#039–#040`
+- [S20 — Polymorphism](../subjects/s20.qmd) — `#041–#043`
+- [S21 — Object Relationships](../subjects/s21.qmd) — `#044–#045`
+- [S22 — Final Keyword](../subjects/s22.qmd) — `#046–#047`
 
 ## اختبار الوحدة والمشروع
 
 بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+

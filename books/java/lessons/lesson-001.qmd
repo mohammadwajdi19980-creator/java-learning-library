@@ -1,6 +1,10 @@
-# الدرس #01 — تجهيز أدوات Java وبناء أول برنامج
+---
+subtitle: "جهّز بيئة العمل واكتب أول برنامج"
+---
 
-<div class="lesson-meta"><span>BEGINNER</span><span>M01 · S01</span><span>VIDEO #01</span><span>TRANSCRIPT RECEIVED</span><span>VERIFIED CODE</span></div>
+# Java Development Tools
+
+<div class="lesson-meta"><span>BEGINNER</span><span>M01 · S01</span><span>VIDEO #01</span></div>
 
 <div class="lesson-banner">
 
@@ -10,7 +14,7 @@
 
 </div>
 
-## شو رح تتعلّم من هذا الدرس؟
+## Learning goals
 
 1. ليش نحتاج أداتين مختلفتين؟ وشو وظيفة كل واحدة؟
 2. كيف نثبت JDK وApache NetBeans ونفحص التثبيت؟
@@ -19,7 +23,7 @@
 5. شو معنى `main` و`System.out.println` وأهم علامات الكتابة؟
 6. كيف نفرّق بين ثلاثة أنواع من الأخطاء، ونحلّها؟
 
-## 1. قبل التنزيل: كل أداة شو دورها؟
+## JDK & IDE
 
 ![رسم يوضّح الأدوات اللازمة لبرمجة Java](../assets/diagrams/java-dev-tools-01.svg){fig-alt="مخطط يوضح أن JDK يقدم أدوات الترجمة والتشغيل، وأن NetBeans IDE يساعد في كتابة وتنظيم وتشغيل المشروع" width="100%"}
 
@@ -27,7 +31,7 @@
 
 <span class="english-term">Java Development Kit · JDK</span>
 
-لما بدك تطوّر برنامج Java، أنت بحاجة لأدوات تفهم الكود وتترجمه وتشغّله. الحزمة اللي بتوفّر أدوات التطوير هاي اسمها **JDK**. ومن الأدوات الموجودة فيها المترجم `javac` وبرنامج تشغيل Java.
+لما بدك تطوّر برنامج Java، أنت بحاجة لأدوات تفهم Code وتترجمه وتشغّله. مجموعة الأدوات اللي بتوفّر أدوات التطوير هاي اسمها **JDK**. ومن الأدوات الموجودة فيها Compiler `javac` وبرنامج تشغيل Java.
 
 تخيّل إنك بدك تبني بيت: مجرد الورقة اللي عليها المخطط ما بتكفي؛ بدك أدوات شغل. الـ JDK هي أدوات البناء والتنفيذ بالنسبة لبرامج Java.
 
@@ -35,7 +39,7 @@
 
 <span class="english-term">Integrated Development Environment · IDE</span>
 
-طيب وين رح نكتب الكود؟ ممكن تكتبه في محرر نصوص عادي، لكن رح يكون الموضوع أصعب. عشان هيك بنستخدم برنامج بيساعدنا نرتّب الملفات، نكتب الأوامر، نشوف الأخطاء، ونشغّل المشروع بسهولة.
+طيب وين رح نكتب Code؟ ممكن تكتبه في محرر نصوص عادي، لكن رح يكون الموضوع أصعب. عشان هيك بنستخدم برنامج بيساعدنا نرتّب الملفات، نكتب الأوامر، نشوف الأخطاء، ونشغّل المشروع بسهولة.
 
 بالكورس رح نستخدم **Apache NetBeans**. الـ IDE مش هو لغة Java، ومش بديل عن JDK؛ هو واجهة عمل مريحة بتستخدم أدوات التطوير الموجودة عندك.
 
@@ -44,11 +48,11 @@
 
 - **JDK:** الأدوات اللي بتترجم وتشغّل البرامج.
 - **NetBeans IDE:** البرنامج اللي بتكتب فيه وبتنظّم مشروعك.
-- **Java:** لغة البرمجة نفسها.
+- **Java:** Programming Language نفسها.
 
 :::
 
-## 2. تنزيل الأدوات — إصدار حديث مناسب للمبتدئ
+## Installing the Tools
 
 هاي الخطوات **تحديث توضيحي من الكتاب**؛ تفريغ الفيديو الأصلي يتكلم عن تنزيل الأدوات لكنه لا يثبت رقم إصدار معين، وواجهة الإصدارات القديمة تختلف عن الحالية.
 
@@ -74,14 +78,14 @@ javac -version
 winget install EclipseAdoptium.Temurin.25.JDK
 ```
 
-على macOS أو Linux اختَر الحزمة المناسبة لجهازك من نفس موقع Adoptium، بدل تنزيل ملف Windows.
+على macOS أو Linux اختَر ملف التنزيل المناسب لجهازك من نفس موقع Adoptium، بدل تنزيل ملف Windows.
 
 ### ثانيًا: Apache NetBeans
 
 1. افتح [صفحة Apache NetBeans الرسمية](https://netbeans.apache.org/front/main/download/).
-2. اختر الإصدار المناسب لنظام التشغيل. بتاريخ إعداد هذا الدرس، آخر إصدار مستقر هو **NetBeans 31**.
+2. اختر الإصدار المناسب لنظام التشغيل. هذا الدرس يستخدم **NetBeans 31**؛ راجع صفحة التنزيل لمعرفة الإصدار المتاح لنظامك.
 3. إذا نزّلت ملف `netbeans-31-bin.zip` الرسمي، استخرجه واتبع تعليمات تشغيل النسخة الخاصة بنظامك.
-4. فيه مُثبّتات سهلة من مجتمع NetBeans مذكورة على الموقع الرسمي، وبعضها يحتوي على JDK لتشغيل الـ IDE. هاي الحزم من جهات مساهمة وليست ملفات تثبيت صادرة مباشرة عن Apache.
+4. فيه مُثبّتات سهلة من مجتمع NetBeans مذكورة على الموقع الرسمي، وبعضها يحتوي على JDK لتشغيل الـ IDE. هاي ملفات التثبيت من جهات مساهمة وليست ملفات تثبيت صادرة مباشرة عن Apache.
 5. شغّل NetBeans. إذا طلب تحديد JDK، اختر النسخة التي ثبّتها الجهاز.
 
 ::: {.callout-note}
@@ -91,7 +95,13 @@ winget install EclipseAdoptium.Temurin.25.JDK
 
 :::
 
-## 3. نتعرّف على واجهة NetBeans
+## The NetBeans Workspace
+
+![NetBeans Editor — genuine official Screenshot](../assets/screenshots/file-opened-maven.png){fig-alt="Genuine Apache NetBeans tutorial Screenshot showing Main.java, package, main and println in the Editor" width="100%"}
+
+هذه Screenshot حقيقية من [الدليل الرسمي](https://netbeans.apache.org/tutorial/main/kb/docs/java/quickstart/). تعرض مثالًا باستخدام Maven؛ نستخدمها للتعرّف على Editor، وليست Screenshot من NetBeans 31 أو من مشروع Ant الذي سنبنيه هنا. اضغط الصورة لعرضها بحجمها الأصلي.
+
+أما الرسم التالي فهو مخطط تعليمي لأماكن العمل الأساسية:
 
 <div class="visual-frame">
 
@@ -99,16 +109,16 @@ winget install EclipseAdoptium.Temurin.25.JDK
 
 </div>
 
-**مهم:** هذه **محاكاة توضيحية** لتوزيع أجزاء الواجهة وليست Screenshot حقيقية من برنامج NetBeans. تقدر تفتح [الشرح الرسمي لواجهة المشاريع](https://netbeans.apache.org/tutorial/main/kb/docs/java/javase-intro/) للمقارنة مع صور NetBeans الأصلية. وراح نضيف لقطة فعلية من برنامجك أو من الفيديو عندما تتوفر لنا صورتها.
+**مهم:** هذه **محاكاة توضيحية** لتوزيع أجزاء الواجهة وليست Screenshot حقيقية من برنامج NetBeans. تقدر تفتح [الشرح الرسمي لواجهة المشاريع](https://netbeans.apache.org/tutorial/main/kb/docs/java/javase-intro/) للمقارنة مع صور NetBeans الأصلية. وفي الأسفل Screenshots حقيقية من الدليل الرسمي، مع توضيح اختلاف المشروع المعروض.
 
 اللي يهمنا حاليًا أربع أماكن:
 
 - **Projects:** وين بنشوف المشروع وملفاته.
-- **Editor:** المساحة اللي بنكتب فيها الكود.
+- **Editor:** المساحة اللي بنكتب فيها Code.
 - **Run:** خيار تشغيل البرنامج.
 - **Output:** المكان اللي بنشوف فيه النتيجة ورسائل التشغيل.
 
-## 4. إنشاء أول Project خطوة بخطوة
+## Your First Project
 
 <span class="english-term">Project · Package · Class · Java Source File</span>
 
@@ -116,7 +126,11 @@ winget install EclipseAdoptium.Temurin.25.JDK
 
 ![العلاقة بين Project وPackage وClass وFile](../assets/diagrams/java-project-tree-01.svg){fig-alt="شجرة مبسطة توضّح أن المشروع يحتوي على مجلد مصدر، وpackage اسمها intro، وملف FirstProgram.java الذي يحتوي public class FirstProgram" width="100%"}
 
-### إنشاء المشروع
+### Create a Project
+
+![New Project — genuine official Screenshot](../assets/screenshots/proj-wizard-maven2.png){fig-alt="Official NetBeans New Project wizard Screenshot; the guide selects Java with Maven, while this lesson selects Java with Ant" width="100%"}
+
+النافذة من الدليل الرسمي تعرض Maven. في خطواتنا التالية اختر **Java with Ant** بدلًا منه؛ الهدف هنا معرفة نافذة الاختيار، وليس نسخ الإعداد الظاهر في الصورة.
 
 1. من القائمة اختر `File → New Project` أو على Windows اضغط `Ctrl + Shift + N`.
 2. ضمن الفئات، اختر `Java with Ant`، ثم `Java Application`. هذا هو المسار التقليدي الموافق للمادة. لو شفت `Java with Maven` أو `Java with Gradle`، فهي أنظمة بناء أخرى مش مطلوب نفهمها الآن.
@@ -124,13 +138,13 @@ winget install EclipseAdoptium.Temurin.25.JDK
 4. حدد مكان الحفظ. إذا ظهرت خانة `Create Main Class`، عندك خيار تتركها مفعلة أو تنشئ الـ Class بنفسك. **لهذا المثال، سننشئها يدويًا** حتى نفهم الخطوات.
 5. اضغط `Finish`.
 
-### إنشاء Package وClass
+### Create a Package & Class
 
 من نافذة المشروع:
 
 1. افتح `Source Packages` إن كانت موجودة.
 2. أنشئ `Java Package` باسم `intro` إذا لم تكن موجودة.
-3. اضغط بالزر اليمين على الحزمة، ثم `New → Java Class`.
+3. اضغط بالزر اليمين على Package، ثم `New → Java Class`.
 4. سمّ الـ Class باسم `FirstProgram` واضغط `Finish`.
 
 هسا رح يظهر ملف جديد اسمه:
@@ -143,14 +157,14 @@ FirstProgram.java
 ## قواعد التسمية المهمة الآن
 
 - الاسم `FirstProgram` بلا مسافات، ويبدأ بحرف كبير لأنه اسم Class وفق أسلوب Java المعتاد.
-- اسم الحزمة `intro` بحروف صغيرة.
+- اسم Package `intro` بحروف صغيرة.
 - لما نكتب `public class FirstProgram`، لازم يكون الملف `FirstProgram.java` بنفس الأحرف الكبيرة والصغيرة.
 - شرط التطابق يخص الـ `public top-level class` تحديدًا، مش كل Class ممكن تكتبها بأي ملف.
 - تسمية `MyFirstJava` للمشروع اختيار تنظيمي، مش شرط من Java نفسها.
 
 :::
 
-## 5. شو بنكتب داخل أول Class؟
+## Your First Java Class
 
 هاي النسخة الكاملة اللي راح نشتغل عليها. إذا NetBeans أنشأ سطر `package intro;` تلقائيًا، لا تكرره؛ اكتبه فقط إذا لم يكن موجودًا.
 
@@ -176,7 +190,7 @@ Hello, Java!
 
 </div>
 
-### خلينا نفهم الكود من برّا لجوا
+### Reading the Code
 
 **أولًا — Package**
 
@@ -184,7 +198,7 @@ Hello, Java!
 package intro;
 ```
 
-هذا السطر بحدّد الحزمة اللي بينتمي إلها الملف. الحزمة بتساعدنا ننظم مجموعة Classes مرتبطة ببعض. حاليًا حزمة واحدة بتكفي.
+هذا السطر بحدّد Package اللي بينتمي إلها الملف. Package بتساعدنا ننظم مجموعة Classes مرتبطة ببعض. حاليًا Package واحدة بتكفي.
 
 **ثانيًا — Class**
 
@@ -193,7 +207,7 @@ public class FirstProgram {
 }
 ```
 
-الـ Class هو قالب لتنظيم أجزاء البرنامج. كل اللي بدنا نكتبه في هذا المثال موجود داخل الأقواس المعقوفة الخاصة فيه.
+Class هي بنية لتنظيم أجزاء البرنامج. كل اللي بدنا نكتبه في هذا المثال موجود داخل Braces الخاصة فيه.
 
 **ثالثًا — Main Method**
 
@@ -207,7 +221,7 @@ public static void main(String[] args) {
 اللي عليك تعرفه الآن:
 
 - `main` هو الاسم المعيّن لنقطة دخول هذا النوع من البرامج.
-- الأقواس `()` مرتبطة بتعريف الـ Method ومعاملاتها.
+- الأقواس `()` مرتبطة بتعريف الـ Method والـ Parameters الخاصة بها.
 - الأقواس `{}` بتحدد الأوامر الموجودة داخل الـ Method.
 - كلمة `args` اسم يمكن تغييره، لكننا سنبقيه كما هو متعارف عليه.
 
@@ -217,9 +231,9 @@ public static void main(String[] args) {
 System.out.println("Hello, Java!");
 ```
 
-إحنا بدنا نطبع نص. لذلك بنستخدم `System.out.println`. النص الموجود بين علامتي التنصيص المزدوجتين هو اللي رح يظهر على الشاشة، وبعده ينتقل المؤشر لسطر جديد.
+إحنا بدنا نطبع نص. لذلك بنستخدم `System.out.println`. النص الموجود بين Double Quotes هو اللي رح يظهر على الشاشة، وبعده ينتقل المؤشر لسطر جديد.
 
-> `System` عبارة عن Class، و`out` حقل يشير إلى مجرى الإخراج القياسي، و`println` إحدى Methods الخاصة بالطباعة. هاي التفاصيل رح تصير أوضح لما نوصل لمواضيع Classes وMethods.
+> `System` عبارة عن Class، و`out` Field يشير إلى مجرى الإخراج القياسي، و`println` إحدى Methods الخاصة بالطباعة. هاي التفاصيل رح تصير أوضح لما نوصل لمواضيع Classes وMethods.
 
 **خامسًا — Semicolon**
 
@@ -227,9 +241,13 @@ System.out.println("Hello, Java!");
 ;
 ```
 
-الفاصلة المنقوطة بتنهي هذا النوع من التعليمات. نسيانها بعد أمر الطباعة يسبب خطأ في الترجمة.
+Semicolon بتنهي هذا النوع من التعليمات. نسيانها بعد أمر الطباعة يسبب Compile-Time Error.
 
-## 6. تشغيل البرنامج ومشاهدة النتيجة
+## Run & Output
+
+![Output window — genuine official Screenshot](../assets/screenshots/run-output-maven.png){fig-alt="Genuine official Screenshot of NetBeans Output window after running the tutorial Maven project" width="100%"}
+
+هذه Screenshot من مثال Maven في الدليل الرسمي. قد تختلف رسائل البناء، لكن Output هو المكان الذي ستشاهد فيه النتيجة ورسائل التشغيل.
 
 احفظ الملف من `File → Save`، أو اضغط `Ctrl + S` على Windows، ثم شغّل المشروع من:
 
@@ -243,13 +261,13 @@ Run → Run Project
 
 إذا ظهرت رسالة نجاح بناء أو تشغيل، فهذا يعني إن الإجراءات المرتبطة بالبناء أو التشغيل انتهت بدون الخطأ الذي يمنع إتمامها. لكن هذا **مش دليل لوحده أن منطق برنامجك صحيح**.
 
-## 7. ثلاث أنواع من الأخطاء لازم تميّز بينها
+## Three Types of Errors
 
 هذا الجزء مهم جدًا، لأن المدرّس عرض أمثلة لأخطاء تظهر قبل التشغيل وأثناء التشغيل، وأخطاء ما تعطيك رسالة رغم أن الناتج غلط.
 
-![مقارنة بصرية بين Compile-Time وRuntime وLogical Errors](../assets/diagrams/java-error-types-01.svg){fig-alt="ثلاث لوحات تقارن بين خطأ الترجمة الذي يمنع البناء، وخطأ وقت التشغيل الذي يوقف التنفيذ، والخطأ المنطقي الذي يعطي نتيجة غير مقصودة" width="100%"}
+![مقارنة بصرية بين Compile-Time وRuntime وLogical Errors](../assets/diagrams/java-error-types-01.svg){fig-alt="ثلاث لوحات تقارن بين Compile-Time Error الذي يمنع البناء، وخطأ Runtime الذي يوقف التنفيذ، وLogical Error الذي يعطي نتيجة غير مقصودة" width="100%"}
 
-### النوع الأول — Compile-Time Error
+### Compile-Time Error
 
 <span class="english-term">Compile-Time Error</span>
 
@@ -269,11 +287,11 @@ System.Out.println("Hello");
 System.out.println("Hello");
 ```
 
-### النوع الثاني — Runtime Error
+### Runtime Error
 
 <span class="english-term">Runtime Error</span>
 
-أحيانًا الكود بنترجم بدون مشكلة، لكن لما يشتغل بنعمل عملية غير مسموحة. مثال:
+أحيانًا Code بنترجم بدون مشكلة، لكن لما يشتغل بنعمل عملية غير مسموحة. مثال:
 
 ```java
 int number = 0;
@@ -288,7 +306,7 @@ java.lang.ArithmeticException: / by zero
 
 **المهم:** الخطأ ظهر وقت التنفيذ، مش لأننا كتبنا اسم Method غلط. مش كل برامج Java بترتكب نفس الخطأ بنفس الطريقة، لكن المثال فوق يوضح الفكرة.
 
-### النوع الثالث — Logical Error
+### Logical Error
 
 <span class="english-term">Logical Error</span>
 
@@ -327,21 +345,21 @@ System.out.println(5 + 1 / 2);
 
 | الحالة | متى نكتشفها؟ |
 |---|---|
-| أمر مكتوب بشكل لا يفهمه المترجم | Compile-Time |
+| أمر مكتوب بشكل لا يفهمه Compiler | Compile-Time |
 | خطأ يظهر فقط عند التنفيذ | Runtime |
 | البرنامج يشتغل، لكن النتيجة مختلفة عن المقصود | Logical |
 
 :::
 
-## 8. Case Sensitivity وكلمات Java الخاصة
+## Case Sensitivity & Keywords
 
 <span class="english-term">Case Sensitivity · Keywords · Identifier</span>
 
 Java بتفرّق بين `System` و`system`، وبين `out` و`Out`. فما بصير نغيّر شكل الكلمات بشكل عشوائي.
 
-وفي كلمات إلها دور خاص باللغة، زي `public` و`class` و`static`. هاي اسمها **Keywords** وما بنستخدمها كأسماء عادية للمتغيرات أو Classes. بعض الكلمات مثل `main` أسماء مهمة باتفاقات اللغة وبيئة التشغيل، لكن مش كلها Java Keywords.
+وفي كلمات إلها دور خاص باللغة، زي `public` و`class` و`static`. هاي اسمها **Keywords** وما بنستخدمها كأسماء عادية للVariables أو Classes. بعض الكلمات مثل `main` أسماء مهمة باتفاقات اللغة وبيئة التشغيل، لكن مش كلها Java Keywords.
 
-## 9. تمرين تطبيقي — برنامجك الأول
+## Practice
 
 ابنِ برنامجًا باسم `FirstProgram` يطبع ثلاث رسائل على ثلاثة أسطر. جرب تغيّر النصوص والأرقام وشوف النتيجة.
 
@@ -372,7 +390,7 @@ My first project works!
 3. غيّر `println` إلى `Println` وشوف النتيجة، ثم صحّحها.
 4. قارن بين `(8 + 2) / 2` و`8 + 2 / 2`. توقّع الناتج قبل التشغيل.
 
-## 10. اختبار الدرس #01 — قبل ما تفتح الحلول
+## Knowledge Check
 
 **أ — فهم:** ما الفرق بين JDK وIDE؟ وليش ما بكفي نفتح محرر نصوص؟
 
@@ -390,7 +408,7 @@ system.out.println("Java")
 
 **و — تفسير:** إذا البرنامج كتب رسالة `BUILD SUCCESSFUL` لكنه طبع رقمًا غلطًا، ما نوع المشكلة المرجّحة؟
 
-**ز — حساب:** ما ناتج الكودين؟ وليش مختلفين؟
+**ز — حساب:** ما ناتج المثالين؟ وليش مختلفين؟
 
 ```java
 System.out.println((8 + 2) / 2);
@@ -409,21 +427,21 @@ System.out.println(8 + 2 / 2);
 
 **هـ:** `System.out.println("Java");`. صحّحنا الحرف الكبير وأضفنا `;`.
 
-**و:** غالبًا Logical Error، إذا الكود يعمل لكن الناتج غير الذي نقصده.
+**و:** غالبًا Logical Error، إذا Code يعمل لكن الناتج غير الذي نقصده.
 
 **ز:** الأول `5`، والثاني `9`. الأول الأقواس تجبر الجمع أولًا؛ الثاني تنفّذ القسمة الصحيحة أولًا: `2 / 2 = 1` ثم `8 + 1 = 9`.
 
 </details>
 
-## 11. خلاصة تربط الفكرة كلها
+## Connecting the Concepts
 
-بعد ما ثبّتنا الأدوات، صرنا نعرف إن **Project** هو مشروعنا، و**Package** وسيلة لتنظيم الكود، و**Class** فيها نقطة بدء تقليدية اسمها `main`، وبداخلها بنكتب أوامر مثل الطباعة. لما نضغط `Run`، بيجي دور أدوات البناء والتشغيل. وإذا صار خطأ، بنحدد هل المشكلة في الترجمة، أو أثناء التشغيل، أو في النتيجة نفسها.
+بعد ما ثبّتنا الأدوات، صرنا نعرف إن **Project** هو مشروعنا، و**Package** وسيلة لتنظيم Code، و**Class** فيها نقطة بدء تقليدية اسمها `main`، وبداخلها بنكتب أوامر مثل الطباعة. لما نضغط `Run`، بيجي دور أدوات البناء والتشغيل. وإذا صار خطأ، بنحدد هل المشكلة في الترجمة، أو أثناء التشغيل، أو في النتيجة نفسها.
 
 **لا تستعجل تحفظ كل مصطلح:** المطلوب حاليًا إنك تفهم التسلسل وتقدر تكتب المثال وتشغّله وتعدّل عليه لحالك.
 
-## 12. توضيح المصدر والإضافات
+## Source & Additions
 
-**من التفريغ الأصلي للفيديو:** تنزيل أدوات Java، تعريف JDK وIDE، استعمال Apache NetBeans، إنشاء Project وPackage وClass، التسمية، `main`، الطباعة، علامات الاقتباس والفاصلة المنقوطة، الحفظ والتشغيل، حساسية الحروف، وأمثلة Compile-Time وRuntime وLogical Error.
+**من التفريغ الأصلي للفيديو:** تنزيل أدوات Java، تعريف JDK وIDE، استعمال Apache NetBeans، إنشاء Project وPackage وClass، التسمية، `main`، الطباعة، علامات الاقتباس وSemicolon، الحفظ والتشغيل، حساسية الحروف، وأمثلة Compile-Time وRuntime وLogical Error.
 
 **إضافات الكتاب:** اختيار إصدار حديث، فحص `java` و`javac`، تعليمات واضحة لمسار إنشاء المشروع، الرسوم التخطيطية، كود نظيف قابل للتجربة، تصحيح القسمة الصحيحة، والفروق الدقيقة في قواعد تسمية Classes والـ Keywords.
 
@@ -431,4 +449,5 @@ System.out.println(8 + 2 / 2);
 
 **المصادر التقنية الإضافية:** [Apache NetBeans 31](https://netbeans.apache.org/front/main/download/nb31/)، [NetBeans Java Project Tutorial](https://netbeans.apache.org/tutorial/main/kb/docs/java/javase-intro/)، [Eclipse Temurin Installation](https://adoptium.net/installation).
 
-**الدرس القادم:** `#02 — Escape Sequences and Comments`. هذا الدرس غير مكتوب حتى يصل تفريغه.
+**الدرس القادم:** `#02 — Escape Sequences and Comments`. التفريغ مستلَم؛ الدرس لم يُكتب بعد.
+

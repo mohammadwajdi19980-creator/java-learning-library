@@ -1,4 +1,4 @@
-# M11 — الصفوف المجهولة والتعدادات
+# M11 — Anonymous Classes & Enums
 
 <div class="lesson-meta"><span>M11</span><span>INTERMEDIATE</span><span>#059–#063</span></div>
 
@@ -8,9 +8,10 @@
 
 ## مواضيع الوحدة
 
-- [S27 — الصفوف المجهولة وLambda](../subjects/s27.qmd) — `#059–#060`
-- [S28 — Enum وملحقاتها](../subjects/s28.qmd) — `#061–#063`
+- [S27 — Anonymous Classes & Lambda](../subjects/s27.qmd) — `#059–#060`
+- [S28 — Enums](../subjects/s28.qmd) — `#061–#063`
 
 ## اختبار الوحدة والمشروع
 
 بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+

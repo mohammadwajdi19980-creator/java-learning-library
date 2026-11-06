@@ -6,14 +6,15 @@
 
 - `#00 — Introduction`: النص مستلَم، ومسودة الدرس منشورة للمراجعة.
 - `#01 — Installing the Java Development Tools`: التفريغ مستلم؛ الدرس والمصادر التقنية الحديثة منشوران للمراجعة. [رابط الفيديو](https://www.youtube.com/watch?v=wJKgqYj4mtU).
-- `#02–#076`: العناوين مستلمة، والتفريغات لم تصل بعد.
+- `#02 — Escape Sequences and Comments`: التفريغ مستلَم؛ الدرس لم يُكتب بعد.
+- `#03–#076`: العناوين مستلمة، والتفريغات لم تصل بعد.
 
 ## Technical accuracy notes
 
 - `#08`: `instanceof` operator، ليس method.
 - `#034`: `finalize()` قديم ومهمل ومعلَّم للإزالة؛ نشرح البدائل الحديثة عند الوصول للدرس.
 - `#036`: نفرق بين static nested class والـ top-level classes.
-- `#037`: Java تمرر معاملات الدوال بـ pass-by-value حتى لمراجع الكائنات.
+- `#037`: Java تمرر معاملات Methods بـ pass-by-value حتى لمراجع Objects.
 - `#062`: الاسم الصحيح للدالة هو `compareTo()`.
 
 ## مراجع تأسيسية
@@ -31,3 +32,8 @@
 - [Eclipse Temurin — installation and winget](https://adoptium.net/installation)
 
 Source transcript timestamp range: 00:00–14:18, supplied by the learner. Transcript includes speech-to-text errors; uncertain proper names and exact text strings were replaced with transparent illustrative examples rather than falsely reconstructed quotes.
+
+
+## Screenshot Provenance
+
+الصور الحقيقية في Lesson #01 مأخوذة من [Apache NetBeans Java Quick Start](https://netbeans.apache.org/tutorial/main/kb/docs/java/quickstart/). يعرض الدليل مشروع Maven؛ هذه الصور مرجع بصري وليست لقطات موثّقة من NetBeans 31 أو من مثالنا باستخدام Ant. الرسوم التخطيطية الأخرى موسومة بصورة مستقلة. راجع `assets/registry.json` لتفاصيل الملفات والمصدر.

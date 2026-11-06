@@ -1,4 +1,4 @@
-# M09 — القوائم الديناميكية
+# M09 — ArrayList
 
 <div class="lesson-meta"><span>M09</span><span>INTERMEDIATE</span><span>#048–#051</span></div>
 
@@ -8,9 +8,10 @@
 
 ## مواضيع الوحدة
 
-- [S23 — ArrayList: الإنشاء والتعديل](../subjects/s23.qmd) — `#048–#050`
-- [S24 — ArrayList: الفحص والفرز](../subjects/s24.qmd) — `#051–#051`
+- [S23 — ArrayList Fundamentals](../subjects/s23.qmd) — `#048–#050`
+- [S24 — ArrayList Operations](../subjects/s24.qmd) — `#051–#051`
 
 ## اختبار الوحدة والمشروع
 
 بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+
