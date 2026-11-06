@@ -1,6 +1,6 @@
 # Java Learning Library — Working Guide
 
-Version 1.1 · 6 November 2026
+Version 1.2 · 6 November 2026
 
 The user has authorized implementation and publication of the audit fixes and appearance redesign. The earlier analysis-only limit was specific to the audit turn. Preserve original video IDs, Arabic explanations, English technical terminology, and source coverage.
 
@@ -53,6 +53,15 @@ The broader 523-topic Java_Master_Topic_Index includes other uploaded university
 
 For future implementation, use a reviewable branch/PR where appropriate and avoid publishing incomplete work through an incidental push to main. Do not introduce repeated permission questions for routine work already authorized.
 
+## Teaching scope and batches
+
+- Accept several supplied topics or transcripts in one batch. Read the entire batch first, identify each video's existing ID/title, and preserve Adel Nasim's sequence and topic boundaries. Do not infer missing content or video IDs from attachment filenames.
+- Explain in the same clear, approachable Arabic teaching language used for the course; technical terms, code, identifiers and Output always remain in English. Correct transcription errors while preserving the intended meaning.
+- Be concise but comprehensive: cover every distinct talking point, condition, example and exercise in the supplied material, with enough explanation for a beginner. Remove repetition and filler rather than removing concepts.
+- Stay within Adel Nasim's supplied topics and talking points. Necessary clarification must explain those same points; do not add unrelated topics, advanced detours, additional curriculum or future-video content.
+- Preserve source examples. Any brief supporting example or essential factual correction must stay within the current topic and be clearly identified; the older instruction to label additions does not authorize expanding the scope.
+- Maintain a per-topic coverage map across the batch so no supplied topic is skipped, merged away, or counted twice. Batch delivery does not change original video IDs or lesson URLs.
+
 ## 7. Workflow for every new Lesson
 
 1. Register the video ID, original title, source link, supplied transcript reference, timestamps, and language.
@@ -85,18 +94,27 @@ A compact source-coverage record should map transcript location → concept/exam
 
 ## 9. Workflow for every image
 
-1. Define the learning purpose and exact lesson section.
-2. Choose the format: genuine Screenshot for software UI; precise SVG/Mermaid/UML for exact relationships; image generation for an illustration when useful.
-3. Use English technical labels and exact code. Generated code/text must be checked.
-4. For Screenshots, record origin, application/version, and step. Annotate actual controls without inventing UI.
-5. Give the asset a stable lesson-scoped identifier and filename.
-6. Record type, source/rights basis, caption, alternative text, owner lesson, and validation status.
-7. Validate SVG XML and file references; inspect for clipped text, incorrect arrows, tiny labels, and low contrast.
-8. Inspect the image at its actual desktop and mobile display sizes. Split dense images instead of shrinking them.
-9. Place it with the explanation and provide a text equivalent for the essential information.
-10. Confirm that it loads on the published site and, when exported, in EPUB.
+Source priority is mandatory, in this order:
 
-No placeholder or broken visual may be counted as a delivered explanatory image.
+1. **Online images first.** Search for an accurate, readable Screenshot or explanatory image matching the exact topic and step. YouTube video frames are valid sources, including Adel Nasim's relevant demonstration when available. Prefer primary/official sources when suitable. Inspect the actual image or frame before selecting it; a search thumbnail or loosely related image is not enough.
+2. **ImageGen only if no suitable online image is found.** Generate an illustration matching the exact concept, terminology, values, relationships, code and expected Output in the lesson. Check the result against the source; reject or correct inaccurate text, arrows, UI or relationships. Do not use a merely similar image as if it were exact.
+
+Apply the priority when sourcing educational imagery; exact data charts and precise technical diagrams must still use tools that preserve correctness rather than relying on generated text or geometry.
+
+For every asset:
+
+1. Define the learning purpose, exact lesson section and source talking point. Stay within the lesson's scope.
+2. Record the online search/selection outcome. If using ImageGen, record that no suitable online image was found, the generation brief and the fidelity review.
+3. Use English technical labels and exact code. Check all visible text and relationships against the lesson.
+4. For online images, record origin URL, source/creator, source/rights basis and caption. For a YouTube frame, also record video URL/title and timestamp. For Screenshots, record application/version and the demonstrated step.
+5. Never present a generated illustration or recreated interface as a genuine Screenshot. Label it as generated/schematic. If exact fidelity cannot be achieved, leave the missing visual explicit and use an accurate text explanation until suitable source material is available.
+6. Give the asset a stable lesson-scoped identifier and filename; register type, provenance, alternative text, owner lesson and validation status in assets/registry.json.
+7. Validate file references and SVG XML where applicable; inspect for clipped text, incorrect arrows, tiny labels and low contrast.
+8. Inspect actual desktop and mobile display sizes. Split dense images instead of shrinking them.
+9. Place each visual immediately before the explanation it supports where useful, and provide a text equivalent for essential information.
+10. Confirm that the image loads on the published site and, when exported, in EPUB.
+
+No placeholder, broken visual or unchecked generated image may be counted as a delivered explanatory image.
 
 ## 10. Workflow for design, navigation, or structure changes
 
