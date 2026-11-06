@@ -256,3 +256,36 @@ table th{background:#edf3f1!important}
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
 }
+
+
+/* Final mobile polish: keep chapter headings clear of Quarto's toolbar. */
+@media(max-width:991.98px){
+  #quarto-content:not(:has(.book-hero)) #quarto-document-content{
+    padding-top:4.15rem!important;
+  }
+  nav.quarto-secondary-nav button.quarto-btn-toggle i,
+  nav.quarto-secondary-nav button.quarto-search-button i{display:none!important}
+  nav.quarto-secondary-nav button.quarto-btn-toggle::after{
+    content:"☰";
+    display:block;
+    font:700 1.35rem/1 Arial,sans-serif;
+    color:#315860;
+  }
+  nav.quarto-secondary-nav button.quarto-search-button::after{
+    content:"بحث";
+    display:block;
+    font:700 .82rem/1.3 Tahoma,Arial,sans-serif;
+    color:#315860;
+  }
+  nav.quarto-secondary-nav .container-fluid{min-height:52px;align-items:center}
+}
+#quarto-sidebar .sidebar-item-toggle .bi{display:none!important}
+#quarto-sidebar .sidebar-item-toggle::after{
+  content:"+";
+  direction:ltr;
+  color:#5d797a;
+  font:700 1rem/1 Arial,sans-serif;
+  margin-inline-start:.5rem;
+  flex-shrink:0;
+}
+#quarto-sidebar .sidebar-item-toggle[aria-expanded="true"]::after{content:"−"}
