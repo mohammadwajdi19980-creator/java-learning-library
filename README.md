@@ -2,7 +2,7 @@
 
 An Arabic-first, illustrated, **living Java textbook** created incrementally from 77 original Adel Nasim video transcripts.
 
-**Current verified state:** 77 topic titles mapped · 13 modules · 35 subjects · 1 transcript received (#00) · 1 teaching chapter in draft/review.
+**Current verified state:** 77 topic titles mapped · 13 modules · 35 subjects · 2 transcripts received (#00–#01) · 2 teaching chapters in draft/review.
 
 ## Read online
 
@@ -17,7 +17,9 @@ The website is generated via GitHub Actions; GitHub Pages needs to be configured
 - `books/java/roadmap.qmd`: complete original source lesson registry.
 - `books/java/modules/`: 13 module overviews.
 - `books/java/subjects/`: 35 subject overviews, **not falsely marked complete**.
-- `books/java/lessons/lesson-000.qmd`: first rewritten Java lesson with explanations and original SVG diagrams.
+- `books/java/lessons/lesson-000.qmd`: introduction lesson.
+- `books/java/lessons/lesson-001.qmd`: JDK, NetBeans, first runnable project, annotated diagrams and error types.
+- `books/java/subjects/s01.qmd`: completed subject-level exam with worked answers.
 - `books/java/glossary.qmd`: bilingual technical glossary.
 - `books/java/projects.qmd`: staged practice projects.
 - `books/java/exams.qmd`: subject, module and book exam structure.

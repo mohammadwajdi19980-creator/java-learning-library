@@ -11,7 +11,7 @@
 ### [S01 — المقدمة والتثبيت](subjects/s01.qmd)
 
 - **`#00`** — Introduction — [اقرأ الدرس](lessons/lesson-000.qmd)
-- **`#01`** — Installing the Java Development Tools (JDK, Apache NetBeans IDE) — *بانتظار النص*
+- **`#01`** — Installing the Java Development Tools (JDK, Apache NetBeans IDE) — [اقرأ الدرس](lessons/lesson-001.qmd)
 
 ### [S02 — التعليقات والرموز الخاصة](subjects/s02.qmd)
 

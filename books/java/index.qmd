@@ -11,13 +11,14 @@
 <div class="stats-line">
  <div class="stat"><strong>77</strong><small>درس أصلي في الخريطة</small></div>
  <div class="stat"><strong>13</strong><small>وحدة تعليمية</small></div>
- <div class="stat"><strong>01</strong><small>درس مكتمل كمسودة</small></div>
+ <div class="stat"><strong>02</strong><small>درسان جاهزان للمراجعة</small></div>
 </div>
 
 ## اختر نقطة البداية
 
 <div class="section-cards">
  <a class="section-card" href="lessons/lesson-000.html"><span class="chip">START HERE · #00</span><strong>شو هي Java؟ وكيف البرنامج بشتغل؟</strong><p>شرح من الصفر + مخطط التنفيذ + أسئلة مع حلول.</p></a>
+ <a class="section-card" href="lessons/lesson-001.html"><span class="chip">NEW · #01</span><strong>نزّل الأدوات وشغّل أول برنامج</strong><p>JDK، NetBeans، محاكاة للواجهة، أمثلة، وأنواع الأخطاء.</p></a>
  <a class="section-card" href="roadmap.html"><span class="chip">77 LESSON MAP</span><strong>خريطة المنهج كاملة</strong><p>كل فيديو في مكانه مع تقسيم الوحدات والمواضيع والمستويات.</p></a>
  <a class="section-card" href="glossary.html"><span class="chip">AR · EN</span><strong>قاموس المصطلحات التراكمي</strong><p>المعنى بالعربي ثم التعريف العلمي بالإنجليزي، بدون خلط الاتجاهات.</p></a>
  <a class="section-card" href="projects.html"><span class="chip">PRACTICE</span><strong>مشاريع وتطبيقات</strong><p>خطة مشاريع تتطور تدريجيًا مع المهارات، ولا ننسبها للمصدر الأصلي.</p></a>

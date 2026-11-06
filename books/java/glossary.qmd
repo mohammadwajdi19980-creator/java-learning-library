@@ -83,3 +83,138 @@
 **بالعربية:** قابلية تشغيل برنامج Java المترجم على أكثر من نظام، بشرط وجود JVM متوافقة وعدم اعتماد البرنامج على تفاصيل خاصة بنظام معيّن.
 
 **English definition:** A Java portability principle in which compiled bytecode can execute across compatible platforms without recompilation, subject to dependencies and runtime compatibility.
+
+
+---
+
+# مصطلحات الدرس #01 — تجهيز أدوات Java
+
+## Apache NetBeans IDE
+
+<span class="english-term">English term: Apache NetBeans · IDE</span>
+
+**بالعربية:** برنامج مجاني ومفتوح المصدر، يجمّع محرر الكود والمشاريع وأدوات البناء والتشغيل والتنقيح بواجهة واحدة. الـ IDE بتساعدك تكتشف مشاكل الكتابة بسرعة، لكن لا تضمن صحة منطق الحل.
+
+**English definition:** Apache NetBeans is an open-source integrated development environment that provides source editing, project management, builds, execution, and debugging features in one interface.
+
+**مثال:** من قائمة Projects تفتح الملف، ومن Run تشغّله، وتشوف النتيجة في Output.
+
+## Project
+
+<span class="english-term">English term: Project</span>
+
+**بالعربية:** مجلد وإعدادات تجمع ملفات المصدر والموارد وخيارات البناء والتشغيل الخاصة بتطبيق واحد أو جزء منه. مش شرط يكون Class واحدة فقط.
+
+**English definition:** A project is a collection of source files, resources, and configuration that a build system or IDE manages as a unit.
+
+## Package
+
+<span class="english-term">English term: Package</span>
+
+**بالعربية:** طريقة في Java لتجميع Classes مرتبطة ببعض ضمن مساحة أسماء منظمة، وتساعد في الفصل بين أجزاء المشروع والتحكم ببعض قواعد الوصول. غالبًا أسماء Packages تكون صغيرة مثل `intro`.
+
+**English definition:** A Java package groups related types into a named namespace and helps organize source code and access relationships.
+
+## Class
+
+<span class="english-term">English term: Class</span>
+
+**بالعربية:** تعريف برمجي يصف نوعًا من الكائنات وما يتضمنه من بيانات وسلوكيات. في أول درس استخدمناه كوعاء للـ Main Method؛ لاحقًا رح نبني كائنات منه.
+
+**English definition:** A class is a type declaration that can define fields, methods, constructors, and other members used to describe object behavior and state.
+
+## Method
+
+<span class="english-term">English term: Method</span>
+
+**بالعربية:** جزء من الكود له اسم ومهمة، ويمكن استدعاؤه لتأدية العملية. `main` هي Method تبدأ منها تطبيقات Java التقليدية، و`println` Method للطباعة.
+
+**English definition:** A method is a named operation defined by a type and optionally accepting parameters, performing actions, and returning a value or completing without a value.
+
+## Main Method
+
+<span class="english-term">English term: public static void main(String[] args)</span>
+
+**بالعربية:** الصيغة التقليدية لنقطة دخول تطبيق Java مستقل. وقت التشغيل بينادي البيئة هذه Method للبدء. `args` مصفوفة نصوص يمكن أن تحمل معاملات من سطر الأوامر. التفاصيل الدقيقة لـ public وstatic وvoid وString[] ستأتي لاحقًا.
+
+**English definition:** The conventional Java application entry-point method, accepting an array of command-line arguments and returning no value.
+
+## Println
+
+<span class="english-term">English term: System.out.println</span>
+
+**بالعربية:** أمر شائع لطباعة قيمة أو نص على مجرى الإخراج القياسي، يليها انتقال إلى سطر جديد. `System` Class و`out` حقل للطباعة، و`println` اسم Method.
+
+**English definition:** A Java PrintStream method invoked on the standard output stream to print a value followed by a line terminator.
+
+## Identifier
+
+<span class="english-term">English term: Identifier</span>
+
+**بالعربية:** اسم يختاره المبرمج لكي يميّز Class أو متغيرًا أو Method أو عنصرًا آخر في البرنامج. له قواعد، ومنها ألا يحتوي على مسافة عادية داخل الاسم، وألا يكون Keyword محجوزًا.
+
+**English definition:** A programmer-defined name used to identify a declared element in a program, subject to the language's lexical naming rules.
+
+## Keyword
+
+<span class="english-term">English term: Keyword</span>
+
+**بالعربية:** كلمة لها معنى محدد في قواعد لغة Java مثل `class` و`public` و`static`. ما بنقدر نستعملها كأسماء عادية.
+
+**English definition:** A reserved word with a special grammatical role in Java, unavailable for general-purpose identifiers.
+
+## Case Sensitivity
+
+<span class="english-term">English term: Case Sensitivity</span>
+
+**بالعربية:** اللغة بتميز بين الأحرف الكبيرة والصغيرة. `System` مش نفس `system`، و`out` مش نفس `Out`.
+
+**English definition:** A property of a language in which uppercase and lowercase letters are treated as distinct in names and identifiers.
+
+## Compile-Time Error
+
+<span class="english-term">English term: Compile-Time Error</span>
+
+**بالعربية:** خطأ بيكتشفه المترجم قبل إنشاء البرنامج القابل للتشغيل بشكل طبيعي، مثل اسم غير معروف أو بناء جملة غير صحيح. عادةً بيمنع إتمام الترجمة حتى نصلحه.
+
+**English definition:** An error detected during compilation, such as a syntax violation, type mismatch, or unresolved symbol, preventing a successful build.
+
+## Runtime Error
+
+<span class="english-term">English term: Runtime Error</span>
+
+**بالعربية:** مشكلة بتظهر أثناء التنفيذ بعد نجاح الترجمة؛ مثالنا قسمة عدد صحيح على صفر، والنتيجة `ArithmeticException`.
+
+**English definition:** An error occurring during program execution, potentially producing an exception, terminating execution, or otherwise interrupting the intended behavior.
+
+## Logical Error
+
+<span class="english-term">English term: Logical Error</span>
+
+**بالعربية:** البرنامج مكتوب بطريقة صحيحة من ناحية اللغة وممكن يشتغل بدون Exceptions، لكنه بيعطي نتيجة مختلفة عما قصده المبرمج بسبب خطأ في التفكير أو ترتيب العمليات.
+
+**English definition:** A defect in the program's algorithm or reasoning that yields incorrect behavior despite successful compilation and possibly normal execution.
+
+## Semicolon
+
+<span class="english-term">English term: Semicolon · ;</span>
+
+**بالعربية:** علامة تستخدم لإنهاء أنواع كثيرة من تعليمات Java، ومنها أوامر الطباعة. ليس كل سطر في Java يحتاجها؛ مثل السطر الذي يفتح Class وينتهي بقوس معقوف لاحقًا.
+
+**English definition:** A punctuation token used to terminate many Java statements and certain declarations, but not every line of source code.
+
+## Operator Precedence
+
+<span class="english-term">English term: Operator Precedence</span>
+
+**بالعربية:** قواعد تحدد أولوية ربط وتنفيذ العمليات داخل التعبيرات. مثلًا، القسمة تتقدم على الجمع، ويمكن استخدام الأقواس لجعل الترتيب المقصود واضحًا.
+
+**English definition:** The precedence rules that determine how operators group with operands in expressions, with parentheses overriding the default grouping.
+
+## PATH
+
+<span class="english-term">English term: PATH Environment Variable</span>
+
+**بالعربية:** إعداد في نظام التشغيل يحدد المجلدات التي يبحث فيها الـ Terminal عن البرامج عند كتابة اسمها. لما أمر `javac` لا يعمل رغم تثبيت JDK، ممكن يكون السبب أن مجلد أدوات JDK غير موجود في PATH.
+
+**English definition:** An operating-system environment variable listing directories searched to locate executable programs invoked from a shell.

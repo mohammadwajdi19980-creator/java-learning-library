@@ -5,7 +5,8 @@
 ## حالة المصادر
 
 - `#00 — Introduction`: النص مستلَم، ومسودة الدرس منشورة للمراجعة.
-- `#01–#076`: العناوين مستلمة، والتفريغات لم تصل بعد.
+- `#01 — Installing the Java Development Tools`: التفريغ مستلم؛ الدرس والمصادر التقنية الحديثة منشوران للمراجعة. [رابط الفيديو](https://www.youtube.com/watch?v=wJKgqYj4mtU).
+- `#02–#076`: العناوين مستلمة، والتفريغات لم تصل بعد.
 
 ## Technical accuracy notes
 
@@ -21,3 +22,12 @@
 - [Java Language Specification — Oracle](https://docs.oracle.com/javase/specs/)
 - [Apache NetBeans](https://netbeans.apache.org/)
 - [Quarto Books](https://quarto.org/docs/books/)
+
+## Lesson #01 updated verification
+
+- [Apache NetBeans 31 — official download, supported JDK versions](https://netbeans.apache.org/front/main/download/nb31/)
+- [NetBeans official tutorial — New Project, Java with Ant, Java Application, F6](https://netbeans.apache.org/tutorial/main/kb/docs/java/javase-intro/)
+- [Eclipse Temurin 25 LTS — downloads](https://adoptium.net/temurin/releases/)
+- [Eclipse Temurin — installation and winget](https://adoptium.net/installation)
+
+Source transcript timestamp range: 00:00–14:18, supplied by the learner. Transcript includes speech-to-text errors; uncertain proper names and exact text strings were replaced with transparent illustrative examples rather than falsely reconstructed quotes.

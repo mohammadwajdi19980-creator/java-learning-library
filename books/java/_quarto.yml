@@ -27,6 +27,7 @@ book:
         - modules/m01.qmd
         - subjects/s01.qmd
         - lessons/lesson-000.qmd
+        - lessons/lesson-001.qmd
         - subjects/s02.qmd
     - part: "M02 | البيانات والعمليات والإدخال"
       chapters:
