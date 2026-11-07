@@ -6,7 +6,7 @@ const activeModule=document.querySelector('.nav-module [aria-current="page"]')?.
 if(activeModule)document.querySelectorAll('.nav-module').forEach(d=>d.open=d===activeModule);
 document.documentElement.classList.add('reader-ready');
  document.body.prepend(document.querySelector('.reader-topbar'),document.getElementById('menu-backdrop'),document.getElementById('reader-nav'));
- document.getElementById('book-search').addEventListener('click',()=>{if(document.body.classList.contains('menu-open'))toggle(false);window.quartoOpenSearch?.();});
+ document.getElementById('book-search').addEventListener('click',()=>{if(document.body.classList.contains('menu-open'))toggle(false);const trigger=document.querySelector('#quarto-search .aa-DetachedSearchButton');if(trigger)trigger.click();else window.quartoOpenSearch?.();});
 const menu=document.getElementById('menu-toggle'),backdrop=document.getElementById('menu-backdrop'),nav=document.getElementById('reader-nav');
 function syncNav(){nav.inert=matchMedia('(max-width:800px)').matches&&!document.body.classList.contains('menu-open');}
  addEventListener('resize',syncNav);syncNav();

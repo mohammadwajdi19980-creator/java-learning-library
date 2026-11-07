@@ -18,7 +18,8 @@ book:
   repo-subdir: books/java
   repo-branch: main
   repo-actions: [source]
-  search: true
+  search:
+    type: overlay
   sidebar:
     title: "Java Library"
     collapse-level: 1
