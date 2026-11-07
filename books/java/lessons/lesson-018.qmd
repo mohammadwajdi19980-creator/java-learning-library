@@ -17,7 +17,7 @@ subtitle: "اكتب المهمة مرة واحدة، واستعملها بالا
 
 ## Declaration Parts
 
-![Java method declaration: modifier, return type, method name, parameter list, and body](../assets/reference/method-declaration-018.jpeg){fig-alt="An addition method with public modifier, int return type, two int parameters, and a body returning sum" width="684"}
+![الأجزاء الأساسية لتعريف `Method`](../assets/reference/method-declaration-018.jpeg){fig-alt="An addition method with public modifier, int return type, two int parameters, and a body returning sum" width="684"}
 
 رسم توضيحي من [المصدر](https://medium.com/@shourya12cbg2476/title-mastering-java-functions-and-methods-9671a562a213)، دون تعديل. يوضّح الأجزاء الأساسية؛ مثالنا التالي يضيف `static` إلى `public` حتى نستدعيه مباشرةً من `static main`.
 

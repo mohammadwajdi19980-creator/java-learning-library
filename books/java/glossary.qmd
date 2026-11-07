@@ -826,7 +826,7 @@
 
 ::: {.english-definition dir="ltr" lang="en"}
 
-**English definition:** An enhanced for statement that visits the elements of an array or iterable in turn.
+**English definition:** An enhanced for statement that visits the elements of an array in turn.
 
 :::
 
