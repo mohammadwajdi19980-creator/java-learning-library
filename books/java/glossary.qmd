@@ -207,7 +207,7 @@
 
 <span class="english-term" dir="ltr" lang="en">English term: System.out.println</span>
 
-**بالعربية:** أمر شائع لطباعة قيمة أو نص على مجرى الإخراج القياسي، يليها انتقال إلى سطر جديد. `System` Class و`out` Field للطباعة، و`println` اسم Method.
+**بالعربية:** أمر شائع لطباعة قيمة أو نص على `Standard Output`، يليها انتقال إلى سطر جديد. `System` Class و`out` Field للطباعة، و`println` اسم Method.
 
 ::: {.english-definition dir="ltr" lang="en"}
 
@@ -399,7 +399,7 @@
 
 ## [Escape Sequence]{dir="ltr" lang="en"}
 
-تركيب يبدأ بـ `Backslash` لتمثيل محرف خاص داخل النص، مثل `\n` أو `\"`.
+تركيب يبدأ بـ `Backslash` لتمثيل `Character` خاص داخل النص، مثل `\n` أو `\"`.
 
 ::: {.english-definition dir="ltr" lang="en"}
 
@@ -409,7 +409,7 @@
 
 ## [String]{dir="ltr" lang="en"}
 
-نص من محارف، نكتبه عادةً بين اقتباسين مزدوجين. `String` هي `Class` وليست `Primitive Type`.
+نص من `Characters`، نكتبه عادةً بين اقتباسين مزدوجين. `String` هي `Class` وليست `Primitive Type`.
 
 ::: {.english-definition dir="ltr" lang="en"}
 
@@ -479,7 +479,7 @@
 
 ## [Postfix]{dir="ltr" lang="en"}
 
-في `x++` أو `x--` قيمة `Expression` هي القديمة، لكن `Variable` يتحدث أثناء التقييم.
+في `x++` أو `x--` قيمة `Expression` هي القديمة، لكن قيمة `Variable` تتغيّر أثناء التقييم.
 
 ::: {.english-definition dir="ltr" lang="en"}
 

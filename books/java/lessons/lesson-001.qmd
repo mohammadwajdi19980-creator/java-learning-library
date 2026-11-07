@@ -233,7 +233,7 @@ System.out.println("Hello, Java!");
 
 إحنا بدنا نطبع نص. لذلك بنستخدم `System.out.println`. النص الموجود بين Double Quotes هو اللي رح يظهر على الشاشة، وبعده ينتقل المؤشر لسطر جديد.
 
-> `System` عبارة عن Class، و`out` Field يشير إلى مجرى الإخراج القياسي، و`println` إحدى Methods الخاصة بالطباعة. هاي التفاصيل رح تصير أوضح لما نوصل لمواضيع Classes وMethods.
+> `System` عبارة عن Class، و`out` Field يشير إلى `Standard Output`، و`println` إحدى Methods الخاصة بالطباعة. هاي التفاصيل رح تصير أوضح لما نوصل لمواضيع Classes وMethods.
 
 **خامسًا — Semicolon**
 

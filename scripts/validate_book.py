@@ -34,7 +34,7 @@ public_pages=[p for p in B.rglob('*.qmd') if '_book' not in p.parts]
 for p in public_pages:
  text=p.read_text()
  if re.search(r'youtu(?:be\.com|\.be)|\bvideos?\b|فيديو|تفريغ|\btranscripts?\b',text,re.I):errors.append(f'{p.relative_to(ROOT)}: video reference in public book')
- if re.search(r'(?<![\u0621-\u064a])(?:محرر|المحرر|متغير|المتغير|متغيرات|المتغيرات|مصفوفة|كائن|دالة|حلقة|الحلقة|عداد|التعبير|التعبيرات|الإسناد|المشروع|المشاريع)(?![\u0621-\u064a])',text):errors.append(f'{p.relative_to(ROOT)}: translated technical name')
+ if re.search(r'(?<![\u0621-\u064a])(?:محرر|المحرر|متغير|المتغير|متغيرات|المتغيرات|مصفوفة|كائن|دالة|حلقة|الحلقة|عداد|التعبير|التعبيرات|الإسناد|المشروع|المشاريع|محرف|المحرف|محارف|المحارف)(?![\u0621-\u064a])',text):errors.append(f'{p.relative_to(ROOT)}: translated technical name')
 glossary=(B/'glossary.qmd').read_text()
 definitions=re.findall(r'^\*\*English definition:\*\* .+$',glossary,re.M)
 blocks=re.findall(r'::: \{\.english-definition dir="ltr" lang="en"\}\n\n(\*\*English definition:\*\* [^\n]+)\n\n:::',glossary)

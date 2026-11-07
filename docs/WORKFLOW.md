@@ -31,7 +31,7 @@ The broader 523-topic Java_Master_Topic_Index includes other uploaded university
 ## 5. Terminology and direction contract
 
 - Keep technical names in English everywhere: Class, Object, Method, Constructor, Package, Array, Inheritance, Interface, Compiler, Source Code, Bytecode, JVM, and so on.
-- Explain their meaning in Arabic, without replacing their names with Arabic technical labels. Use Text Editor, Code Editor, Variable, Local Variable, Expression, Assignment, Loop, Counter, Project, and Build System; never substitute translated names. Ordinary Arabic explanation stays Arabic.
+- Explain their meaning in Arabic, without replacing their names with Arabic technical labels. Use Text Editor, Code Editor, Variable, Local Variable, Expression, Assignment, Loop, Counter, Project, Build System, Character, Control Characters, Empty Statement, and Standard Output; never substitute translated names. Ordinary Arabic explanation stays Arabic.
 - Put a main term on its own English heading or label, followed by the Arabic explanation.
 - Use LTR direction and bidirectional isolation for inline English where an inline occurrence is necessary.
 - Code, commands, filenames, API names, mathematical expressions, and Output remain LTR.
