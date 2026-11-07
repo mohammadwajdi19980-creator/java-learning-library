@@ -2,7 +2,9 @@ project:
   type: book
   output-dir: _book
   pre-render: python3 ../../scripts/sync_curriculum.py
-  post-render: python3 ../../scripts/finalize_epub.py
+  post-render:
+    - python3 ../../scripts/finalize_epub.py
+    - python3 ../../scripts/stamp_styles.py
   resources:
     - curriculum.json
     - assets/**

@@ -200,3 +200,4 @@ Use RELEASE-CHECKLIST.md. Update this guide when requirements or workflow change
 - Validate new source-to-heading references, asset registration and raw HTML navigation links as well as Markdown links.
 - Run scripts/finalize_epub.py through Quarto's post-render hook. It checks chapter titles/order before resolving remaining source-relative EPUB links. The rendered validator also checks EPUB XHTML, resources and anchors.
 - HTML-only dashboard sections use unless-format="epub"; EPUB navigation uses ordinary Markdown links. Keep one top-level heading per source chapter to preserve the book's chapter mapping.
+- scripts/stamp_styles.py versions the rendered stylesheet URL from its content hash. Keep the post-render hook so existing browser caches do not break new components after publication.
