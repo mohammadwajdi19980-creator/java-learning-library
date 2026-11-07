@@ -1,18 +1,34 @@
-# M06 — Arrays & Strings
+---
+title: "M06 · Arrays & Strings"
+---
 
-<div class="lesson-meta"><span>M06</span><span>BEGINNER</span><span>#024–#029</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 6 lessons available</span><span>0 transcripts received</span></div>
 
-<span class="english-term">Arrays & Strings</span>
+## Subjects
 
-هذه الوحدة تضم 6 فيديوهات أصلية. صفحات المواضيع في الأسفل مواضعها جاهزة؛ أي موضوع لم يصل نصه بعد لن يُقدَّم على أنه مشروح.
+### S12 · One-Dimensional Arrays
 
-## مواضيع الوحدة
+[Open Subject](../subjects/s12.qmd)
 
-- [S12 — One-Dimensional Arrays](../subjects/s12.qmd) — `#024–#027`
-- [S13 — Multidimensional Arrays](../subjects/s13.qmd) — `#028–#028`
-- [S14 — Strings](../subjects/s14.qmd) — `#029–#029`
+- #024 · One Dimensional Arrays (1D Array) — Awaiting transcript
+- #025 · One Dimensional Array (Exercises, Practice) — Awaiting transcript
+- #026 · One Dimensional Array (Char Array) — Awaiting transcript
+- #027 · Passing Arrays to Methods — Awaiting transcript
 
-## اختبار الوحدة والمشروع
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
-بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+### S13 · Multidimensional Arrays
 
+[Open Subject](../subjects/s13.qmd)
+
+- #028 · Multidimensional Arrays & Passing Multidimensional Arrays to Methods — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+
+### S14 · Strings
+
+[Open Subject](../subjects/s14.qmd)
+
+- #029 · String & Array String — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

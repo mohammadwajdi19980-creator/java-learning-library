@@ -1,0 +1,138 @@
+---
+title: "Switch Statements"
+subtitle: "اختَر حالة محددة وتتبّع أثر break وFall-Through"
+---
+
+<div class="lesson-meta"><span>M03 · S06</span><span>VIDEO #09</span></div>
+
+## Switch, Case & Default
+
+`switch` تفيد لما القرار قائم على تطابق قيمة مع حالات محددة. بنستخدم هنا الصيغة التقليدية في الفيديو: `case ...:` مع `break`.
+
+```java
+int choice = 2;
+switch (choice) {
+    case 1:
+        System.out.println("One");
+        break;
+    case 2:
+        System.out.println("Two");
+        break;
+    default:
+        System.out.println("Invalid choice");
+}
+```
+
+تقيّم القيمة، وتبحث عن الحالة المطابقة؛ `2` تطبع `Two`. `break` تخرج من `switch` وتكمل بعدها، مش من البرنامج كله. إذا لا توجد مطابقة، تبدأ من `default` إن وُجدت. بدونها ممكن لا ينفذ أي فرع.
+
+## Fall-Through
+
+إذا لم تجد `break`، التنفيذ يكمل من الحالة المطابقة للأسطر التالية، **دون إعادة فحص قيم بقية الحالات**.
+
+| choice = 2 | What executes | Output |
+|---|---|---|
+| بعد `case 2` توجد `break` | الحالة المطابقة فقط | `Two` |
+| حذفنا `break` وبعدها `case 3` تطبع `Three` | الحالة `2` ثم `3` حتى الخروج | `Two`, `Three` |
+| بعدها `default` دون فاصل | ممكن تصل إليها أيضًا | رسالة `default` قد تظهر رغم حدوث مطابقة |
+
+ترتيب الأرقام مش لازم تصاعديًا. لكن ترتيب الأسطر مهم عند `Fall-Through`؛ `default` مش جدارًا يوقف التنفيذ.
+
+## Shared Cases: Workdays
+
+**تمرين الفيديو:** الأيام `1–5` لها نفس النتيجة، و`6–7` نتيجة أخرى. هذا ترقيم المثال، مش ادعاء جدول عمل لكل بلد.
+
+```java
+switch (day) {
+    case 1: case 2: case 3: case 4: case 5:
+        System.out.println("Workday");
+        break;
+    case 6: case 7:
+        System.out.println("Weekend");
+        break;
+    default:
+        System.out.println("Invalid day");
+}
+```
+
+هنا عدم وضع `break` بين العناوين مقصود: كلها تصل لنفس التعليمة. `day = 2` → `Workday`، و`6` → `Weekend`، و`9` → `Invalid day`.
+
+## Selector & Case Rules
+
+| Rule in the traditional form used here | Example |
+|---|---|
+| نستعمل `byte`, `short`, `char`, `int` أو `String`، ويدعم أيضًا `enum` وبعض الأنواع المغلفة | التفاصيل الأخرى لاحقًا |
+| لا نستعمل `float`, `double`, `boolean`, `long` في هذه الصيغة الأساسية | لا تعتمد على ميزات `Preview` |
+| قيمة `case` ثابتة وقت الترجمة ومتوافقة مع نوع القيمة المفحوصة | `case 5 / 2:` تعني `case 2:` |
+| لا تكرر نفس القيمة | `case 2:` و`case 5 / 2:` تتعارضان |
+| متغير عادي ليس ثابتًا لـ `case` | `int x = 2; case x:` غير صالح |
+| لا نكتب مجالًا مباشرًا هنا | `case 1-5:` ليست اختصارًا لـ `1` حتى `5` |
+
+القيمة الثابتة قد تكون تعبيرًا يحسب أثناء الترجمة؛ مجرد معرفتك لقيمة متغير عادي لا تجعله ثابتًا. الشرط `value > 50 && value < 100` مناسب لـ `if`، مش عنوان `case` في الصيغة اللي نتعلمها.
+
+`'A'` تختلف عن `'a'`، و`"Adel"` تختلف عن `"adel"`. مع `char` نستخدم اقتباسًا مفردًا، ومع `String` مزدوجًا. ممكن عدة تعليمات داخل كل حالة، وممكن تضع `if` داخلها؛ هالحالتان لا تغيّران قواعد المطابقة.
+
+## Worked Example: Calculator
+
+احفظ باسم `SwitchCalculator.java`. من تمرين الفيديو: عملية ورقمان صحيحان. أضفنا فحص الصفر حتى لا يفشل مثال القسمة أثناء التطبيق.
+
+```java
+import java.util.Scanner;
+
+public class SwitchCalculator {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        char operation = input.next().charAt(0);
+        int first = input.nextInt();
+        int second = input.nextInt();
+        switch (operation) {
+            case '+':
+                System.out.println(first + second);
+                break;
+            case '-':
+                System.out.println(first - second);
+                break;
+            case '*':
+                System.out.println(first * second);
+                break;
+            case '/':
+                if (second == 0) {
+                    System.out.println("Cannot divide by zero");
+                } else {
+                    System.out.println(first / second);
+                }
+                break;
+            case '%':
+                if (second == 0) {
+                    System.out.println("Cannot divide by zero");
+                } else {
+                    System.out.println(first % second);
+                }
+                break;
+            default:
+                System.out.println("Invalid operation");
+        }
+    }
+}
+```
+
+**Input** `* 5 5` → **Output** `25`. كذلك `% 10 11` → `10`، و`/ 5 2` → `2` لأن الطرفين `int`. أدخل العملية ثم الرقمين، سواء بأسطر أو بفواصل بيضاء.
+
+كما يناقش الفيديو، ممكن تحسّن طلب الإدخال بوضع قراءة الرقمين بعد التأكد من صلاحية الاختيار، بدل طلبهما لعملية غير معروفة. هالمثال يحافظ على ترتيب القراءة المبسط.
+
+## Knowledge Check
+
+1. هل `break` إلزامية دائمًا؟
+2. هل `case 5 / 2:` تطابق `2.5`؟
+3. لماذا تفضّل `if` عند فحص مجال درجات؟
+
+<details><summary>Answers</summary>
+
+1. لا؛ نتركها عند تجميع الحالات عن قصد. حذفها دون قصد يسبب `Fall-Through`.
+2. لا؛ القسمة الصحيحة تعطي `2`.
+3. لأن المجال يحتاج مقارنات وشروطًا، بينما الصيغة الحالية لـ `switch` تطابق قيمًا محددة.
+
+</details>
+
+## Source & Accuracy
+
+[Adel Nasim · #09](https://www.youtube.com/watch?v=x-NRDz7RvtU) · `00:00–18:54`. يغطي المطابقة و`break` و`default` والتجميع وأنواع القيمة والتعبيرات والقسمة و`Calculator` و`Case Sensitivity` والثوابت والمجالات. [Oracle: Switch](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html) يطابق الصيغة التقليدية؛ لا نضيف صيغ `switch` الحديثة خارج نطاق الفيديو.

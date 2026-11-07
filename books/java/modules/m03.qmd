@@ -1,17 +1,28 @@
-# M03 — Selection Statements
+---
+title: "M03 · Selection Statements"
+---
 
-<div class="lesson-meta"><span>M03</span><span>BEGINNER</span><span>#07–#09</span></div>
+<div class="lesson-meta"><span>Complete</span><span>3 / 3 lessons available</span><span>3 transcripts received</span></div>
 
-<span class="english-term">Decisions</span>
+## Subjects
 
-هذه الوحدة تضم 3 فيديوهات أصلية. صفحات المواضيع في الأسفل مواضعها جاهزة؛ أي موضوع لم يصل نصه بعد لن يُقدَّم على أنه مشروح.
+### S05 · Conditions & Comparisons
 
-## مواضيع الوحدة
+[Open Subject](../subjects/s05.qmd)
 
-- [S05 — Conditions & Comparisons](../subjects/s05.qmd) — `#07–#08`
-- [S06 — Switch Statements](../subjects/s06.qmd) — `#09–#09`
+- [#07 · If & Else](../lessons/lesson-007.qmd)
+- [#08 · Logical, Ternary & Instanceof](../lessons/lesson-008.qmd)
 
-## اختبار الوحدة والمشروع
+Review & Exam متاح بعد الدروس المذكورة.
 
-بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+### S06 · Switch Statements
 
+[Open Subject](../subjects/s06.qmd)
+
+- [#09 · Switch](../lessons/lesson-009.qmd)
+
+Review & Exam متاح بعد الدروس المذكورة.
+
+## Reading Path
+
+ابدأ من [#07](../lessons/lesson-007.qmd)، وراجع كل Subject بعد دروسه. اتبع Previous / Next للتقدّم بالترتيب.

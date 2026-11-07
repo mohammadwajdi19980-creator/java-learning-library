@@ -132,5 +132,73 @@
     "type": "educational-diagram",
     "source": "Original mobile adaptation",
     "validated": true
+  },
+  {
+    "id": "reference-if-else-generic",
+    "file": "assets/reference/if-else-generic.svg",
+    "type": "online-explanatory-image",
+    "source_page": "https://commons.wikimedia.org/wiki/File:If-Then-Else-diagram.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:If-Then-Else-diagram.svg",
+    "author": "P. Kemp",
+    "license": "CC0 1.0",
+    "changes": "None; locally stored original",
+    "owner_lessons": [
+      7
+    ],
+    "alt": "See the lesson figure alternative text",
+    "validated": true,
+    "validation": "XML parsed if SVG; rasterized and visually inspected; live load check pending",
+    "selection": "Online-first search; concept matched to source talking point; code examples and image values distinguished"
+  },
+  {
+    "id": "reference-while-flow",
+    "file": "assets/reference/while-flow.jpg",
+    "type": "online-explanatory-image",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Flowchart_while.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Flowchart_while.jpg",
+    "author": "Kenneth Leroy Busbee",
+    "license": "CC BY 3.0",
+    "changes": "None; locally stored original",
+    "owner_lessons": [
+      10
+    ],
+    "alt": "See the lesson figure alternative text",
+    "validated": true,
+    "validation": "XML parsed if SVG; rasterized and visually inspected; live load check pending",
+    "selection": "Online-first search; concept matched to source talking point; code examples and image values distinguished"
+  },
+  {
+    "id": "reference-do-while-flow",
+    "file": "assets/reference/do-while-flow.svg",
+    "type": "online-explanatory-image",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Do-while-loop-diagram.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Do-while-loop-diagram.svg",
+    "author": "P. Kemp",
+    "license": "CC0 1.0",
+    "changes": "None; locally stored original",
+    "owner_lessons": [
+      12
+    ],
+    "alt": "See the lesson figure alternative text",
+    "validated": true,
+    "validation": "XML parsed if SVG; rasterized and visually inspected; live load check pending",
+    "selection": "Online-first search; concept matched to source talking point; code examples and image values distinguished"
+  },
+  {
+    "id": "reference-for-generic",
+    "file": "assets/reference/for-generic.svg",
+    "type": "online-explanatory-image",
+    "source_page": "https://commons.wikimedia.org/wiki/File:For-loop-diagram.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:For-loop-diagram.svg",
+    "author": "Giacomo Alessandroni, based on Faxe",
+    "license": "CC BY-SA 4.0",
+    "changes": "None; locally stored original",
+    "owner_lessons": [
+      13
+    ],
+    "alt": "See the lesson figure alternative text",
+    "validated": true,
+    "validation": "XML parsed if SVG; rasterized and visually inspected; live load check pending",
+    "selection": "Online-first search; concept matched to source talking point; code examples and image values distinguished"
   }
 ]

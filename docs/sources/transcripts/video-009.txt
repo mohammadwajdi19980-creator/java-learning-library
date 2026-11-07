@@ -1,0 +1,162 @@
+Here is the verbatim transcript of the video **"#09 [JAVA] - Selection Statement (Switch Statements)"** by Adel Nasim:
+
+[[00:00](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=0)] بسم الله الرحمن الرحيم.
+[[00:01](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1)] بعد ما اخذنا والاف راح ناخذ اخر نوع من انواع راح نتحدث على الا سويتش عباره عن ستيت فيها شبه
+[[00:15](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=15)] كبير من الاول.
+[[00:18](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=18)] لكن الها رئيسات تقولها عيوب راح نتعرف عليها في هذا الفيديو خلينا نتعرف على
+[[00:30](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=30)] الاقوى في عندي قيمة معينه داخل هذا الامر او مجموعة
+[[00:42](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=42)] تستقبل معينه مثلا قيمة رقم صحيح ان كان القيمة راح تنفذ معينه.
+[[00:53](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=53)] تحتوي على جزء من هذا الكاس راح يكون يحمل قيمة
+[[01:03](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=63)] سواء كانت رقم صحيح مثلا واحد الارقام او كانت قيمة حرف معين مثلا او كانت قيمة
+[[01:17](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=77)] لازم تكون يعني ما بيصير انه انا اكون في عندي مثلا اروح انا هذا الكيس الكرام القيام المفروض تكون تغير
+[[01:33](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=93)] نقول انه العشره مثلا اقل من العشرين او الى اخره.
+[[01:37](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=97)] فقط.
+[[01:40](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=100)] ممكن ممكن غير متناهي لكن الاخرى.
+[[01:46](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=106)] المفروض تكون قيمة الان تبعتها
+[[01:52](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=112)] المفروض
+[[01:58](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=118)] 45 فيهم المفروض يكون مختلفه على الاخرى لانه انا اول ما راح يكون في معينه مثلا كانت الرقم واحد راح
+[[02:11](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=131)] يروح يدور في الكيس.
+[[02:13](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=133)] في الوقت اللي مثلا الكيس الاولى وحدها هي في البدايه بعد تم مثلا اربعة راح اروح ادور على الكيس الرابعه
+[[02:22](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=142)] و يبلش من عندها التنفيذ ناخذ مثال تشوف شو ممكن تلزمنا على فرض انا كان في هذا المتغير وهذا المتغير
+[[02:30](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=150)] مثلا قيمته تساوي هذا المتغير ممكن انا اول الاستيطان وبناء على قيمة هذا المتغير انا انا معينه الكيس الاولى ممكن
+[[02:42](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=162)] مبدئيا فيها مثلا كيف ان الكيس الثانيه.
+[[02:50](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=170)] خلينا نكتفي بهذا القدر من الكيس وشوف الاساسيه بتشتغل تقول كلمات نهى كيس معينه المفروض ان نكتب الكيبورد رايك (break).
+[[03:01](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=181)] وراح نعرف شو فايدتها.
+[[03:03](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=183)] انا ما خلص معينه المفروض ان هي الكيبورد برايك معناتها انه انا انهيت العمل في هاي الكيس وخلاص ما راح
+[[03:12](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=192)] اخرى.
+[[03:13](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=193)] خلينا نجرب احنا عرفناه متغيره هذا المتغير اللي اسمها يحتفظ بالقيم اثنين راح ادور هل هي الكيس عملت ماتش ما
+[[03:22](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=202)] قيمة الايه 2.
+[[03:23](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=203)] لا راح اروح الكيس اللي بعدها.
+[[03:25](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=205)] هل هاي الكيس كانت تساوي نفس القيمة اللي داخل ال اكس.
+[[03:29](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=209)] اه انا تروح نفذ هذا الكيس بمعنى راح يطبق وبعدها راح يعمل برايك راح يخرج من طيب هل انا ملتزم
+[[03:36](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=216)] بترتيب معين يعني مثلا ب لازم اقرب واحد اثنين ثلاثة ممكن هون تكتب مثلا اربعة ثلاثة مش مهم الترتيب انت
+[[03:43](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=223)] باي قيمة بدك ياه لكن المهم منها تكون قيمة
+[[03:48](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=228)] واحد بعدما 2 رتب على انه انت كيف طيب افرض انه انت ما كتبت لكي وورد برايك.
+[[03:57](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=237)] روح نام عليها كمان بيروح نعم جديد ونشوف ايش راح تصير راح ليش هون اشتغلت اللي ستيت ما اخذت قيمة
+[[04:07](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=247)] العكس.
+[[04:07](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=247)] واللي هي اثنين بلشت دور الماتش ما قيمة العكس اللي اثنين الكيس الثانيه عملت يعني داخلها.
+[[04:17](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=257)] وبعد هيك كمل ليش لانه ما لاقي برايك برايك وظيفتها انه تكسر بمعنى تخرج من مش موجوده برايك.
+[[04:27](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=267)] راح يكمل من عند الكيس اللي ما مع القيمة الى ان بعدها على فرض انه انا القيمة اللي بعدها ما
+[[04:35](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=275)] عمل تماس مع اي كيس الموجودات يعني مثلا كانت العكس عباره عن خمسة احنا ما نشوف ايش قصير.
+[[04:43](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=283)] لاحظ ما طب على اي ليش لانه دور هل العكس في داخلها القيمة خمسة مع الكاس الاول
+[[04:53](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=293)] من الكيس داخل الى سويتش بيفرض انه انا بدي بها لوزاره ان الكيس تم ادخالها مش موجوده من ضمن الكيس
+[[05:01](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=301)] اللي عندنا هون في عندنا كوارث اخر ممكنا نستخدمه اللي هو ممكن داخلها (default).
+[[05:08](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=308)] اكتب اي بروتوكول لا يوضح لليوزر ان ادخل كيس من ضمن الكيس اللي حنا طارحينها يعني مثلا دكتور.
+[[05:17](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=317)] ونعمل مجرد افكار بالفعل.
+[[05:20](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=320)] انا مش من ضمن الخيارات اللي حنا طارحينها كونه العكس هي خمسة او حتى مثلا ثلاثة راح روح نفذ ال
+[[05:26](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=326)] كيف طيب افرض انا حطيت الكاس ترى لحالها واللي راح نفصلها مع الدفن قلنا مرات لاحظ
+[[05:38](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=338)] ليش لانه ما حطينا بيناتهم الى حطيت مثلا ان احنا فيهم كلهم حتى لك ليش لانه ما في عندنا برايك
+[[05:47](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=347)] الفائده بالبريك اني افصل بين الكيس مثلا حطينا طلعت من جديد راح يقطع كيس تريد بالضبط.
+[[05:55](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=355)] طيب هل انا دائما ملزم ان اكتب رايك.
+[[05:58](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=358)] شو الكيس اللي ممكن ما اكتب فيها برايك مثلا انت كان في عندكم تغير اسم سبيل المثال.
+[[06:04](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=364)] وهذا الدين.
+[[06:04](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=364)] استقبل رقم معين.
+[[06:06](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=366)] خلينا نفترض انه رقم من ارقام الاسبوع الاسبوعيه والدي راح يكون يوم من الايام.
+[[06:13](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=373)] وانا بدي اكمل البرنامج يستخدم التي سيتم ان على اساس سياره ان تدخلت ه هل هو ولا يوم عمل.
+[[06:21](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=381)] واليوم اجازه مره ثانيه.
+[[06:23](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=383)] بدنا نكتب برنامج يستخدم الفيتو على اساس يعرف ادى الى ان تدخلت عباره عن يوم عمل.
+[[06:30](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=390)] واليوم اجازت احنا متفقين انه في انها 5 ايام عمل.
+[[06:33](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=393)] اللي هم من الاحد الخميس وين اجازه اللي هم مجموعة بغض النظر انه الاجازات ممكن تختلف من منطقه الى منطقه
+[[06:33](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=393)] .
+[[06:39](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=399)] من بلد لبلد لكن نحن اعتمدنا انه الايام مثلا الخميس والجمعه.
+[[06:44](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=404)] لكن ناس يمكن تعتبر المؤسسات للاربعه الشورى وخمسة جامعه وطلبه ما في مشكله.
+[[06:49](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=409)] ايام الاسبوع الزمني كم يلزمني.
+[[06:52](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=412)] 7 كيف احنا مساحه واحد اثنين ثلاثة اربعة خمسة سته سبعة والقيمة اللي انعملت شك عليها اللي هي قيمة الدين
+[[06:52](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=412)] .
+[[07:03](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=423)] واحنا في حاله اذا كانت قد اي قيمة من احد هادول الكيس اللي هم من 1 ل 5 راح نقول
+[[07:09](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=429)] له انه احنا اما اذا كانت الايام.
+[[07:14](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=434)] اليوم السادس او لا بس هذا ما نقوله انه احنا بويك طبعا الله انا برايك على اساس ما يكمل على
+[[07:22](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=442)] كل 671.
+[[07:25](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=445)] لاحظ اشتركت ادى اكثر من كيس بنفس النتيجة يعني انا اذا كانت اليوم الاول بيكون عندي يوم عمل اليوم الثاني
+[[07:33](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=453)] يوم عمل ثالث ورابع خامس يوم عمل الحاله حاجه نحط برايك فيش داعي نكرر الكيس الرابعه والكل سالته والى اخره
+[[07:43](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=463)] ان الكيس كلهم انا متفق انهم يشتركوا بنفس الرزق لهيك في حاله ما استخدم فيها البريس والثانيه خلينا نخلي الامور
+[[07:43](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=463)] .
+[[07:52](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=472)] شو رايك مطلب العسكري
+[[08:05](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=485)] الى داخل الكاس كان وخلينا بدل ما احنا ما بقى مباشرة البدايه نقول ان
+[[08:14](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=494)] انت في الانبار مثلا لاحظ معنا على فرض انه نختار مثلا اثنين اللي خلتنا احنا العام الجديد مثلا سته حكا
+[[08:33](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=513)] لي احنا مثلا اروح اخر مثلا تسعة حكى لي انه تسعة مش من الاول شان اللي عندنا الممتاز تكلمنا بكم
+[[08:43](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=523)] قاعده على ال كيف كيف ممكن الباليو اللي هذا الكاس.
+[[08:47](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=527)] لكن ما تكلمنا عن القيمة اللي بعدها للتسويه تستقبل مجموعة.
+[[08:53](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=533)] من القيم ممكن تكون قريبه تاوتاو كراكتر او اتجاه ليش ما تستقبل من احد اللي الخاصة بالاسمنت انها ما ب
+[[09:07](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=547)] تستقبل اليوم يعني مش ممكن يعني داخل الاستاذ ارواح اقول واحد ونص هذا الكلام خاطئ.
+[[09:15](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=555)] وهذه من احد اللي من داخل السوق ستيت من حتى اذا انا مثلا راح تعرف تغير فلوس سميتها مثلا وقلت
+[[09:22](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=562)] مثلا انه يساوي الواحد
+[[09:26](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=566)] حتى اذا كان باردو انا ممكن بس انا بعد قيمة متغير معين او لاليه معينه مثلا واحد اقول لك ممكن
+[[09:36](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=576)] ان يكون مبعوثا معين.
+[[09:39](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=579)] كيف يعني يعني مثلا 2 ضرب 8 تقسيم اثنين ممكن ان نبعد معين.
+[[09:44](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=584)] لكن السؤال اللي ممكن يقتل بالكافر تتبع هذا الاكتشاف كان في كيفيه شو دكتور كيف يعني خمسة تقسيم اثنين كان
+[[09:53](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=593)] تعطيني لكن ما راح تهمل الجزء العشره اللي بعد الفاصل راح تعطيني الاجهزه الصحيح.
+[[10:01](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=601)] يعني راح يكون الناتج في هاي الحاله عباره عن اثنين فرصه كبيره انه هذا السؤال يجي اترك بسيط و ت
+[[10:07](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=607)] تروح تكتب انه الاوسط مثل هذا السؤال ان تعكس ايران لكن خلينا اللي بيصير انه بس من خمسة على اثنين
+[[10:13](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=613)] اثنين ونص يحمل العشره.
+[[10:15](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=615)] طيب خلينا نجرب اثناء بالكومنت على عملية صارت مع المساجد تشوف راح طب على ويك ايش صار هون 52 اهمل
+[[10:28](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=628)] الناس يعني اذا كان كاتب هون بالضبط.
+[[10:30](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=630)] اثنين اروح الثانيه الثانيه ما فيها دريك بعدها استبقتها بما فيها برايك حروح اربعة على الخامسة راح يطلع هذا راح
+[[10:39](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=639)] يسبب برايك راح يخرج طيب هل ممكن اخر غير القرار والانفجار ممكن انه تقبله سويتش ممكن تقبل متغير طبيعي جدا
+[[10:39](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=639)] .
+[[10:51](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=651)] وممكن تقبل الأمرين.
+[[10:53](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=653)] وان شاء الله راح نتحدث عنها.
+[[10:55](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=655)] بالفيديوهات اللاحقه باذن الله.
+[[10:57](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=657)] طيب خلينا حاليا في تعاملنا مع ال بالانفجار خلال نتعامل مع الكركتر قرينا باستخدامه سيتم انت مصمم كليتها البسيطه.
+[[11:06](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=666)] اذا مر على السويد احد الا رسماتك اوبرويتر سواء كان قسم جماعه طرح او حتى من الخلل السويد هذا الارث
+[[11:18](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=678)] اوبرويتر على تقريبا سواء كانوا ان تجار او في خلينا
+[[11:26](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=686)] خلينا نعمل السبل الكويت ا استخدام ال سويت اول شيء انا بحاجه راح اخذ قيمته بالاسكان واتفقنا عشان اخذ ك
+[[11:39](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=699)] اكثر واحد نقول ادوات كثيره يروح خلينا نقول له المسجد بسيط انت
+[[11:51](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=711)] اللي اسمه جماعه وبعد ما تدخل عندي هاي القيمة راح اروح انا ابعث خلينا الكويت ا اولا راح يكون في
+[[12:01](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=721)] عندي مجموعة بالكيس اول كيف راح تكون عندي مثلا اذا دخل في الدار الواحد كوني بتكلم عن سرعتها بين هون
+[[12:09](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=729)] راح يتنفذ عندي على السريع.
+[[12:13](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=733)] طب ال ليش الاخر اللي راح يلزمني.
+[[12:16](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=736)] واللي هو المتغيرين اللي انا راح جمعهما وراح طرحهما وراحت ربهم خلينا على فرض نستخدم الان تجار بيقول عنوان تقريبا
+[[12:26](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=746)] شو رايك مباشرة وناخذ قيامهم بعد ما اخذنا قيمة الاريتري مع العلم ممكن داخل السوق السيد متناقض قيامهم لكن ما
+[[12:33](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=753)] في مشكله احنا بطرح مثال ممكن نغير وفي الطريق اللي بتناسبني ان وان.
+[[12:39](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=759)] نفس المسجد حيكون بعده ال انتم تقولون انه الان وان اساوي نفس الكلام راح يكون ال انتم خلينا نرجع الاستاذ
+[[12:50](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=770)] هون في حال دخل الضرب راح يصير راح نقول له مثلا انه الرزق تساوي الرقم الاول مضروب.
+[[12:58](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=778)] والرقم الثاني يعني الاخوات بعد هيك المفروض ونفس الشيء راح يكون في عملية القسمه نقسم بناتهم بالموت الجماعه خلينا نجرب
+[[13:11](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=791)] نعم.
+[[13:12](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=792)] اول شيء طالب مني ان ادخل او بارز من هذه القدرات الموجودات شو رايك مدخل دخلت الدار.
+[[13:20](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=800)] وانت طلب مني ان ادخل الرقم الاول تقول له.
+[[13:24](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=804)] 5 ادخال الرقم الثاني بردو خمسة راح احكي لي انه الرجل تساوي خمسة وعشرين العمل الجديد.
+[[13:31](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=811)] خلينا ندخل له مثلا ما بدي اقول الرقم الاول عشره.
+[[13:36](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=816)] والرقم الثاني مثلا احداش عارفين 10 من 11.
+[[13:39](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=819)] كما راح تكون بالضبط راح تكون عشره كان الرقم الى شمال قالب العدد العالمين الناتج.
+[[13:45](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=825)] طيب في حال وجود مثلا طلب مني ندخل عنوان وانتوا على الحالي انه مش من ضمن ال او بشان او
+[[13:55](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=835)] مش من ضمن المباريات.
+[[13:56](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=836)] فممكن انا نوع من انواع التنسيق عملية اخذ تكون داخل الكيس الجانب هاي الحاله.
+[[14:03](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=843)] وطلب مني ادخال متغيرين مع اني دخلت خاطئ تتعامل مع الكراك الكراك عباره عن كيف لما تكون انت بمعنى خلينا
+[[14:16](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=856)] نفترض انه الكيس اللي عندي عباره عن احرف مثلا عندي بيكفي مثلا
+[[14:29](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=869)] خلينا عندك الحرب.
+[[14:37](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=877)] قال لي انت دخلت له حرف الاي مثلا راح حرف الايه.
+[[14:42](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=882)] طيب افرض انه احنا عملنا احنا دخلنا لو مثلا
+[[14:49](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=889)] في هاي الحاله في هذه الحاله.
+[[14:52](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=892)] راح اللي على الدين ليش لانه احنا بنتعامل مع كيس عباره عن كيس ما بتعتبر انه نفس الاسم لا بدك
+[[15:01](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=901)] تفرج انه كل واحد فيهم وراح نعرف في الدروس الجاي ان شاء الله.
+[[15:06](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=906)] شو معاملات الى ستين عاما نفس معامله الكراكتر لكن بدل ما يكون الانسان الكوت ممكن يكون انت الكوت.
+[[15:14](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=914)] يعني مثلا يقولوا انه مثلا اعطي قيمة معينه مثلا يروح نقول في حال مثلا عليهم في حال شفت التفاهم
+[[15:31](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=931)] ان احنا متفقين انه.
+[[15:34](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=934)] الكيس الاولى.
+[[15:35](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=935)] لكن خلينا نن نخلي اخرها رفع عباره عن نجرب ونشوف شو راح يطلع لنا خلينا ن وقف عملية ادخال
+[[15:45](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=945)] ان والستين اللي موجود مش من ضمن يعني تؤكد على فكرة الكاس.
+[[15:51](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=951)] معلومه اضافيه ممكن اذكر لك اياه في الاسواق.
+[[15:55](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=955)] افرض انك تكتب اكثر من اين ممكن تكتب اكثر من ال اين بكل سهوله.
+[[16:00](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=960)] وممكن انك تروح تفتح بلوك وتكتب اللي بدك اياه.
+[[16:05](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=965)] بمعنى ممكن اروح انا فتح وداخله مثلا اكتب معين ان اقول مثلا انه العشره اكبر من ثمانية
+[[16:19](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=979)] اواي كود بخطر على بالي ممكن ان يضيفوا كل سهوله واخر ان اذكرك بالروز الخاصة بالسويتش ستيتمنت انه بالسويتش ان
+[[16:31](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=991)] يكون في عندي اكثر من كيف باليوم متشابهين هذا الكلام مرفوض وانه البالغ الخاصة بال كيف يكون الخاص فيها هو
+[[16:38](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=998)] نفسه الاساسي سيتم يعني ما بيصير مثلا يكون عندي سين وروح ما بيصير لازم يكونوا نفس طيب.
+[[16:47](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1007)] وهاي ممكن من الاسئله التركي اللي ممكن تجيء وقيمة الكيس كونستان على ما تكون دائما بمعنى انه لم اكن بعدم
+[[16:55](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1015)] تغير معين مثلا كان يدي متغير مثلا يكون
+[[17:01](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1021)] والارقام وانا هون حكيت انه الكيس اكس احنا عارفين انه داخلها 22 كل الامور كونستانت مشترك.
+[[17:11](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1031)] لكن ممكن انك تشوف سبب هذا المنظر زائد واحد.
+[[17:27](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1047)] وعلى اساس كل الشكوك ممكن اذا جات رقم في او راح اكيد يرفض الا اذا كان ناتج هذا الكيس رقم
+[[17:35](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1055)] بوتين مثلا بدنا ن 52.
+[[17:38](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1058)] اعطيك كان ونص ترجع بنفس القاعده اللي اخذنا كل سوى انه راح يعمل الجزء العشره الصحيح واخر.
+[[17:47](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1067)] نعم.
+[[17:47](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1067)] موضوع يعني وانا بدل ما اكتب مثلا ان كاسترو يكون كل الكيس مشتركين بنفس الرساله زي مثال الدين في هذا
+[[17:58](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1078)] المثال الاصلاحات في عندي اكثر من كيس مشتركات بنفس الرسل مثلا الناس اقول له مثلا كيس من 15.
+[[18:05](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1085)] هاي الطريقة في بعض النقاط لكن موضوع يعني مثلا انا اقول في الكونغرس الموجود داخل انه مثلا اذا كان هذا
+[[18:15](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1095)] الكيس على صوره تكون اذا كان مثلا قيمة بارد المعين.
+[[18:19](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1099)] اكبر من الخمسين وبنفس الوقت اقل من مائه بس مدعوم عملية في هاي الطريقة اللي موجوده
+[[18:31](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1111)] استخدم الاف وفي حال كان في عندي استخدم الاخر من احد الاسباب البرامج فضلها انها واضحه لما كنا تعامل انا
+[[18:45](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1125)] مع المنيوم امور الفشل ولهو ن نوصل نهاية هذا الفيديو نشوفكم في موضوع جديد.
+[[18:53](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1133)] يعطيكم العافيه.
+[[18:54](https://www.youtube.com/watch?v=x-NRDz7RvtU&t=1134)] السلام عليكم.

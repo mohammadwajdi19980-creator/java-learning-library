@@ -1,17 +1,29 @@
-# M02 — Data, Operators & Input
+---
+title: "M02 · Data, Operators & Input"
+---
 
-<div class="lesson-meta"><span>M02</span><span>BEGINNER</span><span>#03–#06</span></div>
+<div class="lesson-meta"><span>Complete</span><span>4 / 4 lessons available</span><span>4 transcripts received</span></div>
 
-<span class="english-term">Core Syntax & Input</span>
+## Subjects
 
-هذه الوحدة تضم 4 فيديوهات أصلية. صفحات المواضيع في الأسفل مواضعها جاهزة؛ أي موضوع لم يصل نصه بعد لن يُقدَّم على أنه مشروح.
+### S03 · Data Types & Operators
 
-## مواضيع الوحدة
+[Open Subject](../subjects/s03.qmd)
 
-- [S03 — Data Types & Operators](../subjects/s03.qmd) — `#03–#05`
-- [S04 — Input & Formatted Output](../subjects/s04.qmd) — `#06–#06`
+- [#03 · Data Types](../lessons/lesson-003.qmd)
+- [#04 · Arithmetic Operators](../lessons/lesson-004.qmd)
+- [#05 · Prefix & Postfix](../lessons/lesson-005.qmd)
 
-## اختبار الوحدة والمشروع
+Review & Exam متاح بعد الدروس المذكورة.
 
-بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+### S04 · Input & Formatted Output
 
+[Open Subject](../subjects/s04.qmd)
+
+- [#06 · Scanner & Printf](../lessons/lesson-006.qmd)
+
+Review & Exam متاح بعد الدروس المذكورة.
+
+## Reading Path
+
+ابدأ من [#03](../lessons/lesson-003.qmd)، وراجع كل Subject بعد دروسه. اتبع Previous / Next للتقدّم بالترتيب.

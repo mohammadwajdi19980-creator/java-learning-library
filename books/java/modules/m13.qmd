@@ -1,20 +1,52 @@
-# M13 — File I/O
+---
+title: "M13 · File I/O"
+---
 
-<div class="lesson-meta"><span>M13</span><span>APPLIED CORE</span><span>#067–#076</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 10 lessons available</span><span>0 transcripts received</span></div>
 
-<span class="english-term">File I/O</span>
+## Subjects
 
-هذه الوحدة تضم 10 فيديوهات أصلية. صفحات المواضيع في الأسفل مواضعها جاهزة؛ أي موضوع لم يصل نصه بعد لن يُقدَّم على أنه مشروح.
+### S31 · Byte Streams
 
-## مواضيع الوحدة
+[Open Subject](../subjects/s31.qmd)
 
-- [S31 — Byte Streams](../subjects/s31.qmd) — `#067–#069`
-- [S32 — Files & Directories](../subjects/s32.qmd) — `#070–#071`
-- [S33 — Character Streams](../subjects/s33.qmd) — `#072–#074`
-- [S34 — Scanner for Files](../subjects/s34.qmd) — `#075–#075`
-- [S35 — Serialization](../subjects/s35.qmd) — `#076–#076`
+- #067 · File Handling (java.io, Byte & Character stream, InputStream & OutputStream subclasses) — Awaiting transcript
+- #068 · File Handling (FileInputStream class, Character size vs String size) — Awaiting transcript
+- #069 · File Handling (FileOutputStream class, Reading and Writing images, Arabic letters) — Awaiting transcript
 
-## اختبار الوحدة والمشروع
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
-بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+### S32 · Files & Directories
 
+[Open Subject](../subjects/s32.qmd)
+
+- #070 · File Handling (File class) — Awaiting transcript
+- #071 · File Handling (File class, Directories Add/Remove, Constructors) — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+
+### S33 · Character Streams
+
+[Open Subject](../subjects/s33.qmd)
+
+- #072 · File Handling (Reader class/Writer class hierarchy, FileWriter & FileReader) — Awaiting transcript
+- #073 · File Handling (BufferedReader / BufferedWriter classes, Read file line by line) — Awaiting transcript
+- #074 · File Handling (PrintWriter class, Constructors & Methods) — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+
+### S34 · Scanner for Files
+
+[Open Subject](../subjects/s34.qmd)
+
+- #075 · File Handling (Scanner class, Constructors & Methods, useDelimiter, delimiter) — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+
+### S35 · Serialization
+
+[Open Subject](../subjects/s35.qmd)
+
+- #076 · File Handling (Serialization and Deserialization, Read & Write multiple objects) — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

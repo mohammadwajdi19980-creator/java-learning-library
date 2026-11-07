@@ -1,0 +1,155 @@
+---
+title: "Scanner Input & Printf"
+subtitle: "اقرأ قيم المستخدم واعرضها بتنسيق واضح"
+---
+
+<div class="lesson-meta"><span>M02 · S04</span><span>VIDEO #06</span></div>
+
+## User Input
+
+لحد الآن إحنا بنكتب القيمة داخل البرنامج. بدنا المستخدم يدخلها وقت التشغيل. `System.in` مصدر الإدخال المعتاد، و`Scanner` تقرأ منه القيم.
+
+```java
+import java.util.Scanner;
+```
+
+هذا السطر قبل تعريف `Class`. بعدها داخل `main`:
+
+```java
+Scanner input = new Scanner(System.in);
+System.out.print("Enter an integer: ");
+int x = input.nextInt();
+System.out.println(x);
+```
+
+`input` اسم اخترناه؛ ممكن اسم آخر بشرط نستخدمه بشكل متسق. `new Scanner(System.in)` تجهز `Object` للقراءة؛ نفهم دورها الآن دون الدخول في تفاصيل `OOP`. البرنامج ينتظر عند القراءة حتى تدخل القيمة وتضغط `Enter`. رسالة الطلب لازم تسبق القراءة حتى يعرف المستخدم شو يدخل.
+
+## Choose the Reading Method
+
+| Method | Expected value |
+|---|---|
+| `nextByte()` / `nextShort()` | عدد صحيح ضمن مدى النوع |
+| `nextInt()` / `nextLong()` | عدد صحيح ضمن مدى النوع |
+| `nextFloat()` / `nextDouble()` | قيمة عددية تقبل كسورًا |
+| `nextBoolean()` | `true` أو `false` |
+| `next()` | كلمة واحدة حتى الفاصل التالي |
+| `nextLine()` | بقية السطر، بما فيها الفراغات |
+| `next().charAt(0)` | أول محرف من الكلمة المقروءة |
+
+ما في `nextChar()` ضمن هذه الطريقة. إذا كتبت `Ahmad Ali` إلى `next()` تحصل على `Ahmad`؛ `nextLine()` تستطيع قراءة الاسم كاملًا. و`charAt(0)` تختار أول محرف لأن البداية عند الموضع `0`.
+
+إدخال `1.5` عند `nextInt()` يسبب `InputMismatchException` أثناء التنفيذ، بدل أن يتحول تلقائيًا إلى `1`. وكذلك العدد الخارج عن مدى النوع غير مقبول. اختر `Method` مناسبة للقيمة المطلوبة.
+
+**توضيح عملي قصير:** إذا قرأت رقمًا ثم أردت سطرًا جديدًا كاملًا، قد يبقى فاصل نهاية السطر بعد الرقم. استهلكه بـ `input.nextLine();` مرة، ثم اقرأ النص بـ `nextLine()` ثانية. هذه ليست قاعدة لتكرارها قبل كل قراءة.
+
+## Printf Formatting
+
+بدل تجميع نص طويل يدويًا، نكتب قالبًا ونعطيه القيم بالترتيب.
+
+| Specifier | Value | Example |
+|---|---|---|
+| `%d` | عدد صحيح | `15` |
+| `%f` | `float` أو `double` | يعرض افتراضيًا `6` خانات بعد الفاصلة |
+| `%.3f` | عدد بكسور | يعرض `3` خانات بعد الفاصلة مع التقريب |
+| `%s` | نص | `Ahmad` |
+| `%S` | نص بحروف كبيرة في العرض | `AHMAD` |
+| `%c` | محرف | `A` |
+| `%n` | نهاية سطر مناسبة للنظام | لا تحتاج قيمة مقابلة |
+
+```java
+System.out.printf("First = %.3f, Second = %.4f%n", 1.5, 2.5);
+```
+
+**Output** في بيئة تستخدم النقطة العشرية:
+
+```text
+First = 1.500, Second = 2.5000
+```
+
+أول موضع يأخذ أول قيمة، والثاني يأخذ الثانية. `printf` لا تنهي السطر تلقائيًا، لذلك نضيف `%n` أو `\n`. التنسيق يغيّر العرض، وليس قيمة المتغير المخزّنة. تطابق النوع مطلوب؛ `%d` ليست مكانًا لطباعة `double`. الفاصل العشري يتأثر بإعداد `Locale`؛ أمثلتنا المختبرة تستخدم النقطة.
+
+## Worked Example: Sum & Average
+
+**من تمارين الفيديو:** اقرأ رقمين واطبع مجموعهما، ثم وسّع الفكرة إلى ثلاثة واحسب المعدل. احفظ الحل الموحّد باسم `InputAverage.java`.
+
+```java
+import java.util.Scanner;
+
+public class InputAverage {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("First: ");
+        double first = input.nextDouble();
+        System.out.print("Second: ");
+        double second = input.nextDouble();
+        System.out.printf("Sum of two = %.2f%n", first + second);
+        System.out.print("Third: ");
+        double third = input.nextDouble();
+        double sum = first + second + third;
+        double average = sum / 3;
+        System.out.printf("Sum = %.2f%nAverage = %.2f%n", sum, average);
+    }
+}
+```
+
+**Input**
+
+```text
+90
+92
+88
+```
+
+**Console Session** · تشمل القيم التي يكتبها المستخدم:
+
+```text
+First: 90
+Second: 92
+Sum of two = 182.00
+Third: 88
+Sum = 270.00
+Average = 90.00
+```
+
+كل رسالة تطلب قيمة، وبعد ما تدخلها وتضغط `Enter` يكمل البرنامج. أول قراءتين تأتيان قبل الجمع، ثم الثالثة، ثم `sum / 3`. اختيار `double` يحافظ على كسر المعدل.
+
+### Parentheses & Concatenation
+
+```java
+int first = 20, second = 1;
+System.out.println("Sum = " + first + second);
+System.out.println("Sum = " + (first + second));
+```
+
+```text
+Sum = 201
+Sum = 21
+```
+
+الأول صار `String Concatenation` من اليسار: النص مع `20` ثم مع `1`. هذا مش تحويلًا نكتبه باسم `Casting` ولا يحتاج `Parsing`؛ الأقواس في الثاني تجبر الجمع العددي قبل الدمج.
+
+بنفس المنطق، المعدل المباشر الصحيح:
+
+```java
+double average = (first + second + third) / 3.0;
+```
+
+بدون الأقواس، القسمة تتطبق على `third` أولًا. استخدام `3.0` يحافظ على القسمة بكسور حتى لو كانت القيم الثلاث `int`.
+
+## Knowledge Check
+
+1. أي قراءة تناسب اسمًا كاملًا مع فراغ؟
+2. شو الخطأ المتوقع لو أدخلت `1.5` لـ `nextInt()`؟
+3. كيف تطبع المعدل بمنزلتين بعد الفاصلة؟
+
+<details><summary>Answers</summary>
+
+1. `nextLine()` مع الانتباه لفاصل السطر المتبقي بعد قراءة رقم.
+2. `InputMismatchException` أثناء التنفيذ.
+3. `System.out.printf("%.2f%n", average);`
+
+</details>
+
+## Source & Accuracy
+
+[Adel Nasim · #06](https://www.youtube.com/watch?v=kilmBWdI0NE) · `00:00–18:29`. شملنا إعداد `Scanner`، اختلاف القراءات، تجربة الإدخال الخاطئ، التنسيق والدقة، النص والحرف، الجمع والمعدل. قيم التشغيل صياغة تعليمية بسبب تشوّش بعض الأرقام في التفريغ. [Scanner API](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Scanner.html) · [Formatter API](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Formatter.html).

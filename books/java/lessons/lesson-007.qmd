@@ -1,0 +1,149 @@
+---
+title: "If, If-Else & Else-If"
+subtitle: "غيّر مسار التنفيذ بناءً على شرط واضح"
+---
+
+<div class="lesson-meta"><span>M03 · S05</span><span>VIDEO #07</span></div>
+
+## Selection Statements
+
+التنفيذ العادي يمشي بالترتيب. عند قرار معيّن بدنا ننفّذ جزءًا أو نتجاوزه حسب نتيجة `Condition`. هذا هو دور `Selection Statements`؛ أما التكرار فإله دروسه التالية.
+
+![If-Else: one condition chooses between two paths](../assets/reference/if-else-generic.svg){fig-alt="If-Else: true selects one statement, false selects the other, then both paths rejoin" width="420"}
+
+الصورة من [P. Kemp · CC0](https://commons.wikimedia.org/wiki/File:If-Then-Else-diagram.svg). المعين يمثل `Condition`، والسهمان مسارين بديلين؛ لا ينفذ المسارين معًا لنفس القرار.
+
+## Boolean Condition & Comparisons
+
+| Operator | Question |
+|---|---|
+| `==` | هل القيمتان متساويتان؟ |
+| `!=` | هل تختلفان؟ |
+| `>` / `<` | أكبر من / أصغر من؟ |
+| `>=` / `<=` | أكبر أو يساوي / أصغر أو يساوي؟ |
+
+الناتج `boolean`: إما `true` أو `false`. `=` للإسناد، و`==` للسؤال عن التساوي. العدد وحده مثل `if (5)` ليس شرطًا مقبولًا في Java.
+
+## If & Blocks
+
+```java
+int number = 10;
+if (number > 0) {
+    System.out.println("Positive");
+}
+System.out.println("Done");
+```
+
+تتحقق من `10 > 0`، فيطبع `Positive`، ثم يكمل ويطبع `Done`. إذا أصبحت القيمة `-10`، يتجاوز الطباعة الداخلية ويطبع `Done` فقط.
+
+الأقواس `{ }` تجمع عدة تعليمات تحت نفس الشرط. بدونها، `if` تتحكم بتعليمة واحدة مباشرة بعدها؛ المسافات البادئة وحدها لا تجمع التعليمات.
+
+```java
+if (number > 0)
+    System.out.println("Positive");
+System.out.println("Done"); // Runs regardless of the condition.
+```
+
+لا تكتب `;` بعد `if (condition)` بالخطأ؛ وقتها تكون التعليمة التابعة فارغة، وما بعدها مش تابع للشرط كما قصدت.
+
+## If-Else
+
+```java
+if (number % 2 == 0) {
+    System.out.println("Even");
+} else {
+    System.out.println("Odd");
+}
+```
+
+إذا باقي القسمة على `2` يساوي صفرًا، العدد زوجي؛ وإلا فردي. `10` و`0` يدخلان أول فرع، و`11` يدخل الثاني. استخدام `!= 0` لتمييز الفردي يشمل السالب أيضًا، بدل افتراض أن الباقي دائمًا `1`.
+
+في مثال موجب/سالب، `else` بعد `number > 0` تشمل `0` أيضًا؛ فلا تسميها `Negative` إذا المطلوب تصنيف الصفر بدقة. نحتاج حالة مستقلة له.
+
+## Nested If & Dangling Else
+
+ممكن تسأل أولًا: هل العدد زوجي؟ وداخلها تسأل: هل أكبر من `10`؟
+
+```java
+if (number % 2 == 0) {
+    if (number > 10) {
+        System.out.println("Even and above 10");
+    } else {
+        System.out.println("Even and at most 10");
+    }
+} else {
+    System.out.println("Odd");
+}
+```
+
+`else` الداخلية تجيب سؤال المقارنة مع `10`، والخارجية تجيب سؤال الزوجي/الفردي. بدون أقواس فاصلة، `else` ترتبط بأقرب `if` غير مرتبطة بـ `else`، مش بما توحي به المسافات.
+
+انتبه للحد: `10 > 10` تساوي `false`، و`10 >= 10` تساوي `true`. النص المطبوع لازم يطابق الشرط؛ ما تقول «أصغر من 10» لفرع يشمل `10` نفسها.
+
+## Else-If Chain
+
+لسلسلة خيارات، نفحص بالترتيب وننفذ **أول فرع متحقق فقط**، ثم نكمل بعد السلسلة. هذا مختلف عن عدة `if` مستقلة يمكن أن يتحقق أكثر من واحدة منها.
+
+احفظ المثال باسم `SelectionDemo.java`:
+
+```java
+import java.util.Scanner;
+
+public class SelectionDemo {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
+        if (number > 0) {
+            System.out.println("Positive");
+        } else if (number == 0) {
+            System.out.println("Zero");
+        } else {
+            System.out.println("Negative");
+        }
+        if (number % 2 == 0) {
+            System.out.println("Even");
+        } else {
+            System.out.println("Odd");
+        }
+        if (number > 10) {
+            System.out.println("Above 10");
+        } else if (number == 10) {
+            System.out.println("Equal to 10");
+        } else {
+            System.out.println("Below 10");
+        }
+    }
+}
+```
+
+**Input** `10` → **Output**
+
+```text
+Positive
+Even
+Equal to 10
+```
+
+| Input | Sign | Parity | Compared with 10 |
+|---:|---|---|---|
+| `20` | `Positive` | `Even` | `Above 10` |
+| `0` | `Zero` | `Even` | `Below 10` |
+| `-3` | `Negative` | `Odd` | `Below 10` |
+
+## Knowledge Check
+
+1. هل الفرع الأخير `else` يحتاج شرطًا؟
+2. ما مشكلة `if (number > 0);`؟
+3. إذا العدد `15`، هل ندخل السؤال الداخلي في مثال `Nested If` أعلاه؟
+
+<details><summary>Answers</summary>
+
+1. لا؛ هو البديل إذا ما تحقق أي شرط قبله في السلسلة.
+2. `;` تعليمة فارغة تابعة للشرط، فتفصل التعليمات اللاحقة عنه.
+3. لا؛ `15` فردي، فنذهب مباشرة إلى `Odd` في `else` الخارجية.
+
+</details>
+
+## Source & Accuracy
+
+[Adel Nasim · #07](https://www.youtube.com/watch?v=EDhPw1OI-KY) · `00:00–16:52`. التصنيف والمقارنات والأقواس و`;` و`Scanner` والموجب/السالب والزوجي/الفردي و`Nested If` وحد `10` وسلسلة `Else-If` كلها ممثلة. الكود موحّد ومعاد الصياغة؛ صيغة التشابك الأصلية غير ظاهرة بالكامل في التفريغ. [Control Flow](https://dev.java/learn/language/constructs/basics/controlling-flow/) للتحقق، والصورة مرجع شكلي عام فقط.

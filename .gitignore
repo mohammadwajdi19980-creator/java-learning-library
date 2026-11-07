@@ -3,3 +3,9 @@ books/java/_book/
 books/java/.quarto/
 .openai/
 __pycache__/
+books/java/*.html
+books/java/lessons/*.html
+books/java/modules/*.html
+books/java/subjects/*.html
+books/java/site_libs/
+books/java/search.json

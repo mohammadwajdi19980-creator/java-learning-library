@@ -1,0 +1,94 @@
+[[00:00](https://www.youtube.com/watch?v=XN2nusxpvPE&t=0)] بسم الله الرحمان الرحيم.
+[[00:01](https://www.youtube.com/watch?v=XN2nusxpvPE&t=1)] مازلنا نتحدث عن الاوبريط راح تهمنا متى ما تروح واجهنا بالمستقبل.
+[[00:07](https://www.youtube.com/watch?v=XN2nusxpvPE&t=7)] اللهم مبارياتها بالاضافه (Increment and Decrement Operators - `++`, `--`)
+[[00:14](https://www.youtube.com/watch?v=XN2nusxpvPE&t=14)] كل واحد منهم بيزيد بمقدار واحد على ال باريس واحد منهم بينقص بمقدار واحد.
+[[00:20](https://www.youtube.com/watch?v=XN2nusxpvPE&t=20)] خلينا ناخذ مثال كان فيه عندي متغير اتجاه قيمته الابتدائيه (int x = 1;)
+[[00:29](https://www.youtube.com/watch?v=XN2nusxpvPE&t=29)] معناته زيادة على العكس واحد نفس الحكي (x++ / ++x).
+[[00:34](https://www.youtube.com/watch?v=XN2nusxpvPE&t=34)] لاحظ الزيادة لما تكون قبل باريس.
+[[00:37](https://www.youtube.com/watch?v=XN2nusxpvPE&t=37)] بتسميها بريفيكس (Prefix) او نسميها ترى ان كرمان كلمه اكيد انت عارف انه معناها تجيء من اجل سابق هيك بس بس (Prefix ++x)
+[[00:46](https://www.youtube.com/watch?v=XN2nusxpvPE&t=46)] كانت على اسم ان في هاي الصوره او ان تكون الزيادة اجل بعد (Postfix x++).
+[[00:56](https://www.youtube.com/watch?v=XN2nusxpvPE&t=56)] طيب.
+[[00:56](https://www.youtube.com/watch?v=XN2nusxpvPE&t=56)] عرفت الفريق ان تكون الزيادة بعد ال اكس او قبل ال اكس في هاي الحاله ما بتفرق لكن في ان
+[[01:02](https://www.youtube.com/watch?v=XN2nusxpvPE&t=62)] حالتين راحت فيهم هاي العمليه لما يجي يقول الكتاب.
+[[01:07](https://www.youtube.com/watch?v=XN2nusxpvPE&t=67)] واقول له مثلا انه يساوي خلينا نعمل كم واحد فيهم ونشوف بالفعل كانت عند واحد راح ان زياده عليها بمقدار
+[[01:18](https://www.youtube.com/watch?v=XN2nusxpvPE&t=78)] واحد صارت 2 لاحظ قيمة العكس صارت اثنين على طول.
+[[01:22](https://www.youtube.com/watch?v=XN2nusxpvPE&t=82)] طيب خلينا نجرب اما كنت هون بردو اعطاني ولا الفرق الفارق بيكون لما اجي انا استخدم هذا الامر داخل عمليه
+[[01:35](https://www.youtube.com/watch?v=XN2nusxpvPE&t=95)] الاقتراع او داخل عمليه اسناد.
+[[01:37](https://www.youtube.com/watch?v=XN2nusxpvPE&t=97)] كيف يعني.
+[[01:38](https://www.youtube.com/watch?v=XN2nusxpvPE&t=98)] يعني مثلا انا هون الحقيقه تعمل بالعكس قبل ما تطرحه لانه كنت اثنين انه اجل قبل عمليه زياده للايدز بعدين
+[[01:50](https://www.youtube.com/watch?v=XN2nusxpvPE&t=110)] بكل سهوله كانت 12.
+[[01:53](https://www.youtube.com/watch?v=XN2nusxpvPE&t=113)] اذا عملنا
+[[01:59](https://www.youtube.com/watch?v=XN2nusxpvPE&t=119)] على واحد اثنين.
+[[02:01](https://www.youtube.com/watch?v=XN2nusxpvPE&t=121)] وهون عندنا اول فرق لاحظ راح طبعا قيم برايك.
+[[02:05](https://www.youtube.com/watch?v=XN2nusxpvPE&t=125)] وبعد ما طلع قيمة العكس راح زاد عليها.
+[[02:08](https://www.youtube.com/watch?v=XN2nusxpvPE&t=128)] والدليل يقول له ونقول له مثلا.
+[[02:12](https://www.youtube.com/watch?v=XN2nusxpvPE&t=132)] اكس ان اكس اكس
+[[02:17](https://www.youtube.com/watch?v=XN2nusxpvPE&t=137)] 1.
+[[02:18](https://www.youtube.com/watch?v=XN2nusxpvPE&t=138)] لكن بعد ما اخلص هذا السطر بالفعل ان زاد على قيمة العكس والدليل انه انا قيمة العكس.
+[[02:24](https://www.youtube.com/watch?v=XN2nusxpvPE&t=144)] طبعا اثنين الفرق لما يكون على ناحيه البريه انه في البدايه بعدين اما لما يكون على ناحيه ال بوست بالطبع
+[[02:34](https://www.youtube.com/watch?v=XN2nusxpvPE&t=154)] بعدين خلينا نزيد مثلا بعدين
+[[02:47](https://www.youtube.com/watch?v=XN2nusxpvPE&t=167)] وبالنهايه النهائيه.
+[[03:03](https://www.youtube.com/watch?v=XN2nusxpvPE&t=183)] هل في هذه الحاله.
+[[03:08](https://www.youtube.com/watch?v=XN2nusxpvPE&t=188)] 21 واحد
+[[03:14](https://www.youtube.com/watch?v=XN2nusxpvPE&t=194)] الثاني
+[[03:19](https://www.youtube.com/watch?v=XN2nusxpvPE&t=199)] انه بعد ما اثنين
+[[03:31](https://www.youtube.com/watch?v=XN2nusxpvPE&t=211)] النهائيه اربعه شوي شوي بالفعل هذا اللي صار واحد.
+[[03:42](https://www.youtube.com/watch?v=XN2nusxpvPE&t=222)] يعني ممكن
+[[03:49](https://www.youtube.com/watch?v=XN2nusxpvPE&t=229)] مباشرة العمليه يعني بعدين زيد اللي هي واحد بعد هيك ان تكون على جنب
+[[04:02](https://www.youtube.com/watch?v=XN2nusxpvPE&t=242)] قيمتها حاليا على اساس واحد الواحد.
+[[04:25](https://www.youtube.com/watch?v=XN2nusxpvPE&t=265)] لا والله طبعا بعدين مزيد من راح يطلع 3.
+[[04:29](https://www.youtube.com/watch?v=XN2nusxpvPE&t=269)] لكن بعد ما تخلص هذا السطر راح يروح يزود عقيمة العكس.
+[[04:32](https://www.youtube.com/watch?v=XN2nusxpvPE&t=272)] واللي هو الاربعه على اساس ان اطلع الفائده تعطيني اربعه من شفنا في هاي الطريقه.
+[[04:40](https://www.youtube.com/watch?v=XN2nusxpvPE&t=280)] طيب معناته انا لما اشوف الاكسبرس او على سينقل ما في فرق بيناتهم ابدا.
+[[04:48](https://www.youtube.com/watch?v=XN2nusxpvPE&t=288)] وين الفرق عند عمليه الطباعه.
+[[04:50](https://www.youtube.com/watch?v=XN2nusxpvPE&t=290)] طيب.
+[[04:51](https://www.youtube.com/watch?v=XN2nusxpvPE&t=291)] والفرق الثاني الفرق الثاني اذا كان في نادي متغير اخر مثلا كان فيه عندي هون تغير اسم وان وهذا وتغير
+[[04:58](https://www.youtube.com/watch?v=XN2nusxpvPE&t=298)] الاسم وقلت له مثلا انه تساوي 6.
+[[05:02](https://www.youtube.com/watch?v=XN2nusxpvPE&t=302)] بالاضافه الى الكرامه مثلا انه تساوي قيمة الوقت.
+[[05:09](https://www.youtube.com/watch?v=XN2nusxpvPE&t=309)] كما توفر قيمة الوقت احنا مره واحدة واحد ليش واحد لا اتفقنا هاي زياده او يعني داخل بعدين والدليل اخذنا
+[[05:24](https://www.youtube.com/watch?v=XN2nusxpvPE&t=324)] الكوبي المتوقع انه يعطي بالفعل اعطاني الواحد.
+[[05:31](https://www.youtube.com/watch?v=XN2nusxpvPE&t=331)] والعكس على اساس 22.
+[[05:34](https://www.youtube.com/watch?v=XN2nusxpvPE&t=334)] لانه ماشي واحد.
+[[05:36](https://www.youtube.com/watch?v=XN2nusxpvPE&t=336)] لكن بعد ما اسند عمل عمليه زياده بتصير بس بس هون تلاقي ان قيمة الوقت سنتين كانوا اثنين.
+[[05:48](https://www.youtube.com/watch?v=XN2nusxpvPE&t=348)] بالضبط افرض اجاني اكسبريشن رياضي مثلا خمس ايش ممكن اعمل انا في هذه الحاله هل ولا امشي وبراءتها او ب
+[[06:01](https://www.youtube.com/watch?v=XN2nusxpvPE&t=361)] ناس ممكن تجيني ايش اعمل حدود على العكس الثانية ولا ادرك والرئيس اعمل بالصوت هون بيروح نرجع الاولويات والتابع اللي
+[[06:13](https://www.youtube.com/watch?v=XN2nusxpvPE&t=373)] شفناه بالفيديو الماضي.
+[[06:15](https://www.youtube.com/watch?v=XN2nusxpvPE&t=375)] خلينا بتعتبر هذا هو الفيديو الماضي.
+[[06:19](https://www.youtube.com/watch?v=XN2nusxpvPE&t=379)] راحت بعض الاقوال متفقين عليها مين على اولويه على اولويه اللي هو بيرتب لما يكون على هيئه بعد هيك اولويه
+[[06:32](https://www.youtube.com/watch?v=XN2nusxpvPE&t=392)] ولما اسمعنا على هيئه انه خلينا نجرب لاحظ.
+[[06:39](https://www.youtube.com/watch?v=XN2nusxpvPE&t=399)] الاولويه للبوست من ناحيه من ناحيه بعد هيك نتيجه الاولويه سواء خلينا نجرب نقول مثلا هون في بلادهم.
+[[07:00](https://www.youtube.com/watch?v=XN2nusxpvPE&t=420)] لكن اللي بنعرفه قمة العكس واحد ممتاز وان الاولويه في هذا الاكسبرس م زي محكمه الاولويه الكويت ان كلما كلما
+[[07:10](https://www.youtube.com/watch?v=XN2nusxpvPE&t=430)] معناته الاولويه انا هون قيمة الاكس بوكس 1 12 روح على العكس الثانية كانت بواحد زيد عليها الله صارت اثنين
+[[07:20](https://www.youtube.com/watch?v=XN2nusxpvPE&t=440)] اجمع التنازل اثنين راح يعطيك اربعه ان اقيمة الراي النهائيه راح تكون كم راح تكون اربعه على العكس لامراه بالفعل
+[[07:30](https://www.youtube.com/watch?v=XN2nusxpvPE&t=450)] كنت اربعه.
+[[07:32](https://www.youtube.com/watch?v=XN2nusxpvPE&t=452)] لكن السؤال الاهم.
+[[07:33](https://www.youtube.com/watch?v=XN2nusxpvPE&t=453)] شو قيمة الايات الكونيه في رفع قيمة العكس.
+[[07:37](https://www.youtube.com/watch?v=XN2nusxpvPE&t=457)] لكن التي تتوقعها قبل ما ندفعها انت عملت اتوقع الا وتكون بالفعل زي ما تبقى انه بدات صارت القيمه ثلاثة
+[[07:53](https://www.youtube.com/watch?v=XN2nusxpvPE&t=473)] راح هذا ممكن يكون اكبر من هيك ممكن داخلك فيه ضرب اثنين يمكن بعد ان اقول لك انا ما بدي
+[[08:00](https://www.youtube.com/watch?v=XN2nusxpvPE&t=480)] اياها المواد 2.
+[[08:02](https://www.youtube.com/watch?v=XN2nusxpvPE&t=482)] وهذا كله مثلا يكون بان القوات بعد هيك مثلا المجموعه الكل يكون تقسيم اثنين ممكن تكون في هذا الشكل.
+[[08:10](https://www.youtube.com/watch?v=XN2nusxpvPE&t=490)] لاحظ انا بعطيك الاساس.
+[[08:11](https://www.youtube.com/watch?v=XN2nusxpvPE&t=491)] لكن في الامتحانات او ما الى ذلك.
+[[08:13](https://www.youtube.com/watch?v=XN2nusxpvPE&t=493)] لازم تعرف انه اللي راح يرتفع شوي وانتم احترتبك يقول لا مش هيك اخذت لا انت بتفسير تعود حال كان
+[[08:20](https://www.youtube.com/watch?v=XN2nusxpvPE&t=500)] الاساس انا اعطيك ايا كانت تفكر وتجربه تزود على الارقام وتكتب الحاله على اساس شو بتشوف في الامتحانات ما تستغرب
+[[08:27](https://www.youtube.com/watch?v=XN2nusxpvPE&t=507)] بتكون عندك الامور الطبيعيه اخر شي راح اتكلم عليه في هذا الفيديو ولهم الاس ام اس (Compound Assignment Operators - `+=`, `-=`, `*=`, `/=`, `%=`).
+[[08:34](https://www.youtube.com/watch?v=XN2nusxpvPE&t=514)] انا ما عرف وتغير معينه نقول انه ليش الباليه خاصه فيها وراء خمسه بالاضافه واحد يقول انه الكيك ويساوى عشره (k = k + 10;)
+[[08:46](https://www.youtube.com/watch?v=XN2nusxpvPE&t=526)] مثلا.
+[[08:47](https://www.youtube.com/watch?v=XN2nusxpvPE&t=527)] بالضبط.
+[[08:48](https://www.youtube.com/watch?v=XN2nusxpvPE&t=528)] ليس هناك لم يعرف انه اول الشي راح ناخذ الاشياء الموجوده على.
+[[08:52](https://www.youtube.com/watch?v=XN2nusxpvPE&t=532)] بعدها بالليل معناته راح نفرد هل فيه اولويات لا ما في اولويات يمتلك اي وزود عليها عشره قيمة الكبير كان
+[[09:02](https://www.youtube.com/watch?v=XN2nusxpvPE&t=542)] بالاساس خمسه لما زود عليها عشره راح تصير راح تصير خمسطاشر والدليل
+[[09:11](https://www.youtube.com/watch?v=XN2nusxpvPE&t=551)] راح يعطي خمسطاشر احكي لك فيه اوبرويتر ممكن يعملون الاختصار لهذه الحركة كونه انا اذا بدي اجي اسند قيمة من
+[[09:21](https://www.youtube.com/watch?v=XN2nusxpvPE&t=561)] القيم متغيره الى نفسه ممكن ان ي اختصرها في هاي الحركة ان اقول لك اي العشره فقط هذا اختصار وضعوا (k += 10;)
+[[09:30](https://www.youtube.com/watch?v=XN2nusxpvPE&t=570)] وكافه السطر اللي فرق يعني كيف سيكون العشره هي نفسها تساوي عشره تماما الاسهم او بيرتز المدنيين ان الهم الاساس
+[[09:45](https://www.youtube.com/watch?v=XN2nusxpvPE&t=585)] اللي احنا ممكن استخدمها العادي ممكن نعمل ممكن نعمل اخره.
+[[09:55](https://www.youtube.com/watch?v=XN2nusxpvPE&t=595)] احنا ما راح نتعامل مع اول خمسه هذا راح يسمونها بكثره الى اخرهم البلد ان شاء الله راح نتعرف
+[[10:05](https://www.youtube.com/watch?v=XN2nusxpvPE&t=605)] عليها على اساس فيها قلت لك مثلا كانت تغيرت ام.
+[[10:10](https://www.youtube.com/watch?v=XN2nusxpvPE&t=610)] واي مثلا انه يساوي واحد وهو
+[[10:20](https://www.youtube.com/watch?v=XN2nusxpvPE&t=620)] واحد ممكن يعطي ليست ما تقرر في هذه الحاله تقول لي انه ذات
+[[10:31](https://www.youtube.com/watch?v=XN2nusxpvPE&t=631)] المفروض انا مش عارف كنت الزوج ودائما بايدي راح تكون قيمة اي متغير كثيره لكن منعوا هذا الكلام مقيد وكان
+[[10:41](https://www.youtube.com/watch?v=XN2nusxpvPE&t=641)] تعطى باليوم البلد.
+[[10:46](https://www.youtube.com/watch?v=XN2nusxpvPE&t=646)] لاحظ اختفى لما لجنه اقيمة ممكن نتوقع ان تكون انت عارف انه هذا السطر يكفي هذا السطر.
+[[10:59](https://www.youtube.com/watch?v=XN2nusxpvPE&t=659)] 5 57 16 قيمة.
+[[11:06](https://www.youtube.com/watch?v=XN2nusxpvPE&t=666)] النهائيه راح تكون لهون انها الفيديو العافيه.
+[[11:12](https://www.youtube.com/watch?v=XN2nusxpvPE&t=672)] السلام عليكم.

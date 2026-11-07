@@ -66,7 +66,6 @@ public class StartApp {
 
 </details>
 
-## ماذا بعد هذا Subject؟
+## Next Subject
 
-خلصنا **S01**. لكن الوحدة **M01** لسه ناقصها **S02** مع الفيديو `#02 — Escape Sequences and Comments`. امتحان Module M01 النهائي يجي بعد إكمال هذا الدرس.
-
+تابع إلى [#02 · Escape Sequences & Comments](../lessons/lesson-002.qmd)، ثم [S02 · Review & Exam](s02.qmd). جميع دروس M01 متاحة الآن.

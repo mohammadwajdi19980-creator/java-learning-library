@@ -1,21 +1,28 @@
-# M01 — Java & Tools
+---
+title: "M01 · Java & Tools"
+---
 
-<div class="lesson-meta"><span>M01</span><span>BEGINNER</span><span>#00–#02</span></div>
+<div class="lesson-meta"><span>Complete</span><span>3 / 3 lessons available</span><span>3 transcripts received</span></div>
 
-<span class="english-term">Java & Tools</span>
+## Subjects
 
-هذه الوحدة تضم 3 فيديوهات أصلية. درسا #00 و#01 متاحان؛ تفريغ #02 مستلَم والدرس لم يُكتب بعد.
+### S01 · Introduction & Setup
 
-## مواضيع الوحدة
+[Open Subject](../subjects/s01.qmd)
 
-- [S01 — Introduction & Setup](../subjects/s01.qmd) — `#00–#01`
-- [S02 — Escape Sequences & Comments](../subjects/s02.qmd) — `#02–#02`
+- [#00 · Introduction to Java](../lessons/lesson-000.qmd)
+- [#01 · Java Development Tools](../lessons/lesson-001.qmd)
 
-## اختبار الوحدة والمشروع
+Review & Exam متاح بعد الدروس المذكورة.
 
-بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+### S02 · Escape Sequences & Comments
 
+[Open Subject](../subjects/s02.qmd)
 
-## Start Reading
+- [#02 · Escape Sequences & Comments](../lessons/lesson-002.qmd)
 
-[Lesson #00 — Introduction to Java](../lessons/lesson-000.qmd) → [Lesson #01 — Java Development Tools](../lessons/lesson-001.qmd) → [S01 — Review & Exam](../subjects/s01.qmd).
+Review & Exam متاح بعد الدروس المذكورة.
+
+## Reading Path
+
+ابدأ من [#00](../lessons/lesson-000.qmd)، وراجع كل Subject بعد دروسه. اتبع Previous / Next للتقدّم بالترتيب.

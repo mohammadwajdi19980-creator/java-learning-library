@@ -1,0 +1,142 @@
+---
+title: "Data Types"
+subtitle: "اختر نوع القيمة، أعطها اسمًا، وافهم ما الذي تحتفظ به"
+---
+
+<div class="lesson-meta"><span>M02 · S03</span><span>VIDEO #03</span></div>
+
+## Variable, Declaration & Initialization
+
+بدك تحتفظ برقم حتى تستخدمه لاحقًا؟ بتعرّف `Variable` إلها اسم ونوع. النوع يحدد القيم الممكنة، والاسم تستخدمه للوصول للقيمة.
+
+```java
+int x;       // Declaration
+x = 10;      // First assignment / initialization
+x = 20;      // Assignment
+int y = 15;  // Declaration with initialization
+System.out.println(x);
+```
+
+النتيجة `20`؛ الإسناد الثاني استبدل القيمة القديمة. في `x = 10` نأخذ قيمة الطرف اليمين ونضعها في المتغير على اليسار. كتابة `"x"` تطبع الاسم كنص، أما `x` دون اقتباس فتقرأ قيمته.
+
+**قاعدة مهمة:** متغير محلي داخل `main` لازم يأخذ قيمة قبل قراءته. لا تعتمد على قيمة `0` تلقائية. هذا شرط في اللغة، مش تغييرًا فرضه إصدار حديث من `IDE`. بعض أنواع المتغيرات الأخرى لها قيم تلقائية، وتفاصيلها خارج هذا الدرس.
+
+## Identifier Rules
+
+| Allowed | Rejected | Reason |
+|---|---|---|
+| `mark`, `mark2`, `student_mark` | `2mark` | الرقم لا يبدأ الاسم |
+| `_mark`, `mark_`, `$value` | `student mark`, `mark?` | الفراغ والعلامة الخاصة غير صالحين |
+| `age`, `Age` | استخدامهما كأنهما اسم واحد | اللغة `Case-Sensitive` |
+
+الأحرف و`_` و`$` ممكن تبدأ الاسم، والأرقام ممكن تأتي بعد البداية. الأسماء المحجوزة مثل `int` لا تصلح أسماء متغيرات. **توضيح حديث:** `_` وحدها لا تصلح اسمًا تقرأ قيمته، بينما `_mark` صالحة. اختر اسمًا يوضح المعنى بدل الرموز المربكة.
+
+## Eight Primitive Types
+
+هذا الجدول هو مرجع الاختيار؛ الحجم يصف تمثيل القيمة، مش إجمالي استهلاك البرنامج للذاكرة.
+
+| Type | Bits | Values / use |
+|---|---:|---|
+| `byte` | 8 | أعداد صحيحة من `-128` إلى `127` |
+| `short` | 16 | من `-32768` إلى `32767` |
+| `int` | 32 | من `-2147483648` إلى `2147483647` |
+| `long` | 64 | من `-9223372036854775808` إلى `9223372036854775807` |
+| `float` | 32 | أعداد بكسور، بدقة تقريبية `6–7` أرقام معنوية |
+| `double` | 64 | أعداد بكسور، بدقة تقريبية `15–16` رقمًا معنويًا |
+| `char` | 16 | وحدة واحدة من `UTF-16`، مثل `'A'` |
+| `boolean` | — | `true` أو `false` فقط؛ لا تحدد Java له حجم تخزين موحدًا هنا |
+
+ما تختار `double` لكل شيء لمجرد أنه يستقبل رقمًا صحيحًا: طبيعة القيمة ودقتها المطلوبة أهم. غالبًا نستخدم `int` للأعداد الصحيحة العادية و`double` للكسور. الرقم `128` لا يناسب `byte`؛ استخدم نوعًا يتحمل المدى المطلوب.
+
+### Literals & Precision
+
+```java
+long population = 3000000000L;
+float price = 2.5F;
+double average = 89.123456789;
+char letter = 'A';
+boolean passed = true;
+String name = "Adel Nasim";
+```
+
+`L` توضح أن العدد من نوع `long`، و`F` تجعل الكسر `float`. الكسر المكتوب دون `F` يكون عادةً `double`. حرف واحد نكتبه بين `' '`، والنص بين `" "`.
+
+**تصحيح للدقة:** ما نحفظ إن `float` تحتفظ دائمًا بسبع خانات *بعد الفاصلة*. المقصود عدد الأرقام المعنوية تقريبًا، قبل الفاصلة وبعدها معًا؛ كثير من الكسور لا تُخزّن بالضبط. زيادة الخانات المكتوبة لا تعني الاحتفاظ فيها كلها.
+
+## String
+
+`String` تحفظ نصًا من عدة محارف؛ ليست واحدة من الأنواع الثمانية السابقة، بل `Class`. لذلك اسمها يبدأ بـ `S` كبيرة. نستعملها دون `import` صريح لأنها ضمن `java.lang` المتاحة تلقائيًا.
+
+`char letter = 'A';` غير `String word = "A";` رغم تشابه الشكل. الأولى وحدة واحدة، والثانية نص. مش كل رمز مرئي معقد يمكن تمثيله بـ `char` واحدة.
+
+## Worked Example
+
+احفظ باسم `TypesDemo.java`. يعيد بناء تجارب التخزين والطباعة وحدود `int` المذكورة بالفيديو.
+
+```java
+public class TypesDemo {
+    public static void main(String[] args) {
+        byte x = 15;
+        float price = 2.5F;
+        long population = 3000000000L;
+        char letter = 'A';
+        boolean ready = true;
+        String name = "Adel Nasim";
+        System.out.println(x);
+        System.out.println(price);
+        System.out.println(population);
+        System.out.println(letter);
+        System.out.println(ready);
+        System.out.println(name);
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
+    }
+}
+```
+
+**Output**
+
+```text
+15
+2.5
+3000000000
+A
+true
+Adel Nasim
+2147483647
+-2147483648
+```
+
+نفس الفكرة لمعرفة الحدود باستخدام `Byte.MAX_VALUE` و`Short.MAX_VALUE` و`Long.MAX_VALUE`، وكذلك `MIN_VALUE`. `Float.MAX_VALUE` أكبر قيمة موجبة منتهية؛ `Float.MIN_VALUE` أصغر قيمة موجبة غير صفرية، وليست الأكثر سلبية.
+
+## Binary Representation
+
+بآخر الفيديو بنربط الرقم بتمثيله. كل `Bit` قيمتها `0` أو `1`. في التمثيل الموجب المبسط، أوزان الخانات من اليمين: `1, 2, 4, 8, 16, 32, 64`.
+
+| Decimal | Binary · 8 bits | Explanation |
+|---:|---|---|
+| `1` | `00000001` | خانة `1` فقط |
+| `2` | `00000010` | خانة `2` فقط |
+| `16` | `00010000` | خانة `16` فقط |
+| `17` | `00010001` | `16 + 1` |
+| `127` | `01111111` | `64 + 32 + 16 + 8 + 4 + 2 + 1` |
+
+كل `8 Bits` تساوي `1 Byte`. `byte` في Java موقّعة؛ لذلك الحد الموجب `127`، مش `255`. تفاصيل تمثيل السالب مش مطلوبة بهذا المثال.
+
+## Knowledge Check
+
+1. ليش `byte x = 128;` مرفوضة؟
+2. هل `int x; System.out.println(x);` صالح داخل `main`؟
+3. ما قيمة `00010001`؟ وما الفرق بين `'A'` و`"A"`؟
+
+<details><summary>Answers</summary>
+
+1. خارج مدى `byte`؛ `short` أو `int` يستوعبها.
+2. لا؛ ما أعطيناه قيمة قبل القراءة.
+3. `17`؛ الأولى `char` والثانية `String`.
+
+</details>
+
+## Source & Accuracy
+
+[Adel Nasim · #03](https://www.youtube.com/watch?v=mY8yxPP9_AE) · `00:00–20:46`. أمثلة النوع والاسم والتخزين والحدود والتمثيل الموجب محفوظة في الشرح؛ الكود الكامل صياغة تعليمية. صُحّحت أخطاء التفريغ في الحدود وخلط `long` مع `float`، وفُصلت الدقة عن عدد الخانات بعد الفاصلة. [Primitive Types](https://dev.java/learn/language/constructs/basics/primitive-types/) · [JLS Identifiers](https://docs.oracle.com/javase/specs/jls/se25/html/jls-3.html#jls-3.8).

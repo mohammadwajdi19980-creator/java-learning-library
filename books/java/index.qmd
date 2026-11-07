@@ -6,6 +6,8 @@ format:
 page-layout: full
 ---
 
+::: {.content-visible unless-format="epub"}
+
 ```{=html}
 <section class="home-intro">
 <p class="eyebrow" dir="ltr">YOUR VISUAL JAVA BOOK</p>
@@ -16,7 +18,7 @@ page-layout: full
 
 <div class="home-proof" dir="ltr"><span>77 original videos</span><span>Arabic explanations</span><span>English terminology</span></div>
 
-<div class="section-heading"><div><p class="eyebrow" dir="ltr">ONE STEP AT A TIME</p><h2>ابدأ من هنا</h2></div><span class="availability">2 lessons available</span></div>
+<div class="section-heading"><div><p class="eyebrow" dir="ltr">ONE STEP AT A TIME</p><h2>ابدأ من هنا</h2></div><span class="availability">14 lessons available</span></div>
 
 <div class="lesson-grid">
 <a class="lesson-card" href="lessons/lesson-000.html"><div class="lesson-card-top"><span class="lesson-number">00</span><span class="status-dot">AVAILABLE</span></div><div class="mini-diagram" aria-hidden="true"><span>.java</span><i>→</i><span>JVM</span><i>→</i><span>Run</span></div><p class="card-label">THE FOUNDATIONS</p><h3 dir="ltr">Introduction to Java</h3><p>شو هي؟ ليش نستخدمها؟ وكيف تتحوّل الأوامر إلى برنامج يعمل؟</p><span class="card-action">افتح الدرس <span aria-hidden="true">←</span></span></a>
@@ -25,9 +27,66 @@ page-layout: full
 
 <a class="review-strip" href="subjects/s01.html"><span class="review-icon" aria-hidden="true">✓</span><div><strong dir="ltr">S01 · Review & Exam</strong><p>بعد الدرسين: اختبر فهمك، وراجع الحلول مع أسبابها.</p></div><span class="review-marks" dir="ltr">20 marks →</span></a>
 
-<section class="next-chapter"><span class="next-number" aria-hidden="true">02</span><div><p class="eyebrow" dir="ltr">UP NEXT</p><h2 dir="ltr">Escape Sequences & Comments</h2><p>التفريغ مستلَم. الدرس قيد الانتظار حتى يُكتب ويُراجع.</p></div><span class="pending-label">Source received</span></section>
+<div class="section-heading"><div><p class="eyebrow" dir="ltr">CHOOSE YOUR NEXT SUBJECT</p><h2>تابع من مكانك</h2></div></div>
+<div class="module-grid">
+<section class="module-card"><p class="eyebrow" dir="ltr">M01 · Complete · 3 / 3 lessons</p><h3 dir="ltr"><a href="modules/m01.html">Java &amp; Tools</a></h3><ul>
+<li><a href="subjects/s01.html">S01 · Introduction &amp; Setup</a><small>#00 / #01</small></li>
+<li><a href="subjects/s02.html">S02 · Escape Sequences &amp; Comments</a><small>#02</small></li>
+</ul></section>
+<section class="module-card"><p class="eyebrow" dir="ltr">M02 · Complete · 4 / 4 lessons</p><h3 dir="ltr"><a href="modules/m02.html">Data, Operators &amp; Input</a></h3><ul>
+<li><a href="subjects/s03.html">S03 · Data Types &amp; Operators</a><small>#03 / #04 / #05</small></li>
+<li><a href="subjects/s04.html">S04 · Input &amp; Formatted Output</a><small>#06</small></li>
+</ul></section>
+<section class="module-card"><p class="eyebrow" dir="ltr">M03 · Complete · 3 / 3 lessons</p><h3 dir="ltr"><a href="modules/m03.html">Selection Statements</a></h3><ul>
+<li><a href="subjects/s05.html">S05 · Conditions &amp; Comparisons</a><small>#07 / #08</small></li>
+<li><a href="subjects/s06.html">S06 · Switch Statements</a><small>#09</small></li>
+</ul></section>
+<section class="module-card"><p class="eyebrow" dir="ltr">M04 · In progress · 4 / 8 lessons</p><h3 dir="ltr"><a href="modules/m04.html">Loops &amp; Branching</a></h3><ul>
+<li><a href="subjects/s07.html">S07 · While Loops</a><small>#010 / #011</small></li>
+<li><a href="subjects/s08.html">S08 · Do-While &amp; For Loops</a><small>#012 / #013</small></li>
+</ul></section>
+</div>
+
+<section class="next-chapter"><span class="next-number" aria-hidden="true">14</span><div><p class="eyebrow" dir="ltr">UP NEXT</p><h2 dir="ltr">Questions and Exercises in Loops</h2><p>بانتظار التفريغ. ما بنضيف محتوى فيديو لم نستلمه.</p></div><span class="pending-label">Awaiting transcript</span></section>
 
 <section class="library-tools"><a href="glossary.html"><span dir="ltr">01 / GLOSSARY</span><h3>كل مصطلح في مكانه</h3><p>الاسم بالإنجليزية، والمعنى بشرح عربي واضح.</p></a><a href="roadmap.html"><span dir="ltr">02 / CONTENTS</span><h3>شوف الصورة كاملة</h3><p>الـ 77 فيديو، مرتّبة حسب الموضوع، مع حالة كل درس.</p></a></section>
 
-<p class="book-state">2 lessons available · 3 transcripts received · 77 videos mapped</p>
+<p class="book-state">14 lessons available · 14 transcripts received · 77 videos mapped</p>
 ```
+
+:::
+
+::: {.content-visible when-format="epub"}
+
+كتابك لتعلّم Java من الصفر، بشرح عربي ومصطلحات إنجليزية. 14 Lessons متاحة، و14 تفريغًا مستلمًا من أصل 77 فيديو.
+
+## M01 · Java & Tools
+
+- [#00 · Introduction to Java](lessons/lesson-000.qmd)
+- [#01 · Java Development Tools](lessons/lesson-001.qmd)
+- [#02 · Escape Sequences & Comments](lessons/lesson-002.qmd)
+
+## M02 · Data, Operators & Input
+
+- [#03 · Data Types](lessons/lesson-003.qmd)
+- [#04 · Arithmetic Operators](lessons/lesson-004.qmd)
+- [#05 · Prefix & Postfix](lessons/lesson-005.qmd)
+- [#06 · Scanner & Printf](lessons/lesson-006.qmd)
+
+## M03 · Selection Statements
+
+- [#07 · If & Else](lessons/lesson-007.qmd)
+- [#08 · Logical, Ternary & Instanceof](lessons/lesson-008.qmd)
+- [#09 · Switch](lessons/lesson-009.qmd)
+
+## M04 · Loops & Branching
+
+- [#010 · While](lessons/lesson-010.qmd)
+- [#011 · Sentinel & Flag](lessons/lesson-011.qmd)
+- [#012 · Do-While](lessons/lesson-012.qmd)
+- [#013 · For](lessons/lesson-013.qmd)
+
+
+[Glossary](glossary.qmd) · [Practice & Exams](exams.qmd) · [Sources](sources.qmd)
+
+:::

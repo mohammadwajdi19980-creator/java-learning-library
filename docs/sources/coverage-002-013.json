@@ -1,0 +1,1183 @@
+{
+  "scope": "All 10 supplied attachments: videos #02–#013; transcript text only, not a claim of inspecting missing video frames",
+  "sources": [
+    {
+      "id": "video-002",
+      "title": "Adel Nasim #002",
+      "inventory_complete": true,
+      "source_inspection": "Complete supplied transcript read; video frames unavailable"
+    },
+    {
+      "id": "video-003",
+      "title": "Adel Nasim #003",
+      "inventory_complete": true,
+      "source_inspection": "Complete supplied transcript read; video frames unavailable"
+    },
+    {
+      "id": "video-004",
+      "title": "Adel Nasim #004",
+      "inventory_complete": true,
+      "source_inspection": "Complete supplied transcript read; video frames unavailable"
+    },
+    {
+      "id": "video-005",
+      "title": "Adel Nasim #005",
+      "inventory_complete": true,
+      "source_inspection": "Complete supplied transcript read; video frames unavailable"
+    },
+    {
+      "id": "video-006",
+      "title": "Adel Nasim #006",
+      "inventory_complete": true,
+      "source_inspection": "Complete supplied transcript read; video frames unavailable"
+    },
+    {
+      "id": "video-007",
+      "title": "Adel Nasim #007",
+      "inventory_complete": true,
+      "source_inspection": "Complete supplied transcript read; video frames unavailable"
+    },
+    {
+      "id": "video-008",
+      "title": "Adel Nasim #008",
+      "inventory_complete": true,
+      "source_inspection": "Complete supplied transcript read; video frames unavailable"
+    },
+    {
+      "id": "video-009",
+      "title": "Adel Nasim #009",
+      "inventory_complete": true,
+      "source_inspection": "Complete supplied transcript read; video frames unavailable"
+    },
+    {
+      "id": "video-010",
+      "title": "Adel Nasim #010",
+      "inventory_complete": true,
+      "source_inspection": "Complete supplied transcript read; video frames unavailable"
+    },
+    {
+      "id": "video-011",
+      "title": "Adel Nasim #011",
+      "inventory_complete": true,
+      "source_inspection": "Complete supplied transcript read; video frames unavailable"
+    },
+    {
+      "id": "video-012",
+      "title": "Adel Nasim #012",
+      "inventory_complete": true,
+      "source_inspection": "Complete supplied transcript read; video frames unavailable"
+    },
+    {
+      "id": "video-013",
+      "title": "Adel Nasim #013",
+      "inventory_complete": true,
+      "source_inspection": "Complete supplied transcript read; video frames unavailable"
+    }
+  ],
+  "units": [
+    {
+      "id": "v002-u01",
+      "source_id": "video-002",
+      "locator": "00:01–01:40",
+      "idea": "Comments purpose; sharing code; single-line and multi-line forms",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-002.qmd > Comments"
+    },
+    {
+      "id": "v002-u02",
+      "source_id": "video-002",
+      "locator": "01:47–02:13",
+      "idea": "Main entry point claim and precise clarification",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-002.qmd > Main Method"
+    },
+    {
+      "id": "v002-u03",
+      "source_id": "video-002",
+      "locator": "02:14–04:05",
+      "idea": "Newline; Ahmad/Ali example; print versus println; repeated newlines",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-002.qmd > Newline, Print & Println"
+    },
+    {
+      "id": "v002-u04",
+      "source_id": "video-002",
+      "locator": "04:07–04:49",
+      "idea": "Tab and spacing",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-002.qmd > Tab"
+    },
+    {
+      "id": "v002-u05",
+      "source_id": "video-002",
+      "locator": "05:03–06:05",
+      "idea": "Backspace repeated and after newline; display dependence",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-002.qmd > Backspace & Carriage Return"
+    },
+    {
+      "id": "v002-u06",
+      "source_id": "video-002",
+      "locator": "06:07–08:15",
+      "idea": "Double/single quote and backslash escapes",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-002.qmd > Escape Sequences"
+    },
+    {
+      "id": "v002-u07",
+      "source_id": "video-002",
+      "locator": "08:24–10:31",
+      "idea": "Carriage return overwriting and environment difference",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-002.qmd > Backspace & Carriage Return"
+    },
+    {
+      "id": "v002-u08",
+      "source_id": "video-002",
+      "locator": "10:33–10:58",
+      "idea": "Form feed historical printing role",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-002.qmd > Escape Sequences"
+    },
+    {
+      "id": "v002-u09",
+      "source_id": "video-002",
+      "locator": "11:07–12:03",
+      "idea": "Output tracing technique; literal source code absent",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-002.qmd > Trace an Output"
+    },
+    {
+      "id": "v002-u10",
+      "source_id": "video-002",
+      "locator": "12:11–12:58",
+      "idea": "NetBeans print shortcut",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-002.qmd > NetBeans Shortcut"
+    },
+    {
+      "id": "v003-u01",
+      "source_id": "video-003",
+      "locator": "00:01–03:01",
+      "idea": "Value storage, name/type, declaration, first value and reassignment",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-003.qmd > Variable, Declaration & Initialization"
+    },
+    {
+      "id": "v003-u02",
+      "source_id": "video-003",
+      "locator": "03:04–04:57",
+      "idea": "Identifiers: symbols, underscore/dollar, spaces and starting digits",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-003.qmd > Identifier Rules"
+    },
+    {
+      "id": "v003-u03",
+      "source_id": "video-003",
+      "locator": "05:04–06:05",
+      "idea": "Print value versus variable name; sequential execution",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-003.qmd > Variable, Declaration & Initialization"
+    },
+    {
+      "id": "v003-u04",
+      "source_id": "video-003",
+      "locator": "06:15–07:32",
+      "idea": "byte size/range and overflow rejection",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-003.qmd > Eight Primitive Types"
+    },
+    {
+      "id": "v003-u05",
+      "source_id": "video-003",
+      "locator": "07:32–08:10",
+      "idea": "short size/range",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-003.qmd > Eight Primitive Types"
+    },
+    {
+      "id": "v003-u06",
+      "source_id": "video-003",
+      "locator": "08:10–09:08",
+      "idea": "Local variables must have a value before use",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-003.qmd > Variable, Declaration & Initialization"
+    },
+    {
+      "id": "v003-u07",
+      "source_id": "video-003",
+      "locator": "09:08–10:22",
+      "idea": "int range, size, MIN_VALUE and MAX_VALUE",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-003.qmd > Worked Example"
+    },
+    {
+      "id": "v003-u08",
+      "source_id": "video-003",
+      "locator": "10:35–12:53",
+      "idea": "float/double literal suffix, precision and fractional input",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-003.qmd > Literals & Precision"
+    },
+    {
+      "id": "v003-u09",
+      "source_id": "video-003",
+      "locator": "12:53–14:05",
+      "idea": "Choosing a type and long size/range/suffix",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-003.qmd > Eight Primitive Types"
+    },
+    {
+      "id": "v003-u10",
+      "source_id": "video-003",
+      "locator": "14:05–15:28",
+      "idea": "char single character and value output",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-003.qmd > String"
+    },
+    {
+      "id": "v003-u11",
+      "source_id": "video-003",
+      "locator": "15:32–16:18",
+      "idea": "boolean true/false; not numeric booleans",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-003.qmd > Eight Primitive Types"
+    },
+    {
+      "id": "v003-u12",
+      "source_id": "video-003",
+      "locator": "16:18–17:46",
+      "idea": "String text, capital S, Class and implicit java.lang",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-003.qmd > String"
+    },
+    {
+      "id": "v003-u13",
+      "source_id": "video-003",
+      "locator": "17:55–20:46",
+      "idea": "Bits, bytes, powers of two, 1/2/16/17/127 examples and byte limit",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-003.qmd > Binary Representation"
+    },
+    {
+      "id": "v004-u01",
+      "source_id": "video-004",
+      "locator": "00:01–01:38",
+      "idea": "Operators, operands, expressions and assignment direction",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-004.qmd > Operators & Operands"
+    },
+    {
+      "id": "v004-u02",
+      "source_id": "video-004",
+      "locator": "01:48–03:48",
+      "idea": "5+6*2 versus parentheses; store final result",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-004.qmd > Precedence & Parentheses"
+    },
+    {
+      "id": "v004-u03",
+      "source_id": "video-004",
+      "locator": "03:57–05:58",
+      "idea": "Equal precedence, nested parentheses and left association",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-004.qmd > Precedence & Parentheses"
+    },
+    {
+      "id": "v004-u04",
+      "source_id": "video-004",
+      "locator": "05:58–07:32",
+      "idea": "Remainder smaller/equal/larger cases 2 through 11 modulo 5",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-004.qmd > Remainder"
+    },
+    {
+      "id": "v004-u05",
+      "source_id": "video-004",
+      "locator": "07:34–08:04",
+      "idea": "Remainder in a mixed expression with parentheses",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-004.qmd > Precedence & Parentheses"
+    },
+    {
+      "id": "v004-u06",
+      "source_id": "video-004",
+      "locator": "08:04–08:56",
+      "idea": "Arithmetic promoted types",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-004.qmd > Integer Division & Promotion"
+    },
+    {
+      "id": "v004-u07",
+      "source_id": "video-004",
+      "locator": "08:56–10:57",
+      "idea": "15/2; 9/2; floating operand preserves fraction",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-004.qmd > Integer Division & Promotion"
+    },
+    {
+      "id": "v004-u08",
+      "source_id": "video-004",
+      "locator": "11:02–12:04",
+      "idea": "Cast expression value without changing declaration; widening/narrowing",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-004.qmd > Type Casting"
+    },
+    {
+      "id": "v005-u01",
+      "source_id": "video-005",
+      "locator": "00:01–01:22",
+      "idea": "Increment/decrement; prefix/postfix alone",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-005.qmd > Increment & Decrement"
+    },
+    {
+      "id": "v005-u02",
+      "source_id": "video-005",
+      "locator": "01:22–02:34",
+      "idea": "Print old/new value distinction",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-005.qmd > Print & Assignment"
+    },
+    {
+      "id": "v005-u03",
+      "source_id": "video-005",
+      "locator": "02:34–04:40",
+      "idea": "Multi-step tracing; exact displayed expression missing",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-005.qmd > Precedence Is Not Evaluation Order"
+    },
+    {
+      "id": "v005-u04",
+      "source_id": "video-005",
+      "locator": "04:51–05:48",
+      "idea": "Assignment stores postfix old versus prefix new",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-005.qmd > Print & Assignment"
+    },
+    {
+      "id": "v005-u05",
+      "source_id": "video-005",
+      "locator": "05:48–08:20",
+      "idea": "Mixed expression, precedence and evolving state",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-005.qmd > Precedence Is Not Evaluation Order"
+    },
+    {
+      "id": "v005-u06",
+      "source_id": "video-005",
+      "locator": "08:27–10:05",
+      "idea": "Five compound assignments and k=5 plus 10",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-005.qmd > Compound Assignment"
+    },
+    {
+      "id": "v005-u07",
+      "source_id": "video-005",
+      "locator": "10:05–11:12",
+      "idea": "Read-before-assignment failure; final expression not recoverable",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-005.qmd > Compound Assignment"
+    },
+    {
+      "id": "v006-u01",
+      "source_id": "video-006",
+      "locator": "00:02–01:42",
+      "idea": "User versus programmer value; System.in and Scanner",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-006.qmd > User Input"
+    },
+    {
+      "id": "v006-u02",
+      "source_id": "video-006",
+      "locator": "01:47–03:36",
+      "idea": "Object name/new Scanner/import and setup",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-006.qmd > User Input"
+    },
+    {
+      "id": "v006-u03",
+      "source_id": "video-006",
+      "locator": "03:39–06:53",
+      "idea": "nextInt, waiting for user, print prompt first",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-006.qmd > Choose the Reading Method"
+    },
+    {
+      "id": "v006-u04",
+      "source_id": "video-006",
+      "locator": "06:59–07:20",
+      "idea": "Numeric reading methods by type",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-006.qmd > Choose the Reading Method"
+    },
+    {
+      "id": "v006-u05",
+      "source_id": "video-006",
+      "locator": "07:20–10:28",
+      "idea": "Two numbers, sum, integer input mismatch and runtime error",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-006.qmd > Worked Example: Sum & Average"
+    },
+    {
+      "id": "v006-u06",
+      "source_id": "video-006",
+      "locator": "10:28–12:26",
+      "idea": "printf placeholders, order, %f and precision control",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-006.qmd > Printf Formatting"
+    },
+    {
+      "id": "v006-u07",
+      "source_id": "video-006",
+      "locator": "12:26–13:05",
+      "idea": "%d, %c, %s/%S and newline formatting",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-006.qmd > Printf Formatting"
+    },
+    {
+      "id": "v006-u08",
+      "source_id": "video-006",
+      "locator": "13:16–14:37",
+      "idea": "next versus nextLine and spaces",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-006.qmd > Choose the Reading Method"
+    },
+    {
+      "id": "v006-u09",
+      "source_id": "video-006",
+      "locator": "14:49–15:29",
+      "idea": "Read char with first position charAt(0)",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-006.qmd > Choose the Reading Method"
+    },
+    {
+      "id": "v006-u10",
+      "source_id": "video-006",
+      "locator": "15:29–16:59",
+      "idea": "Numeric sum versus string concatenation and parentheses",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-006.qmd > Parentheses & Concatenation"
+    },
+    {
+      "id": "v006-u11",
+      "source_id": "video-006",
+      "locator": "17:03–18:29",
+      "idea": "Three numbers, average, grouping and fractional result",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-006.qmd > Worked Example: Sum & Average"
+    },
+    {
+      "id": "v007-u01",
+      "source_id": "video-007",
+      "locator": "00:01–02:03",
+      "idea": "Control flow families; selection diamond and alternative path",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-007.qmd > Selection Statements"
+    },
+    {
+      "id": "v007-u02",
+      "source_id": "video-007",
+      "locator": "02:12–03:19",
+      "idea": "Single if; positive/negative example",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-007.qmd > If & Blocks"
+    },
+    {
+      "id": "v007-u03",
+      "source_id": "video-007",
+      "locator": "03:19–04:03",
+      "idea": "Six relational/equality operators",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-007.qmd > Boolean Condition & Comparisons"
+    },
+    {
+      "id": "v007-u04",
+      "source_id": "video-007",
+      "locator": "04:03–05:17",
+      "idea": "Only one statement without braces",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-007.qmd > If & Blocks"
+    },
+    {
+      "id": "v007-u05",
+      "source_id": "video-007",
+      "locator": "05:17–05:53",
+      "idea": "Accidental semicolon",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-007.qmd > If & Blocks"
+    },
+    {
+      "id": "v007-u06",
+      "source_id": "video-007",
+      "locator": "05:53–07:56",
+      "idea": "Scanner input and grouping multiple statements",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-007.qmd > Else-If Chain"
+    },
+    {
+      "id": "v007-u07",
+      "source_id": "video-007",
+      "locator": "07:59–09:13",
+      "idea": "if-else and zero boundary of positive test",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-007.qmd > If-Else"
+    },
+    {
+      "id": "v007-u08",
+      "source_id": "video-007",
+      "locator": "09:13–10:53",
+      "idea": "Even/odd, remainder and == versus =",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-007.qmd > If-Else"
+    },
+    {
+      "id": "v007-u09",
+      "source_id": "video-007",
+      "locator": "11:06–12:59",
+      "idea": "Nested if and nearest unmatched else",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-007.qmd > Nested If & Dangling Else"
+    },
+    {
+      "id": "v007-u10",
+      "source_id": "video-007",
+      "locator": "13:19–14:02",
+      "idea": "Greater-than/equality edge at ten",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-007.qmd > Nested If & Dangling Else"
+    },
+    {
+      "id": "v007-u11",
+      "source_id": "video-007",
+      "locator": "14:02–16:52",
+      "idea": "Else-if chain, 20/10/9 and final unconditional else",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-007.qmd > Else-If Chain"
+    },
+    {
+      "id": "v008-u01",
+      "source_id": "video-008",
+      "locator": "00:07–02:19",
+      "idea": "Grade A/B/C/D/F ranges; 110 invalid; boundaries",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-008.qmd > Grade Ranges"
+    },
+    {
+      "id": "v008-u02",
+      "source_id": "video-008",
+      "locator": "02:19–04:22",
+      "idea": "AND/OR four truth cases, chained booleans",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-008.qmd > Logical Operators"
+    },
+    {
+      "id": "v008-u03",
+      "source_id": "video-008",
+      "locator": "04:25–05:58",
+      "idea": "Java symbols && and ||; validate ranges",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-008.qmd > Worked Example: Grade"
+    },
+    {
+      "id": "v008-u04",
+      "source_id": "video-008",
+      "locator": "06:01–06:47",
+      "idea": "boolean expression assignment, not int",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-008.qmd > Logical Operators"
+    },
+    {
+      "id": "v008-u05",
+      "source_id": "video-008",
+      "locator": "06:49–07:26",
+      "idea": "Compound condition and short-circuit",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-008.qmd > Short-Circuit"
+    },
+    {
+      "id": "v008-u06",
+      "source_id": "video-008",
+      "locator": "07:26–08:59",
+      "idea": "Ternary y==1 ? 2 : 5; assign selected value",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-008.qmd > Ternary Operator"
+    },
+    {
+      "id": "v008-u07",
+      "source_id": "video-008",
+      "locator": "08:59–11:16",
+      "idea": "Nested ternary grade conversion and invalid mark",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-008.qmd > Nested Ternary"
+    },
+    {
+      "id": "v008-u08",
+      "source_id": "video-008",
+      "locator": "11:16–12:49",
+      "idea": "instanceof String, object check, reject primitive check",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-008.qmd > Instanceof Operator"
+    },
+    {
+      "id": "v008-u09",
+      "source_id": "video-008",
+      "locator": "12:53–13:39",
+      "idea": "instanceof Scanner example",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-008.qmd > Instanceof Operator"
+    },
+    {
+      "id": "v009-u01",
+      "source_id": "video-009",
+      "locator": "00:01–02:22",
+      "idea": "Selector, fixed distinct case values, matching",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-009.qmd > Switch, Case & Default"
+    },
+    {
+      "id": "v009-u02",
+      "source_id": "video-009",
+      "locator": "02:22–03:48",
+      "idea": "Break exits switch and case order need not be numeric",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-009.qmd > Switch, Case & Default"
+    },
+    {
+      "id": "v009-u03",
+      "source_id": "video-009",
+      "locator": "03:48–04:35",
+      "idea": "Missing break continues to following cases",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-009.qmd > Fall-Through"
+    },
+    {
+      "id": "v009-u04",
+      "source_id": "video-009",
+      "locator": "04:35–05:55",
+      "idea": "No match, default and fall-through into default",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-009.qmd > Fall-Through"
+    },
+    {
+      "id": "v009-u05",
+      "source_id": "video-009",
+      "locator": "05:55–08:33",
+      "idea": "Workdays 1–5, weekend 6–7, grouped labels and invalid 9",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-009.qmd > Shared Cases: Workdays"
+    },
+    {
+      "id": "v009-u06",
+      "source_id": "video-009",
+      "locator": "08:43–10:55",
+      "idea": "Supported selector types, expressions and 5/2 trap",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-009.qmd > Selector & Case Rules"
+    },
+    {
+      "id": "v009-u07",
+      "source_id": "video-009",
+      "locator": "10:57–13:56",
+      "idea": "Calculator + - * / %, char input, 5*5 and 10%11",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-009.qmd > Worked Example: Calculator"
+    },
+    {
+      "id": "v009-u08",
+      "source_id": "video-009",
+      "locator": "13:56–14:16",
+      "idea": "Input placement for invalid operation",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-009.qmd > Worked Example: Calculator"
+    },
+    {
+      "id": "v009-u09",
+      "source_id": "video-009",
+      "locator": "14:16–15:45",
+      "idea": "Character and String case sensitivity",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-009.qmd > Selector & Case Rules"
+    },
+    {
+      "id": "v009-u10",
+      "source_id": "video-009",
+      "locator": "15:51–16:19",
+      "idea": "Multiple statements, braces and nested if within a case",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-009.qmd > Selector & Case Rules"
+    },
+    {
+      "id": "v009-u11",
+      "source_id": "video-009",
+      "locator": "16:19–17:47",
+      "idea": "Duplicate/compatible/constant case values and constant expressions",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-009.qmd > Selector & Case Rules"
+    },
+    {
+      "id": "v009-u12",
+      "source_id": "video-009",
+      "locator": "17:47–18:54",
+      "idea": "Grouped labels not ranges; if better for range conditions",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-009.qmd > Selector & Case Rules"
+    },
+    {
+      "id": "v010-u01",
+      "source_id": "video-010",
+      "locator": "00:01–01:24",
+      "idea": "Why repetition instead of copied statements",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-010.qmd > Why a Loop?"
+    },
+    {
+      "id": "v010-u02",
+      "source_id": "video-010",
+      "locator": "01:24–03:08",
+      "idea": "while syntax, boolean condition and infinite true",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-010.qmd > Initialization, Condition & Update"
+    },
+    {
+      "id": "v010-u03",
+      "source_id": "video-010",
+      "locator": "03:08–05:46",
+      "idea": "Initialize counter, condition and update; no update loops forever",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-010.qmd > Initialization, Condition & Update"
+    },
+    {
+      "id": "v010-u04",
+      "source_id": "video-010",
+      "locator": "05:49–07:49",
+      "idea": "1–5 trace and final counter=6",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-010.qmd > Initialization, Condition & Update"
+    },
+    {
+      "id": "v010-u05",
+      "source_id": "video-010",
+      "locator": "07:49–08:20",
+      "idea": "Counter-controlled three components",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-010.qmd > Initialization, Condition & Update"
+    },
+    {
+      "id": "v010-u06",
+      "source_id": "video-010",
+      "locator": "08:20–10:10",
+      "idea": "Countdown from five and final zero",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-010.qmd > Countdown & Step Size"
+    },
+    {
+      "id": "v010-u07",
+      "source_id": "video-010",
+      "locator": "10:10–11:00",
+      "idea": "Step size two gives 5/3/1 and final -1",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-010.qmd > Countdown & Step Size"
+    },
+    {
+      "id": "v010-u08",
+      "source_id": "video-010",
+      "locator": "11:08–14:02",
+      "idea": "Postfix in condition, body sees 2–6, final failed test gives 7",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-010.qmd > Increment Inside the Condition"
+    },
+    {
+      "id": "v010-u09",
+      "source_id": "video-010",
+      "locator": "14:02–15:48",
+      "idea": "Prefix in condition, body 2–5 and final 6; trace method",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-010.qmd > Worked Example"
+    },
+    {
+      "id": "v011-u01",
+      "source_id": "video-011",
+      "locator": "section #011, paragraphs 2–8",
+      "idea": "Counter versus unknown count; sentinel character",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-011.qmd > Three Control Strategies"
+    },
+    {
+      "id": "v011-u02",
+      "source_id": "video-011",
+      "locator": "section #011, character-input discussion",
+      "idea": "Initialize before while; repeated reads and count",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-011.qmd > Sentinel-Controlled Input"
+    },
+    {
+      "id": "v011-u03",
+      "source_id": "video-011",
+      "locator": "section #011, counting discussion",
+      "idea": "Count sentinel-inclusive versus count data only",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-011.qmd > Count the Sentinel or Exclude It?"
+    },
+    {
+      "id": "v011-u04",
+      "source_id": "video-011",
+      "locator": "section #011, flag definition",
+      "idea": "Boolean flag governs continuation; change to terminate",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-011.qmd > Flag-Controlled Input"
+    },
+    {
+      "id": "v011-u05",
+      "source_id": "video-011",
+      "locator": "section #011, flag trace",
+      "idea": "Convert same character task to flag-controlled loop",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-011.qmd > Flag-Controlled Input"
+    },
+    {
+      "id": "v011-u06",
+      "source_id": "video-011",
+      "locator": "section #011, final exercise opening",
+      "idea": "Unknown number of grades, possible fractions, sum/count",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-011.qmd > Worked Exercise: Average of Unknown Grades"
+    },
+    {
+      "id": "v011-u07",
+      "source_id": "video-011",
+      "locator": "section #011, final exercise counting",
+      "idea": "Increment accepted grades only; avoid extra denominator",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-011.qmd > Worked Exercise: Average of Unknown Grades"
+    },
+    {
+      "id": "v011-u08",
+      "source_id": "video-011",
+      "locator": "section #011, numbered prompt discussion",
+      "idea": "count+1 parentheses, string concatenation trap",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-011.qmd > Worked Exercise: Average of Unknown Grades"
+    },
+    {
+      "id": "v011-u09",
+      "source_id": "video-011",
+      "locator": "section #011, final run",
+      "idea": "100 and 98 produce 99; sentinel excluded",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-011.qmd > Worked Exercise: Average of Unknown Grades"
+    },
+    {
+      "id": "v012-u01",
+      "source_id": "video-012",
+      "locator": "section #012, opening comparison",
+      "idea": "do-while syntax and required final semicolon",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-012.qmd > Body Before Condition"
+    },
+    {
+      "id": "v012-u02",
+      "source_id": "video-012",
+      "locator": "section #012, first counter trace",
+      "idea": "Five iterations; execute body before test",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-012.qmd > Body Before Condition"
+    },
+    {
+      "id": "v012-u03",
+      "source_id": "video-012",
+      "locator": "section #012, initially false condition",
+      "idea": "At least once versus zero; comparison example",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-012.qmd > Compare the First Test"
+    },
+    {
+      "id": "v012-u04",
+      "source_id": "video-012",
+      "locator": "section #012, three control types",
+      "idea": "Counter, Sentinel and Flag also apply",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-012.qmd > Source & Accuracy"
+    },
+    {
+      "id": "v012-u05",
+      "source_id": "video-012",
+      "locator": "section #012, char example",
+      "idea": "Read before first test avoids artificial initial char",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-012.qmd > Read Before Testing"
+    },
+    {
+      "id": "v012-u06",
+      "source_id": "video-012",
+      "locator": "section #012, char count",
+      "idea": "Exclude sentinel rather than subtracting blindly",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-012.qmd > Read Before Testing"
+    },
+    {
+      "id": "v012-u07",
+      "source_id": "video-012",
+      "locator": "section #012, repeated calculator",
+      "idea": "Repeat numbers/operator/menu/switch example",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-012.qmd > Worked Exercise: Repeated Calculator"
+    },
+    {
+      "id": "v012-u08",
+      "source_id": "video-012",
+      "locator": "section #012, continuation alternatives",
+      "idea": "Quit signal versus any invalid operator; OR of allowed operations",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-012.qmd > Worked Exercise: Repeated Calculator"
+    },
+    {
+      "id": "v012-u09",
+      "source_id": "video-012",
+      "locator": "section #012, conclusion",
+      "idea": "Choose on semantics; no intrinsic efficiency claim",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-012.qmd > Compare the First Test"
+    },
+    {
+      "id": "v013-u01",
+      "source_id": "video-013",
+      "locator": "section #013, opening syntax",
+      "idea": "Three for components and two separating semicolons",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-013.qmd > For Header"
+    },
+    {
+      "id": "v013-u02",
+      "source_id": "video-013",
+      "locator": "section #013, execution trace",
+      "idea": "Initialize once, test-body-update; five Hi messages",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-013.qmd > Execution Trace"
+    },
+    {
+      "id": "v013-u03",
+      "source_id": "video-013",
+      "locator": "section #013, countdown",
+      "idea": "Descending counter",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-013.qmd > Execution Trace"
+    },
+    {
+      "id": "v013-u04",
+      "source_id": "video-013",
+      "locator": "section #013, optional components",
+      "idea": "Outside initialization/update and retained separators",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-013.qmd > Optional Parts & Scope"
+    },
+    {
+      "id": "v013-u05",
+      "source_id": "video-013",
+      "locator": "section #013, infinite form",
+      "idea": "for(;;) and internal if/break exit",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-013.qmd > Infinite Form"
+    },
+    {
+      "id": "v013-u06",
+      "source_id": "video-013",
+      "locator": "section #013, print and sum example",
+      "idea": "Print 0–4 and accumulated sum=10",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-013.qmd > Worked Examples: Sum & Even Numbers"
+    },
+    {
+      "id": "v013-u07",
+      "source_id": "video-013",
+      "locator": "section #013, even example",
+      "idea": "Step two versus modulus condition, correct parity start",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-013.qmd > Worked Examples: Sum & Even Numbers"
+    },
+    {
+      "id": "v013-u08",
+      "source_id": "video-013",
+      "locator": "section #013, scope discussion",
+      "idea": "Inside declaration unavailable after loop; outside remains visible",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-013.qmd > Optional Parts & Scope"
+    },
+    {
+      "id": "v013-u09",
+      "source_id": "video-013",
+      "locator": "section #013, comma discussion",
+      "idea": "Multiple same-type declarations and update expressions",
+      "kind": "concept/example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-013.qmd > Comma in the Header"
+    },
+    {
+      "id": "v002-source-gap",
+      "source_id": "video-002",
+      "locator": "11:07–12:03",
+      "idea": "Exact source detail unavailable",
+      "kind": "source-gap",
+      "status": "unclear",
+      "reason": "Exact combined escape-output tracing expression absent from transcript",
+      "output_ref": "books/java/lessons/lesson-002.qmd > Trace an Output"
+    },
+    {
+      "id": "v004-source-gap",
+      "source_id": "video-004",
+      "locator": "04:32–05:23; 07:34–08:04",
+      "idea": "Exact source detail unavailable",
+      "kind": "source-gap",
+      "status": "unclear",
+      "reason": "Some compound expression symbols/numbers not recoverable",
+      "output_ref": "books/java/lessons/lesson-004.qmd > Source & Accuracy"
+    },
+    {
+      "id": "v005-source-gap",
+      "source_id": "video-005",
+      "locator": "02:34–04:40; 10:05–11:06",
+      "idea": "Exact source detail unavailable",
+      "kind": "source-gap",
+      "status": "unclear",
+      "reason": "Exact displayed long expressions lost in transcription",
+      "output_ref": "books/java/lessons/lesson-005.qmd > Source & Accuracy"
+    },
+    {
+      "id": "v008-source-gap",
+      "source_id": "video-008",
+      "locator": "00:07–05:58",
+      "idea": "Exact source detail unavailable",
+      "kind": "source-gap",
+      "status": "unclear",
+      "reason": "Spoken > versus >= boundaries inconsistent; example policy declared explicitly",
+      "output_ref": "books/java/lessons/lesson-008.qmd > Source & Accuracy"
+    },
+    {
+      "id": "v011-source-gap",
+      "source_id": "video-011",
+      "locator": "section #011, final grades exercise",
+      "idea": "Exact source detail unavailable",
+      "kind": "source-gap",
+      "status": "unclear",
+      "reason": "Exact numeric sentinel value missing; -1 is an explicit illustrative choice",
+      "output_ref": "books/java/lessons/lesson-011.qmd > Source & Accuracy"
+    }
+  ],
+  "source_limitations": []
+}

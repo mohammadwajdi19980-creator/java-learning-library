@@ -23,3 +23,5 @@ with tempfile.TemporaryDirectory() as tmp:
  file.write_text('class Failure { public static void main(String[] args) { System.Out.println("Hello"); }}')
  assert subprocess.run(['javac',str(file)],capture_output=True).returncode
 print(f'PASS: {count} full programs and intentional compile/runtime failures')
+from verify_batch import verify
+verify()

@@ -1,0 +1,281 @@
+{
+  "environment": "JDK 25, English/US locale for stable decimal formatting; CLI verification, not NetBeans UI execution",
+  "programs": {
+    "EscapeDemo": [
+      {
+        "output": "Ahmad\nAli\nAhmad\nAli\nHe said: \"Java\"\nC:\\Java\n"
+      }
+    ],
+    "TypesDemo": [
+      {
+        "output": "15\n2.5\n3000000000\nA\ntrue\nAdel Nasim\n2147483647\n-2147483648\n"
+      }
+    ],
+    "ArithmeticDemo": [
+      {
+        "output": "17\n22\n2\n7\n7.5\n4\n4.5\n4.0\n4\n"
+      }
+    ],
+    "IncrementDemo": [
+      {
+        "output": "1\n2\n3\n3\n4\n4\n3\n"
+      }
+    ],
+    "InputAverage": [
+      {
+        "input": "90 92 88\n",
+        "output": "First: Second: Sum of two = 182.00\nThird: Sum = 270.00\nAverage = 90.00\n"
+      },
+      {
+        "input": "15 1.5 1\n",
+        "output": "First: Second: Sum of two = 16.50\nThird: Sum = 17.50\nAverage = 5.83\n"
+      }
+    ],
+    "SelectionDemo": [
+      {
+        "input": "10\n",
+        "output": "Positive\nEven\nEqual to 10\n"
+      },
+      {
+        "input": "20\n",
+        "output": "Positive\nEven\nAbove 10\n"
+      },
+      {
+        "input": "0\n",
+        "output": "Zero\nEven\nBelow 10\n"
+      },
+      {
+        "input": "-3\n",
+        "output": "Negative\nOdd\nBelow 10\n"
+      }
+    ],
+    "GradeDemo": [
+      {
+        "input": "-1\n",
+        "output": "Invalid mark\n"
+      },
+      {
+        "input": "0\n",
+        "output": "F\n"
+      },
+      {
+        "input": "59\n",
+        "output": "F\n"
+      },
+      {
+        "input": "60\n",
+        "output": "D\n"
+      },
+      {
+        "input": "69\n",
+        "output": "D\n"
+      },
+      {
+        "input": "70\n",
+        "output": "C\n"
+      },
+      {
+        "input": "79\n",
+        "output": "C\n"
+      },
+      {
+        "input": "80\n",
+        "output": "B\n"
+      },
+      {
+        "input": "89\n",
+        "output": "B\n"
+      },
+      {
+        "input": "90\n",
+        "output": "A\n"
+      },
+      {
+        "input": "100\n",
+        "output": "A\n"
+      },
+      {
+        "input": "101\n",
+        "output": "Invalid mark\n"
+      },
+      {
+        "input": "110\n",
+        "output": "Invalid mark\n"
+      }
+    ],
+    "TypeCheckDemo": [
+      {
+        "output": "true\ntrue\n"
+      }
+    ],
+    "SwitchCalculator": [
+      {
+        "input": "* 5 5\n",
+        "output": "25\n"
+      },
+      {
+        "input": "% 10 11\n",
+        "output": "10\n"
+      },
+      {
+        "input": "/ 5 2\n",
+        "output": "2\n"
+      },
+      {
+        "input": "+ 2 3\n",
+        "output": "5\n"
+      },
+      {
+        "input": "- 2 3\n",
+        "output": "-1\n"
+      },
+      {
+        "input": "/ 5 0\n",
+        "output": "Cannot divide by zero\n"
+      },
+      {
+        "input": "% 5 0\n",
+        "output": "Cannot divide by zero\n"
+      },
+      {
+        "input": "? 2 3\n",
+        "output": "Invalid operation\n"
+      }
+    ],
+    "WhileTrace": [
+      {
+        "output": "1 2 3 4 5 end=6\n2 3 4 5 6 end=7\n2 3 4 5 end=6\n"
+      }
+    ],
+    "SentinelChars": [
+      {
+        "input": "A B C D Q\n",
+        "output": "Count = 4\n"
+      },
+      {
+        "input": "Q\n",
+        "output": "Count = 0\n"
+      },
+      {
+        "input": "q Q\n",
+        "output": "Count = 1\n"
+      }
+    ],
+    "FlagChars": [
+      {
+        "input": "A B C D Q\n",
+        "output": "Count = 4\n"
+      },
+      {
+        "input": "Q\n",
+        "output": "Count = 0\n"
+      },
+      {
+        "input": "q Q\n",
+        "output": "Count = 1\n"
+      }
+    ],
+    "SentinelAverage": [
+      {
+        "input": "100 98 -1\n",
+        "output": "Grade 1 (-1 to stop): Grade 2 (-1 to stop): Grade 3 (-1 to stop): Average = 99.00\n"
+      },
+      {
+        "input": "-1\n",
+        "output": "Grade 1 (-1 to stop): No grades\n"
+      },
+      {
+        "input": "90.5 -1\n",
+        "output": "Grade 1 (-1 to stop): Grade 2 (-1 to stop): Average = 90.50\n"
+      }
+    ],
+    "DoWhileDemo": [
+      {
+        "output": "Do body\n6\n"
+      }
+    ],
+    "DoChars": [
+      {
+        "input": "A B C Q\n",
+        "output": "Count = 3\n"
+      },
+      {
+        "input": "Q\n",
+        "output": "Count = 0\n"
+      }
+    ],
+    "RepeatedCalculator": [
+      {
+        "input": "5 10 *\n10 8 -\n0 0 Q\n",
+        "output": "50\n2\nFinished\n"
+      },
+      {
+        "input": "5 0 /\n0 0 Q\n",
+        "output": "Cannot divide by zero\nFinished\n"
+      },
+      {
+        "input": "0 0 ?\n",
+        "output": "Finished\n"
+      }
+    ],
+    "ForDemo": [
+      {
+        "output": "0 1 2 3 4 sum=10\n0 2 4 \n0 2 4 \n1:5\n2:4\n3:3\n"
+      }
+    ]
+  },
+  "invalid_examples": [
+    {
+      "name": "byte-range",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) {byte x = 128;}}"
+    },
+    {
+      "name": "uninitialized-local",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) {int x; System.out.println(x);}}"
+    },
+    {
+      "name": "float-suffix",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) {float x = 2.5;}}"
+    },
+    {
+      "name": "boolean-not-number",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) {if (5) {}}}"
+    },
+    {
+      "name": "duplicate-case",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) {switch(2) { case 2: break; case 5 / 2: break; }}}"
+    },
+    {
+      "name": "ordinary-variable-case",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) {int x=2; switch(2) { case x: break; }}}"
+    },
+    {
+      "name": "for-scope",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) {for(int i=0;i<5;i++) {} System.out.println(i);}}"
+    },
+    {
+      "name": "primitive-instanceof",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) {System.out.println(5 instanceof int);}}"
+    },
+    {
+      "name": "while-uninitialized",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) {char letter; while (letter != 'Q') {}}}"
+    },
+    {
+      "name": "scanner-fraction-as-int",
+      "stage": "runtime",
+      "code": "class Invalid { public static void main(String[] args) { java.util.Scanner input = new java.util.Scanner(System.in); input.nextInt(); }}",
+      "input": "1.5\n",
+      "exception": "InputMismatchException"
+    }
+  ]
+}

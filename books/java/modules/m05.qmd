@@ -1,17 +1,27 @@
-# M05 — Methods & Recursion
+---
+title: "M05 · Methods & Recursion"
+---
 
-<div class="lesson-meta"><span>M05</span><span>BEGINNER</span><span>#018–#023</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 6 lessons available</span><span>0 transcripts received</span></div>
 
-<span class="english-term">Methods & Recursion</span>
+## Subjects
 
-هذه الوحدة تضم 6 فيديوهات أصلية. صفحات المواضيع في الأسفل مواضعها جاهزة؛ أي موضوع لم يصل نصه بعد لن يُقدَّم على أنه مشروح.
+### S10 · Methods & Overloading
 
-## مواضيع الوحدة
+[Open Subject](../subjects/s10.qmd)
 
-- [S10 — Methods & Overloading](../subjects/s10.qmd) — `#018–#021`
-- [S11 — Recursion](../subjects/s11.qmd) — `#022–#023`
+- #018 · Method / Function Part 1 — Awaiting transcript
+- #019 · Method / Function Part 2 (Examples) — Awaiting transcript
+- #020 · Built in Method / Function — Awaiting transcript
+- #021 · Overloading Method / Function — Awaiting transcript
 
-## اختبار الوحدة والمشروع
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
-بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+### S11 · Recursion
 
+[Open Subject](../subjects/s11.qmd)
+
+- #022 · Recursion/Recursive Methods Part 1 — Awaiting transcript
+- #023 · Recursion/Recursive Methods Part 2 — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

@@ -6,6 +6,8 @@ format:
 page-layout: full
 ---
 
+::: {.content-visible unless-format="epub"}
+
 ```{=html}
 <section class="home-intro">
 <p class="eyebrow" dir="ltr">YOUR VISUAL JAVA BOOK</p>
@@ -25,9 +27,24 @@ page-layout: full
 
 <a class="review-strip" href="subjects/s01.html"><span class="review-icon" aria-hidden="true">✓</span><div><strong dir="ltr">S01 · Review & Exam</strong><p>بعد الدرسين: اختبر فهمك، وراجع الحلول مع أسبابها.</p></div><span class="review-marks" dir="ltr">20 marks →</span></a>
 
-<section class="next-chapter"><span class="next-number" aria-hidden="true">02</span><div><p class="eyebrow" dir="ltr">UP NEXT</p><h2 dir="ltr">Escape Sequences & Comments</h2><p>التفريغ مستلَم. الدرس قيد الانتظار حتى يُكتب ويُراجع.</p></div><span class="pending-label">Source received</span></section>
+<div class="section-heading"><div><p class="eyebrow" dir="ltr">CHOOSE YOUR NEXT SUBJECT</p><h2>تابع من مكانك</h2></div></div>
+{{MODULE_CARDS}}
+
+{{NEXT_LESSON}}
 
 <section class="library-tools"><a href="glossary.html"><span dir="ltr">01 / GLOSSARY</span><h3>كل مصطلح في مكانه</h3><p>الاسم بالإنجليزية، والمعنى بشرح عربي واضح.</p></a><a href="roadmap.html"><span dir="ltr">02 / CONTENTS</span><h3>شوف الصورة كاملة</h3><p>الـ 77 فيديو، مرتّبة حسب الموضوع، مع حالة كل درس.</p></a></section>
 
 <p class="book-state">{{AVAILABLE}} lessons available · {{RECEIVED}} transcripts received · 77 videos mapped</p>
 ```
+
+:::
+
+::: {.content-visible when-format="epub"}
+
+كتابك لتعلّم Java من الصفر، بشرح عربي ومصطلحات إنجليزية. {{AVAILABLE}} Lessons متاحة، و{{RECEIVED}} تفريغًا مستلمًا من أصل 77 فيديو.
+
+{{EPUB_CONTENTS}}
+
+[Glossary](glossary.qmd) · [Practice & Exams](exams.qmd) · [Sources](sources.qmd)
+
+:::

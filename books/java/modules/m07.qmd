@@ -1,19 +1,44 @@
-# M07 — Classes & Objects
+---
+title: "M07 · Classes & Objects"
+---
 
-<div class="lesson-meta"><span>M07</span><span>INTERMEDIATE</span><span>#030–#038</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 9 lessons available</span><span>0 transcripts received</span></div>
 
-<span class="english-term">Classes & Objects</span>
+## Subjects
 
-هذه الوحدة تضم 9 فيديوهات أصلية. صفحات المواضيع في الأسفل مواضعها جاهزة؛ أي موضوع لم يصل نصه بعد لن يُقدَّم على أنه مشروح.
+### S15 · OOP Foundations
 
-## مواضيع الوحدة
+[Open Subject](../subjects/s15.qmd)
 
-- [S15 — OOP Foundations](../subjects/s15.qmd) — `#030–#032`
-- [S16 — Constructors & Object Lifecycle](../subjects/s16.qmd) — `#033–#034`
-- [S17 — Static Members](../subjects/s17.qmd) — `#035–#036`
-- [S18 — Passing & Returning Objects](../subjects/s18.qmd) — `#037–#038`
+- #030 · Introduction to Object-Oriented Programming — Awaiting transcript
+- #031 · Classes and Objects — Awaiting transcript
+- #032 · Questions and Exercises - Classes and Objects — Awaiting transcript
 
-## اختبار الوحدة والمشروع
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
-بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+### S16 · Constructors & Object Lifecycle
 
+[Open Subject](../subjects/s16.qmd)
+
+- #033 · Constructor (No-Arg, Parameterized, Default) — Awaiting transcript
+- #034 · Constructor (Copy Constructor) / Finalizers vs Destructor — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+
+### S17 · Static Members
+
+[Open Subject](../subjects/s17.qmd)
+
+- #035 · Static keyword (Static Variable and Methods) — Awaiting transcript
+- #036 · Static keyword (Static Block - Static Class) — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+
+### S18 · Passing & Returning Objects
+
+[Open Subject](../subjects/s18.qmd)
+
+- #037 · Passing Objects to Methods (by Value vs by Reference / Passing Objects as Arguments) — Awaiting transcript
+- #038 · Passing Objects to Methods (Returning Objects / Comparing Objects) — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

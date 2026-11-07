@@ -1,16 +1,30 @@
-# S08 — Do-While & For Loops
+---
+title: "S08 · Do-While & For Loops"
+subtitle: "Partial Review · Videos #012–#013"
+---
 
-<div class="lesson-meta"><span>M04</span><span>S08</span><span>#012–#014</span></div>
+<div class="lesson-meta"><span>M04 · S08</span><span>2 / 3 lessons available</span></div>
 
-هذا **Subject** داخل [M04 — Loops & Branching](../modules/m04.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+## Lessons
 
-## الدروس الأصلية
+- [#012 · Do-While](../lessons/lesson-012.qmd)
+- [#013 · For](../lessons/lesson-013.qmd)
+- #014 · Questions and Exercises in Loops — Awaiting transcript
 
-- **`#012`** — Repetition Control Statement (Do-While Loop) — *لم يصل التفريغ بعد*
-- **`#013`** — Repetition Control Statement (For Loop) — *لم يصل التفريغ بعد*
-- **`#014`** — Questions and Exercises in Loops — *لم يصل التفريغ بعد*
+## Partial Review
 
-## اختبار نهاية الموضوع
+المراجعة التالية للدروس المتاحة فقط؛ ليست Exam كاملًا لهذا Subject. هذه أسئلة تدريبية جديدة ضمن الشرح الموجود.
 
-عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ Code، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.
+1. قارن أقل عدد دورات ممكن في `while` و`do-while`، واذكر موضع `;` في الثانية.
+2. رتّب بداية `for` والشرط والجسم والتحديث، وحدد ما ينفّذ مرة واحدة.
+3. ما مجموع `0 + 1 + 2 + 3 + 4`؟ وكيف تطبع الزوجي فقط من هذا المجال بطريقتين؟
+4. لماذا لا تقرأ `i` بعد تعريفها داخل رأس `for`؟ وماذا تسمح `,` في الرأس؟
 
+<details><summary>Answers</summary>
+
+1. `0` مقابل `1` عند الوصول الطبيعي؛ نهاية الثانية `} while (condition);`.
+2. البداية مرة، ثم الشرط، ثم الجسم إن نجح، ثم التحديث، ثم رجوع للشرط.
+3. `10`. تبدأ `i = 0` وتزيد `2`، أو تزيد `1` وتطبع فقط إذا `i % 2 == 0`.
+4. انتهى `Scope` الخاص فيها. الفاصلة تفصل عدة متغيرات من نفس النوع في التعريف، أو عدة تحديثات في الجزء الأخير.
+
+</details>

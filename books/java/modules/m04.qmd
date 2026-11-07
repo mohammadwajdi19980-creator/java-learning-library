@@ -1,18 +1,40 @@
-# M04 — Loops & Branching
+---
+title: "M04 · Loops & Branching"
+---
 
-<div class="lesson-meta"><span>M04</span><span>BEGINNER</span><span>#010–#017</span></div>
+<div class="lesson-meta"><span>In progress</span><span>4 / 8 lessons available</span><span>4 transcripts received</span></div>
 
-<span class="english-term">Loops & Branching</span>
+## Subjects
 
-هذه الوحدة تضم 8 فيديوهات أصلية. صفحات المواضيع في الأسفل مواضعها جاهزة؛ أي موضوع لم يصل نصه بعد لن يُقدَّم على أنه مشروح.
+### S07 · While Loops
 
-## مواضيع الوحدة
+[Open Subject](../subjects/s07.qmd)
 
-- [S07 — While Loops](../subjects/s07.qmd) — `#010–#011`
-- [S08 — Do-While & For Loops](../subjects/s08.qmd) — `#012–#014`
-- [S09 — Nested Loops & Branching](../subjects/s09.qmd) — `#015–#017`
+- [#010 · While](../lessons/lesson-010.qmd)
+- [#011 · Sentinel & Flag](../lessons/lesson-011.qmd)
 
-## اختبار الوحدة والمشروع
+Review & Exam متاح بعد الدروس المذكورة.
 
-بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+### S08 · Do-While & For Loops
 
+[Open Subject](../subjects/s08.qmd)
+
+- [#012 · Do-While](../lessons/lesson-012.qmd)
+- [#013 · For](../lessons/lesson-013.qmd)
+- #014 · Questions and Exercises in Loops — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+
+### S09 · Nested Loops & Branching
+
+[Open Subject](../subjects/s09.qmd)
+
+- #015 · Branching Statements (Break/Continue) — Awaiting transcript
+- #016 · Repetition Control Statement (Nested Loops) — Awaiting transcript
+- #017 · Branching Statements (Labeled Break / Labeled Continue) — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+
+## Reading Path
+
+ابدأ من [#010](../lessons/lesson-010.qmd)، وراجع كل Subject بعد دروسه. اتبع Previous / Next للتقدّم بالترتيب.

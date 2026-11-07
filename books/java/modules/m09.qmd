@@ -1,17 +1,25 @@
-# M09 — ArrayList
+---
+title: "M09 · ArrayList"
+---
 
-<div class="lesson-meta"><span>M09</span><span>INTERMEDIATE</span><span>#048–#051</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 4 lessons available</span><span>0 transcripts received</span></div>
 
-<span class="english-term">ArrayList</span>
+## Subjects
 
-هذه الوحدة تضم 4 فيديوهات أصلية. صفحات المواضيع في الأسفل مواضعها جاهزة؛ أي موضوع لم يصل نصه بعد لن يُقدَّم على أنه مشروح.
+### S23 · ArrayList Fundamentals
 
-## مواضيع الوحدة
+[Open Subject](../subjects/s23.qmd)
 
-- [S23 — ArrayList Fundamentals](../subjects/s23.qmd) — `#048–#050`
-- [S24 — ArrayList Operations](../subjects/s24.qmd) — `#051–#051`
+- #048 · ArrayList Class — Awaiting transcript
+- #049 · ArrayList, Declaration, Print, Methods (Add, Get, AddAll, Copy Constructor, Clone) — Awaiting transcript
+- #050 · ArrayList Methods (Set, Remove, Remove All, Remove Range) Polymorphic ArrayList — Awaiting transcript
 
-## اختبار الوحدة والمشروع
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
-بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+### S24 · ArrayList Operations
 
+[Open Subject](../subjects/s24.qmd)
+
+- #051 · ArrayList Methods (contains, retainAll, subList, clear, ensureCapacity, sort, min, max) — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

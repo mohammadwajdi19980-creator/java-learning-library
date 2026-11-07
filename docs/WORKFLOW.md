@@ -1,6 +1,6 @@
 # Java Learning Library — Working Guide
 
-Version 1.2 · 6 November 2026
+Version 1.3 · 7 November 2026
 
 The user has authorized implementation and publication of the audit fixes and appearance redesign. The earlier analysis-only limit was specific to the audit turn. Preserve original video IDs, Arabic explanations, English technical terminology, and source coverage.
 
@@ -189,3 +189,14 @@ Keep user-facing pages focused on learning; contributor details belong in mainte
 - GitHub Actions validates before deployment. Browser inspection remains a separate release step.
 
 Use RELEASE-CHECKLIST.md. Update this guide when requirements or workflow change. Future sessions must read repository instructions; automatic cross-chat memory is not guaranteed.
+
+
+## Batch maintenance records
+
+- Preserve supplied transcripts under docs/sources/transcripts and correlate them with docs/sources/batch-002-013.json. A source filename alone is not a video ID.
+- Maintain docs/sources/coverage-002-013.json: covered concepts and unresolved exact source details are separate. An unclear expression is never silently promoted to exact reproduction.
+- Add cases for every new complete program to docs/sources/code-cases-002-013.json (or the next batch equivalent). scripts/verify_java.py includes the batch checks; fragments are not claimed as standalone programs.
+- Home, grouped navigation, Contents and Module status pages are generated from curriculum.json. Update Subject review scope and the Quarto sequence together; a partial Subject does not receive a full-scope Exam label.
+- Validate new source-to-heading references, asset registration and raw HTML navigation links as well as Markdown links.
+- Run scripts/finalize_epub.py through Quarto's post-render hook. It checks chapter titles/order before resolving remaining source-relative EPUB links. The rendered validator also checks EPUB XHTML, resources and anchors.
+- HTML-only dashboard sections use unless-format="epub"; EPUB navigation uses ordinary Markdown links. Keep one top-level heading per source chapter to preserve the book's chapter mapping.

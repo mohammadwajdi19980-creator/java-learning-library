@@ -1,0 +1,143 @@
+---
+title: "Sentinel & Flag-Controlled While Loops"
+subtitle: "كرّر الإدخال لعدد غير معروف، وتوقّف عند الإشارة المناسبة"
+---
+
+<div class="lesson-meta"><span>M04 · S07</span><span>VIDEO #011</span></div>
+
+## Three Control Strategies
+
+مش كل إدخال بنعرف عدده مسبقًا. المثال الحالي: المستخدم يدخل محارف حتى يقرر التوقف.
+
+| Strategy | What the condition follows | End |
+|---|---|---|
+| Counter-Controlled | عدد دورات محدد | وصول العدد للحد |
+| Sentinel-Controlled | القيمة المدخلة | ظهور قيمة خاصة متفق عليها |
+| Flag-Controlled | متغير `boolean` | تغيره إلى حالة الإنهاء |
+
+ممكن تستخدم `counter` **للعد** داخل `Sentinel Loop`؛ هذا لا يجعلها `Counter-Controlled` إذا العدد مش هو اللي يقرر الاستمرار. نفس بنية `while` السابقة؛ الاختلاف في معنى شرطها.
+
+## Sentinel-Controlled Input
+
+نختار هنا `'Q'` كإشارة إنهاء، ونتفق أنها لا تعد من بيانات المستخدم. **اختيار الحرف وصيغة الكود هنا معلنان للتطبيق؛ التفريغ لا يحفظ كل الرموز الظاهرة في الشاشة.**
+
+احفظ باسم `SentinelChars.java`:
+
+```java
+import java.util.Scanner;
+
+public class SentinelChars {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int count = 0;
+        char letter = input.next().charAt(0);
+        while (letter != 'Q') {
+            count++;
+            letter = input.next().charAt(0);
+        }
+        System.out.println("Count = " + count);
+    }
+}
+```
+
+**Input** `A B C D Q` → **Output** `Count = 4`.
+
+| Read value | Continue? | Count afterward |
+|---|---|---:|
+| `A` | `true` | `1` |
+| `B` | `true` | `2` |
+| `C` | `true` | `3` |
+| `D` | `true` | `4` |
+| `Q` | `false` | `4` |
+
+أول قراءة قبل `while` تعطي الشرط قيمة يفحصها؛ القراءة داخلها تحدث القيمة للدورة التالية. لو نسيت القراءة الجديدة، البرنامج يظل يفحص القديمة. الحرف `q` الصغير مختلف عن `Q` في هذا الاتفاق.
+
+### Count the Sentinel or Exclude It?
+
+الفيديو يناقش أيضًا صيغة تقرأ داخل الجسم ثم تزيد العدد قبل فحص الإنهاء التالي. في تلك الصيغة، `A B C D Q` تعد **خمس قراءات** بما فيها الإشارة. لو المطلوب عدد المحارف العادية، نزيد فقط لغير `Q`، أو نرتب القراءة كما في مثالنا. فرق `5` و`4` سببه مكان العد، مش سلوك غامض في `while`.
+
+إذا قرأت متغيرًا محليًا في الشرط قبل إسناد قيمة إله، تحصل على `Compile-Time Error`. ممكن تهيئته بقيمة غير الإشارة، لكن القراءة الأولى قبل الفحص أوضح في المثال أعلاه.
+
+## Flag-Controlled Input
+
+نحوّل نفس المطلوب إلى `Flag`. احفظ باسم `FlagChars.java`:
+
+```java
+import java.util.Scanner;
+
+public class FlagChars {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        boolean reading = true;
+        int count = 0;
+        while (reading) {
+            char letter = input.next().charAt(0);
+            if (letter == 'Q') {
+                reading = false;
+            } else {
+                count++;
+            }
+        }
+        System.out.println("Count = " + count);
+    }
+}
+```
+
+**Input** `A B C D Q` → **Output** `Count = 4` أيضًا.
+
+الشرط الآن يفحص `reading` مباشرة. بعد قراءة `Q` يتغير إلى `false`، ويخرج عند الفحص التالي. `Flag` مش نوعًا جديدًا؛ هو دور أعطيناه لمتغير `boolean`. نسيت تغييره عند الإشارة؟ التكرار ما يتوقف كما قصدت.
+
+## Worked Exercise: Average of Unknown Grades
+
+سؤال الفيديو: اقرأ عددًا غير معروف من الدرجات واحسب المعدل. نحتاج `sum` و`count`، وقيمة إنهاء لا تدخل في الحساب. اخترنا **`-1` كقيمة توضيحية**؛ الرقم الدقيق للإشارة مش قابلًا للاسترجاع من التفريغ.
+
+احفظ باسم `SentinelAverage.java`:
+
+```java
+import java.util.Scanner;
+
+public class SentinelAverage {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double sum = 0;
+        int count = 0;
+        System.out.print("Grade 1 (-1 to stop): ");
+        double grade = input.nextDouble();
+        while (grade != -1) {
+            sum += grade;
+            count++;
+            System.out.print("Grade " + (count + 1) + " (-1 to stop): ");
+            grade = input.nextDouble();
+        }
+        if (count == 0) {
+            System.out.println("No grades");
+        } else {
+            System.out.printf("Average = %.2f%n", sum / count);
+        }
+    }
+}
+```
+
+**Input** `100 98 -1` → الرسائل تطلب `Grade 1` ثم `2` ثم `3`، والنتيجة `Average = 99.00`.
+
+الـ `Sentinel` لا تزيد المجموع ولا العدد. إذا كانت أول قيمة `-1`، العدد يبقى `0`؛ فحصنا هذه الحالة حتى لا نقسم على صفر. إذا زدنا العدد لكل محاولة إدخال، كنا سنحسب `198 / 3` بدل `198 / 2` بالخطأ.
+
+في رسالة الطلب، الأقواس في `(count + 1)` مهمة؛ بدونها الدمج النصي قد يعرض `01` بدل `1`. ويمكن إدخال درجات بكسور لأن القراءة والمجموع `double`.
+
+## Knowledge Check
+
+1. هل وجود `count` في مثال المعدل يجعلها `Counter-Controlled`؟
+2. لماذا نحتاج قيمة للمتغير قبل فحصه في `while`؟
+3. ما نتيجة إدخال `Q` مباشرة في برنامجي المحارف؟
+
+<details><summary>Answers</summary>
+
+1. لا؛ الإشارة هي اللي تنهي، والعدد لحساب المقام فقط.
+2. لأن الشرط يفحص قيمة موجودة قبل دخول الجسم.
+3. `Count = 0` في المثالين، لأننا استثنينا الإشارة من العد.
+
+</details>
+
+## Source & Accuracy
+
+[Adel Nasim · #011](https://www.youtube.com/watch?v=cUehdvQTH6c). المصدر: الجزء الأول من ملف التفريغات المجمّع `#011–#013`، دون توقيتات. غطينا الفرق بين طرق التحكم، الحرف وإشارة الإنهاء، العد مع الإشارة وبدونها، التحويل إلى `Flag`، وسؤال المعدل ورسالة العدد. الصيغ والأرقام المشوشة أعيد بناؤها بوضوح بدل نسبتها حرفيًا إلى الشاشة.

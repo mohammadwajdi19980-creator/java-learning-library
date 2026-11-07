@@ -2,6 +2,7 @@ project:
   type: book
   output-dir: _book
   pre-render: python3 ../../scripts/sync_curriculum.py
+  post-render: python3 ../../scripts/finalize_epub.py
   resources:
     - curriculum.json
     - assets/**
@@ -27,15 +28,39 @@ book:
         - lessons/lesson-000.qmd
         - lessons/lesson-001.qmd
         - subjects/s01.qmd
+        - lessons/lesson-002.qmd
         - subjects/s02.qmd
+    - part: "M02 · Data, Operators & Input"
+      chapters:
+        - modules/m02.qmd
+        - lessons/lesson-003.qmd
+        - lessons/lesson-004.qmd
+        - lessons/lesson-005.qmd
+        - subjects/s03.qmd
+        - lessons/lesson-006.qmd
+        - subjects/s04.qmd
+    - part: "M03 · Selection Statements"
+      chapters:
+        - modules/m03.qmd
+        - lessons/lesson-007.qmd
+        - lessons/lesson-008.qmd
+        - subjects/s05.qmd
+        - lessons/lesson-009.qmd
+        - subjects/s06.qmd
+    - part: "M04 · Loops & Branching"
+      chapters:
+        - modules/m04.qmd
+        - lessons/lesson-010.qmd
+        - lessons/lesson-011.qmd
+        - subjects/s07.qmd
+        - lessons/lesson-012.qmd
+        - lessons/lesson-013.qmd
+        - subjects/s08.qmd
     - roadmap.qmd
     - projects.qmd
     - exams.qmd
     - part: "Planned Curriculum"
       chapters:
-        - modules/m02.qmd
-        - modules/m03.qmd
-        - modules/m04.qmd
         - modules/m05.qmd
         - modules/m06.qmd
         - modules/m07.qmd
@@ -45,12 +70,6 @@ book:
         - modules/m11.qmd
         - modules/m12.qmd
         - modules/m13.qmd
-        - subjects/s03.qmd
-        - subjects/s04.qmd
-        - subjects/s05.qmd
-        - subjects/s06.qmd
-        - subjects/s07.qmd
-        - subjects/s08.qmd
         - subjects/s09.qmd
         - subjects/s10.qmd
         - subjects/s11.qmd

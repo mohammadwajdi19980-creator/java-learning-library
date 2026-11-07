@@ -1,22 +1,34 @@
 # Practice & Exams
 
-ابدأ بالشرح والأمثلة، ثم حاول تحلّ قبل فتح الإجابات. قراءة الحل لا تعني إتقان الفكرة.
+الأسئلة التدريبية الجديدة مبنية على نفس الأفكار المشروحة. حاول أولًا ثم راجع السبب في الحل.
 
 ## Available Now
 
 | Assessment | Scope | Link |
 |---|---|---|
-| Lesson #00 Check | Java fundamentals | [افتح الأسئلة](lessons/lesson-000.qmd#knowledge-check) |
-| Lesson #01 Check | Tools, first program, errors | [افتح الأسئلة](lessons/lesson-001.qmd#knowledge-check) |
-| S01 Exam | Lessons #00–#01 · 20 marks | [افتح Exam والحلول](subjects/s01.qmd#subject-exam) |
+| #00 · Knowledge Check | Introduction to Java | [Open](lessons/lesson-000.qmd#knowledge-check) |
+| #01 · Knowledge Check | Java Development Tools | [Open](lessons/lesson-001.qmd#knowledge-check) |
+| #02 · Knowledge Check | Escape Sequences & Comments | [Open](lessons/lesson-002.qmd#knowledge-check) |
+| #03 · Knowledge Check | Data Types | [Open](lessons/lesson-003.qmd#knowledge-check) |
+| #04 · Knowledge Check | Arithmetic Operators | [Open](lessons/lesson-004.qmd#knowledge-check) |
+| #05 · Knowledge Check | Prefix & Postfix | [Open](lessons/lesson-005.qmd#knowledge-check) |
+| #06 · Knowledge Check | Scanner & Printf | [Open](lessons/lesson-006.qmd#knowledge-check) |
+| #07 · Knowledge Check | If & Else | [Open](lessons/lesson-007.qmd#knowledge-check) |
+| #08 · Knowledge Check | Logical, Ternary & Instanceof | [Open](lessons/lesson-008.qmd#knowledge-check) |
+| #09 · Knowledge Check | Switch | [Open](lessons/lesson-009.qmd#knowledge-check) |
+| #010 · Knowledge Check | While | [Open](lessons/lesson-010.qmd#knowledge-check) |
+| #011 · Knowledge Check | Sentinel & Flag | [Open](lessons/lesson-011.qmd#knowledge-check) |
+| #012 · Knowledge Check | Do-While | [Open](lessons/lesson-012.qmd#knowledge-check) |
+| #013 · Knowledge Check | For | [Open](lessons/lesson-013.qmd#knowledge-check) |
+| S01 · Exam | 20 marks · Introduction & Setup | [Open](subjects/s01.qmd#subject-exam) |
+| S02 · Exam | 20 marks · Escape Sequences & Comments | [Open](subjects/s02.qmd#subject-exam) |
+| S03 · Exam | 20 marks · Data Types & Operators | [Open](subjects/s03.qmd#subject-exam) |
+| S04 · Exam | 20 marks · Input & Formatted Output | [Open](subjects/s04.qmd#subject-exam) |
+| S05 · Exam | 20 marks · Conditions & Comparisons | [Open](subjects/s05.qmd#subject-exam) |
+| S06 · Exam | 20 marks · Switch Statements | [Open](subjects/s06.qmd#subject-exam) |
+| S07 · Exam | 20 marks · While Loops | [Open](subjects/s07.qmd#subject-exam) |
+| S08 · Partial Review | #012–#013 only; #014 awaiting source | [Open](subjects/s08.qmd#partial-review) |
 
 ## Assessment Path
 
-| Stage | When available |
-|---|---|
-| Lesson Check | مع كل درس مكتمل |
-| Subject Exam | بعد اكتمال دروس Subject |
-| Module Exam & Project | بعد اكتمال متطلبات Module |
-| Final Exam | بعد اكتمال الكتاب |
-
-بقية Assessments مخططة. لا نعرضها كمحتوى مكتمل قبل تغطية متطلباتها.
+كل Lesson لها Knowledge Check، وكل Subject مكتمل له Exam بعد دروسه. M04 وباقي المنهج لم يكتمل بعد؛ لا توجد Final Exam تدّعي تغطية ما لم نستلمه.

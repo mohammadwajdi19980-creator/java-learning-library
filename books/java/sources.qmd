@@ -2,12 +2,42 @@
 
 هذا الكتاب يعيد صياغة **النصوص التي يقدّمها القارئ** من سلسلة عادل نسيم، ولا يفترض تفاصيل فيديو لم نستلم نصه. جميع الأمثلة والرسومات التي نصنعها تُميّز كمحتوى توضيحي.
 
-## حالة المصادر
+## Source Status
 
-- `#00 — Introduction`: النص مستلَم، ومسودة الدرس منشورة للمراجعة.
-- `#01 — Installing the Java Development Tools`: التفريغ مستلم؛ الدرس والمصادر التقنية الحديثة منشوران للمراجعة. [رابط الفيديو](https://www.youtube.com/watch?v=wJKgqYj4mtU).
-- `#02 — Escape Sequences and Comments`: التفريغ مستلَم؛ الدرس لم يُكتب بعد.
-- `#03–#076`: العناوين مستلمة، والتفريغات لم تصل بعد.
+النصوص من القارئ؛ ليست شهادة بمشاهدة جميع الفيديوهات الأصلية. التغطية الحالية حتى #013، وما بعده بانتظار التفريغات.
+
+| Video | Lesson | Source |
+|---|---|---|
+| #00 | [Introduction to Java](lessons/lesson-000.qmd) | Supplied transcript |
+| #01 | [Java Development Tools](lessons/lesson-001.qmd) | [Video](https://www.youtube.com/watch?v=wJKgqYj4mtU) |
+| #02 | [Escape Sequences & Comments](lessons/lesson-002.qmd) | [Video](https://www.youtube.com/watch?v=vtHwpyk5v08) |
+| #03 | [Data Types](lessons/lesson-003.qmd) | [Video](https://www.youtube.com/watch?v=mY8yxPP9_AE) |
+| #04 | [Arithmetic Operators](lessons/lesson-004.qmd) | [Video](https://www.youtube.com/watch?v=r-msBvRW56g) |
+| #05 | [Prefix & Postfix](lessons/lesson-005.qmd) | [Video](https://www.youtube.com/watch?v=XN2nusxpvPE) |
+| #06 | [Scanner & Printf](lessons/lesson-006.qmd) | [Video](https://www.youtube.com/watch?v=kilmBWdI0NE) |
+| #07 | [If & Else](lessons/lesson-007.qmd) | [Video](https://www.youtube.com/watch?v=EDhPw1OI-KY) |
+| #08 | [Logical, Ternary & Instanceof](lessons/lesson-008.qmd) | [Video](https://www.youtube.com/watch?v=SNJFgGXmmRQ) |
+| #09 | [Switch](lessons/lesson-009.qmd) | [Video](https://www.youtube.com/watch?v=x-NRDz7RvtU) |
+| #010 | [While](lessons/lesson-010.qmd) | [Video](https://www.youtube.com/watch?v=YECkwn988-Q) |
+| #011 | [Sentinel & Flag](lessons/lesson-011.qmd) | [Video](https://www.youtube.com/watch?v=cUehdvQTH6c) |
+| #012 | [Do-While](lessons/lesson-012.qmd) | [Video](https://www.youtube.com/watch?v=ZRRCM0HvIn4) |
+| #013 | [For](lessons/lesson-013.qmd) | [Video](https://www.youtube.com/watch?v=BnTI67QhuuU) |
+
+## Batch #02–#013: Coverage & Limits
+
+التفريغات العشرة تغطي اثني عشر فيديو. حُفظت الأصول دون تغيير مع سجل يربط كل فكرة بموضع شرحها. كل مثال أُعيد بناؤه بسبب تشوّش النص موضح في درسه؛ لا ننسب رموزًا غير موجودة إلى شاشة المدرّس.
+
+| Source | Exact detail unavailable | Treatment |
+|---|---|---|
+| #02 · 11:07–12:03 | نص سؤال التتبع المركب | مثال توضيحي معلن لنفس المهارة |
+| #04 · 04:32–05:23; 07:34–08:04 | بعض رموز التعابير | أمثلة معاد بناؤها، دون ادعاء تطابق حرفي |
+| #05 · 02:34–04:40; 10:05–11:06 | التعابير الطويلة المعروضة | تتبع بديل معلن |
+| #08 · 00:07–05:58 | التباس > مع >= في وصف حدود العلامات | حدود محددة صراحةً في المثال |
+| #011 · final exercise | الرقم الدقيق لإشارة إنهاء الدرجات | اختيار -1 معلن للتطبيق |
+
+جميع البرامج الكاملة الجديدة وعددها 17 جُرّبت باستخدام JDK 25 عبر CLI، ضمن 59 حالة تشغيل وحدود وأخطاء مقصودة. الأمثلة الجزئية تحتاج السياق الموضح حولها؛ هذه ليست دعوى تشغيلها داخل NetBeans.
+
+[Coverage record](https://github.com/mohammadwajdi19980-creator/java-learning-library/blob/main/docs/sources/coverage-002-013.json) · [Code checks](https://github.com/mohammadwajdi19980-creator/java-learning-library/blob/main/docs/sources/code-cases-002-013.json)
 
 ## Technical accuracy notes
 
@@ -37,3 +67,15 @@ Source transcript timestamp range: 00:00–14:18, supplied by the learner. Trans
 ## Screenshot Provenance
 
 الصور الحقيقية في Lesson #01 مأخوذة من [Apache NetBeans Java Quick Start](https://netbeans.apache.org/tutorial/main/kb/docs/java/quickstart/). يعرض الدليل مشروع Maven؛ هذه الصور مرجع بصري وليست لقطات موثّقة من NetBeans 31 أو من مثالنا باستخدام Ant. الرسوم التخطيطية الأخرى موسومة بصورة مستقلة. راجع `assets/registry.json` لتفاصيل الملفات والمصدر.
+
+
+## Online Diagram Attribution
+
+اختيرت الصور التالية بعد البحث عن صور موجودة. كلها رسوم توضيحية، وليست Screenshots من NetBeans. لم تتوفر إطارات YouTube في هذه الجلسة؛ لم نستخدم صورًا مولّدة على أنها لقطات حقيقية.
+
+| Figure | Author | Source & License | Changes |
+|---|---|---|---|
+| If-Else | P. Kemp | [Source](https://commons.wikimedia.org/wiki/File:If-Then-Else-diagram.svg) · [CC0](https://creativecommons.org/publicdomain/zero/1.0/) | None |
+| While | Kenneth Leroy Busbee | [Source](https://commons.wikimedia.org/wiki/File:Flowchart_while.jpg) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | None |
+| Do-While | P. Kemp | [Source](https://commons.wikimedia.org/wiki/File:Do-while-loop-diagram.svg) · [CC0](https://creativecommons.org/publicdomain/zero/1.0/) | None |
+| For | Giacomo Alessandroni, based on Faxe | [Source](https://commons.wikimedia.org/wiki/File:For-loop-diagram.svg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | None |

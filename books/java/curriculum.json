@@ -205,7 +205,8 @@
       "subject": "S01",
       "source_status": "received",
       "editorial_status": "reviewed",
-      "url": "lessons/lesson-000.html"
+      "url": "lessons/lesson-000.html",
+      "display_title": "Introduction to Java"
     },
     {
       "id": 1,
@@ -216,7 +217,8 @@
       "source_status": "received",
       "editorial_status": "reviewed",
       "url": "lessons/lesson-001.html",
-      "source_url": "https://www.youtube.com/watch?v=wJKgqYj4mtU"
+      "source_url": "https://www.youtube.com/watch?v=wJKgqYj4mtU",
+      "display_title": "Java Development Tools"
     },
     {
       "id": 2,
@@ -225,9 +227,19 @@
       "module": "M01",
       "subject": "S02",
       "source_status": "received",
-      "editorial_status": "not_written",
-      "url": null,
-      "source_url": "https://www.youtube.com/watch?v=vtHwpyk5v08"
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-002.html",
+      "source_url": "https://www.youtube.com/watch?v=vtHwpyk5v08",
+      "transcript_archive": "docs/sources/transcripts/video-002.txt",
+      "coverage_ledger": "docs/sources/coverage-002-013.json",
+      "prerequisites": [
+        1
+      ],
+      "source_limitations": [
+        "Exact combined escape-output tracing expression absent from transcript"
+      ],
+      "display_title": "Escape Sequences & Comments",
+      "code_verification": "JDK 25 CLI: complete examples and declared edge cases passed; fragments identified separately"
     },
     {
       "id": 3,
@@ -235,9 +247,18 @@
       "original_title": "Data Types",
       "module": "M02",
       "subject": "S03",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-003.html",
+      "source_url": "https://www.youtube.com/watch?v=mY8yxPP9_AE",
+      "transcript_archive": "docs/sources/transcripts/video-003.txt",
+      "coverage_ledger": "docs/sources/coverage-002-013.json",
+      "prerequisites": [
+        2
+      ],
+      "source_limitations": [],
+      "display_title": "Data Types",
+      "code_verification": "JDK 25 CLI: complete examples and declared edge cases passed; fragments identified separately"
     },
     {
       "id": 4,
@@ -245,9 +266,20 @@
       "original_title": "Arithmetic Operators",
       "module": "M02",
       "subject": "S03",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-004.html",
+      "source_url": "https://www.youtube.com/watch?v=r-msBvRW56g",
+      "transcript_archive": "docs/sources/transcripts/video-004.txt",
+      "coverage_ledger": "docs/sources/coverage-002-013.json",
+      "prerequisites": [
+        3
+      ],
+      "source_limitations": [
+        "Some compound expression symbols/numbers not recoverable"
+      ],
+      "display_title": "Arithmetic Operators",
+      "code_verification": "JDK 25 CLI: complete examples and declared edge cases passed; fragments identified separately"
     },
     {
       "id": 5,
@@ -255,9 +287,20 @@
       "original_title": "Arithmetic Operators (Prefix & Postfix)",
       "module": "M02",
       "subject": "S03",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-005.html",
+      "source_url": "https://www.youtube.com/watch?v=XN2nusxpvPE",
+      "transcript_archive": "docs/sources/transcripts/video-005.txt",
+      "coverage_ledger": "docs/sources/coverage-002-013.json",
+      "prerequisites": [
+        4
+      ],
+      "source_limitations": [
+        "Exact displayed long expressions lost in transcription"
+      ],
+      "display_title": "Prefix & Postfix",
+      "code_verification": "JDK 25 CLI: complete examples and declared edge cases passed; fragments identified separately"
     },
     {
       "id": 6,
@@ -265,9 +308,18 @@
       "original_title": "Java User Input (Scanner), Printf methods",
       "module": "M02",
       "subject": "S04",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-006.html",
+      "source_url": "https://www.youtube.com/watch?v=kilmBWdI0NE",
+      "transcript_archive": "docs/sources/transcripts/video-006.txt",
+      "coverage_ledger": "docs/sources/coverage-002-013.json",
+      "prerequisites": [
+        5
+      ],
+      "source_limitations": [],
+      "display_title": "Scanner & Printf",
+      "code_verification": "JDK 25 CLI: complete examples and declared edge cases passed; fragments identified separately"
     },
     {
       "id": 7,
@@ -275,9 +327,18 @@
       "original_title": "Selection Statement (if - if else - if else if)",
       "module": "M03",
       "subject": "S05",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-007.html",
+      "source_url": "https://www.youtube.com/watch?v=EDhPw1OI-KY",
+      "transcript_archive": "docs/sources/transcripts/video-007.txt",
+      "coverage_ledger": "docs/sources/coverage-002-013.json",
+      "prerequisites": [
+        6
+      ],
+      "source_limitations": [],
+      "display_title": "If & Else",
+      "code_verification": "JDK 25 CLI: complete examples and declared edge cases passed; fragments identified separately"
     },
     {
       "id": 8,
@@ -285,9 +346,20 @@
       "original_title": "Selection Statement (Exercises, Practice, Ternary Operator), Instanceof Method",
       "module": "M03",
       "subject": "S05",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-008.html",
+      "source_url": "https://www.youtube.com/watch?v=SNJFgGXmmRQ",
+      "transcript_archive": "docs/sources/transcripts/video-008.txt",
+      "coverage_ledger": "docs/sources/coverage-002-013.json",
+      "prerequisites": [
+        7
+      ],
+      "source_limitations": [
+        "Spoken > versus >= boundaries inconsistent; example policy declared explicitly"
+      ],
+      "display_title": "Logical, Ternary & Instanceof",
+      "code_verification": "JDK 25 CLI: complete examples and declared edge cases passed; fragments identified separately"
     },
     {
       "id": 9,
@@ -295,9 +367,18 @@
       "original_title": "Selection Statement (Switch Statements)",
       "module": "M03",
       "subject": "S06",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-009.html",
+      "source_url": "https://www.youtube.com/watch?v=x-NRDz7RvtU",
+      "transcript_archive": "docs/sources/transcripts/video-009.txt",
+      "coverage_ledger": "docs/sources/coverage-002-013.json",
+      "prerequisites": [
+        8
+      ],
+      "source_limitations": [],
+      "display_title": "Switch",
+      "code_verification": "JDK 25 CLI: complete examples and declared edge cases passed; fragments identified separately"
     },
     {
       "id": 10,
@@ -305,9 +386,18 @@
       "original_title": "Repetition Control Statement (While Loop)",
       "module": "M04",
       "subject": "S07",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-010.html",
+      "source_url": "https://www.youtube.com/watch?v=YECkwn988-Q",
+      "transcript_archive": "docs/sources/transcripts/video-010.txt",
+      "coverage_ledger": "docs/sources/coverage-002-013.json",
+      "prerequisites": [
+        9
+      ],
+      "source_limitations": [],
+      "display_title": "While",
+      "code_verification": "JDK 25 CLI: complete examples and declared edge cases passed; fragments identified separately"
     },
     {
       "id": 11,
@@ -315,9 +405,20 @@
       "original_title": "Sentinel and Flag-Controlled While Loops",
       "module": "M04",
       "subject": "S07",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-011.html",
+      "source_url": "https://www.youtube.com/watch?v=cUehdvQTH6c",
+      "transcript_archive": "docs/sources/transcripts/videos-011-013.txt",
+      "coverage_ledger": "docs/sources/coverage-002-013.json",
+      "prerequisites": [
+        10
+      ],
+      "source_limitations": [
+        "Exact numeric sentinel value missing; -1 is an explicit illustrative choice"
+      ],
+      "display_title": "Sentinel & Flag",
+      "code_verification": "JDK 25 CLI: complete examples and declared edge cases passed; fragments identified separately"
     },
     {
       "id": 12,
@@ -325,9 +426,18 @@
       "original_title": "Repetition Control Statement (Do-While Loop)",
       "module": "M04",
       "subject": "S08",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-012.html",
+      "source_url": "https://www.youtube.com/watch?v=ZRRCM0HvIn4",
+      "transcript_archive": "docs/sources/transcripts/videos-011-013.txt",
+      "coverage_ledger": "docs/sources/coverage-002-013.json",
+      "prerequisites": [
+        11
+      ],
+      "source_limitations": [],
+      "display_title": "Do-While",
+      "code_verification": "JDK 25 CLI: complete examples and declared edge cases passed; fragments identified separately"
     },
     {
       "id": 13,
@@ -335,9 +445,18 @@
       "original_title": "Repetition Control Statement (For Loop)",
       "module": "M04",
       "subject": "S08",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-013.html",
+      "source_url": "https://www.youtube.com/watch?v=BnTI67QhuuU",
+      "transcript_archive": "docs/sources/transcripts/videos-011-013.txt",
+      "coverage_ledger": "docs/sources/coverage-002-013.json",
+      "prerequisites": [
+        12
+      ],
+      "source_limitations": [],
+      "display_title": "For",
+      "code_verification": "JDK 25 CLI: complete examples and declared edge cases passed; fragments identified separately"
     },
     {
       "id": 14,

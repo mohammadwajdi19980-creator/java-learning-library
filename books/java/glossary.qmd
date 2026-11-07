@@ -87,7 +87,7 @@
 
 ---
 
-# مصطلحات الدرس #01 — تجهيز أدوات Java
+**Lesson #01 Terms**
 
 ## Apache NetBeans IDE
 
@@ -218,4 +218,194 @@
 **بالعربية:** إعداد في نظام التشغيل يحدد المجلدات التي يبحث فيها الـ Terminal عن البرامج عند كتابة اسمها. لما أمر `javac` لا يعمل رغم تثبيت JDK، ممكن يكون السبب أن مجلد أدوات JDK غير موجود في PATH.
 
 **English definition:** An operating-system environment variable listing directories searched to locate executable programs invoked from a shell.
+
+
+
+**Lessons #02–#013 Terms**
+
+## Variable
+
+مكان باسم ونوع نستعمله للاحتفاظ بقيمة أثناء البرنامج. تغيير القيمة لا يغيّر النوع المعلن.
+
+**English definition:** A named storage location with a declared type and a value.
+
+## Data Type
+
+يحدد القيم الممكن حفظها والعمليات المناسبة عليها؛ مثل `int` و`double`.
+
+**English definition:** A classification that constrains values and operations.
+
+## Primitive Type
+
+نوع أساسي معرّف في اللغة. الأنواع الثمانية: `byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`.
+
+**English definition:** One of Java’s eight predefined primitive types.
+
+## Declaration
+
+تعريف الاسم والنوع، مثل `int x;`، وقد يتضمن قيمة أولية.
+
+**English definition:** A statement or construct introducing a name and its type.
+
+## Initialization
+
+إعطاء أول قيمة؛ المتغير المحلي يحتاج قيمة قبل قراءته.
+
+**English definition:** Providing an initial value to a variable.
+
+## Assignment
+
+حساب قيمة الطرف اليمين وإسنادها للطرف اليسار باستخدام `=`. لا تخلطها مع `==`.
+
+**English definition:** Storing a computed value in a variable.
+
+## Comment
+
+ملاحظة في المصدر بصيغة `//` أو `/* */`، لا تُنفذ كتعليمة ولا تُطبع بحد ذاتها.
+
+**English definition:** Source text written for readers rather than executed as program instructions.
+
+## Escape Sequence
+
+تركيب يبدأ بـ `Backslash` لتمثيل محرف خاص داخل النص، مثل `\n` أو `\"`.
+
+**English definition:** A source notation representing a special character in a literal.
+
+## String
+
+نص من محارف، نكتبه عادةً بين اقتباسين مزدوجين. `String` هي `Class` وليست `Primitive Type`.
+
+**English definition:** An object type representing a sequence of characters.
+
+## Operand
+
+القيمة التي تعمل عليها العملية؛ في `5 + 6` الرقمان هما `Operands`.
+
+**English definition:** A value or expression on which an operator acts.
+
+## Expression
+
+تركيب ينتج قيمة، مثل `5 + 6` أو `x > 0`.
+
+**English definition:** A construct that is evaluated to produce a value.
+
+## Remainder
+
+ما يبقى من القسمة باستخدام `%`؛ مثل `7 % 5` تعطي `2`.
+
+**English definition:** The residual value computed by the remainder operator.
+
+## Integer Division
+
+قسمة طرفين صحيحين تنتج قيمة صحيحة وتحذف الكسر باتجاه الصفر؛ `15 / 2` تعطي `7`.
+
+**English definition:** Division on integer operands that truncates toward zero.
+
+## Type Casting
+
+تحويل قيمة إلى نوع آخر عند موضع التعبير، مثل `(double) x`، دون تغيير تعريف `x`.
+
+**English definition:** An explicit conversion of an expression’s value to a target type.
+
+## Prefix
+
+في `++x` أو `--x` نحدّث المتغير ثم نستعمل القيمة الجديدة في التعبير.
+
+**English definition:** An increment or decrement form yielding the updated value.
+
+## Postfix
+
+في `x++` أو `x--` قيمة التعبير هي القديمة، لكن المتغير يتحدث أثناء التقييم.
+
+**English definition:** An increment or decrement form yielding the original value while updating the variable.
+
+## Compound Assignment
+
+عملية مثل `+=` تحسب اعتمادًا على القيمة الحالية ثم تعيد إسناد النتيجة لنفس الطرف.
+
+**English definition:** An operator combining an operation with assignment to its left operand.
+
+## Scanner
+
+أداة لقراءة قيم مثل الأرقام والنصوص من مصدر إدخال؛ نستعمل `new Scanner(System.in)` في الأمثلة.
+
+**English definition:** A Java class for reading and interpreting input tokens and lines.
+
+## Printf
+
+طريقة عرض بقالب، مثل `%.2f` للكسر بمنزلتين و`%n` لنهاية السطر. التنسيق لا يغيّر القيمة المخزنة.
+
+**English definition:** Formatted output using conversion specifiers and argument values.
+
+## String Concatenation
+
+دمج النصوص بواسطة `+`. الأقواس تحدد إذا بدنا جمعًا عدديًا قبل الدمج.
+
+**English definition:** Combining values into a string using the + operator.
+
+## Condition
+
+تعبير ناتجه `boolean` يحدد اتخاذ مسار أو الاستمرار بالتكرار.
+
+**English definition:** A boolean expression used to control execution.
+
+## Short-Circuit
+
+عدم تقييم الطرف الثاني من `&&` أو `||` إذا كانت النتيجة محسومة من الأول.
+
+**English definition:** Conditional evaluation that skips an unnecessary right operand.
+
+## Ternary Operator
+
+الصيغة `condition ? first : second` تختار قيمة واحدة حسب الشرط.
+
+**English definition:** A conditional operator selecting one of two expression values.
+
+## Instanceof
+
+`Operator` يفحص انتماء `Object` لنوع متوافق ويعيد `boolean`؛ ليس `Method`.
+
+**English definition:** A type-comparison operator that tests an object against a compatible reference type.
+
+## Fall-Through
+
+متابعة تنفيذ أسطر الحالات التالية في `switch` التقليدية لغياب `break`، دون إعادة المطابقة.
+
+**English definition:** Sequential execution into following switch labels without a new match test.
+
+## Loop
+
+تكرار جسم تعليمات وفق قواعد الاستمرار والتحديث. عند التتبع نفرّق بين عدد الدورات والحالة النهائية.
+
+**English definition:** Repeated execution of a statement or block under a control rule.
+
+## Counter
+
+متغير نستخدمه للعد. لا يعني وجوده وحده أن العدد هو الذي يتحكم بنهاية الحلقة.
+
+**English definition:** A variable that records a count or iteration position.
+
+## Sentinel
+
+قيمة متفق عليها لإنهاء الإدخال، وعادةً تُستثنى من البيانات والحساب.
+
+**English definition:** A distinguished input value used to signal termination.
+
+## Flag
+
+متغير `boolean` يسجل حالة تتحكم بالاستمرار أو التوقف.
+
+**English definition:** A boolean variable representing a control state.
+
+## Scope
+
+الجزء الذي يمكن فيه الوصول للاسم. اسم معرّف داخل رأس `for` لا يبقى متاحًا بعدها.
+
+**English definition:** The region of source code in which a declared name is accessible.
+
+## Bit & Byte
+
+كل `Bit` تمثل `0` أو `1`؛ كل `8 Bits` تساوي `1 Byte`.
+
+**English definition:** A bit is a binary digit; a byte consists of eight bits.
 

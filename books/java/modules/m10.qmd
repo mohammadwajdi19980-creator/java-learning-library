@@ -1,17 +1,28 @@
-# M10 — Abstraction & Interfaces
+---
+title: "M10 · Abstraction & Interfaces"
+---
 
-<div class="lesson-meta"><span>M10</span><span>INTERMEDIATE</span><span>#052–#058</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 7 lessons available</span><span>0 transcripts received</span></div>
 
-<span class="english-term">Abstraction & Interfaces</span>
+## Subjects
 
-هذه الوحدة تضم 7 فيديوهات أصلية. صفحات المواضيع في الأسفل مواضعها جاهزة؛ أي موضوع لم يصل نصه بعد لن يُقدَّم على أنه مشروح.
+### S25 · Abstract Classes
 
-## مواضيع الوحدة
+[Open Subject](../subjects/s25.qmd)
 
-- [S25 — Abstract Classes](../subjects/s25.qmd) — `#052–#054`
-- [S26 — Interfaces](../subjects/s26.qmd) — `#055–#058`
+- #052 · Abstraction (Real-Life Examples, Introduction to Abstract Class, UML Abstract Class) — Awaiting transcript
+- #053 · Abstract Class part 1 (Examples, Abstract rules) — Awaiting transcript
+- #054 · Abstract Class part 2 (Polymorphism, Benefits of Abstract Class) — Awaiting transcript
 
-## اختبار الوحدة والمشروع
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
-بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+### S26 · Interfaces
 
+[Open Subject](../subjects/s26.qmd)
+
+- #055 · Interface Part1 (Real-Life Example, UML, Convention) — Awaiting transcript
+- #056 · Interface Part2 (Practical, Implement Multiple Interfaces, Extends Multiple Interfaces) — Awaiting transcript
+- #057 · Interface Part3 (Default - Private - Static Methods, Nested Interface) — Awaiting transcript
+- #058 · Interface Part4 (Marker or Tagging Interface, Generic Interface, Benefits of Interface) — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

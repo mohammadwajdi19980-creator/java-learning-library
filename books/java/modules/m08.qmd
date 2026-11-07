@@ -1,19 +1,44 @@
-# M08 — Inheritance & Polymorphism
+---
+title: "M08 · Inheritance & Polymorphism"
+---
 
-<div class="lesson-meta"><span>M08</span><span>INTERMEDIATE</span><span>#039–#047</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 9 lessons available</span><span>0 transcripts received</span></div>
 
-<span class="english-term">Inheritance & Polymorphism</span>
+## Subjects
 
-هذه الوحدة تضم 9 فيديوهات أصلية. صفحات المواضيع في الأسفل مواضعها جاهزة؛ أي موضوع لم يصل نصه بعد لن يُقدَّم على أنه مشروح.
+### S19 · Inheritance
 
-## مواضيع الوحدة
+[Open Subject](../subjects/s19.qmd)
 
-- [S19 — Inheritance](../subjects/s19.qmd) — `#039–#040`
-- [S20 — Polymorphism](../subjects/s20.qmd) — `#041–#043`
-- [S21 — Object Relationships](../subjects/s21.qmd) — `#044–#045`
-- [S22 — Final Keyword](../subjects/s22.qmd) — `#046–#047`
+- #039 · Inheritance (Types of Inheritance / Access Modifiers and inheritance) — Awaiting transcript
+- #040 · Inheritance (Super Keyword / Object Class / Package-Private vs Protected) — Awaiting transcript
 
-## اختبار الوحدة والمشروع
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
-بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+### S20 · Polymorphism
 
+[Open Subject](../subjects/s20.qmd)
+
+- #041 · Polymorphism (Method Overloading and Method Overriding) — Awaiting transcript
+- #042 · Polymorphism (Explanation of Examples, Static Methods) — Awaiting transcript
+- #043 · Polymorphism (Late binding "Dynamic Polymorphism", Early binding "Static Polymorphism") — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+
+### S21 · Object Relationships
+
+[Open Subject](../subjects/s21.qmd)
+
+- #044 · Types of Relationships (Association, Aggregation "has-a", Composition "part-of") — Awaiting transcript
+- #045 · Types of Relationships (Association, Aggregation, Composition) With Example — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+
+### S22 · Final Keyword
+
+[Open Subject](../subjects/s22.qmd)
+
+- #046 · Final Keyword (Final Variable, Final Blank Variable, Static Final Blank Variable) — Awaiting transcript
+- #047 · Final Keyword (Final Parameters, Final Methods, Final Classes, Final References) — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

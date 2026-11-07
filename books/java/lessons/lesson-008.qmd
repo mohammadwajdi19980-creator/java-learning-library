@@ -1,0 +1,156 @@
+---
+title: "Logical Operators, Ternary & Instanceof"
+subtitle: "اجمع الشروط، اضبط الحدود، واختر قيمة بناءً على النتيجة"
+---
+
+<div class="lesson-meta"><span>M03 · S05</span><span>VIDEO #08</span></div>
+
+## Grade Ranges
+
+سؤال الفيديو: أدخل علامة واطبع تقديرها. الشرط `mark >= 90` وحده يقبل `110` أيضًا؛ لازم نحدد المدى قبل تصنيف العلامة.
+
+| Range · chosen explicitly for this example | Grade |
+|---|---|
+| `90 <= mark <= 100` | `A` |
+| `80 <= mark < 90` | `B` |
+| `70 <= mark < 80` | `C` |
+| `60 <= mark < 70` | `D` |
+| `0 <= mark < 60` | `F` |
+| خارج `0–100` | `Invalid mark` |
+
+هذا جدول رياضي؛ في Java لا تكتب `90 <= mark <= 100`. لازم تفصل المقارنتين وتجمعهما بـ `&&`.
+
+## Logical Operators
+
+| A | B | `A && B` | `A \|\| B` |
+|---|---|---|---|
+| `true` | `true` | `true` | `true` |
+| `true` | `false` | `false` | `true` |
+| `false` | `true` | `false` | `true` |
+| `false` | `false` | `false` | `false` |
+
+`&&` تحتاج تحقق الطرفين؛ `||` يكفيها طرف واحد. المثالان:
+
+```java
+boolean valid = mark >= 0 && mark <= 100;
+boolean invalid = mark < 0 || mark > 100;
+```
+
+الناتج ينخزن في `boolean`، مش في `int`. مش كل لغة تتعامل مع نتيجة المقارنة بنفس طريقة Java.
+
+### Short-Circuit
+
+`false && ...` لا يحتاج تقييم الطرف الثاني، و`true || ...` كذلك. لذلك في:
+
+```java
+boolean answer = 5 > 4 || 10 < 5;
+```
+
+أول شرط `true`؛ النتيجة `true` دون الحاجة للثاني. هذا سلوك تقييم، مش مجرد اختصار في كتابة الجدول. عند الجمع بين المقارنات و`&&` و`||`، الأقواس توضح قصدك؛ `&&` ترتبط قبل `||`.
+
+## Worked Example: Grade
+
+احفظ باسم `GradeDemo.java`. استخدمنا فحصًا أوليًا للعلامة، ثم سلسلة؛ لذلك `mark >= 80` في الفرع الثاني ما تحتاج تعيد `< 90`، لأن العلامات الأعلى أخذت فرعها مسبقًا.
+
+```java
+import java.util.Scanner;
+
+public class GradeDemo {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int mark = input.nextInt();
+        String grade;
+        if (mark < 0 || mark > 100) {
+            grade = "Invalid mark";
+        } else if (mark >= 90 && mark <= 100) {
+            grade = "A";
+        } else if (mark >= 80) {
+            grade = "B";
+        } else if (mark >= 70) {
+            grade = "C";
+        } else if (mark >= 60) {
+            grade = "D";
+        } else {
+            grade = "F";
+        }
+        System.out.println(grade);
+    }
+}
+```
+
+**Input** `89` → **Output** `B`. جرّب أيضًا `90` → `A`، `100` → `A`، `110` → `Invalid mark`، و`50` → `F`.
+
+## Ternary Operator
+
+هذا `Operator` يختار **قيمة** من اثنتين:
+
+```java
+condition ? valueIfTrue : valueIfFalse
+```
+
+مثال الفيديو: إذا `y` تساوي `1` نختار `2`، وإلا نختار `5`.
+
+```java
+int y = 1;
+int z = (y == 1) ? 2 : 5;
+```
+
+`z = 2`. إذا صارت `y = 3`، نحصل على `z = 5`. لا يتنفذ الفرعان؛ نقيّم فقط التعبير المختار. هذا يناسب إسناد قيمة مختصرة، مش حشر عدة تعليمات مختلفة في مكان القيمة.
+
+### Nested Ternary
+
+نفس تقدير العلامة ممكن ينكتب هكذا، دون تغيير حدود المثال:
+
+```java
+String grade = (mark < 0 || mark > 100) ? "Invalid mark"
+             : (mark >= 90) ? "A"
+             : (mark >= 80) ? "B"
+             : (mark >= 70) ? "C"
+             : (mark >= 60) ? "D" : "F";
+```
+
+اقرأه من أعلى لأسفل: إن لم يتحقق شرط، انتقل للبديل بعد `:`. نتيجة `90` هي `A`، و`8` هي `F`، و`110` غير صالحة. الصيغة أقصر، لكن `if` قد تكون أوضح للتعديل.
+
+## Instanceof Operator
+
+آخر جزء يعطي مقدمة لفحص نوع `Object`، دون الدخول في تفاصيل `OOP` الآن. `instanceof` اسم `Operator`، وليس `Method`، ونتيجته `boolean`.
+
+```java
+import java.util.Scanner;
+
+public class TypeCheckDemo {
+    public static void main(String[] args) {
+        String name = "Adel";
+        Scanner input = new Scanner(System.in);
+        System.out.println(name instanceof String);
+        System.out.println(input instanceof Scanner);
+    }
+}
+```
+
+**Output**
+
+```text
+true
+true
+```
+
+`String` و`Scanner` كلاهما `Class` رغم أن الأولى متاحة دون `import`. لا تكتب `5 instanceof int`؛ هذان ليسا الاستخدام المطلوب لفحص `Object` هنا. نفهم المقصود فقط، ونؤجل علاقات الأنواع للدروس الخاصة فيها.
+
+## Knowledge Check
+
+1. لماذا `mark >= 90 || mark <= 100` لا تضبط المدى؟
+2. ما ناتج `false && true`؟
+3. من `y = 3`، ما قيمة `(y == 1) ? 2 : 5`؟
+
+<details><summary>Answers</summary>
+
+1. يكفي تحقق أحد الطرفين؛ حتى `110` تحقق الأول. الصحيح داخل المدى يحتاج `&&`.
+2. `false`؛ و`Short-Circuit` يسمح بتجاوز تقييم الثاني.
+3. `5`.
+
+</details>
+
+## Source & Accuracy
+
+[Adel Nasim · #08](https://www.youtube.com/watch?v=SNJFgGXmmRQ) · `00:00–13:39`. يغطي سؤال العلامة وحدودها، `Truth Table`، تخزين نتيجة شرط، `Short-Circuit`، `Ternary` و`Nested Ternary`، وفحص `String` و`Scanner`. حُددت حدود العلامات صراحةً لأن التفريغ يمزج «أكبر» و«أكبر أو يساوي»؛ ليست نقلًا حرفيًا لكل رمز بالشاشة. [Using Operators](https://dev.java/learn/language/constructs/basics/using-operators/) مرجع تدقيق المعنى.

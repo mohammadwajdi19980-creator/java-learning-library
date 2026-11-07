@@ -1,15 +1,33 @@
-# S05 — Conditions & Comparisons
+---
+title: "S05 · Conditions & Comparisons"
+subtitle: "Review & Exam · 20 marks"
+---
 
-<div class="lesson-meta"><span>M03</span><span>S05</span><span>#07–#08</span></div>
+<div class="lesson-meta"><span>M03 · S05</span><span>Complete</span></div>
 
-هذا **Subject** داخل [M03 — Selection Statements](../modules/m03.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+## Lessons
 
-## الدروس الأصلية
+- [#07 · If & Else](../lessons/lesson-007.qmd)
+- [#08 · Logical, Ternary & Instanceof](../lessons/lesson-008.qmd)
 
-- **`#07`** — Selection Statement (if - if else - if else if) — *لم يصل التفريغ بعد*
-- **`#08`** — Selection Statement (Exercises, Practice, Ternary Operator), Instanceof Method — *لم يصل التفريغ بعد*
+## Subject Exam
 
-## اختبار نهاية الموضوع
+هذه أسئلة مراجعة جديدة من الأفكار المشروحة، وليست أسئلة منقولة عن الفيديو. حاول قبل فتح الحل. خمس أسئلة، لكل منها أربع علامات؛ الشرح والسبب جزء من الإجابة.
 
-عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ Code، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.
+1. **(4)** ما الفرق بين `=` و`==`؟ وما أثر `;` بعد `if (condition)`؟
+2. **(4)** اكتب شرطًا لقبول علامة من `0` إلى `100`، وشرطًا يرفض ما خارج المدى.
+3. **(4)** احسب `true && false` و`false || true`، واشرح `Short-Circuit` في `true || expression`.
+4. **(4)** من `int y = 3;`، ما قيمة `(y == 1) ? 2 : 5`؟ وكيف نتصرف إذا احتجنا ثلاث حالات لمقارنة عدد مع `10`؟
+5. **(4)** لأي `if` تتبع `else` دون أقواس توضح الفصل؟ وما اسم ودور `instanceof`، وهل تطبق على `5 instanceof int`؟
 
+<details><summary>Answers & Marking</summary>
+
+1. إسناد مقابل مقارنة؛ `;` تعليمة فارغة تابعة للشرط فتفصل التالي عن التحكم المقصود. علامتان لكل نقطة.
+2. `mark >= 0 && mark <= 100`، و`mark < 0 || mark > 100`. علامتان لكل صيغة.
+3. `false` ثم `true`؛ الطرف الثاني لا يُقيَّم في المثال الأخير لأن النتيجة محسومة. علامة لكل نتيجة وعلامتان للتفسير.
+4. `5`. للحالات الثلاث نستعمل `if (number > 10)` ثم `else if (number == 10)` ثم `else`. علامتان لكل جزء.
+5. أقرب `if` غير مرتبطة بـ `else`؛ `instanceof` هو `Operator` لفحص توافق نوع `Object`، وليس `Method` ولا يستخدم على `int` بهذه الصيغة. علامتان لكل جزء.
+
+</details>
+
+قراءة الحل لا تثبت الإتقان؛ جرّب الحل والكتابة بنفسك، ثم ارجع للمثال المرتبط بأي خطأ.

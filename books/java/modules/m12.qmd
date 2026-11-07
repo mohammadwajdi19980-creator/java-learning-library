@@ -1,17 +1,24 @@
-# M12 — Exception Handling
+---
+title: "M12 · Exception Handling"
+---
 
-<div class="lesson-meta"><span>M12</span><span>APPLIED CORE</span><span>#064–#066</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 3 lessons available</span><span>0 transcripts received</span></div>
 
-<span class="english-term">Exceptions</span>
+## Subjects
 
-هذه الوحدة تضم 3 فيديوهات أصلية. صفحات المواضيع في الأسفل مواضعها جاهزة؛ أي موضوع لم يصل نصه بعد لن يُقدَّم على أنه مشروح.
+### S29 · Handling Exceptions
 
-## مواضيع الوحدة
+[Open Subject](../subjects/s29.qmd)
 
-- [S29 — Handling Exceptions](../subjects/s29.qmd) — `#064–#065`
-- [S30 — Custom Exceptions](../subjects/s30.qmd) — `#066–#066`
+- #064 · Exception Handling (Try-catch block, Multi-catch blocks, Union-catch blocks) — Awaiting transcript
+- #065 · Exception Handling (Finally Block, Throws Keyword, Checked vs Unchecked Exception) — Awaiting transcript
 
-## اختبار الوحدة والمشروع
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
-بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+### S30 · Custom Exceptions
 
+[Open Subject](../subjects/s30.qmd)
+
+- #066 · Exception Handling (Throw keyword, Throw vs Throws, Throw & finally, Custom exception) — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

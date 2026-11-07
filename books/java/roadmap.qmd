@@ -7,9 +7,11 @@ format:
 ---
 
 <p class="roadmap-intro">هذا فهرس الفيديوهات الأصلية، وليس ادعاءً بأن الكتاب اكتمل. افتح أي Module لرؤية مواضيعه. أسماء المصدر محفوظة كما وردت؛ الشرح يُضاف بعد استلام النص ومراجعته.</p>
-<p class="book-state">2 lessons available · 3 transcripts received · 77 videos mapped</p>
+<p class="book-state">14 lessons available · 14 transcripts received · 77 videos mapped</p>
 
-<details class="roadmap-module" open>
+::: {.content-visible unless-format="epub"}
+
+<details class="roadmap-module" open="">
 <summary>M01 / Java &amp; Tools</summary>
 <div class="module-content">
 <h3><a href="subjects/s01.html">S01 · Introduction &amp; Setup</a></h3>
@@ -19,7 +21,7 @@ format:
 </ul>
 <h3><a href="subjects/s02.html">S02 · Escape Sequences &amp; Comments</a></h3>
 <ul>
-<li>#02 — Escape Sequences and Comments<span class="source-state">Source received · Lesson not written</span></li>
+<li><a href="lessons/lesson-002.html">#02 — Escape Sequences and Comments</a><span class="source-state">Available</span></li>
 </ul>
 </div>
 </details>
@@ -29,13 +31,13 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s03.html">S03 · Data Types &amp; Operators</a></h3>
 <ul>
-<li>#03 — Data Types<span class="source-state">Awaiting transcript</span></li>
-<li>#04 — Arithmetic Operators<span class="source-state">Awaiting transcript</span></li>
-<li>#05 — Arithmetic Operators (Prefix &amp; Postfix)<span class="source-state">Awaiting transcript</span></li>
+<li><a href="lessons/lesson-003.html">#03 — Data Types</a><span class="source-state">Available</span></li>
+<li><a href="lessons/lesson-004.html">#04 — Arithmetic Operators</a><span class="source-state">Available</span></li>
+<li><a href="lessons/lesson-005.html">#05 — Arithmetic Operators (Prefix &amp; Postfix)</a><span class="source-state">Available</span></li>
 </ul>
 <h3><a href="subjects/s04.html">S04 · Input &amp; Formatted Output</a></h3>
 <ul>
-<li>#06 — Java User Input (Scanner), Printf methods<span class="source-state">Awaiting transcript</span></li>
+<li><a href="lessons/lesson-006.html">#06 — Java User Input (Scanner), Printf methods</a><span class="source-state">Available</span></li>
 </ul>
 </div>
 </details>
@@ -45,12 +47,12 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s05.html">S05 · Conditions &amp; Comparisons</a></h3>
 <ul>
-<li>#07 — Selection Statement (if - if else - if else if)<span class="source-state">Awaiting transcript</span></li>
-<li>#08 — Selection Statement (Exercises, Practice, Ternary Operator), Instanceof Method<span class="source-state">Awaiting transcript</span></li>
+<li><a href="lessons/lesson-007.html">#07 — Selection Statement (if - if else - if else if)</a><span class="source-state">Available</span></li>
+<li><a href="lessons/lesson-008.html">#08 — Selection Statement (Exercises, Practice, Ternary Operator), Instanceof Method</a><span class="source-state">Available</span></li>
 </ul>
 <h3><a href="subjects/s06.html">S06 · Switch Statements</a></h3>
 <ul>
-<li>#09 — Selection Statement (Switch Statements)<span class="source-state">Awaiting transcript</span></li>
+<li><a href="lessons/lesson-009.html">#09 — Selection Statement (Switch Statements)</a><span class="source-state">Available</span></li>
 </ul>
 </div>
 </details>
@@ -60,13 +62,13 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s07.html">S07 · While Loops</a></h3>
 <ul>
-<li>#010 — Repetition Control Statement (While Loop)<span class="source-state">Awaiting transcript</span></li>
-<li>#011 — Sentinel and Flag-Controlled While Loops<span class="source-state">Awaiting transcript</span></li>
+<li><a href="lessons/lesson-010.html">#010 — Repetition Control Statement (While Loop)</a><span class="source-state">Available</span></li>
+<li><a href="lessons/lesson-011.html">#011 — Sentinel and Flag-Controlled While Loops</a><span class="source-state">Available</span></li>
 </ul>
 <h3><a href="subjects/s08.html">S08 · Do-While &amp; For Loops</a></h3>
 <ul>
-<li>#012 — Repetition Control Statement (Do-While Loop)<span class="source-state">Awaiting transcript</span></li>
-<li>#013 — Repetition Control Statement (For Loop)<span class="source-state">Awaiting transcript</span></li>
+<li><a href="lessons/lesson-012.html">#012 — Repetition Control Statement (Do-While Loop)</a><span class="source-state">Available</span></li>
+<li><a href="lessons/lesson-013.html">#013 — Repetition Control Statement (For Loop)</a><span class="source-state">Available</span></li>
 <li>#014 — Questions and Exercises in Loops<span class="source-state">Awaiting transcript</span></li>
 </ul>
 <h3><a href="subjects/s09.html">S09 · Nested Loops &amp; Branching</a></h3>
@@ -269,3 +271,37 @@ format:
 </div>
 </details>
 
+:::
+
+::: {.content-visible when-format="epub"}
+
+## M01 · Java & Tools
+
+- [#00 · Introduction to Java](lessons/lesson-000.qmd)
+- [#01 · Java Development Tools](lessons/lesson-001.qmd)
+- [#02 · Escape Sequences & Comments](lessons/lesson-002.qmd)
+
+## M02 · Data, Operators & Input
+
+- [#03 · Data Types](lessons/lesson-003.qmd)
+- [#04 · Arithmetic Operators](lessons/lesson-004.qmd)
+- [#05 · Prefix & Postfix](lessons/lesson-005.qmd)
+- [#06 · Scanner & Printf](lessons/lesson-006.qmd)
+
+## M03 · Selection Statements
+
+- [#07 · If & Else](lessons/lesson-007.qmd)
+- [#08 · Logical, Ternary & Instanceof](lessons/lesson-008.qmd)
+- [#09 · Switch](lessons/lesson-009.qmd)
+
+## M04 · Loops & Branching
+
+- [#010 · While](lessons/lesson-010.qmd)
+- [#011 · Sentinel & Flag](lessons/lesson-011.qmd)
+- [#012 · Do-While](lessons/lesson-012.qmd)
+- [#013 · For](lessons/lesson-013.qmd)
+
+
+بقية الفيديوهات بانتظار مصادرها؛ هذا الفهرس يسرد الدروس المتاحة فقط.
+
+:::

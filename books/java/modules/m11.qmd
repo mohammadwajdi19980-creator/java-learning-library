@@ -1,17 +1,26 @@
-# M11 — Anonymous Classes & Enums
+---
+title: "M11 · Anonymous Classes & Enums"
+---
 
-<div class="lesson-meta"><span>M11</span><span>INTERMEDIATE</span><span>#059–#063</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 5 lessons available</span><span>0 transcripts received</span></div>
 
-<span class="english-term">Anonymous Classes & Enums</span>
+## Subjects
 
-هذه الوحدة تضم 5 فيديوهات أصلية. صفحات المواضيع في الأسفل مواضعها جاهزة؛ أي موضوع لم يصل نصه بعد لن يُقدَّم على أنه مشروح.
+### S27 · Anonymous Classes & Lambda
 
-## مواضيع الوحدة
+[Open Subject](../subjects/s27.qmd)
 
-- [S27 — Anonymous Classes & Lambda](../subjects/s27.qmd) — `#059–#060`
-- [S28 — Enums](../subjects/s28.qmd) — `#061–#063`
+- #059 · Anonymous Inner Class (Extends Class, Implements Interface, Defined Arguments, Lambda) — Awaiting transcript
+- #060 · Anonymous Inner Class (Constructor, Extra Methods, Local Variables, Var Keyword) — Awaiting transcript
 
-## اختبار الوحدة والمشروع
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
-بعد اكتمال الدروس: اختبار مفاهيم + أسئلة كتابة كود + تطبيق صغير يتدرج من الفهم إلى التنفيذ. **لم يتم إعداد أسئلة تدّعي تغطية محتوى لم يصلنا بعد.**
+### S28 · Enums
 
+[Open Subject](../subjects/s28.qmd)
+
+- #061 · Java Enum (What is Enum, Examples, UML, Enum with switch, Attributes & Methods) — Awaiting transcript
+- #062 · Java Enum (Real life example, ordinal, compreTo, toString, name, valueOf, values) — Awaiting transcript
+- #063 · Java Enum (EnumSet & EnumMap classes, Benefits of Enums, Enums vs Classes) — Awaiting transcript
+
+هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
