@@ -2,12 +2,12 @@
 
 <div class="lesson-meta"><span>M08</span><span>S21</span><span>#044–#045</span></div>
 
-هذا **Subject** داخل [M08 — Inheritance & Polymorphism](../modules/m08.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M08 — Inheritance & Polymorphism](../modules/m08.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#044`** — Types of Relationships (Association, Aggregation "has-a", Composition "part-of") — *لم يصل التفريغ بعد*
-- **`#045`** — Types of Relationships (Association, Aggregation, Composition) With Example — *لم يصل التفريغ بعد*
+- **`#044`** — Types of Relationships (Association, Aggregation "has-a", Composition "part-of") — *الدرس غير متاح بعد*
+- **`#045`** — Types of Relationships (Association, Aggregation, Composition) With Example — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

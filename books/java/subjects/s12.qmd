@@ -2,14 +2,14 @@
 
 <div class="lesson-meta"><span>M06</span><span>S12</span><span>#024–#027</span></div>
 
-هذا **Subject** داخل [M06 — Arrays & Strings](../modules/m06.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M06 — Arrays & Strings](../modules/m06.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#024`** — One Dimensional Arrays (1D Array) — *لم يصل التفريغ بعد*
-- **`#025`** — One Dimensional Array (Exercises, Practice) — *لم يصل التفريغ بعد*
-- **`#026`** — One Dimensional Array (Char Array) — *لم يصل التفريغ بعد*
-- **`#027`** — Passing Arrays to Methods — *لم يصل التفريغ بعد*
+- **`#024`** — One Dimensional Arrays (1D Array) — *الدرس غير متاح بعد*
+- **`#025`** — One Dimensional Array (Exercises, Practice) — *الدرس غير متاح بعد*
+- **`#026`** — One Dimensional Array (Char Array) — *الدرس غير متاح بعد*
+- **`#027`** — Passing Arrays to Methods — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

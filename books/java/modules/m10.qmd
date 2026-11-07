@@ -2,7 +2,7 @@
 title: "M10 · Abstraction & Interfaces"
 ---
 
-<div class="lesson-meta"><span>Planned</span><span>0 / 7 lessons available</span><span>0 transcripts received</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 7 lessons available</span><span>7 lessons remaining</span></div>
 
 ## Subjects
 
@@ -10,9 +10,9 @@ title: "M10 · Abstraction & Interfaces"
 
 [Open Subject](../subjects/s25.qmd)
 
-- #052 · Abstraction (Real-Life Examples, Introduction to Abstract Class, UML Abstract Class) — Awaiting transcript
-- #053 · Abstract Class part 1 (Examples, Abstract rules) — Awaiting transcript
-- #054 · Abstract Class part 2 (Polymorphism, Benefits of Abstract Class) — Awaiting transcript
+- #052 · Abstraction (Real-Life Examples, Introduction to Abstract Class, UML Abstract Class) — Not yet available
+- #053 · Abstract Class part 1 (Examples, Abstract rules) — Not yet available
+- #054 · Abstract Class part 2 (Polymorphism, Benefits of Abstract Class) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -20,9 +20,9 @@ title: "M10 · Abstraction & Interfaces"
 
 [Open Subject](../subjects/s26.qmd)
 
-- #055 · Interface Part1 (Real-Life Example, UML, Convention) — Awaiting transcript
-- #056 · Interface Part2 (Practical, Implement Multiple Interfaces, Extends Multiple Interfaces) — Awaiting transcript
-- #057 · Interface Part3 (Default - Private - Static Methods, Nested Interface) — Awaiting transcript
-- #058 · Interface Part4 (Marker or Tagging Interface, Generic Interface, Benefits of Interface) — Awaiting transcript
+- #055 · Interface Part1 (Real-Life Example, UML, Convention) — Not yet available
+- #056 · Interface Part2 (Practical, Implement Multiple Interfaces, Extends Multiple Interfaces) — Not yet available
+- #057 · Interface Part3 (Default - Private - Static Methods, Nested Interface) — Not yet available
+- #058 · Interface Part4 (Marker or Tagging Interface, Generic Interface, Benefits of Interface) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

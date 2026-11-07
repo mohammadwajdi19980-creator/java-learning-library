@@ -2,12 +2,12 @@
 
 <div class="lesson-meta"><span>M11</span><span>S27</span><span>#059–#060</span></div>
 
-هذا **Subject** داخل [M11 — Anonymous Classes & Enums](../modules/m11.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M11 — Anonymous Classes & Enums](../modules/m11.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#059`** — Anonymous Inner Class (Extends Class, Implements Interface, Defined Arguments, Lambda) — *لم يصل التفريغ بعد*
-- **`#060`** — Anonymous Inner Class (Constructor, Extra Methods, Local Variables, Var Keyword) — *لم يصل التفريغ بعد*
+- **`#059`** — Anonymous Inner Class (Extends Class, Implements Interface, Defined Arguments, Lambda) — *الدرس غير متاح بعد*
+- **`#060`** — Anonymous Inner Class (Constructor, Extra Methods, Local Variables, Var Keyword) — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

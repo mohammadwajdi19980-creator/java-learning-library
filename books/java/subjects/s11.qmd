@@ -2,12 +2,12 @@
 
 <div class="lesson-meta"><span>M05</span><span>S11</span><span>#022–#023</span></div>
 
-هذا **Subject** داخل [M05 — Methods & Recursion](../modules/m05.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M05 — Methods & Recursion](../modules/m05.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#022`** — Recursion/Recursive Methods Part 1 — *لم يصل التفريغ بعد*
-- **`#023`** — Recursion/Recursive Methods Part 2 — *لم يصل التفريغ بعد*
+- **`#022`** — Recursion/Recursive Methods Part 1 — *الدرس غير متاح بعد*
+- **`#023`** — Recursion/Recursive Methods Part 2 — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

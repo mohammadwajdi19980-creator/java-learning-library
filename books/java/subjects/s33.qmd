@@ -2,13 +2,13 @@
 
 <div class="lesson-meta"><span>M13</span><span>S33</span><span>#072–#074</span></div>
 
-هذا **Subject** داخل [M13 — File I/O](../modules/m13.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M13 — File I/O](../modules/m13.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#072`** — File Handling (Reader class/Writer class hierarchy, FileWriter & FileReader) — *لم يصل التفريغ بعد*
-- **`#073`** — File Handling (BufferedReader / BufferedWriter classes, Read file line by line) — *لم يصل التفريغ بعد*
-- **`#074`** — File Handling (PrintWriter class, Constructors & Methods) — *لم يصل التفريغ بعد*
+- **`#072`** — File Handling (Reader class/Writer class hierarchy, FileWriter & FileReader) — *الدرس غير متاح بعد*
+- **`#073`** — File Handling (BufferedReader / BufferedWriter classes, Read file line by line) — *الدرس غير متاح بعد*
+- **`#074`** — File Handling (PrintWriter class, Constructors & Methods) — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

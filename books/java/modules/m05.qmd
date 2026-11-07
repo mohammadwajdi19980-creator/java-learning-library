@@ -2,7 +2,7 @@
 title: "M05 · Methods & Recursion"
 ---
 
-<div class="lesson-meta"><span>Planned</span><span>0 / 6 lessons available</span><span>0 transcripts received</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 6 lessons available</span><span>6 lessons remaining</span></div>
 
 ## Subjects
 
@@ -10,10 +10,10 @@ title: "M05 · Methods & Recursion"
 
 [Open Subject](../subjects/s10.qmd)
 
-- #018 · Method / Function Part 1 — Awaiting transcript
-- #019 · Method / Function Part 2 (Examples) — Awaiting transcript
-- #020 · Built in Method / Function — Awaiting transcript
-- #021 · Overloading Method / Function — Awaiting transcript
+- #018 · Method / Function Part 1 — Not yet available
+- #019 · Method / Function Part 2 (Examples) — Not yet available
+- #020 · Built in Method / Function — Not yet available
+- #021 · Overloading Method / Function — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -21,7 +21,7 @@ title: "M05 · Methods & Recursion"
 
 [Open Subject](../subjects/s11.qmd)
 
-- #022 · Recursion/Recursive Methods Part 1 — Awaiting transcript
-- #023 · Recursion/Recursive Methods Part 2 — Awaiting transcript
+- #022 · Recursion/Recursive Methods Part 1 — Not yet available
+- #023 · Recursion/Recursive Methods Part 2 — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

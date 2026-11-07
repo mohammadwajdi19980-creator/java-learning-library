@@ -2,13 +2,13 @@
 
 <div class="lesson-meta"><span>M13</span><span>S31</span><span>#067–#069</span></div>
 
-هذا **Subject** داخل [M13 — File I/O](../modules/m13.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M13 — File I/O](../modules/m13.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#067`** — File Handling (java.io, Byte & Character stream, InputStream & OutputStream subclasses) — *لم يصل التفريغ بعد*
-- **`#068`** — File Handling (FileInputStream class, Character size vs String size) — *لم يصل التفريغ بعد*
-- **`#069`** — File Handling (FileOutputStream class, Reading and Writing images, Arabic letters) — *لم يصل التفريغ بعد*
+- **`#067`** — File Handling (java.io, Byte & Character stream, InputStream & OutputStream subclasses) — *الدرس غير متاح بعد*
+- **`#068`** — File Handling (FileInputStream class, Character size vs String size) — *الدرس غير متاح بعد*
+- **`#069`** — File Handling (FileOutputStream class, Reading and Writing images, Arabic letters) — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

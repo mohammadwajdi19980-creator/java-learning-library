@@ -2,7 +2,7 @@
 title: "M02 · Data, Operators & Input"
 ---
 
-<div class="lesson-meta"><span>Complete</span><span>4 / 4 lessons available</span><span>4 transcripts received</span></div>
+<div class="lesson-meta"><span>Complete</span><span>4 / 4 lessons available</span><span>0 lessons remaining</span></div>
 
 ## Subjects
 

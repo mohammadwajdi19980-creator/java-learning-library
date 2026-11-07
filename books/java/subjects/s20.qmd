@@ -2,13 +2,13 @@
 
 <div class="lesson-meta"><span>M08</span><span>S20</span><span>#041–#043</span></div>
 
-هذا **Subject** داخل [M08 — Inheritance & Polymorphism](../modules/m08.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M08 — Inheritance & Polymorphism](../modules/m08.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#041`** — Polymorphism (Method Overloading and Method Overriding) — *لم يصل التفريغ بعد*
-- **`#042`** — Polymorphism (Explanation of Examples, Static Methods) — *لم يصل التفريغ بعد*
-- **`#043`** — Polymorphism (Late binding "Dynamic Polymorphism", Early binding "Static Polymorphism") — *لم يصل التفريغ بعد*
+- **`#041`** — Polymorphism (Method Overloading and Method Overriding) — *الدرس غير متاح بعد*
+- **`#042`** — Polymorphism (Explanation of Examples, Static Methods) — *الدرس غير متاح بعد*
+- **`#043`** — Polymorphism (Late binding "Dynamic Polymorphism", Early binding "Static Polymorphism") — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

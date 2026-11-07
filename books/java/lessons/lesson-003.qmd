@@ -3,7 +3,7 @@ title: "Data Types"
 subtitle: "اختر نوع القيمة، أعطها اسمًا، وافهم ما الذي تحتفظ به"
 ---
 
-<div class="lesson-meta"><span>M02 · S03</span><span>VIDEO #03</span></div>
+<div class="lesson-meta"><span>M02 · S03</span><span>LESSON #03</span></div>
 
 ## Variable, Declaration & Initialization
 
@@ -17,9 +17,9 @@ int y = 15;  // Declaration with initialization
 System.out.println(x);
 ```
 
-النتيجة `20`؛ الإسناد الثاني استبدل القيمة القديمة. في `x = 10` نأخذ قيمة الطرف اليمين ونضعها في المتغير على اليسار. كتابة `"x"` تطبع الاسم كنص، أما `x` دون اقتباس فتقرأ قيمته.
+النتيجة `20`؛ `Assignment` الثاني استبدل القيمة القديمة. في `x = 10` نأخذ قيمة الطرف اليمين ونضعها في `Variable` على اليسار. كتابة `"x"` تطبع الاسم كنص، أما `x` دون اقتباس فتقرأ قيمته.
 
-**قاعدة مهمة:** متغير محلي داخل `main` لازم يأخذ قيمة قبل قراءته. لا تعتمد على قيمة `0` تلقائية. هذا شرط في اللغة، مش تغييرًا فرضه إصدار حديث من `IDE`. بعض أنواع المتغيرات الأخرى لها قيم تلقائية، وتفاصيلها خارج هذا الدرس.
+**قاعدة مهمة:** `Local Variable` داخل `main` لازم يأخذ قيمة قبل قراءته. لا تعتمد على قيمة `0` تلقائية. هذا شرط في اللغة، مش تغييرًا فرضه إصدار حديث من `IDE`. بعض أنواع `Variables` الأخرى لها قيم تلقائية، وتفاصيلها خارج هذا الدرس.
 
 ## Identifier Rules
 
@@ -29,11 +29,11 @@ System.out.println(x);
 | `_mark`, `mark_`, `$value` | `student mark`, `mark?` | الفراغ والعلامة الخاصة غير صالحين |
 | `age`, `Age` | استخدامهما كأنهما اسم واحد | اللغة `Case-Sensitive` |
 
-الأحرف و`_` و`$` ممكن تبدأ الاسم، والأرقام ممكن تأتي بعد البداية. الأسماء المحجوزة مثل `int` لا تصلح أسماء متغيرات. **توضيح حديث:** `_` وحدها لا تصلح اسمًا تقرأ قيمته، بينما `_mark` صالحة. اختر اسمًا يوضح المعنى بدل الرموز المربكة.
+الأحرف و`_` و`$` ممكن تبدأ الاسم، والأرقام ممكن تأتي بعد البداية. `Keywords` مثل `int` لا تصلح أسماء `Variables`. **توضيح حديث:** `_` وحدها لا تصلح اسمًا تقرأ قيمته، بينما `_mark` صالحة. اختر اسمًا يوضح المعنى بدل الرموز المربكة.
 
 ## Eight Primitive Types
 
-هذا الجدول هو مرجع الاختيار؛ الحجم يصف تمثيل القيمة، مش إجمالي استهلاك البرنامج للذاكرة.
+هذا الجدول هو مرجع الاختيار؛ الحجم يصف تمثيل القيمة، مش إجمالي استهلاك البرنامج للـ `Memory`.
 
 | Type | Bits | Values / use |
 |---|---:|---|
@@ -71,7 +71,7 @@ String name = "Adel Nasim";
 
 ## Worked Example
 
-احفظ باسم `TypesDemo.java`. يعيد بناء تجارب التخزين والطباعة وحدود `int` المذكورة بالفيديو.
+احفظ باسم `TypesDemo.java`. يطبّق التخزين والطباعة وحدود `int`.
 
 ```java
 public class TypesDemo {
@@ -111,7 +111,7 @@ Adel Nasim
 
 ## Binary Representation
 
-بآخر الفيديو بنربط الرقم بتمثيله. كل `Bit` قيمتها `0` أو `1`. في التمثيل الموجب المبسط، أوزان الخانات من اليمين: `1, 2, 4, 8, 16, 32, 64`.
+هنا بنربط الرقم بتمثيله. كل `Bit` قيمتها `0` أو `1`. في التمثيل الموجب المبسط، أوزان الخانات من اليمين: `1, 2, 4, 8, 16, 32, 64`.
 
 | Decimal | Binary · 8 bits | Explanation |
 |---:|---|---|
@@ -139,4 +139,6 @@ Adel Nasim
 
 ## Source & Accuracy
 
-[Adel Nasim · #03](https://www.youtube.com/watch?v=mY8yxPP9_AE) · `00:00–20:46`. أمثلة النوع والاسم والتخزين والحدود والتمثيل الموجب محفوظة في الشرح؛ الكود الكامل صياغة تعليمية. صُحّحت أخطاء التفريغ في الحدود وخلط `long` مع `float`، وفُصلت الدقة عن عدد الخانات بعد الفاصلة. [Primitive Types](https://dev.java/learn/language/constructs/basics/primitive-types/) · [JLS Identifiers](https://docs.oracle.com/javase/specs/jls/se25/html/jls-3.html#jls-3.8).
+راجع [Subject S03](../subjects/s03.qmd) للمراجعة والأسئلة، و[Glossary](../glossary.qmd) للمصطلحات.
+
+مراجع التحقق: [Primitive Types](https://dev.java/learn/language/constructs/basics/primitive-types/) · [JLS Identifiers](https://docs.oracle.com/javase/specs/jls/se25/html/jls-3.html#jls-3.8).

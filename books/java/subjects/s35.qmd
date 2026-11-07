@@ -2,11 +2,11 @@
 
 <div class="lesson-meta"><span>M13</span><span>S35</span><span>#076–#076</span></div>
 
-هذا **Subject** داخل [M13 — File I/O](../modules/m13.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M13 — File I/O](../modules/m13.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#076`** — File Handling (Serialization and Deserialization, Read & Write multiple objects) — *لم يصل التفريغ بعد*
+- **`#076`** — File Handling (Serialization and Deserialization, Read & Write multiple objects) — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

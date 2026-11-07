@@ -2,13 +2,13 @@
 
 <div class="lesson-meta"><span>M11</span><span>S28</span><span>#061–#063</span></div>
 
-هذا **Subject** داخل [M11 — Anonymous Classes & Enums](../modules/m11.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M11 — Anonymous Classes & Enums](../modules/m11.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#061`** — Java Enum (What is Enum, Examples, UML, Enum with switch, Attributes & Methods) — *لم يصل التفريغ بعد*
-- **`#062`** — Java Enum (Real life example, ordinal, compreTo, toString, name, valueOf, values) — *لم يصل التفريغ بعد*
-- **`#063`** — Java Enum (EnumSet & EnumMap classes, Benefits of Enums, Enums vs Classes) — *لم يصل التفريغ بعد*
+- **`#061`** — Java Enum (What is Enum, Examples, UML, Enum with switch, Attributes & Methods) — *الدرس غير متاح بعد*
+- **`#062`** — Java Enum (Real life example, ordinal, compreTo, toString, name, valueOf, values) — *الدرس غير متاح بعد*
+- **`#063`** — Java Enum (EnumSet & EnumMap classes, Benefits of Enums, Enums vs Classes) — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

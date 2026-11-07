@@ -3,7 +3,7 @@ title: "If, If-Else & Else-If"
 subtitle: "غيّر مسار التنفيذ بناءً على شرط واضح"
 ---
 
-<div class="lesson-meta"><span>M03 · S05</span><span>VIDEO #07</span></div>
+<div class="lesson-meta"><span>M03 · S05</span><span>LESSON #07</span></div>
 
 ## Selection Statements
 
@@ -22,7 +22,7 @@ subtitle: "غيّر مسار التنفيذ بناءً على شرط واضح"
 | `>` / `<` | أكبر من / أصغر من؟ |
 | `>=` / `<=` | أكبر أو يساوي / أصغر أو يساوي؟ |
 
-الناتج `boolean`: إما `true` أو `false`. `=` للإسناد، و`==` للسؤال عن التساوي. العدد وحده مثل `if (5)` ليس شرطًا مقبولًا في Java.
+الناتج `boolean`: إما `true` أو `false`. `=` للـ `Assignment`، و`==` للسؤال عن التساوي. العدد وحده مثل `if (5)` ليس شرطًا مقبولًا في Java.
 
 ## If & Blocks
 
@@ -146,4 +146,6 @@ Equal to 10
 
 ## Source & Accuracy
 
-[Adel Nasim · #07](https://www.youtube.com/watch?v=EDhPw1OI-KY) · `00:00–16:52`. التصنيف والمقارنات والأقواس و`;` و`Scanner` والموجب/السالب والزوجي/الفردي و`Nested If` وحد `10` وسلسلة `Else-If` كلها ممثلة. الكود موحّد ومعاد الصياغة؛ صيغة التشابك الأصلية غير ظاهرة بالكامل في التفريغ. [Control Flow](https://dev.java/learn/language/constructs/basics/controlling-flow/) للتحقق، والصورة مرجع شكلي عام فقط.
+راجع [Subject S05](../subjects/s05.qmd) للمراجعة والأسئلة، و[Glossary](../glossary.qmd) للمصطلحات.
+
+مراجع التحقق: [Control Flow](https://dev.java/learn/language/constructs/basics/controlling-flow/).

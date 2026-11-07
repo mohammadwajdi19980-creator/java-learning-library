@@ -2,11 +2,11 @@
 
 <div class="lesson-meta"><span>M06</span><span>S13</span><span>#028–#028</span></div>
 
-هذا **Subject** داخل [M06 — Arrays & Strings](../modules/m06.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M06 — Arrays & Strings](../modules/m06.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#028`** — Multidimensional Arrays & Passing Multidimensional Arrays to Methods — *لم يصل التفريغ بعد*
+- **`#028`** — Multidimensional Arrays & Passing Multidimensional Arrays to Methods — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

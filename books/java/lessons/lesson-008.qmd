@@ -3,11 +3,11 @@ title: "Logical Operators, Ternary & Instanceof"
 subtitle: "اجمع الشروط، اضبط الحدود، واختر قيمة بناءً على النتيجة"
 ---
 
-<div class="lesson-meta"><span>M03 · S05</span><span>VIDEO #08</span></div>
+<div class="lesson-meta"><span>M03 · S05</span><span>LESSON #08</span></div>
 
 ## Grade Ranges
 
-سؤال الفيديو: أدخل علامة واطبع تقديرها. الشرط `mark >= 90` وحده يقبل `110` أيضًا؛ لازم نحدد المدى قبل تصنيف العلامة.
+تطبيق الدرس: أدخل علامة واطبع تقديرها. الشرط `mark >= 90` وحده يقبل `110` أيضًا؛ لازم نحدد المدى قبل تصنيف العلامة.
 
 | Range · chosen explicitly for this example | Grade |
 |---|---|
@@ -88,14 +88,14 @@ public class GradeDemo {
 condition ? valueIfTrue : valueIfFalse
 ```
 
-مثال الفيديو: إذا `y` تساوي `1` نختار `2`، وإلا نختار `5`.
+مثال الدرس: إذا `y` تساوي `1` نختار `2`، وإلا نختار `5`.
 
 ```java
 int y = 1;
 int z = (y == 1) ? 2 : 5;
 ```
 
-`z = 2`. إذا صارت `y = 3`، نحصل على `z = 5`. لا يتنفذ الفرعان؛ نقيّم فقط التعبير المختار. هذا يناسب إسناد قيمة مختصرة، مش حشر عدة تعليمات مختلفة في مكان القيمة.
+`z = 2`. إذا صارت `y = 3`، نحصل على `z = 5`. لا يتنفذ الفرعان؛ نقيّم فقط `Expression` المختار. هذا يناسب `Assignment` قيمة مختصرة، مش حشر عدة تعليمات مختلفة في مكان القيمة.
 
 ### Nested Ternary
 
@@ -153,4 +153,6 @@ true
 
 ## Source & Accuracy
 
-[Adel Nasim · #08](https://www.youtube.com/watch?v=SNJFgGXmmRQ) · `00:00–13:39`. يغطي سؤال العلامة وحدودها، `Truth Table`، تخزين نتيجة شرط، `Short-Circuit`، `Ternary` و`Nested Ternary`، وفحص `String` و`Scanner`. حُددت حدود العلامات صراحةً لأن التفريغ يمزج «أكبر» و«أكبر أو يساوي»؛ ليست نقلًا حرفيًا لكل رمز بالشاشة. [Using Operators](https://dev.java/learn/language/constructs/basics/using-operators/) مرجع تدقيق المعنى.
+راجع [Subject S05](../subjects/s05.qmd) للمراجعة والأسئلة، و[Glossary](../glossary.qmd) للمصطلحات.
+
+مراجع التحقق: [Using Operators](https://dev.java/learn/language/constructs/basics/using-operators/).

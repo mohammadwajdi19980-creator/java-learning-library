@@ -2,12 +2,12 @@
 
 <div class="lesson-meta"><span>M12</span><span>S29</span><span>#064–#065</span></div>
 
-هذا **Subject** داخل [M12 — Exception Handling](../modules/m12.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M12 — Exception Handling](../modules/m12.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#064`** — Exception Handling (Try-catch block, Multi-catch blocks, Union-catch blocks) — *لم يصل التفريغ بعد*
-- **`#065`** — Exception Handling (Finally Block, Throws Keyword, Checked vs Unchecked Exception) — *لم يصل التفريغ بعد*
+- **`#064`** — Exception Handling (Try-catch block, Multi-catch blocks, Union-catch blocks) — *الدرس غير متاح بعد*
+- **`#065`** — Exception Handling (Finally Block, Throws Keyword, Checked vs Unchecked Exception) — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

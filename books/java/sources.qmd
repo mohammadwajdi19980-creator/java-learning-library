@@ -1,51 +1,33 @@
-# Source Register & Editorial Notes
+# Sources & Related Pages
 
-هذا الكتاب يعيد صياغة **النصوص التي يقدّمها القارئ** من سلسلة عادل نسيم، ولا يفترض تفاصيل فيديو لم نستلم نصه. جميع الأمثلة والرسومات التي نصنعها تُميّز كمحتوى توضيحي.
+مرجعك للدراسة هو صفحات هذا الكتاب. المراجع الخارجية أدناه لتدقيق المعلومات التقنية وتوثيق الصور.
 
-## Source Status
+## Lesson Pages
 
-النصوص من القارئ؛ ليست شهادة بمشاهدة جميع الفيديوهات الأصلية. التغطية الحالية حتى #013، وما بعده بانتظار التفريغات.
-
-| Video | Lesson | Source |
-|---|---|---|
-| #00 | [Introduction to Java](lessons/lesson-000.qmd) | Supplied transcript |
-| #01 | [Java Development Tools](lessons/lesson-001.qmd) | [Video](https://www.youtube.com/watch?v=wJKgqYj4mtU) |
-| #02 | [Escape Sequences & Comments](lessons/lesson-002.qmd) | [Video](https://www.youtube.com/watch?v=vtHwpyk5v08) |
-| #03 | [Data Types](lessons/lesson-003.qmd) | [Video](https://www.youtube.com/watch?v=mY8yxPP9_AE) |
-| #04 | [Arithmetic Operators](lessons/lesson-004.qmd) | [Video](https://www.youtube.com/watch?v=r-msBvRW56g) |
-| #05 | [Prefix & Postfix](lessons/lesson-005.qmd) | [Video](https://www.youtube.com/watch?v=XN2nusxpvPE) |
-| #06 | [Scanner & Printf](lessons/lesson-006.qmd) | [Video](https://www.youtube.com/watch?v=kilmBWdI0NE) |
-| #07 | [If & Else](lessons/lesson-007.qmd) | [Video](https://www.youtube.com/watch?v=EDhPw1OI-KY) |
-| #08 | [Logical, Ternary & Instanceof](lessons/lesson-008.qmd) | [Video](https://www.youtube.com/watch?v=SNJFgGXmmRQ) |
-| #09 | [Switch](lessons/lesson-009.qmd) | [Video](https://www.youtube.com/watch?v=x-NRDz7RvtU) |
-| #010 | [While](lessons/lesson-010.qmd) | [Video](https://www.youtube.com/watch?v=YECkwn988-Q) |
-| #011 | [Sentinel & Flag](lessons/lesson-011.qmd) | [Video](https://www.youtube.com/watch?v=cUehdvQTH6c) |
-| #012 | [Do-While](lessons/lesson-012.qmd) | [Video](https://www.youtube.com/watch?v=ZRRCM0HvIn4) |
-| #013 | [For](lessons/lesson-013.qmd) | [Video](https://www.youtube.com/watch?v=BnTI67QhuuU) |
-
-## Batch #02–#013: Coverage & Limits
-
-التفريغات العشرة تغطي اثني عشر فيديو. حُفظت الأصول دون تغيير مع سجل يربط كل فكرة بموضع شرحها. كل مثال أُعيد بناؤه بسبب تشوّش النص موضح في درسه؛ لا ننسب رموزًا غير موجودة إلى شاشة المدرّس.
-
-| Source | Exact detail unavailable | Treatment |
-|---|---|---|
-| #02 · 11:07–12:03 | نص سؤال التتبع المركب | مثال توضيحي معلن لنفس المهارة |
-| #04 · 04:32–05:23; 07:34–08:04 | بعض رموز التعابير | أمثلة معاد بناؤها، دون ادعاء تطابق حرفي |
-| #05 · 02:34–04:40; 10:05–11:06 | التعابير الطويلة المعروضة | تتبع بديل معلن |
-| #08 · 00:07–05:58 | التباس > مع >= في وصف حدود العلامات | حدود محددة صراحةً في المثال |
-| #011 · final exercise | الرقم الدقيق لإشارة إنهاء الدرجات | اختيار -1 معلن للتطبيق |
-
-جميع البرامج الكاملة الجديدة وعددها 17 جُرّبت باستخدام JDK 25 عبر CLI، ضمن 59 حالة تشغيل وحدود وأخطاء مقصودة. الأمثلة الجزئية تحتاج السياق الموضح حولها؛ هذه ليست دعوى تشغيلها داخل NetBeans.
-
-[Coverage record](https://github.com/mohammadwajdi19980-creator/java-learning-library/blob/main/docs/sources/coverage-002-013.json) · [Code checks](https://github.com/mohammadwajdi19980-creator/java-learning-library/blob/main/docs/sources/code-cases-002-013.json)
+| Lesson | Page |
+|---|---|
+| #00 | [Introduction to Java](lessons/lesson-000.qmd) |
+| #01 | [Java Development Tools](lessons/lesson-001.qmd) |
+| #02 | [Escape Sequences & Comments](lessons/lesson-002.qmd) |
+| #03 | [Data Types](lessons/lesson-003.qmd) |
+| #04 | [Arithmetic Operators](lessons/lesson-004.qmd) |
+| #05 | [Prefix & Postfix](lessons/lesson-005.qmd) |
+| #06 | [Scanner & Printf](lessons/lesson-006.qmd) |
+| #07 | [If & Else](lessons/lesson-007.qmd) |
+| #08 | [Logical, Ternary & Instanceof](lessons/lesson-008.qmd) |
+| #09 | [Switch](lessons/lesson-009.qmd) |
+| #010 | [While](lessons/lesson-010.qmd) |
+| #011 | [Sentinel & Flag](lessons/lesson-011.qmd) |
+| #012 | [Do-While](lessons/lesson-012.qmd) |
+| #013 | [For](lessons/lesson-013.qmd) |
 
 ## Technical accuracy notes
 
-- `#08`: `instanceof` operator، ليس method.
-- `#034`: `finalize()` قديم ومهمل ومعلَّم للإزالة؛ نشرح البدائل الحديثة عند الوصول للدرس.
-- `#036`: نفرق بين static nested class والـ top-level classes.
-- `#037`: Java تمرر معاملات Methods بـ pass-by-value حتى لمراجع Objects.
-- `#062`: الاسم الصحيح للدالة هو `compareTo()`.
+- [Logical, Ternary & Instanceof](lessons/lesson-008.qmd): `instanceof` operator، ليس method.
+- [Constructors & Object Lifetime](subjects/s16.qmd): `finalize()` قديم ومهمل ومعلَّم للإزالة؛ نشرح البدائل الحديثة عند الوصول للدرس.
+- [Nested Classes](subjects/s17.qmd): نفرق بين static nested class والـ top-level classes.
+- [Passing Objects to Methods](subjects/s18.qmd): Java تستخدم `Pass-by-Value` عند تمرير `Arguments` إلى `Methods` حتى لمراجع Objects.
+- [Enums](subjects/s28.qmd): الاسم الصحيح للـ `Method` هو `compareTo()`.
 
 ## مراجع تأسيسية
 
@@ -61,17 +43,16 @@
 - [Eclipse Temurin 25 LTS — downloads](https://adoptium.net/temurin/releases/)
 - [Eclipse Temurin — installation and winget](https://adoptium.net/installation)
 
-Source transcript timestamp range: 00:00–14:18, supplied by the learner. Transcript includes speech-to-text errors; uncertain proper names and exact text strings were replaced with transparent illustrative examples rather than falsely reconstructed quotes.
 
 
 ## Screenshot Provenance
 
-الصور الحقيقية في Lesson #01 مأخوذة من [Apache NetBeans Java Quick Start](https://netbeans.apache.org/tutorial/main/kb/docs/java/quickstart/). يعرض الدليل مشروع Maven؛ هذه الصور مرجع بصري وليست لقطات موثّقة من NetBeans 31 أو من مثالنا باستخدام Ant. الرسوم التخطيطية الأخرى موسومة بصورة مستقلة. راجع `assets/registry.json` لتفاصيل الملفات والمصدر.
+الصور الحقيقية في Lesson #01 مأخوذة من [Apache NetBeans Java Quick Start](https://netbeans.apache.org/tutorial/main/kb/docs/java/quickstart/). يعرض الدليل `Project` Maven؛ هذه الصور مرجع بصري وليست لقطات موثّقة من NetBeans 31 أو من مثالنا باستخدام Ant. الرسوم التخطيطية الأخرى موسومة بصورة مستقلة. راجع `assets/registry.json` لتفاصيل الملفات والمصدر.
 
 
 ## Online Diagram Attribution
 
-اختيرت الصور التالية بعد البحث عن صور موجودة. كلها رسوم توضيحية، وليست Screenshots من NetBeans. لم تتوفر إطارات YouTube في هذه الجلسة؛ لم نستخدم صورًا مولّدة على أنها لقطات حقيقية.
+اختيرت الصور التالية بعد البحث عن صور موجودة. كلها رسوم توضيحية، وليست Screenshots من NetBeans. مصدر كل صورة وترخيصها موضّحان أدناه.
 
 | Figure | Author | Source & License | Changes |
 |---|---|---|---|

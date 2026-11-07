@@ -29,6 +29,16 @@ for p in [*B.rglob('*.qmd'),B/'includes/shell.html']:
   if dest.suffix=='.html':dest=dest.with_suffix('.qmd')
   if dest.suffix=='.epub':continue # Produced by Quarto, checked after rendering.
   if not dest.exists():errors.append(f'{p.relative_to(ROOT)}: missing HTML link {target}')
+# Reader-facing terminology and reference contract (archives retain original provenance).
+public_pages=[p for p in B.rglob('*.qmd') if '_book' not in p.parts]
+for p in public_pages:
+ text=p.read_text()
+ if re.search(r'youtu(?:be\.com|\.be)|\bvideos?\b|فيديو|تفريغ|\btranscripts?\b',text,re.I):errors.append(f'{p.relative_to(ROOT)}: video reference in public book')
+ if re.search(r'(?<![\u0621-\u064a])(?:محرر|المحرر|متغير|المتغير|متغيرات|المتغيرات|مصفوفة|كائن|دالة|حلقة|الحلقة|عداد|التعبير|التعبيرات|الإسناد|المشروع|المشاريع)(?![\u0621-\u064a])',text):errors.append(f'{p.relative_to(ROOT)}: translated technical name')
+glossary=(B/'glossary.qmd').read_text()
+definitions=re.findall(r'^\*\*English definition:\*\* .+$',glossary,re.M)
+blocks=re.findall(r'::: \{\.english-definition dir="ltr" lang="en"\}\n\n(\*\*English definition:\*\* [^\n]+)\n\n:::',glossary)
+if not definitions or definitions!=blocks:errors.append('Glossary English definitions must have explicit LTR/lang blocks')
 registry=json.loads((B/'assets/registry.json').read_text())
 registered={x['file'] for x in registry}
 for asset in registry:
@@ -49,17 +59,23 @@ if manifest.exists():
   if not (ROOT/path).is_file() or not re.search(r'^#{1,6} '+re.escape(heading)+r'\s*$',(ROOT/path).read_text(),re.M):errors.append('Broken coverage reference: '+unit['id'])
  print(f'Coverage references checked: {len(ledger["units"])}; {sum(u["status"]=="unclear" for u in ledger["units"])} source-detail gaps remain explicitly disclosed.')
 class Page(HTMLParser):
- def __init__(self,text):self.ids=set();self.links=[];super().__init__();self.feed(text)
+ def __init__(self,text):self.ids=set();self.links=[];self.text=[];self.skip=0;super().__init__();self.feed(text)
  def handle_starttag(self,tag,attrs):
   a=dict(attrs)
+  if tag in ('script','style'):self.skip+=1
   if a.get('id'):self.ids.add(a['id'])
   if tag in ['a','img','link','script']:
    target=a.get('href') if tag in ['a','link'] else a.get('src')
    if target:self.links.append(target)
+ def handle_endtag(self,tag):
+  if tag in ('script','style'):self.skip-=1
+ def handle_data(self,text):
+  if not self.skip:self.text.append(text)
 out=B/'_book'
 if '--rendered' in sys.argv:
  pages={p:Page(p.read_text()) for p in out.rglob('*.html')}
  for p,page in pages.items():
+  if re.search(r'youtu(?:be\.com|\.be)|\bvideos?\b|فيديو|تفريغ|\btranscripts?\b',' '.join(page.text+page.links),re.I):errors.append(f'{p.relative_to(out)}: rendered video reference')
   for target in page.links:
    u=urlsplit(target)
    if u.scheme or u.netloc or target.startswith('data:') or u.path.startswith('/'):continue
@@ -77,7 +93,9 @@ if '--rendered' in sys.argv:
    names=set(z.namelist());epub_pages={}
    for name in names:
     if name.endswith('.xhtml'):
-     try:epub_pages[name]=ET.fromstring(z.read(name))
+     try:
+      epub_pages[name]=ET.fromstring(z.read(name))
+      if re.search(r'youtu(?:be\.com|\.be)|\bvideos?\b|فيديو|تفريغ|\btranscripts?\b',z.read(name).decode(),re.I):errors.append(f'EPUB {name}: video reference')
      except ET.ParseError as e:errors.append(f'EPUB {name}: {e}')
    epub_ids={n:{e.attrib['id'] for e in root.iter() if 'id' in e.attrib} for n,root in epub_pages.items()}
    for name,root in epub_pages.items():
@@ -90,6 +108,10 @@ if '--rendered' in sys.argv:
       dest=posixpath.normpath(posixpath.join(posixpath.dirname(name),unquote(u.path))) if u.path else name
       if dest not in names:errors.append(f'EPUB {name}: missing {target}')
       elif u.fragment and dest in epub_ids and unquote(u.fragment) not in epub_ids[dest]:errors.append(f'EPUB {name}: missing anchor {target}')
+ g=(out/'glossary.html').read_text() if (out/'glossary.html').exists() else ''
+ if len(re.findall(r'class="english-definition" dir="ltr" lang="en"',g))!=len(definitions):errors.append('Rendered glossary LTR definitions missing')
+ if re.search(r'<section[^>]*dir="ltr"',g):errors.append('Arabic glossary section inherits LTR')
+ if (out/'curriculum.json').exists():errors.append('Internal provenance distributed as public book data')
  if not pages:errors.append('No rendered pages')
 if errors:
  print('\n'.join(errors));sys.exit(1)

@@ -7,7 +7,7 @@
 ## الدروس
 
 - [#00 — Introduction](../lessons/lesson-000.qmd): مقدمة في Programming واستخدامات Java وكيف يشتغل برنامجها.
-- [#01 — Installing JDK & Apache NetBeans](../lessons/lesson-001.qmd): تحميل الأدوات، إنشاء أول مشروع، فهم main والطباعة، وتشخيص الأخطاء.
+- [#01 — Installing JDK & Apache NetBeans](../lessons/lesson-001.qmd): تحميل الأدوات، إنشاء أول `Project`، فهم main والطباعة، وتشخيص الأخطاء.
 
 ## Subject Exam
 
@@ -35,7 +35,7 @@ public class StartApp {
 1. حتى نعطي الجهاز تعليمات واضحة لتنفيذ مهمة. المبرمج يحدد المطلوب والخطوات ويكتب ويختبر الحل.
 2. `Source Code → Compiler → Bytecode → JVM` ثم النتيجة.
 3. JDK أدوات الترجمة والتشغيل مثل `javac`. IDE أداة الكتابة والتنظيم مثل NetBeans.
-4. المشروع يجمع الملفات والإعدادات؛ Package تنظّم Classes؛ ملف Java يحوي تعريفات برمجية منها Class واحدة على الأقل في مثالنا.
+4. `Project` يجمع الملفات والإعدادات؛ Package تنظّم Classes؛ ملف Java يحوي تعريفات برمجية منها Class واحدة على الأقل في مثالنا.
 5. من `main` بالصيغة التقليدية لتطبيق Java المستقل.
 6. على الترتيب: Compile-Time ثم Runtime ثم Logical.
 7. مثال حل:

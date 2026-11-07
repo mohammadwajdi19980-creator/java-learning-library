@@ -1,1 +1,3 @@
 body{direction:rtl;line-height:1.9;font-family:sans-serif}h1,h2,h3,.english-term{direction:ltr;text-align:left}code,pre{direction:ltr;text-align:left;unicode-bidi:isolate}img{max-width:100%;height:auto}table{font-size:.9em}
+
+.english-definition{direction:ltr;text-align:left;unicode-bidi:isolate}.english-definition p{direction:ltr;text-align:left}

@@ -2,13 +2,13 @@
 
 <div class="lesson-meta"><span>M09</span><span>S23</span><span>#048–#050</span></div>
 
-هذا **Subject** داخل [M09 — ArrayList](../modules/m09.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M09 — ArrayList](../modules/m09.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#048`** — ArrayList Class — *لم يصل التفريغ بعد*
-- **`#049`** — ArrayList, Declaration, Print, Methods (Add, Get, AddAll, Copy Constructor, Clone) — *لم يصل التفريغ بعد*
-- **`#050`** — ArrayList Methods (Set, Remove, Remove All, Remove Range) Polymorphic ArrayList — *لم يصل التفريغ بعد*
+- **`#048`** — ArrayList Class — *الدرس غير متاح بعد*
+- **`#049`** — ArrayList, Declaration, Print, Methods (Add, Get, AddAll, Copy Constructor, Clone) — *الدرس غير متاح بعد*
+- **`#050`** — ArrayList Methods (Set, Remove, Remove All, Remove Range) Polymorphic ArrayList — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

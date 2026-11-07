@@ -2,7 +2,7 @@
 title: "M08 · Inheritance & Polymorphism"
 ---
 
-<div class="lesson-meta"><span>Planned</span><span>0 / 9 lessons available</span><span>0 transcripts received</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 9 lessons available</span><span>9 lessons remaining</span></div>
 
 ## Subjects
 
@@ -10,8 +10,8 @@ title: "M08 · Inheritance & Polymorphism"
 
 [Open Subject](../subjects/s19.qmd)
 
-- #039 · Inheritance (Types of Inheritance / Access Modifiers and inheritance) — Awaiting transcript
-- #040 · Inheritance (Super Keyword / Object Class / Package-Private vs Protected) — Awaiting transcript
+- #039 · Inheritance (Types of Inheritance / Access Modifiers and inheritance) — Not yet available
+- #040 · Inheritance (Super Keyword / Object Class / Package-Private vs Protected) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -19,9 +19,9 @@ title: "M08 · Inheritance & Polymorphism"
 
 [Open Subject](../subjects/s20.qmd)
 
-- #041 · Polymorphism (Method Overloading and Method Overriding) — Awaiting transcript
-- #042 · Polymorphism (Explanation of Examples, Static Methods) — Awaiting transcript
-- #043 · Polymorphism (Late binding "Dynamic Polymorphism", Early binding "Static Polymorphism") — Awaiting transcript
+- #041 · Polymorphism (Method Overloading and Method Overriding) — Not yet available
+- #042 · Polymorphism (Explanation of Examples, Static Methods) — Not yet available
+- #043 · Polymorphism (Late binding "Dynamic Polymorphism", Early binding "Static Polymorphism") — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -29,8 +29,8 @@ title: "M08 · Inheritance & Polymorphism"
 
 [Open Subject](../subjects/s21.qmd)
 
-- #044 · Types of Relationships (Association, Aggregation "has-a", Composition "part-of") — Awaiting transcript
-- #045 · Types of Relationships (Association, Aggregation, Composition) With Example — Awaiting transcript
+- #044 · Types of Relationships (Association, Aggregation "has-a", Composition "part-of") — Not yet available
+- #045 · Types of Relationships (Association, Aggregation, Composition) With Example — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -38,7 +38,7 @@ title: "M08 · Inheritance & Polymorphism"
 
 [Open Subject](../subjects/s22.qmd)
 
-- #046 · Final Keyword (Final Variable, Final Blank Variable, Static Final Blank Variable) — Awaiting transcript
-- #047 · Final Keyword (Final Parameters, Final Methods, Final Classes, Final References) — Awaiting transcript
+- #046 · Final Keyword (Final Variable, Final Blank Variable, Static Final Blank Variable) — Not yet available
+- #047 · Final Keyword (Final Parameters, Final Methods, Final Classes, Final References) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

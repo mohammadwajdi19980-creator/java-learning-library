@@ -2,7 +2,7 @@
 title: "M13 · File I/O"
 ---
 
-<div class="lesson-meta"><span>Planned</span><span>0 / 10 lessons available</span><span>0 transcripts received</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 10 lessons available</span><span>10 lessons remaining</span></div>
 
 ## Subjects
 
@@ -10,9 +10,9 @@ title: "M13 · File I/O"
 
 [Open Subject](../subjects/s31.qmd)
 
-- #067 · File Handling (java.io, Byte & Character stream, InputStream & OutputStream subclasses) — Awaiting transcript
-- #068 · File Handling (FileInputStream class, Character size vs String size) — Awaiting transcript
-- #069 · File Handling (FileOutputStream class, Reading and Writing images, Arabic letters) — Awaiting transcript
+- #067 · File Handling (java.io, Byte & Character stream, InputStream & OutputStream subclasses) — Not yet available
+- #068 · File Handling (FileInputStream class, Character size vs String size) — Not yet available
+- #069 · File Handling (FileOutputStream class, Reading and Writing images, Arabic letters) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -20,8 +20,8 @@ title: "M13 · File I/O"
 
 [Open Subject](../subjects/s32.qmd)
 
-- #070 · File Handling (File class) — Awaiting transcript
-- #071 · File Handling (File class, Directories Add/Remove, Constructors) — Awaiting transcript
+- #070 · File Handling (File class) — Not yet available
+- #071 · File Handling (File class, Directories Add/Remove, Constructors) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -29,9 +29,9 @@ title: "M13 · File I/O"
 
 [Open Subject](../subjects/s33.qmd)
 
-- #072 · File Handling (Reader class/Writer class hierarchy, FileWriter & FileReader) — Awaiting transcript
-- #073 · File Handling (BufferedReader / BufferedWriter classes, Read file line by line) — Awaiting transcript
-- #074 · File Handling (PrintWriter class, Constructors & Methods) — Awaiting transcript
+- #072 · File Handling (Reader class/Writer class hierarchy, FileWriter & FileReader) — Not yet available
+- #073 · File Handling (BufferedReader / BufferedWriter classes, Read file line by line) — Not yet available
+- #074 · File Handling (PrintWriter class, Constructors & Methods) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -39,7 +39,7 @@ title: "M13 · File I/O"
 
 [Open Subject](../subjects/s34.qmd)
 
-- #075 · File Handling (Scanner class, Constructors & Methods, useDelimiter, delimiter) — Awaiting transcript
+- #075 · File Handling (Scanner class, Constructors & Methods, useDelimiter, delimiter) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -47,6 +47,6 @@ title: "M13 · File I/O"
 
 [Open Subject](../subjects/s35.qmd)
 
-- #076 · File Handling (Serialization and Deserialization, Read & Write multiple objects) — Awaiting transcript
+- #076 · File Handling (Serialization and Deserialization, Read & Write multiple objects) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

@@ -2,13 +2,13 @@
 
 <div class="lesson-meta"><span>M04</span><span>S09</span><span>#015–#017</span></div>
 
-هذا **Subject** داخل [M04 — Loops & Branching](../modules/m04.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M04 — Loops & Branching](../modules/m04.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#015`** — Branching Statements (Break/Continue) — *لم يصل التفريغ بعد*
-- **`#016`** — Repetition Control Statement (Nested Loops) — *لم يصل التفريغ بعد*
-- **`#017`** — Branching Statements (Labeled Break / Labeled Continue) — *لم يصل التفريغ بعد*
+- **`#015`** — Branching Statements (Break/Continue) — *الدرس غير متاح بعد*
+- **`#016`** — Repetition Control Statement (Nested Loops) — *الدرس غير متاح بعد*
+- **`#017`** — Branching Statements (Labeled Break / Labeled Continue) — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

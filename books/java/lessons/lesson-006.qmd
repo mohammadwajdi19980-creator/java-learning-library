@@ -3,7 +3,7 @@ title: "Scanner Input & Printf"
 subtitle: "اقرأ قيم المستخدم واعرضها بتنسيق واضح"
 ---
 
-<div class="lesson-meta"><span>M02 · S04</span><span>VIDEO #06</span></div>
+<div class="lesson-meta"><span>M02 · S04</span><span>LESSON #06</span></div>
 
 ## User Input
 
@@ -66,11 +66,11 @@ System.out.printf("First = %.3f, Second = %.4f%n", 1.5, 2.5);
 First = 1.500, Second = 2.5000
 ```
 
-أول موضع يأخذ أول قيمة، والثاني يأخذ الثانية. `printf` لا تنهي السطر تلقائيًا، لذلك نضيف `%n` أو `\n`. التنسيق يغيّر العرض، وليس قيمة المتغير المخزّنة. تطابق النوع مطلوب؛ `%d` ليست مكانًا لطباعة `double`. الفاصل العشري يتأثر بإعداد `Locale`؛ أمثلتنا المختبرة تستخدم النقطة.
+أول موضع يأخذ أول قيمة، والثاني يأخذ الثانية. `printf` لا تنهي السطر تلقائيًا، لذلك نضيف `%n` أو `\n`. التنسيق يغيّر العرض، وليس قيمة `Variable` المخزّنة. تطابق النوع مطلوب؛ `%d` ليست مكانًا لطباعة `double`. الفاصل العشري يتأثر بإعداد `Locale`؛ أمثلتنا المختبرة تستخدم النقطة.
 
 ## Worked Example: Sum & Average
 
-**من تمارين الفيديو:** اقرأ رقمين واطبع مجموعهما، ثم وسّع الفكرة إلى ثلاثة واحسب المعدل. احفظ الحل الموحّد باسم `InputAverage.java`.
+**تطبيق من هذا الدرس:** اقرأ رقمين واطبع مجموعهما، ثم وسّع الفكرة إلى ثلاثة واحسب المعدل. احفظ الحل الموحّد باسم `InputAverage.java`.
 
 ```java
 import java.util.Scanner;
@@ -152,4 +152,6 @@ double average = (first + second + third) / 3.0;
 
 ## Source & Accuracy
 
-[Adel Nasim · #06](https://www.youtube.com/watch?v=kilmBWdI0NE) · `00:00–18:29`. شملنا إعداد `Scanner`، اختلاف القراءات، تجربة الإدخال الخاطئ، التنسيق والدقة، النص والحرف، الجمع والمعدل. قيم التشغيل صياغة تعليمية بسبب تشوّش بعض الأرقام في التفريغ. [Scanner API](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Scanner.html) · [Formatter API](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Formatter.html).
+راجع [Subject S04](../subjects/s04.qmd) للمراجعة والأسئلة، و[Glossary](../glossary.qmd) للمصطلحات.
+
+مراجع التحقق: [Scanner API](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Scanner.html) · [Formatter API](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Formatter.html).

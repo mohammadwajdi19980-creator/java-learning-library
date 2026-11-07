@@ -1,6 +1,6 @@
 # Java Learning Library — Working Guide
 
-Version 1.3 · 7 November 2026
+Version 1.4 · 7 November 2026
 
 The user has authorized implementation and publication of the audit fixes and appearance redesign. The earlier analysis-only limit was specific to the audit turn. Preserve original video IDs, Arabic explanations, English technical terminology, and source coverage.
 
@@ -31,13 +31,14 @@ The broader 523-topic Java_Master_Topic_Index includes other uploaded university
 ## 5. Terminology and direction contract
 
 - Keep technical names in English everywhere: Class, Object, Method, Constructor, Package, Array, Inheritance, Interface, Compiler, Source Code, Bytecode, JVM, and so on.
-- Explain their meaning in Arabic, without replacing their names with Arabic technical labels.
+- Explain their meaning in Arabic, without replacing their names with Arabic technical labels. Use Text Editor, Code Editor, Variable, Local Variable, Expression, Assignment, Loop, Counter, Project, and Build System; never substitute translated names. Ordinary Arabic explanation stays Arabic.
 - Put a main term on its own English heading or label, followed by the Arabic explanation.
 - Use LTR direction and bidirectional isolation for inline English where an inline occurrence is necessary.
 - Code, commands, filenames, API names, mathematical expressions, and Output remain LTR.
 - Keep capitalization and spelling exact. Class differs from the keyword class; Method differs from a method name.
 - Expand abbreviations once when useful. Keep one preferred term and a record of aliases.
-- The Glossary may contain Arabic explanations and concise English definitions. English terms remain the entry names.
+- The Glossary keeps English entry names and Arabic explanations. Every English definition is a static `.english-definition` block with `dir="ltr"`, `lang="en"`, and left alignment, in HTML and EPUB. Inline isolation alone is insufficient.
+- Learner-facing references point to the book's actual Lesson/Subject pages, never to videos, viewing instructions, timestamps, or transcript status. Preserve original provenance only in internal curriculum/archive records. Do not distribute curriculum.json as a public book resource.
 - Apply this rule to the entire product, including diagrams, alternative text where terms occur, captions, navigation, Exams, and tooltips.
 
 ## 6. Workflow before every action

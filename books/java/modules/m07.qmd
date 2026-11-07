@@ -2,7 +2,7 @@
 title: "M07 · Classes & Objects"
 ---
 
-<div class="lesson-meta"><span>Planned</span><span>0 / 9 lessons available</span><span>0 transcripts received</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 9 lessons available</span><span>9 lessons remaining</span></div>
 
 ## Subjects
 
@@ -10,9 +10,9 @@ title: "M07 · Classes & Objects"
 
 [Open Subject](../subjects/s15.qmd)
 
-- #030 · Introduction to Object-Oriented Programming — Awaiting transcript
-- #031 · Classes and Objects — Awaiting transcript
-- #032 · Questions and Exercises - Classes and Objects — Awaiting transcript
+- #030 · Introduction to Object-Oriented Programming — Not yet available
+- #031 · Classes and Objects — Not yet available
+- #032 · Questions and Exercises - Classes and Objects — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -20,8 +20,8 @@ title: "M07 · Classes & Objects"
 
 [Open Subject](../subjects/s16.qmd)
 
-- #033 · Constructor (No-Arg, Parameterized, Default) — Awaiting transcript
-- #034 · Constructor (Copy Constructor) / Finalizers vs Destructor — Awaiting transcript
+- #033 · Constructor (No-Arg, Parameterized, Default) — Not yet available
+- #034 · Constructor (Copy Constructor) / Finalizers vs Destructor — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -29,8 +29,8 @@ title: "M07 · Classes & Objects"
 
 [Open Subject](../subjects/s17.qmd)
 
-- #035 · Static keyword (Static Variable and Methods) — Awaiting transcript
-- #036 · Static keyword (Static Block - Static Class) — Awaiting transcript
+- #035 · Static keyword (Static Variable and Methods) — Not yet available
+- #036 · Static keyword (Static Block - Static Class) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -38,7 +38,7 @@ title: "M07 · Classes & Objects"
 
 [Open Subject](../subjects/s18.qmd)
 
-- #037 · Passing Objects to Methods (by Value vs by Reference / Passing Objects as Arguments) — Awaiting transcript
-- #038 · Passing Objects to Methods (Returning Objects / Comparing Objects) — Awaiting transcript
+- #037 · Passing Objects to Methods (by Value vs by Reference / Passing Objects as Arguments) — Not yet available
+- #038 · Passing Objects to Methods (Returning Objects / Comparing Objects) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

@@ -2,7 +2,7 @@
 title: "M12 · Exception Handling"
 ---
 
-<div class="lesson-meta"><span>Planned</span><span>0 / 3 lessons available</span><span>0 transcripts received</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 3 lessons available</span><span>3 lessons remaining</span></div>
 
 ## Subjects
 
@@ -10,8 +10,8 @@ title: "M12 · Exception Handling"
 
 [Open Subject](../subjects/s29.qmd)
 
-- #064 · Exception Handling (Try-catch block, Multi-catch blocks, Union-catch blocks) — Awaiting transcript
-- #065 · Exception Handling (Finally Block, Throws Keyword, Checked vs Unchecked Exception) — Awaiting transcript
+- #064 · Exception Handling (Try-catch block, Multi-catch blocks, Union-catch blocks) — Not yet available
+- #065 · Exception Handling (Finally Block, Throws Keyword, Checked vs Unchecked Exception) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -19,6 +19,6 @@ title: "M12 · Exception Handling"
 
 [Open Subject](../subjects/s30.qmd)
 
-- #066 · Exception Handling (Throw keyword, Throw vs Throws, Throw & finally, Custom exception) — Awaiting transcript
+- #066 · Exception Handling (Throw keyword, Throw vs Throws, Throw & finally, Custom exception) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

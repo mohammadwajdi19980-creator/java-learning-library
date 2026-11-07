@@ -2,410 +2,638 @@
 
 هاي الصفحة مش مجرد ترجمة كلمة. مع كل مصطلح بنفهم معناه بالعربي، والتعريف الدقيق بالإنجليزي، وكيف يرتبط بالمواضيع الأخرى. راح يتوسع القاموس مع كل درس.
 
-## Programming
+## [Programming]{dir="ltr" lang="en"}
 
-<span class="english-term">English term: Programming</span>
+<span class="english-term" dir="ltr" lang="en">English term: Programming</span>
 
-**بالعربية:** Programming هي عملية تصميم تعليمات واضحة يمكن معالجتها وتنفيذها بواسطة جهاز أو بيئة تشغيل. قبل ما نكتب الأوامر، بنفهم المشكلة، ثم نحدد Input والخطوات والنتيجة المطلوبة. Programming تشمل كمان اختبار الحل وإصلاح الأخطاء.
+**بالعربية:** Programming هي عملية تصميم تعليمات واضحة يمكن معالجتها وتنفيذها بواسطة جهاز أو `Runtime Environment`. قبل ما نكتب الأوامر، بنفهم المشكلة، ثم نحدد Input والخطوات والنتيجة المطلوبة. Programming تشمل كمان اختبار الحل وإصلاح الأخطاء.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** Programming is the process of designing, expressing, testing, and maintaining instructions that a computing system can execute to accomplish a task.
 
+:::
+
 **مثال:** برنامج يقرأ رقمين، يجمعهما، ثم يعرض النتيجة.
 
-## Source Code
+## [Source Code]{dir="ltr" lang="en"}
 
-<span class="english-term">English term: Source Code</span>
+<span class="english-term" dir="ltr" lang="en">English term: Source Code</span>
 
 **بالعربية:** Source Code اللي بيكتبه المطور بلغة مثل Java. غالبًا بنحفظه في ملفات تنتهي بـ `.java`. قبل ما يتنفذ بالصورة المعتادة، يحتاج ترجمة أو معالجة بواسطة أدوات مناسبة.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** Human-readable program instructions written in a programming language before being compiled or otherwise processed for execution.
 
-## Syntax
+:::
 
-<span class="english-term">English term: Syntax</span>
+## [Syntax]{dir="ltr" lang="en"}
 
-**بالعربية:** قواعد كتابة أوامر اللغة. مثلًا أقواس وتهجئة الكلمات المحجوزة وعلامات الإنهاء إلها مواضع معينة. مخالفة القواعد تؤدي عادةً إلى خطأ أثناء الترجمة، لكن الالتزام فيها وحده مش ضمان لصحة منطق البرنامج.
+<span class="english-term" dir="ltr" lang="en">English term: Syntax</span>
+
+**بالعربية:** قواعد كتابة أوامر اللغة. مثلًا أقواس وتهجئة `Keywords` وعلامات الإنهاء إلها مواضع معينة. مخالفة القواعد تؤدي عادةً إلى خطأ أثناء الترجمة، لكن الالتزام فيها وحده مش ضمان لصحة منطق البرنامج.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** The grammatical rules that define how valid expressions, statements, and other constructs must be written in a programming language.
 
-## Compiler
+:::
 
-<span class="english-term">English term: Compiler · javac</span>
+## [Compiler]{dir="ltr" lang="en"}
+
+<span class="english-term" dir="ltr" lang="en">English term: Compiler · javac</span>
 
 **بالعربية:** أداة بترجم Code من صيغة إلى أخرى، وغالبًا تجري فحوصًا أثناء الترجمة. Java Compiler الشائع `javac` يحوّل ملفات `.java` إلى ملفات `.class` التي تحتوي على Bytecode.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A program that translates source code into another representation, typically performing syntax and type checking. Java's `javac` normally produces class files containing bytecode.
 
-## Bytecode
+:::
 
-<span class="english-term">English term: Bytecode</span>
+## [Bytecode]{dir="ltr" lang="en"}
 
-**بالعربية:** تعليمات وسيطة لا ترتبط مباشرة بمعالج محدد. Java بتستخدمها حتى تقدر بيئات تشغيل JVM المتوافقة تنفّذها على أنظمة مختلفة. عادةً بتنحفظ داخل ملفات `.class`.
+<span class="english-term" dir="ltr" lang="en">English term: Bytecode</span>
+
+**بالعربية:** تعليمات وسيطة لا ترتبط مباشرة بمعالج محدد. Java بتستخدمها حتى تقدر `Runtime Environments` المتوافقة مع JVM المتوافقة تنفّذها على أنظمة مختلفة. عادةً بتنحفظ داخل ملفات `.class`.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** A platform-neutral intermediate instruction format executed by a virtual machine, commonly stored in Java class files.
 
-## Java Virtual Machine
+:::
 
-<span class="english-term">English term: Java Virtual Machine · JVM</span>
+## [Java Virtual Machine]{dir="ltr" lang="en"}
+
+<span class="english-term" dir="ltr" lang="en">English term: Java Virtual Machine · JVM</span>
 
 **بالعربية:** بيئة افتراضية لتنفيذ تعليمات Java الوسيطة. بتوفّر سلوكًا محددًا للتنفيذ، وبتدير تفاصيل مثل تحميل Classes وMemory، وبتستخدم التفسير أو الترجمة Runtime حسب تنفيذها. مش هي نفسها Compiler المسمّى `javac`.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** An abstract execution machine that loads, verifies, and executes Java bytecode using mechanisms such as interpretation and just-in-time compilation.
 
-## JDK
+:::
 
-<span class="english-term">English term: Java Development Kit · JDK</span>
+## [JDK]{dir="ltr" lang="en"}
 
-**بالعربية:** مجموعة أدوات تطوير Java، ومنها Compiler `javac` وأدوات أخرى لبناء البرامج. راح نشوف تثبيتها عمليًا في الفيديو `#01`.
+<span class="english-term" dir="ltr" lang="en">English term: Java Development Kit · JDK</span>
+
+**بالعربية:** مجموعة أدوات تطوير Java، ومنها Compiler `javac` وأدوات أخرى لبناء البرامج. راجع خطوات تثبيتها في [Java Development Tools](lessons/lesson-001.qmd).
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** A distribution of tools and runtime components used to develop, compile, and run Java applications.
 
-## IDE
+:::
 
-<span class="english-term">English term: Integrated Development Environment · IDE</span>
+## [IDE]{dir="ltr" lang="en"}
+
+<span class="english-term" dir="ltr" lang="en">English term: Integrated Development Environment · IDE</span>
 
 **بالعربية:** برنامج بيساعدك تكتب Code، ترتّبه، تشغله، وتكتشف مشاكله. رح نستعمل Apache NetBeans في الكورس.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** Software that integrates source editing, building, debugging, and project management in one development interface.
 
-## Object-Oriented Programming
+:::
 
-<span class="english-term">English term: Object-Oriented Programming · OOP</span>
+## [Object-Oriented Programming]{dir="ltr" lang="en"}
+
+<span class="english-term" dir="ltr" lang="en">English term: Object-Oriented Programming · OOP</span>
 
 **بالعربية:** طريقة لتنظيم البرامج باستخدام Objects ذات معلومات وسلوك. هذا تعريف أولي فقط؛ التفاصيل الدقيقة تأتي في Module 07.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A programming paradigm that organizes software around objects encapsulating state and behavior and uses mechanisms such as abstraction and polymorphism.
 
-## Write Once, Run Anywhere
+:::
 
-<span class="english-term">English term: Write Once, Run Anywhere · WORA</span>
+## [Write Once, Run Anywhere]{dir="ltr" lang="en"}
 
-**بالعربية:** قابلية تشغيل برنامج Java Compiler على أكثر من نظام، بشرط وجود JVM متوافقة وعدم اعتماد البرنامج على تفاصيل خاصة بنظام معيّن.
+<span class="english-term" dir="ltr" lang="en">English term: Write Once, Run Anywhere · WORA</span>
+
+**بالعربية:** قابلية تشغيل Bytecode الناتج عن Java Compiler على أكثر من نظام، بشرط وجود JVM متوافقة وعدم اعتماد البرنامج على تفاصيل خاصة بنظام معيّن.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** A Java portability principle in which compiled bytecode can execute across compatible platforms without recompilation, subject to dependencies and runtime compatibility.
+
+:::
 
 
 ---
 
 **Lesson #01 Terms**
 
-## Apache NetBeans IDE
+## [Apache NetBeans IDE]{dir="ltr" lang="en"}
 
-<span class="english-term">English term: Apache NetBeans · IDE</span>
+<span class="english-term" dir="ltr" lang="en">English term: Apache NetBeans · IDE</span>
 
-**بالعربية:** برنامج مجاني ومفتوح المصدر، يجمّع محرر Code والمشاريع وأدوات البناء والتشغيل والتنقيح بواجهة واحدة. الـ IDE بتساعدك تكتشف مشاكل الكتابة بسرعة، لكن لا تضمن صحة منطق الحل.
+**بالعربية:** برنامج مجاني ومفتوح المصدر، يجمّع `Code Editor` و`Projects` وأدوات `Build` و`Run` و`Debugging` في `Interface` واحدة. الـ IDE بتساعدك تكتشف مشاكل الكتابة بسرعة، لكن لا تضمن صحة منطق الحل.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** Apache NetBeans is an open-source integrated development environment that provides source editing, project management, builds, execution, and debugging features in one interface.
 
+:::
+
 **مثال:** من قائمة Projects تفتح الملف، ومن Run تشغّله، وتشوف النتيجة في Output.
 
-## Project
+## [Project]{dir="ltr" lang="en"}
 
-<span class="english-term">English term: Project</span>
+<span class="english-term" dir="ltr" lang="en">English term: Project</span>
 
 **بالعربية:** مجلد وإعدادات تجمع ملفات المصدر والموارد وخيارات البناء والتشغيل الخاصة بتطبيق واحد أو جزء منه. مش شرط يكون Class واحدة فقط.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A project is a collection of source files, resources, and configuration that a build system or IDE manages as a unit.
 
-## Package
+:::
 
-<span class="english-term">English term: Package</span>
+## [Package]{dir="ltr" lang="en"}
 
-**بالعربية:** طريقة في Java لتجميع Classes مرتبطة ببعض ضمن مساحة أسماء منظمة، وتساعد في الفصل بين أجزاء المشروع والتحكم ببعض قواعد الوصول. غالبًا أسماء Packages تكون صغيرة مثل `intro`.
+<span class="english-term" dir="ltr" lang="en">English term: Package</span>
+
+**بالعربية:** طريقة في Java لتجميع Classes مرتبطة ببعض ضمن مساحة أسماء منظمة، وتساعد في الفصل بين أجزاء `Project` والتحكم ببعض قواعد الوصول. غالبًا أسماء Packages تكون صغيرة مثل `intro`.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** A Java package groups related types into a named namespace and helps organize source code and access relationships.
 
-## Class
+:::
 
-<span class="english-term">English term: Class</span>
+## [Class]{dir="ltr" lang="en"}
+
+<span class="english-term" dir="ltr" lang="en">English term: Class</span>
 
 **بالعربية:** تعريف برمجي يصف نوعًا من Objects وما يتضمنه من بيانات وسلوكيات. في أول درس استخدمناه كوعاء للـ Main Method؛ لاحقًا رح نبني Objects منه.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A class is a type declaration that can define fields, methods, constructors, and other members used to describe object behavior and state.
 
-## Method
+:::
 
-<span class="english-term">English term: Method</span>
+## [Method]{dir="ltr" lang="en"}
+
+<span class="english-term" dir="ltr" lang="en">English term: Method</span>
 
 **بالعربية:** جزء من Code له اسم ومهمة، ويمكن استدعاؤه لتأدية العملية. `main` هي Method تبدأ منها تطبيقات Java التقليدية، و`println` Method للطباعة.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A method is a named operation defined by a type and optionally accepting parameters, performing actions, and returning a value or completing without a value.
 
-## Main Method
+:::
 
-<span class="english-term">English term: public static void main(String[] args)</span>
+## [Main Method]{dir="ltr" lang="en"}
 
-**بالعربية:** الصيغة التقليدية لنقطة دخول تطبيق Java مستقل. Runtime بينادي البيئة هذه Method للبدء. `args` مصفوفة نصوص يمكن أن تحمل معاملات من سطر الأوامر. التفاصيل الدقيقة لـ public وstatic وvoid وString[] ستأتي لاحقًا.
+<span class="english-term" dir="ltr" lang="en">English term: public static void main(String[] args)</span>
+
+**بالعربية:** الصيغة التقليدية لنقطة دخول تطبيق Java مستقل. Java Runtime تستدعي هذه Method للبدء. `args` `String Array` يمكن أن تحمل `Arguments` من `Command Line`. التفاصيل الدقيقة لـ public وstatic وvoid وString[] ستأتي لاحقًا.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** The conventional Java application entry-point method, accepting an array of command-line arguments and returning no value.
 
-## Println
+:::
 
-<span class="english-term">English term: System.out.println</span>
+## [Println]{dir="ltr" lang="en"}
+
+<span class="english-term" dir="ltr" lang="en">English term: System.out.println</span>
 
 **بالعربية:** أمر شائع لطباعة قيمة أو نص على مجرى الإخراج القياسي، يليها انتقال إلى سطر جديد. `System` Class و`out` Field للطباعة، و`println` اسم Method.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A Java PrintStream method invoked on the standard output stream to print a value followed by a line terminator.
 
-## Identifier
+:::
 
-<span class="english-term">English term: Identifier</span>
+## [Identifier]{dir="ltr" lang="en"}
 
-**بالعربية:** اسم يختاره المبرمج لكي يميّز Class أو متغيرًا أو Method أو عنصرًا آخر في البرنامج. له قواعد، ومنها ألا يحتوي على مسافة عادية داخل الاسم، وألا يكون Keyword محجوزًا.
+<span class="english-term" dir="ltr" lang="en">English term: Identifier</span>
+
+**بالعربية:** اسم يختاره المبرمج لكي يميّز Class أو `Variable` أو Method أو عنصرًا آخر في البرنامج. له قواعد، ومنها ألا يحتوي على مسافة عادية داخل الاسم، وألا يكون Keyword محجوزًا.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** A programmer-defined name used to identify a declared element in a program, subject to the language's lexical naming rules.
 
-## Keyword
+:::
 
-<span class="english-term">English term: Keyword</span>
+## [Keyword]{dir="ltr" lang="en"}
+
+<span class="english-term" dir="ltr" lang="en">English term: Keyword</span>
 
 **بالعربية:** كلمة لها معنى محدد في قواعد لغة Java مثل `class` و`public` و`static`. ما بنقدر نستعملها كأسماء عادية.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A reserved word with a special grammatical role in Java, unavailable for general-purpose identifiers.
 
-## Case Sensitivity
+:::
 
-<span class="english-term">English term: Case Sensitivity</span>
+## [Case Sensitivity]{dir="ltr" lang="en"}
+
+<span class="english-term" dir="ltr" lang="en">English term: Case Sensitivity</span>
 
 **بالعربية:** اللغة بتميز بين الأحرف الكبيرة والصغيرة. `System` مش نفس `system`، و`out` مش نفس `Out`.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A property of a language in which uppercase and lowercase letters are treated as distinct in names and identifiers.
 
-## Compile-Time Error
+:::
 
-<span class="english-term">English term: Compile-Time Error</span>
+## [Compile-Time Error]{dir="ltr" lang="en"}
+
+<span class="english-term" dir="ltr" lang="en">English term: Compile-Time Error</span>
 
 **بالعربية:** خطأ بيكتشفه Compiler قبل إنشاء البرنامج القابل للتشغيل بشكل طبيعي، مثل اسم غير معروف أو بناء جملة غير صحيح. عادةً بيمنع إتمام الترجمة حتى نصلحه.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** An error detected during compilation, such as a syntax violation, type mismatch, or unresolved symbol, preventing a successful build.
 
-## Runtime Error
+:::
 
-<span class="english-term">English term: Runtime Error</span>
+## [Runtime Error]{dir="ltr" lang="en"}
+
+<span class="english-term" dir="ltr" lang="en">English term: Runtime Error</span>
 
 **بالعربية:** مشكلة بتظهر أثناء التنفيذ بعد نجاح الترجمة؛ مثالنا قسمة عدد صحيح على صفر، والنتيجة `ArithmeticException`.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** An error occurring during program execution, potentially producing an exception, terminating execution, or otherwise interrupting the intended behavior.
 
-## Logical Error
+:::
 
-<span class="english-term">English term: Logical Error</span>
+## [Logical Error]{dir="ltr" lang="en"}
+
+<span class="english-term" dir="ltr" lang="en">English term: Logical Error</span>
 
 **بالعربية:** البرنامج مكتوب بطريقة صحيحة من ناحية اللغة وممكن يشتغل بدون Exceptions، لكنه بيعطي نتيجة مختلفة عما قصده المبرمج بسبب خطأ في التفكير أو ترتيب العمليات.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A defect in the program's algorithm or reasoning that yields incorrect behavior despite successful compilation and possibly normal execution.
 
-## Semicolon
+:::
 
-<span class="english-term">English term: Semicolon · ;</span>
+## [Semicolon]{dir="ltr" lang="en"}
+
+<span class="english-term" dir="ltr" lang="en">English term: Semicolon · ;</span>
 
 **بالعربية:** علامة تستخدم لإنهاء أنواع كثيرة من تعليمات Java، ومنها أوامر الطباعة. ليس كل سطر في Java يحتاجها؛ مثل السطر الذي يفتح Class وينتهي بقوس معقوف لاحقًا.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A punctuation token used to terminate many Java statements and certain declarations, but not every line of source code.
 
-## Operator Precedence
+:::
 
-<span class="english-term">English term: Operator Precedence</span>
+## [Operator Precedence]{dir="ltr" lang="en"}
 
-**بالعربية:** قواعد تحدد أولوية ربط وتنفيذ العمليات داخل التعبيرات. مثلًا، القسمة تتقدم على الجمع، ويمكن استخدام الأقواس لجعل الترتيب المقصود واضحًا.
+<span class="english-term" dir="ltr" lang="en">English term: Operator Precedence</span>
+
+**بالعربية:** قواعد تحدد أولوية ربط وتنفيذ العمليات داخل `Expressions`. مثلًا، القسمة تتقدم على الجمع، ويمكن استخدام الأقواس لجعل الترتيب المقصود واضحًا.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** The precedence rules that determine how operators group with operands in expressions, with parentheses overriding the default grouping.
 
-## PATH
+:::
 
-<span class="english-term">English term: PATH Environment Variable</span>
+## [PATH]{dir="ltr" lang="en"}
 
-**بالعربية:** إعداد في نظام التشغيل يحدد المجلدات التي يبحث فيها الـ Terminal عن البرامج عند كتابة اسمها. لما أمر `javac` لا يعمل رغم تثبيت JDK، ممكن يكون السبب أن مجلد أدوات JDK غير موجود في PATH.
+<span class="english-term" dir="ltr" lang="en">English term: PATH Environment Variable</span>
+
+**بالعربية:** إعداد في `Operating System` يحدد المجلدات التي يبحث فيها الـ Terminal عن البرامج عند كتابة اسمها. لما أمر `javac` لا يعمل رغم تثبيت JDK، ممكن يكون السبب أن مجلد أدوات JDK غير موجود في PATH.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** An operating-system environment variable listing directories searched to locate executable programs invoked from a shell.
+
+:::
 
 
 
 **Lessons #02–#013 Terms**
 
-## Variable
+## [Variable]{dir="ltr" lang="en"}
 
 مكان باسم ونوع نستعمله للاحتفاظ بقيمة أثناء البرنامج. تغيير القيمة لا يغيّر النوع المعلن.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A named storage location with a declared type and a value.
 
-## Data Type
+:::
+
+## [Data Type]{dir="ltr" lang="en"}
 
 يحدد القيم الممكن حفظها والعمليات المناسبة عليها؛ مثل `int` و`double`.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A classification that constrains values and operations.
 
-## Primitive Type
+:::
+
+## [Primitive Type]{dir="ltr" lang="en"}
 
 نوع أساسي معرّف في اللغة. الأنواع الثمانية: `byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** One of Java’s eight predefined primitive types.
 
-## Declaration
+:::
+
+## [Declaration]{dir="ltr" lang="en"}
 
 تعريف الاسم والنوع، مثل `int x;`، وقد يتضمن قيمة أولية.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A statement or construct introducing a name and its type.
 
-## Initialization
+:::
 
-إعطاء أول قيمة؛ المتغير المحلي يحتاج قيمة قبل قراءته.
+## [Initialization]{dir="ltr" lang="en"}
+
+إعطاء أول قيمة؛ `Local Variable` يحتاج قيمة قبل قراءته.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** Providing an initial value to a variable.
 
-## Assignment
+:::
 
-حساب قيمة الطرف اليمين وإسنادها للطرف اليسار باستخدام `=`. لا تخلطها مع `==`.
+## [Assignment]{dir="ltr" lang="en"}
+
+حساب قيمة الطرف اليمين وتخزينها في الطرف اليسار باستخدام `=`. لا تخلطها مع `==`.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** Storing a computed value in a variable.
 
-## Comment
+:::
+
+## [Comment]{dir="ltr" lang="en"}
 
 ملاحظة في المصدر بصيغة `//` أو `/* */`، لا تُنفذ كتعليمة ولا تُطبع بحد ذاتها.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** Source text written for readers rather than executed as program instructions.
 
-## Escape Sequence
+:::
+
+## [Escape Sequence]{dir="ltr" lang="en"}
 
 تركيب يبدأ بـ `Backslash` لتمثيل محرف خاص داخل النص، مثل `\n` أو `\"`.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A source notation representing a special character in a literal.
 
-## String
+:::
+
+## [String]{dir="ltr" lang="en"}
 
 نص من محارف، نكتبه عادةً بين اقتباسين مزدوجين. `String` هي `Class` وليست `Primitive Type`.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** An object type representing a sequence of characters.
 
-## Operand
+:::
+
+## [Operand]{dir="ltr" lang="en"}
 
 القيمة التي تعمل عليها العملية؛ في `5 + 6` الرقمان هما `Operands`.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A value or expression on which an operator acts.
 
-## Expression
+:::
+
+## [Expression]{dir="ltr" lang="en"}
 
 تركيب ينتج قيمة، مثل `5 + 6` أو `x > 0`.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A construct that is evaluated to produce a value.
 
-## Remainder
+:::
+
+## [Remainder]{dir="ltr" lang="en"}
 
 ما يبقى من القسمة باستخدام `%`؛ مثل `7 % 5` تعطي `2`.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** The residual value computed by the remainder operator.
 
-## Integer Division
+:::
+
+## [Integer Division]{dir="ltr" lang="en"}
 
 قسمة طرفين صحيحين تنتج قيمة صحيحة وتحذف الكسر باتجاه الصفر؛ `15 / 2` تعطي `7`.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** Division on integer operands that truncates toward zero.
 
-## Type Casting
+:::
 
-تحويل قيمة إلى نوع آخر عند موضع التعبير، مثل `(double) x`، دون تغيير تعريف `x`.
+## [Type Casting]{dir="ltr" lang="en"}
+
+تحويل قيمة إلى نوع آخر عند موضع `Expression`، مثل `(double) x`، دون تغيير تعريف `x`.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** An explicit conversion of an expression’s value to a target type.
 
-## Prefix
+:::
 
-في `++x` أو `--x` نحدّث المتغير ثم نستعمل القيمة الجديدة في التعبير.
+## [Prefix]{dir="ltr" lang="en"}
+
+في `++x` أو `--x` نحدّث `Variable` ثم نستعمل القيمة الجديدة في `Expression`.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** An increment or decrement form yielding the updated value.
 
-## Postfix
+:::
 
-في `x++` أو `x--` قيمة التعبير هي القديمة، لكن المتغير يتحدث أثناء التقييم.
+## [Postfix]{dir="ltr" lang="en"}
+
+في `x++` أو `x--` قيمة `Expression` هي القديمة، لكن `Variable` يتحدث أثناء التقييم.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** An increment or decrement form yielding the original value while updating the variable.
 
-## Compound Assignment
+:::
 
-عملية مثل `+=` تحسب اعتمادًا على القيمة الحالية ثم تعيد إسناد النتيجة لنفس الطرف.
+## [Compound Assignment]{dir="ltr" lang="en"}
+
+عملية مثل `+=` تحسب اعتمادًا على القيمة الحالية ثم تعيد `Assignment` النتيجة لنفس الطرف.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** An operator combining an operation with assignment to its left operand.
 
-## Scanner
+:::
+
+## [Scanner]{dir="ltr" lang="en"}
 
 أداة لقراءة قيم مثل الأرقام والنصوص من مصدر إدخال؛ نستعمل `new Scanner(System.in)` في الأمثلة.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A Java class for reading and interpreting input tokens and lines.
 
-## Printf
+:::
+
+## [Printf]{dir="ltr" lang="en"}
 
 طريقة عرض بقالب، مثل `%.2f` للكسر بمنزلتين و`%n` لنهاية السطر. التنسيق لا يغيّر القيمة المخزنة.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** Formatted output using conversion specifiers and argument values.
 
-## String Concatenation
+:::
+
+## [String Concatenation]{dir="ltr" lang="en"}
 
 دمج النصوص بواسطة `+`. الأقواس تحدد إذا بدنا جمعًا عدديًا قبل الدمج.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** Combining values into a string using the + operator.
 
-## Condition
+:::
 
-تعبير ناتجه `boolean` يحدد اتخاذ مسار أو الاستمرار بالتكرار.
+## [Condition]{dir="ltr" lang="en"}
+
+`Expression` ناتجه `boolean` يحدد اتخاذ مسار أو الاستمرار بالتكرار.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** A boolean expression used to control execution.
 
-## Short-Circuit
+:::
+
+## [Short-Circuit]{dir="ltr" lang="en"}
 
 عدم تقييم الطرف الثاني من `&&` أو `||` إذا كانت النتيجة محسومة من الأول.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** Conditional evaluation that skips an unnecessary right operand.
 
-## Ternary Operator
+:::
+
+## [Ternary Operator]{dir="ltr" lang="en"}
 
 الصيغة `condition ? first : second` تختار قيمة واحدة حسب الشرط.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A conditional operator selecting one of two expression values.
 
-## Instanceof
+:::
+
+## [Instanceof]{dir="ltr" lang="en"}
 
 `Operator` يفحص انتماء `Object` لنوع متوافق ويعيد `boolean`؛ ليس `Method`.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A type-comparison operator that tests an object against a compatible reference type.
 
-## Fall-Through
+:::
+
+## [Fall-Through]{dir="ltr" lang="en"}
 
 متابعة تنفيذ أسطر الحالات التالية في `switch` التقليدية لغياب `break`، دون إعادة المطابقة.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** Sequential execution into following switch labels without a new match test.
 
-## Loop
+:::
+
+## [Loop]{dir="ltr" lang="en"}
 
 تكرار جسم تعليمات وفق قواعد الاستمرار والتحديث. عند التتبع نفرّق بين عدد الدورات والحالة النهائية.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** Repeated execution of a statement or block under a control rule.
 
-## Counter
+:::
 
-متغير نستخدمه للعد. لا يعني وجوده وحده أن العدد هو الذي يتحكم بنهاية الحلقة.
+## [Counter]{dir="ltr" lang="en"}
+
+`Variable` نستخدمه للعد. لا يعني وجوده وحده أن العدد هو الذي يتحكم بنهاية `Loop`.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** A variable that records a count or iteration position.
 
-## Sentinel
+:::
+
+## [Sentinel]{dir="ltr" lang="en"}
 
 قيمة متفق عليها لإنهاء الإدخال، وعادةً تُستثنى من البيانات والحساب.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A distinguished input value used to signal termination.
 
-## Flag
+:::
 
-متغير `boolean` يسجل حالة تتحكم بالاستمرار أو التوقف.
+## [Flag]{dir="ltr" lang="en"}
+
+`Variable` `boolean` يسجل حالة تتحكم بالاستمرار أو التوقف.
+
+::: {.english-definition dir="ltr" lang="en"}
 
 **English definition:** A boolean variable representing a control state.
 
-## Scope
+:::
+
+## [Scope]{dir="ltr" lang="en"}
 
 الجزء الذي يمكن فيه الوصول للاسم. اسم معرّف داخل رأس `for` لا يبقى متاحًا بعدها.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** The region of source code in which a declared name is accessible.
 
-## Bit & Byte
+:::
+
+## [Bit & Byte]{dir="ltr" lang="en"}
 
 كل `Bit` تمثل `0` أو `1`؛ كل `8 Bits` تساوي `1 Byte`.
 
+::: {.english-definition dir="ltr" lang="en"}
+
 **English definition:** A bit is a binary digit; a byte consists of eight bits.
+
+:::
 

@@ -16,7 +16,7 @@ page-layout: full
 <div class="hero-actions"><a class="primary-link" href="lessons/lesson-000.html">ابدأ التعلّم <span aria-hidden="true">←</span></a><a class="quiet-link" href="roadmap.html">استكشف المنهج</a></div>
 </section>
 
-<div class="home-proof" dir="ltr"><span>77 original videos</span><span>Arabic explanations</span><span>English terminology</span></div>
+<div class="home-proof" dir="ltr"><span>77 planned lessons</span><span>Arabic explanations</span><span>English terminology</span></div>
 
 <div class="section-heading"><div><p class="eyebrow" dir="ltr">ONE STEP AT A TIME</p><h2>ابدأ من هنا</h2></div><span class="availability">{{AVAILABLE}} lessons available</span></div>
 
@@ -32,16 +32,16 @@ page-layout: full
 
 {{NEXT_LESSON}}
 
-<section class="library-tools"><a href="glossary.html"><span dir="ltr">01 / GLOSSARY</span><h3>كل مصطلح في مكانه</h3><p>الاسم بالإنجليزية، والمعنى بشرح عربي واضح.</p></a><a href="roadmap.html"><span dir="ltr">02 / CONTENTS</span><h3>شوف الصورة كاملة</h3><p>الـ 77 فيديو، مرتّبة حسب الموضوع، مع حالة كل درس.</p></a></section>
+<section class="library-tools"><a href="glossary.html"><span dir="ltr">01 / GLOSSARY</span><h3>كل مصطلح في مكانه</h3><p>الاسم بالإنجليزية، والمعنى بشرح عربي واضح.</p></a><a href="roadmap.html"><span dir="ltr">02 / CONTENTS</span><h3>شوف الصورة كاملة</h3><p>دروس الكتاب الـ 77، مرتّبة حسب الموضوع، مع حالة كل درس.</p></a></section>
 
-<p class="book-state">{{AVAILABLE}} lessons available · {{RECEIVED}} transcripts received · 77 videos mapped</p>
+<p class="book-state">{{AVAILABLE}} lessons available · 77 lessons planned</p>
 ```
 
 :::
 
 ::: {.content-visible when-format="epub"}
 
-كتابك لتعلّم Java من الصفر، بشرح عربي ومصطلحات إنجليزية. {{AVAILABLE}} Lessons متاحة، و{{RECEIVED}} تفريغًا مستلمًا من أصل 77 فيديو.
+كتابك لتعلّم Java من الصفر، بشرح عربي ومصطلحات إنجليزية. {{AVAILABLE}} Lessons متاحة من أصل 77 درسًا مخططًا.
 
 {{EPUB_CONTENTS}}
 

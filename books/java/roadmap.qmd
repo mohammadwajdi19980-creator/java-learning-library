@@ -1,13 +1,13 @@
 ---
 title: "Contents"
-subtitle: "كل الفيديوهات، وحالة كل درس"
+subtitle: "كل الدروس، وحالة كل صفحة"
 format:
   html:
     toc: false
 ---
 
-<p class="roadmap-intro">هذا فهرس الفيديوهات الأصلية، وليس ادعاءً بأن الكتاب اكتمل. افتح أي Module لرؤية مواضيعه. أسماء المصدر محفوظة كما وردت؛ الشرح يُضاف بعد استلام النص ومراجعته.</p>
-<p class="book-state">14 lessons available · 14 transcripts received · 77 videos mapped</p>
+<p class="roadmap-intro">هذا فهرس دروس الكتاب. افتح أي Module لرؤية مواضيعه وصفحات الدروس المتاحة؛ الدروس المخططة لم تكتمل بعد.</p>
+<p class="book-state">14 lessons available · 77 lessons planned</p>
 
 ::: {.content-visible unless-format="epub"}
 
@@ -69,13 +69,13 @@ format:
 <ul>
 <li><a href="lessons/lesson-012.html">#012 — Repetition Control Statement (Do-While Loop)</a><span class="source-state">Available</span></li>
 <li><a href="lessons/lesson-013.html">#013 — Repetition Control Statement (For Loop)</a><span class="source-state">Available</span></li>
-<li>#014 — Questions and Exercises in Loops<span class="source-state">Awaiting transcript</span></li>
+<li>#014 — Questions and Exercises in Loops<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s09.html">S09 · Nested Loops &amp; Branching</a></h3>
 <ul>
-<li>#015 — Branching Statements (Break/Continue)<span class="source-state">Awaiting transcript</span></li>
-<li>#016 — Repetition Control Statement (Nested Loops)<span class="source-state">Awaiting transcript</span></li>
-<li>#017 — Branching Statements (Labeled Break / Labeled Continue)<span class="source-state">Awaiting transcript</span></li>
+<li>#015 — Branching Statements (Break/Continue)<span class="source-state">Not yet available</span></li>
+<li>#016 — Repetition Control Statement (Nested Loops)<span class="source-state">Not yet available</span></li>
+<li>#017 — Branching Statements (Labeled Break / Labeled Continue)<span class="source-state">Not yet available</span></li>
 </ul>
 </div>
 </details>
@@ -85,15 +85,15 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s10.html">S10 · Methods &amp; Overloading</a></h3>
 <ul>
-<li>#018 — Method / Function Part 1<span class="source-state">Awaiting transcript</span></li>
-<li>#019 — Method / Function Part 2 (Examples)<span class="source-state">Awaiting transcript</span></li>
-<li>#020 — Built in Method / Function<span class="source-state">Awaiting transcript</span></li>
-<li>#021 — Overloading Method / Function<span class="source-state">Awaiting transcript</span></li>
+<li>#018 — Method / Function Part 1<span class="source-state">Not yet available</span></li>
+<li>#019 — Method / Function Part 2 (Examples)<span class="source-state">Not yet available</span></li>
+<li>#020 — Built in Method / Function<span class="source-state">Not yet available</span></li>
+<li>#021 — Overloading Method / Function<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s11.html">S11 · Recursion</a></h3>
 <ul>
-<li>#022 — Recursion/Recursive Methods Part 1<span class="source-state">Awaiting transcript</span></li>
-<li>#023 — Recursion/Recursive Methods Part 2<span class="source-state">Awaiting transcript</span></li>
+<li>#022 — Recursion/Recursive Methods Part 1<span class="source-state">Not yet available</span></li>
+<li>#023 — Recursion/Recursive Methods Part 2<span class="source-state">Not yet available</span></li>
 </ul>
 </div>
 </details>
@@ -103,18 +103,18 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s12.html">S12 · One-Dimensional Arrays</a></h3>
 <ul>
-<li>#024 — One Dimensional Arrays (1D Array)<span class="source-state">Awaiting transcript</span></li>
-<li>#025 — One Dimensional Array (Exercises, Practice)<span class="source-state">Awaiting transcript</span></li>
-<li>#026 — One Dimensional Array (Char Array)<span class="source-state">Awaiting transcript</span></li>
-<li>#027 — Passing Arrays to Methods<span class="source-state">Awaiting transcript</span></li>
+<li>#024 — One Dimensional Arrays (1D Array)<span class="source-state">Not yet available</span></li>
+<li>#025 — One Dimensional Array (Exercises, Practice)<span class="source-state">Not yet available</span></li>
+<li>#026 — One Dimensional Array (Char Array)<span class="source-state">Not yet available</span></li>
+<li>#027 — Passing Arrays to Methods<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s13.html">S13 · Multidimensional Arrays</a></h3>
 <ul>
-<li>#028 — Multidimensional Arrays &amp; Passing Multidimensional Arrays to Methods<span class="source-state">Awaiting transcript</span></li>
+<li>#028 — Multidimensional Arrays &amp; Passing Multidimensional Arrays to Methods<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s14.html">S14 · Strings</a></h3>
 <ul>
-<li>#029 — String &amp; Array String<span class="source-state">Awaiting transcript</span></li>
+<li>#029 — String &amp; Array String<span class="source-state">Not yet available</span></li>
 </ul>
 </div>
 </details>
@@ -124,24 +124,24 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s15.html">S15 · OOP Foundations</a></h3>
 <ul>
-<li>#030 — Introduction to Object-Oriented Programming<span class="source-state">Awaiting transcript</span></li>
-<li>#031 — Classes and Objects<span class="source-state">Awaiting transcript</span></li>
-<li>#032 — Questions and Exercises - Classes and Objects<span class="source-state">Awaiting transcript</span></li>
+<li>#030 — Introduction to Object-Oriented Programming<span class="source-state">Not yet available</span></li>
+<li>#031 — Classes and Objects<span class="source-state">Not yet available</span></li>
+<li>#032 — Questions and Exercises - Classes and Objects<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s16.html">S16 · Constructors &amp; Object Lifecycle</a></h3>
 <ul>
-<li>#033 — Constructor (No-Arg, Parameterized, Default)<span class="source-state">Awaiting transcript</span></li>
-<li>#034 — Constructor (Copy Constructor) / Finalizers vs Destructor<span class="source-state">Awaiting transcript</span></li>
+<li>#033 — Constructor (No-Arg, Parameterized, Default)<span class="source-state">Not yet available</span></li>
+<li>#034 — Constructor (Copy Constructor) / Finalizers vs Destructor<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s17.html">S17 · Static Members</a></h3>
 <ul>
-<li>#035 — Static keyword (Static Variable and Methods)<span class="source-state">Awaiting transcript</span></li>
-<li>#036 — Static keyword (Static Block - Static Class)<span class="source-state">Awaiting transcript</span></li>
+<li>#035 — Static keyword (Static Variable and Methods)<span class="source-state">Not yet available</span></li>
+<li>#036 — Static keyword (Static Block - Static Class)<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s18.html">S18 · Passing &amp; Returning Objects</a></h3>
 <ul>
-<li>#037 — Passing Objects to Methods (by Value vs by Reference / Passing Objects as Arguments)<span class="source-state">Awaiting transcript</span></li>
-<li>#038 — Passing Objects to Methods (Returning Objects / Comparing Objects)<span class="source-state">Awaiting transcript</span></li>
+<li>#037 — Passing Objects to Methods (by Value vs by Reference / Passing Objects as Arguments)<span class="source-state">Not yet available</span></li>
+<li>#038 — Passing Objects to Methods (Returning Objects / Comparing Objects)<span class="source-state">Not yet available</span></li>
 </ul>
 </div>
 </details>
@@ -151,24 +151,24 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s19.html">S19 · Inheritance</a></h3>
 <ul>
-<li>#039 — Inheritance (Types of Inheritance / Access Modifiers and inheritance)<span class="source-state">Awaiting transcript</span></li>
-<li>#040 — Inheritance (Super Keyword / Object Class / Package-Private vs Protected)<span class="source-state">Awaiting transcript</span></li>
+<li>#039 — Inheritance (Types of Inheritance / Access Modifiers and inheritance)<span class="source-state">Not yet available</span></li>
+<li>#040 — Inheritance (Super Keyword / Object Class / Package-Private vs Protected)<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s20.html">S20 · Polymorphism</a></h3>
 <ul>
-<li>#041 — Polymorphism (Method Overloading and Method Overriding)<span class="source-state">Awaiting transcript</span></li>
-<li>#042 — Polymorphism (Explanation of Examples, Static Methods)<span class="source-state">Awaiting transcript</span></li>
-<li>#043 — Polymorphism (Late binding &quot;Dynamic Polymorphism&quot;, Early binding &quot;Static Polymorphism&quot;)<span class="source-state">Awaiting transcript</span></li>
+<li>#041 — Polymorphism (Method Overloading and Method Overriding)<span class="source-state">Not yet available</span></li>
+<li>#042 — Polymorphism (Explanation of Examples, Static Methods)<span class="source-state">Not yet available</span></li>
+<li>#043 — Polymorphism (Late binding &quot;Dynamic Polymorphism&quot;, Early binding &quot;Static Polymorphism&quot;)<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s21.html">S21 · Object Relationships</a></h3>
 <ul>
-<li>#044 — Types of Relationships (Association, Aggregation &quot;has-a&quot;, Composition &quot;part-of&quot;)<span class="source-state">Awaiting transcript</span></li>
-<li>#045 — Types of Relationships (Association, Aggregation, Composition) With Example<span class="source-state">Awaiting transcript</span></li>
+<li>#044 — Types of Relationships (Association, Aggregation &quot;has-a&quot;, Composition &quot;part-of&quot;)<span class="source-state">Not yet available</span></li>
+<li>#045 — Types of Relationships (Association, Aggregation, Composition) With Example<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s22.html">S22 · Final Keyword</a></h3>
 <ul>
-<li>#046 — Final Keyword (Final Variable, Final Blank Variable, Static Final Blank Variable)<span class="source-state">Awaiting transcript</span></li>
-<li>#047 — Final Keyword (Final Parameters, Final Methods, Final Classes, Final References)<span class="source-state">Awaiting transcript</span></li>
+<li>#046 — Final Keyword (Final Variable, Final Blank Variable, Static Final Blank Variable)<span class="source-state">Not yet available</span></li>
+<li>#047 — Final Keyword (Final Parameters, Final Methods, Final Classes, Final References)<span class="source-state">Not yet available</span></li>
 </ul>
 </div>
 </details>
@@ -178,13 +178,13 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s23.html">S23 · ArrayList Fundamentals</a></h3>
 <ul>
-<li>#048 — ArrayList Class<span class="source-state">Awaiting transcript</span></li>
-<li>#049 — ArrayList, Declaration, Print, Methods (Add, Get, AddAll, Copy Constructor, Clone)<span class="source-state">Awaiting transcript</span></li>
-<li>#050 — ArrayList Methods (Set, Remove, Remove All, Remove Range) Polymorphic ArrayList<span class="source-state">Awaiting transcript</span></li>
+<li>#048 — ArrayList Class<span class="source-state">Not yet available</span></li>
+<li>#049 — ArrayList, Declaration, Print, Methods (Add, Get, AddAll, Copy Constructor, Clone)<span class="source-state">Not yet available</span></li>
+<li>#050 — ArrayList Methods (Set, Remove, Remove All, Remove Range) Polymorphic ArrayList<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s24.html">S24 · ArrayList Operations</a></h3>
 <ul>
-<li>#051 — ArrayList Methods (contains, retainAll, subList, clear, ensureCapacity, sort, min, max)<span class="source-state">Awaiting transcript</span></li>
+<li>#051 — ArrayList Methods (contains, retainAll, subList, clear, ensureCapacity, sort, min, max)<span class="source-state">Not yet available</span></li>
 </ul>
 </div>
 </details>
@@ -194,16 +194,16 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s25.html">S25 · Abstract Classes</a></h3>
 <ul>
-<li>#052 — Abstraction (Real-Life Examples, Introduction to Abstract Class, UML Abstract Class)<span class="source-state">Awaiting transcript</span></li>
-<li>#053 — Abstract Class part 1 (Examples, Abstract rules)<span class="source-state">Awaiting transcript</span></li>
-<li>#054 — Abstract Class part 2 (Polymorphism, Benefits of Abstract Class)<span class="source-state">Awaiting transcript</span></li>
+<li>#052 — Abstraction (Real-Life Examples, Introduction to Abstract Class, UML Abstract Class)<span class="source-state">Not yet available</span></li>
+<li>#053 — Abstract Class part 1 (Examples, Abstract rules)<span class="source-state">Not yet available</span></li>
+<li>#054 — Abstract Class part 2 (Polymorphism, Benefits of Abstract Class)<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s26.html">S26 · Interfaces</a></h3>
 <ul>
-<li>#055 — Interface Part1 (Real-Life Example, UML, Convention)<span class="source-state">Awaiting transcript</span></li>
-<li>#056 — Interface Part2 (Practical, Implement Multiple Interfaces, Extends Multiple Interfaces)<span class="source-state">Awaiting transcript</span></li>
-<li>#057 — Interface Part3 (Default - Private - Static Methods, Nested Interface)<span class="source-state">Awaiting transcript</span></li>
-<li>#058 — Interface Part4 (Marker or Tagging Interface, Generic Interface, Benefits of Interface)<span class="source-state">Awaiting transcript</span></li>
+<li>#055 — Interface Part1 (Real-Life Example, UML, Convention)<span class="source-state">Not yet available</span></li>
+<li>#056 — Interface Part2 (Practical, Implement Multiple Interfaces, Extends Multiple Interfaces)<span class="source-state">Not yet available</span></li>
+<li>#057 — Interface Part3 (Default - Private - Static Methods, Nested Interface)<span class="source-state">Not yet available</span></li>
+<li>#058 — Interface Part4 (Marker or Tagging Interface, Generic Interface, Benefits of Interface)<span class="source-state">Not yet available</span></li>
 </ul>
 </div>
 </details>
@@ -213,14 +213,14 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s27.html">S27 · Anonymous Classes &amp; Lambda</a></h3>
 <ul>
-<li>#059 — Anonymous Inner Class (Extends Class, Implements Interface, Defined Arguments, Lambda)<span class="source-state">Awaiting transcript</span></li>
-<li>#060 — Anonymous Inner Class (Constructor, Extra Methods, Local Variables, Var Keyword)<span class="source-state">Awaiting transcript</span></li>
+<li>#059 — Anonymous Inner Class (Extends Class, Implements Interface, Defined Arguments, Lambda)<span class="source-state">Not yet available</span></li>
+<li>#060 — Anonymous Inner Class (Constructor, Extra Methods, Local Variables, Var Keyword)<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s28.html">S28 · Enums</a></h3>
 <ul>
-<li>#061 — Java Enum (What is Enum, Examples, UML, Enum with switch, Attributes &amp; Methods)<span class="source-state">Awaiting transcript</span></li>
-<li>#062 — Java Enum (Real life example, ordinal, compreTo, toString, name, valueOf, values)<span class="source-state">Awaiting transcript</span></li>
-<li>#063 — Java Enum (EnumSet &amp; EnumMap classes, Benefits of Enums, Enums vs Classes)<span class="source-state">Awaiting transcript</span></li>
+<li>#061 — Java Enum (What is Enum, Examples, UML, Enum with switch, Attributes &amp; Methods)<span class="source-state">Not yet available</span></li>
+<li>#062 — Java Enum (Real life example, ordinal, compreTo, toString, name, valueOf, values)<span class="source-state">Not yet available</span></li>
+<li>#063 — Java Enum (EnumSet &amp; EnumMap classes, Benefits of Enums, Enums vs Classes)<span class="source-state">Not yet available</span></li>
 </ul>
 </div>
 </details>
@@ -230,12 +230,12 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s29.html">S29 · Handling Exceptions</a></h3>
 <ul>
-<li>#064 — Exception Handling (Try-catch block, Multi-catch blocks, Union-catch blocks)<span class="source-state">Awaiting transcript</span></li>
-<li>#065 — Exception Handling (Finally Block, Throws Keyword, Checked vs Unchecked Exception)<span class="source-state">Awaiting transcript</span></li>
+<li>#064 — Exception Handling (Try-catch block, Multi-catch blocks, Union-catch blocks)<span class="source-state">Not yet available</span></li>
+<li>#065 — Exception Handling (Finally Block, Throws Keyword, Checked vs Unchecked Exception)<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s30.html">S30 · Custom Exceptions</a></h3>
 <ul>
-<li>#066 — Exception Handling (Throw keyword, Throw vs Throws, Throw &amp; finally, Custom exception)<span class="source-state">Awaiting transcript</span></li>
+<li>#066 — Exception Handling (Throw keyword, Throw vs Throws, Throw &amp; finally, Custom exception)<span class="source-state">Not yet available</span></li>
 </ul>
 </div>
 </details>
@@ -245,28 +245,28 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s31.html">S31 · Byte Streams</a></h3>
 <ul>
-<li>#067 — File Handling (java.io, Byte &amp; Character stream, InputStream &amp; OutputStream subclasses)<span class="source-state">Awaiting transcript</span></li>
-<li>#068 — File Handling (FileInputStream class, Character size vs String size)<span class="source-state">Awaiting transcript</span></li>
-<li>#069 — File Handling (FileOutputStream class, Reading and Writing images, Arabic letters)<span class="source-state">Awaiting transcript</span></li>
+<li>#067 — File Handling (java.io, Byte &amp; Character stream, InputStream &amp; OutputStream subclasses)<span class="source-state">Not yet available</span></li>
+<li>#068 — File Handling (FileInputStream class, Character size vs String size)<span class="source-state">Not yet available</span></li>
+<li>#069 — File Handling (FileOutputStream class, Reading and Writing images, Arabic letters)<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s32.html">S32 · Files &amp; Directories</a></h3>
 <ul>
-<li>#070 — File Handling (File class)<span class="source-state">Awaiting transcript</span></li>
-<li>#071 — File Handling (File class, Directories Add/Remove, Constructors)<span class="source-state">Awaiting transcript</span></li>
+<li>#070 — File Handling (File class)<span class="source-state">Not yet available</span></li>
+<li>#071 — File Handling (File class, Directories Add/Remove, Constructors)<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s33.html">S33 · Character Streams</a></h3>
 <ul>
-<li>#072 — File Handling (Reader class/Writer class hierarchy, FileWriter &amp; FileReader)<span class="source-state">Awaiting transcript</span></li>
-<li>#073 — File Handling (BufferedReader / BufferedWriter classes, Read file line by line)<span class="source-state">Awaiting transcript</span></li>
-<li>#074 — File Handling (PrintWriter class, Constructors &amp; Methods)<span class="source-state">Awaiting transcript</span></li>
+<li>#072 — File Handling (Reader class/Writer class hierarchy, FileWriter &amp; FileReader)<span class="source-state">Not yet available</span></li>
+<li>#073 — File Handling (BufferedReader / BufferedWriter classes, Read file line by line)<span class="source-state">Not yet available</span></li>
+<li>#074 — File Handling (PrintWriter class, Constructors &amp; Methods)<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s34.html">S34 · Scanner for Files</a></h3>
 <ul>
-<li>#075 — File Handling (Scanner class, Constructors &amp; Methods, useDelimiter, delimiter)<span class="source-state">Awaiting transcript</span></li>
+<li>#075 — File Handling (Scanner class, Constructors &amp; Methods, useDelimiter, delimiter)<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s35.html">S35 · Serialization</a></h3>
 <ul>
-<li>#076 — File Handling (Serialization and Deserialization, Read &amp; Write multiple objects)<span class="source-state">Awaiting transcript</span></li>
+<li>#076 — File Handling (Serialization and Deserialization, Read &amp; Write multiple objects)<span class="source-state">Not yet available</span></li>
 </ul>
 </div>
 </details>
@@ -302,6 +302,6 @@ format:
 - [#013 · For](lessons/lesson-013.qmd)
 
 
-بقية الفيديوهات بانتظار مصادرها؛ هذا الفهرس يسرد الدروس المتاحة فقط.
+بقية الدروس غير متاحة بعد؛ هذا الفهرس يسرد الصفحات المتاحة فقط.
 
 :::

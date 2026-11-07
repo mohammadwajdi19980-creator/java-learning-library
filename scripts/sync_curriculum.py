@@ -21,8 +21,8 @@ module_cards+=['</div>']
 next_lesson=next((x for x in lessons if x['editorial_status']!='reviewed'),None)
 next_html=''
 if next_lesson:
- state='Source received' if next_lesson['source_status']=='received' else 'Awaiting transcript'
- arabic='التفريغ مستلَم؛ المادة بانتظار الكتابة والمراجعة.' if next_lesson['source_status']=='received' else 'بانتظار التفريغ. ما بنضيف محتوى فيديو لم نستلمه.'
+ state='Source received' if next_lesson['source_status']=='received' else 'Not yet available'
+ arabic='المادة بانتظار الكتابة والمراجعة.' if next_lesson['source_status']=='received' else 'هذا الدرس مخطط له؛ صفحته ستتاح بعد الكتابة والمراجعة.'
  next_html=f'<section class="next-chapter"><span class="next-number" aria-hidden="true">{next_lesson["id"]:02}</span><div><p class="eyebrow" dir="ltr">UP NEXT</p><h2 dir="ltr">{html.escape(next_lesson["original_title"])}</h2><p>{arabic}</p></div><span class="pending-label">{state}</span></section>'
 epub_contents=[]
 for m in data['modules']:
@@ -57,7 +57,7 @@ if '<!-- curriculum-navigation:start -->' in text:
 else:
  text=re.sub(r'<div class="nav-section-label">M01.*?</nav>','\n'.join(nav),text,flags=re.S,count=1)
 shell.write_text(text)
-out=['---','title: "Contents"','subtitle: "كل الفيديوهات، وحالة كل درس"','format:', '  html:', '    toc: false','---','','<p class="roadmap-intro">هذا فهرس الفيديوهات الأصلية، وليس ادعاءً بأن الكتاب اكتمل. افتح أي Module لرؤية مواضيعه. أسماء المصدر محفوظة كما وردت؛ الشرح يُضاف بعد استلام النص ومراجعته.</p>',f'<p class="book-state">{available} lessons available · {received} transcripts received · 77 videos mapped</p>','','::: {.content-visible unless-format="epub"}','']
+out=['---','title: "Contents"','subtitle: "كل الدروس، وحالة كل صفحة"','format:', '  html:', '    toc: false','---','','<p class="roadmap-intro">هذا فهرس دروس الكتاب. افتح أي Module لرؤية مواضيعه وصفحات الدروس المتاحة؛ الدروس المخططة لم تكتمل بعد.</p>',f'<p class="book-state">{available} lessons available · 77 lessons planned</p>','','::: {.content-visible unless-format="epub"}','']
 for m in data['modules']:
  group=[x for x in lessons if x['module']==m['id']]
  out+=['<details class="roadmap-module"'+(' open=""' if m['id']=='M01' else '')+'>','<summary>'+html.escape(m['id']+' / '+m['title'])+'</summary>','<div class="module-content">']
@@ -68,18 +68,18 @@ for m in data['modules']:
   for x in subset:
    label=html.escape(x['source_id']+' — '+x['original_title'])
    if x['url']:label='<a href="'+x['url']+'">'+label+'</a>'
-   state='Available' if x['url'] else ('Source received · Lesson not written' if x['source_status']=='received' else 'Awaiting transcript')
+   state='Available' if x['url'] else ('Source received · Lesson not written' if x['source_status']=='received' else 'Not yet available')
    out+=['<li>'+label+'<span class="source-state">'+state+'</span></li>']
   out+=['</ul>']
  out+=['</div>','</details>','']
-out+=[':::','','::: {.content-visible when-format="epub"}','',*epub_contents,'','بقية الفيديوهات بانتظار مصادرها؛ هذا الفهرس يسرد الدروس المتاحة فقط.','',':::']
+out+=[':::','','::: {.content-visible when-format="epub"}','',*epub_contents,'','بقية الدروس غير متاحة بعد؛ هذا الفهرس يسرد الصفحات المتاحة فقط.','',':::']
 (B/'roadmap.qmd').write_text('\n'.join(out)+'\n')
 for m in data['modules']:
  group=[x for x in lessons if x['module']==m['id']]
  done=[x for x in group if x['editorial_status']=='reviewed' and x['url']]
  count_received=sum(x['source_status']=='received' for x in group)
  state='Complete' if len(done)==len(group) else ('In progress' if done else 'Planned')
- lines=['---',f'title: "{m["id"]} · {m["title"]}"','---','',f'<div class="lesson-meta"><span>{state}</span><span>{len(done)} / {len(group)} lessons available</span><span>{count_received} transcripts received</span></div>','', '## Subjects','']
+ lines=['---',f'title: "{m["id"]} · {m["title"]}"','---','',f'<div class="lesson-meta"><span>{state}</span><span>{len(done)} / {len(group)} lessons available</span><span>{len(group) - len(done)} lessons remaining</span></div>','', '## Subjects','']
  for s in data['subjects']:
   subset=[x for x in group if x['subject']==s['id']]
   if not subset:continue
@@ -88,7 +88,7 @@ for m in data['modules']:
   for x in subset:
    label=f'{x["source_id"]} · {x.get("display_title",x["original_title"])}'
    if x in done:lines += [f'- [{label}](../lessons/lesson-{x["id"]:03}.qmd)']
-   else:lines += [f'- {label} — '+('Source received · Not yet reviewed' if x['source_status']=='received' else 'Awaiting transcript')]
+   else:lines += [f'- {label} — '+('Source received · Not yet reviewed' if x['source_status']=='received' else 'Not yet available')]
   lines += ['', 'Review & Exam متاح بعد الدروس المذكورة.' if len(ready_sub)==len(subset) else 'هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.', '']
  if done:
   lines+=['## Reading Path','',f'ابدأ من [{done[0]["source_id"]}](../lessons/lesson-{done[0]["id"]:03}.qmd)، وراجع كل Subject بعد دروسه. اتبع Previous / Next للتقدّم بالترتيب.','']

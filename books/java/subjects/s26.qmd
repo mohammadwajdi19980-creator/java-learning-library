@@ -2,14 +2,14 @@
 
 <div class="lesson-meta"><span>M10</span><span>S26</span><span>#055–#058</span></div>
 
-هذا **Subject** داخل [M10 — Abstraction & Interfaces](../modules/m10.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M10 — Abstraction & Interfaces](../modules/m10.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#055`** — Interface Part1 (Real-Life Example, UML, Convention) — *لم يصل التفريغ بعد*
-- **`#056`** — Interface Part2 (Practical, Implement Multiple Interfaces, Extends Multiple Interfaces) — *لم يصل التفريغ بعد*
-- **`#057`** — Interface Part3 (Default - Private - Static Methods, Nested Interface) — *لم يصل التفريغ بعد*
-- **`#058`** — Interface Part4 (Marker or Tagging Interface, Generic Interface, Benefits of Interface) — *لم يصل التفريغ بعد*
+- **`#055`** — Interface Part1 (Real-Life Example, UML, Convention) — *الدرس غير متاح بعد*
+- **`#056`** — Interface Part2 (Practical, Implement Multiple Interfaces, Extends Multiple Interfaces) — *الدرس غير متاح بعد*
+- **`#057`** — Interface Part3 (Default - Private - Static Methods, Nested Interface) — *الدرس غير متاح بعد*
+- **`#058`** — Interface Part4 (Marker or Tagging Interface, Generic Interface, Benefits of Interface) — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

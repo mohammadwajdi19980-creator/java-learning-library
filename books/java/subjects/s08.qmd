@@ -1,6 +1,6 @@
 ---
 title: "S08 · Do-While & For Loops"
-subtitle: "Partial Review · Videos #012–#013"
+subtitle: "Partial Review · Lessons #012–#013"
 ---
 
 <div class="lesson-meta"><span>M04 · S08</span><span>2 / 3 lessons available</span></div>
@@ -9,7 +9,7 @@ subtitle: "Partial Review · Videos #012–#013"
 
 - [#012 · Do-While](../lessons/lesson-012.qmd)
 - [#013 · For](../lessons/lesson-013.qmd)
-- #014 · Questions and Exercises in Loops — Awaiting transcript
+- #014 · Questions and Exercises in Loops — Not yet available
 
 ## Partial Review
 
@@ -25,6 +25,6 @@ subtitle: "Partial Review · Videos #012–#013"
 1. `0` مقابل `1` عند الوصول الطبيعي؛ نهاية الثانية `} while (condition);`.
 2. البداية مرة، ثم الشرط، ثم الجسم إن نجح، ثم التحديث، ثم رجوع للشرط.
 3. `10`. تبدأ `i = 0` وتزيد `2`، أو تزيد `1` وتطبع فقط إذا `i % 2 == 0`.
-4. انتهى `Scope` الخاص فيها. الفاصلة تفصل عدة متغيرات من نفس النوع في التعريف، أو عدة تحديثات في الجزء الأخير.
+4. انتهى `Scope` الخاص فيها. الفاصلة تفصل عدة `Variables` من نفس النوع في التعريف، أو عدة تحديثات في الجزء الأخير.
 
 </details>

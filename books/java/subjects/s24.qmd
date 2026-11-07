@@ -2,11 +2,11 @@
 
 <div class="lesson-meta"><span>M09</span><span>S24</span><span>#051–#051</span></div>
 
-هذا **Subject** داخل [M09 — ArrayList](../modules/m09.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M09 — ArrayList](../modules/m09.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#051`** — ArrayList Methods (contains, retainAll, subList, clear, ensureCapacity, sort, min, max) — *لم يصل التفريغ بعد*
+- **`#051`** — ArrayList Methods (contains, retainAll, subList, clear, ensureCapacity, sort, min, max) — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

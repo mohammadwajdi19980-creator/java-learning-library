@@ -2,12 +2,12 @@
 
 <div class="lesson-meta"><span>M07</span><span>S16</span><span>#033–#034</span></div>
 
-هذا **Subject** داخل [M07 — Classes & Objects](../modules/m07.qmd). الدروس المحددة أدناه تابعة للفيديوهات الأصلية، وسنكتب المادة التعليمية تدريجيًا بناءً على التفريغات التي ترسلها.
+هذا **Subject** داخل [M07 — Classes & Objects](../modules/m07.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
 
 ## الدروس الأصلية
 
-- **`#033`** — Constructor (No-Arg, Parameterized, Default) — *لم يصل التفريغ بعد*
-- **`#034`** — Constructor (Copy Constructor) / Finalizers vs Destructor — *لم يصل التفريغ بعد*
+- **`#033`** — Constructor (No-Arg, Parameterized, Default) — *الدرس غير متاح بعد*
+- **`#034`** — Constructor (Copy Constructor) / Finalizers vs Destructor — *الدرس غير متاح بعد*
 
 ## اختبار نهاية الموضوع
 

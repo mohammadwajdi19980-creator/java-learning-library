@@ -2,7 +2,7 @@
 title: "M06 · Arrays & Strings"
 ---
 
-<div class="lesson-meta"><span>Planned</span><span>0 / 6 lessons available</span><span>0 transcripts received</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 6 lessons available</span><span>6 lessons remaining</span></div>
 
 ## Subjects
 
@@ -10,10 +10,10 @@ title: "M06 · Arrays & Strings"
 
 [Open Subject](../subjects/s12.qmd)
 
-- #024 · One Dimensional Arrays (1D Array) — Awaiting transcript
-- #025 · One Dimensional Array (Exercises, Practice) — Awaiting transcript
-- #026 · One Dimensional Array (Char Array) — Awaiting transcript
-- #027 · Passing Arrays to Methods — Awaiting transcript
+- #024 · One Dimensional Arrays (1D Array) — Not yet available
+- #025 · One Dimensional Array (Exercises, Practice) — Not yet available
+- #026 · One Dimensional Array (Char Array) — Not yet available
+- #027 · Passing Arrays to Methods — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -21,7 +21,7 @@ title: "M06 · Arrays & Strings"
 
 [Open Subject](../subjects/s13.qmd)
 
-- #028 · Multidimensional Arrays & Passing Multidimensional Arrays to Methods — Awaiting transcript
+- #028 · Multidimensional Arrays & Passing Multidimensional Arrays to Methods — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -29,6 +29,6 @@ title: "M06 · Arrays & Strings"
 
 [Open Subject](../subjects/s14.qmd)
 
-- #029 · String & Array String — Awaiting transcript
+- #029 · String & Array String — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

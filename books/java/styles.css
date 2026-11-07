@@ -49,3 +49,5 @@ bdi{margin-inline:.12em}h2> bdi,h3> bdi{margin:0}.level2>h2,.level3>h3{direction
 @media(max-width:540px){.figure-zoom img{max-height:none}.level2>h2{font-size:1.2rem}.lesson-nav a{font-size:14px}.reference-nav a{font-size:14px}}
 
 p bdi.term-inline,li bdi.term-inline,td bdi.term-inline{white-space:nowrap}
+
+.english-definition{direction:ltr;text-align:left;unicode-bidi:isolate}.english-definition p{direction:ltr;text-align:left}

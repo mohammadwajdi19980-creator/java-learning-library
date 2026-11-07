@@ -6,7 +6,6 @@ project:
     - python3 ../../scripts/finalize_epub.py
     - python3 ../../scripts/stamp_styles.py
   resources:
-    - curriculum.json
     - assets/**
 lang: ar
 dir: rtl

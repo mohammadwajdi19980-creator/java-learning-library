@@ -2,7 +2,7 @@
 title: "M11 · Anonymous Classes & Enums"
 ---
 
-<div class="lesson-meta"><span>Planned</span><span>0 / 5 lessons available</span><span>0 transcripts received</span></div>
+<div class="lesson-meta"><span>Planned</span><span>0 / 5 lessons available</span><span>5 lessons remaining</span></div>
 
 ## Subjects
 
@@ -10,8 +10,8 @@ title: "M11 · Anonymous Classes & Enums"
 
 [Open Subject](../subjects/s27.qmd)
 
-- #059 · Anonymous Inner Class (Extends Class, Implements Interface, Defined Arguments, Lambda) — Awaiting transcript
-- #060 · Anonymous Inner Class (Constructor, Extra Methods, Local Variables, Var Keyword) — Awaiting transcript
+- #059 · Anonymous Inner Class (Extends Class, Implements Interface, Defined Arguments, Lambda) — Not yet available
+- #060 · Anonymous Inner Class (Constructor, Extra Methods, Local Variables, Var Keyword) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 
@@ -19,8 +19,8 @@ title: "M11 · Anonymous Classes & Enums"
 
 [Open Subject](../subjects/s28.qmd)
 
-- #061 · Java Enum (What is Enum, Examples, UML, Enum with switch, Attributes & Methods) — Awaiting transcript
-- #062 · Java Enum (Real life example, ordinal, compreTo, toString, name, valueOf, values) — Awaiting transcript
-- #063 · Java Enum (EnumSet & EnumMap classes, Benefits of Enums, Enums vs Classes) — Awaiting transcript
+- #061 · Java Enum (What is Enum, Examples, UML, Enum with switch, Attributes & Methods) — Not yet available
+- #062 · Java Enum (Real life example, ordinal, compreTo, toString, name, valueOf, values) — Not yet available
+- #063 · Java Enum (EnumSet & EnumMap classes, Benefits of Enums, Enums vs Classes) — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.

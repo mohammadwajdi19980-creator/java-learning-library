@@ -2,7 +2,7 @@
 title: "M03 · Selection Statements"
 ---
 
-<div class="lesson-meta"><span>Complete</span><span>3 / 3 lessons available</span><span>3 transcripts received</span></div>
+<div class="lesson-meta"><span>Complete</span><span>3 / 3 lessons available</span><span>0 lessons remaining</span></div>
 
 ## Subjects
 
