@@ -58,12 +58,19 @@ book:
         - lessons/lesson-012.qmd
         - lessons/lesson-013.qmd
         - subjects/s08.qmd
+        - lessons/lesson-017.qmd
+        - subjects/s09.qmd
+    - part: "M05 · Methods & Recursion"
+      chapters:
+        - modules/m05.qmd
+        - lessons/lesson-018.qmd
+        - lessons/lesson-019.qmd
+        - subjects/s10.qmd
     - roadmap.qmd
     - projects.qmd
     - exams.qmd
     - part: "Planned Curriculum"
       chapters:
-        - modules/m05.qmd
         - modules/m06.qmd
         - modules/m07.qmd
         - modules/m08.qmd
@@ -72,8 +79,6 @@ book:
         - modules/m11.qmd
         - modules/m12.qmd
         - modules/m13.qmd
-        - subjects/s09.qmd
-        - subjects/s10.qmd
         - subjects/s11.qmd
         - subjects/s12.qmd
         - subjects/s13.qmd

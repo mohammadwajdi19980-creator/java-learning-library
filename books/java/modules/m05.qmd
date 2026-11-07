@@ -2,7 +2,7 @@
 title: "M05 · Methods & Recursion"
 ---
 
-<div class="lesson-meta"><span>Planned</span><span>0 / 6 lessons available</span><span>6 lessons remaining</span></div>
+<div class="lesson-meta"><span>In progress</span><span>2 / 6 lessons available</span><span>4 lessons remaining</span></div>
 
 ## Subjects
 
@@ -10,8 +10,8 @@ title: "M05 · Methods & Recursion"
 
 [Open Subject](../subjects/s10.qmd)
 
-- #018 · Method / Function Part 1 — Not yet available
-- #019 · Method / Function Part 2 (Examples) — Not yet available
+- [#018 · Methods — Definition & Calls](../lessons/lesson-018.qmd)
+- [#019 · Minimum, Average & Varargs](../lessons/lesson-019.qmd)
 - #020 · Built in Method / Function — Not yet available
 - #021 · Overloading Method / Function — Not yet available
 
@@ -25,3 +25,7 @@ title: "M05 · Methods & Recursion"
 - #023 · Recursion/Recursive Methods Part 2 — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+
+## Reading Path
+
+ابدأ من [#018](../lessons/lesson-018.qmd)، وراجع كل Subject بعد دروسه. اتبع Previous / Next للتقدّم بالترتيب.

@@ -1,0 +1,26 @@
+[
+  {
+    "lesson_id": 17,
+    "archive": "docs/sources/transcripts/video-017.txt",
+    "sha256": "957b74a1fb42c5e2e0b3a99b38b3e6dbda439120f318261e368eb967d340466f",
+    "source_url": "http://www.youtube.com/watch?v=HqCSeKHXrhQ",
+    "origin": "User message: next three supplied transcripts; no timestamps supplied",
+    "notes": "Archive includes the supplied title/URL and verbatim transcript body; teaching examples with unspecified source symbols are labeled illustrative."
+  },
+  {
+    "lesson_id": 18,
+    "archive": "docs/sources/transcripts/video-018.txt",
+    "sha256": "9e01c78abd2dbaaf6c980c165c36232058e98eee3e5f33393e97f5bd54d2dcd4",
+    "source_url": "http://www.youtube.com/watch?v=izzJtoZnbHY",
+    "origin": "User message: next three supplied transcripts; no timestamps supplied",
+    "notes": "Archive includes the supplied title/URL and verbatim transcript body; teaching examples with unspecified source symbols are labeled illustrative."
+  },
+  {
+    "lesson_id": 19,
+    "archive": "docs/sources/transcripts/video-019.txt",
+    "sha256": "d7833e9bc18f1e1dad35c2646515b60b899b58a1d4dfb85a21e3c53f77c83ce9",
+    "source_url": "http://www.youtube.com/watch?v=UJ-MVRviD28",
+    "origin": "User message: next three supplied transcripts; no timestamps supplied",
+    "notes": "Archive includes the supplied title/URL and verbatim transcript body; teaching examples with unspecified source symbols are labeled illustrative."
+  }
+]

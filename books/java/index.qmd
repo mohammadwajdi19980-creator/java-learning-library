@@ -18,7 +18,7 @@ page-layout: full
 
 <div class="home-proof" dir="ltr"><span>77 planned lessons</span><span>Arabic explanations</span><span>English terminology</span></div>
 
-<div class="section-heading"><div><p class="eyebrow" dir="ltr">ONE STEP AT A TIME</p><h2>ابدأ من هنا</h2></div><span class="availability">14 lessons available</span></div>
+<div class="section-heading"><div><p class="eyebrow" dir="ltr">ONE STEP AT A TIME</p><h2>ابدأ من هنا</h2></div><span class="availability">17 lessons available</span></div>
 
 <div class="lesson-grid">
 <a class="lesson-card" href="lessons/lesson-000.html"><div class="lesson-card-top"><span class="lesson-number">00</span><span class="status-dot">AVAILABLE</span></div><div class="mini-diagram" aria-hidden="true"><span>.java</span><i>→</i><span>JVM</span><i>→</i><span>Run</span></div><p class="card-label">THE FOUNDATIONS</p><h3 dir="ltr">Introduction to Java</h3><p>شو هي؟ ليش نستخدمها؟ وكيف تتحوّل الأوامر إلى برنامج يعمل؟</p><span class="card-action">افتح الدرس <span aria-hidden="true">←</span></span></a>
@@ -41,9 +41,13 @@ page-layout: full
 <li><a href="subjects/s05.html">S05 · Conditions &amp; Comparisons</a><small>#07 / #08</small></li>
 <li><a href="subjects/s06.html">S06 · Switch Statements</a><small>#09</small></li>
 </ul></section>
-<section class="module-card"><p class="eyebrow" dir="ltr">M04 · In progress · 4 / 8 lessons</p><h3 dir="ltr"><a href="modules/m04.html">Loops &amp; Branching</a></h3><ul>
+<section class="module-card"><p class="eyebrow" dir="ltr">M04 · In progress · 5 / 8 lessons</p><h3 dir="ltr"><a href="modules/m04.html">Loops &amp; Branching</a></h3><ul>
 <li><a href="subjects/s07.html">S07 · While Loops</a><small>#010 / #011</small></li>
 <li><a href="subjects/s08.html">S08 · Do-While &amp; For Loops</a><small>#012 / #013</small></li>
+<li><a href="subjects/s09.html">S09 · Nested Loops &amp; Branching</a><small>#017</small></li>
+</ul></section>
+<section class="module-card"><p class="eyebrow" dir="ltr">M05 · In progress · 2 / 6 lessons</p><h3 dir="ltr"><a href="modules/m05.html">Methods &amp; Recursion</a></h3><ul>
+<li><a href="subjects/s10.html">S10 · Methods &amp; Overloading</a><small>#018 / #019</small></li>
 </ul></section>
 </div>
 
@@ -51,14 +55,14 @@ page-layout: full
 
 <section class="library-tools"><a href="glossary.html"><span dir="ltr">01 / GLOSSARY</span><h3>كل مصطلح في مكانه</h3><p>الاسم بالإنجليزية، والمعنى بشرح عربي واضح.</p></a><a href="roadmap.html"><span dir="ltr">02 / CONTENTS</span><h3>شوف الصورة كاملة</h3><p>دروس الكتاب الـ 77، مرتّبة حسب الموضوع، مع حالة كل درس.</p></a></section>
 
-<p class="book-state">14 lessons available · 77 lessons planned</p>
+<p class="book-state">17 lessons available · 77 lessons planned</p>
 ```
 
 :::
 
 ::: {.content-visible when-format="epub"}
 
-كتابك لتعلّم Java من الصفر، بشرح عربي ومصطلحات إنجليزية. 14 Lessons متاحة من أصل 77 درسًا مخططًا.
+كتابك لتعلّم Java من الصفر، بشرح عربي ومصطلحات إنجليزية. 17 Lessons متاحة من أصل 77 درسًا مخططًا.
 
 ## M01 · Java & Tools
 
@@ -85,6 +89,12 @@ page-layout: full
 - [#011 · Sentinel & Flag](lessons/lesson-011.qmd)
 - [#012 · Do-While](lessons/lesson-012.qmd)
 - [#013 · For](lessons/lesson-013.qmd)
+- [#017 · Labeled Break & Continue](lessons/lesson-017.qmd)
+
+## M05 · Methods & Recursion
+
+- [#018 · Methods — Definition & Calls](lessons/lesson-018.qmd)
+- [#019 · Minimum, Average & Varargs](lessons/lesson-019.qmd)
 
 
 [Glossary](glossary.qmd) · [Practice & Exams](exams.qmd) · [Sources](sources.qmd)

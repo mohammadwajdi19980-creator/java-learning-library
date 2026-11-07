@@ -20,6 +20,9 @@
 | #011 | [Sentinel & Flag](lessons/lesson-011.qmd) |
 | #012 | [Do-While](lessons/lesson-012.qmd) |
 | #013 | [For](lessons/lesson-013.qmd) |
+| #017 | [Labeled Break & Continue](lessons/lesson-017.qmd) |
+| #018 | [Methods — Definition & Calls](lessons/lesson-018.qmd) |
+| #019 | [Minimum, Average & Varargs](lessons/lesson-019.qmd) |
 
 ## Technical accuracy notes
 
@@ -60,3 +63,10 @@
 | While | Kenneth Leroy Busbee | [Source](https://commons.wikimedia.org/wiki/File:Flowchart_while.jpg) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | None |
 | Do-While | P. Kemp | [Source](https://commons.wikimedia.org/wiki/File:Do-while-loop-diagram.svg) · [CC0](https://creativecommons.org/publicdomain/zero/1.0/) | None |
 | For | Giacomo Alessandroni, based on Faxe | [Source](https://commons.wikimedia.org/wiki/File:For-loop-diagram.svg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | None |
+
+## Methods & Labels References
+
+- [Labeled Break & Continue](lessons/lesson-017.qmd): [Oracle — Branching Statements](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/branch.html).
+- [Method Definition & Calls](lessons/lesson-018.qmd): [Oracle — Defining Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html) and [Return Values](https://docs.oracle.com/javase/tutorial/java/javaOO/returnvalue.html).
+- [Minimum, Average & Varargs](lessons/lesson-019.qmd): [Oracle — Parameters & Varargs](https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html).
+- صورة `Method Declaration` في Lesson #018 مأخوذة من [المصدر](https://medium.com/@shourya12cbg2476/title-mastering-java-functions-and-methods-9671a562a213)، دون تعديل. الصورة تشرح الأجزاء الأساسية؛ إضافة `static` موضحة في شرحنا. ليست Screenshot من `NetBeans`، ولا ننسب لها ترخيصًا مفتوحًا.

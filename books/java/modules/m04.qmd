@@ -2,7 +2,7 @@
 title: "M04 · Loops & Branching"
 ---
 
-<div class="lesson-meta"><span>In progress</span><span>4 / 8 lessons available</span><span>4 lessons remaining</span></div>
+<div class="lesson-meta"><span>In progress</span><span>5 / 8 lessons available</span><span>3 lessons remaining</span></div>
 
 ## Subjects
 
@@ -31,7 +31,7 @@ Review & Exam متاح بعد الدروس المذكورة.
 
 - #015 · Branching Statements (Break/Continue) — Not yet available
 - #016 · Repetition Control Statement (Nested Loops) — Not yet available
-- #017 · Branching Statements (Labeled Break / Labeled Continue) — Not yet available
+- [#017 · Labeled Break & Continue](../lessons/lesson-017.qmd)
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
 

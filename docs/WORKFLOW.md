@@ -1,6 +1,6 @@
 # Java Learning Library — Working Guide
 
-Version 1.5 · 7 November 2026
+Version 1.6 · 7 November 2026
 
 The user has authorized implementation and publication of the audit fixes and appearance redesign. The earlier analysis-only limit was specific to the audit turn. Preserve original video IDs, Arabic explanations, English technical terminology, and source coverage.
 
@@ -205,3 +205,11 @@ Use RELEASE-CHECKLIST.md. Update this guide when requirements or workflow change
 - Run scripts/finalize_epub.py through Quarto's post-render hook. It checks chapter titles/order before resolving remaining source-relative EPUB links. The rendered validator also checks EPUB XHTML, resources and anchors.
 - HTML-only dashboard sections use unless-format="epub"; EPUB navigation uses ordinary Markdown links. Keep one top-level heading per source chapter to preserve the book's chapter mapping.
 - scripts/stamp_styles.py versions the rendered stylesheet URL from its content hash. Keep the post-render hook so existing browser caches do not break new components after publication.
+
+
+## Out-of-order batches
+
+- A received later Lesson can be published while earlier IDs remain unavailable; preserve every original ID and flag gaps in its Subject. Do not infer missing source content from later references.
+- Batch #017–#019 adds S09/S10 Partial Reviews only. #014–#016 and #020–#021 remain unavailable until supplied.
+- verify_batch.py merges all code-cases-*.json manifests and requires a case for every complete published batch program. It also runs independent method-boundary probes and intentional invalid cases.
+- validate_book.py checks every batch-*.json source hash and every coverage-*.json mapped heading, not only the first batch.

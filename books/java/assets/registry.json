@@ -200,5 +200,16 @@
     "validated": true,
     "validation": "XML parsed if SVG; rasterized and visually inspected; live load check pending",
     "selection": "Online-first search; concept matched to source talking point; code examples and image values distinguished"
+  },
+  {
+    "id": "method-declaration-018",
+    "file": "assets/reference/method-declaration-018.jpeg",
+    "type": "online-explanatory-image",
+    "source": "https://miro.medium.com/v2/resize:fit:1368/1*SCFG2JgqVB3KQV1czDyjJw.jpeg",
+    "source_page": "https://medium.com/@shourya12cbg2476/title-mastering-java-functions-and-methods-9671a562a213",
+    "owner_lesson": 18,
+    "license": "Third-party educational illustration; source attribution retained. No open license asserted.",
+    "notes": "Labels inspected: public, int, addition, two int parameters, sum and return. Used only as a declaration diagram; lesson explicitly distinguishes its missing static modifier. Not a Screenshot.",
+    "validated": true
   }
 ]

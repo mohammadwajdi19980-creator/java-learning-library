@@ -51,16 +51,16 @@ for p in (B/'lessons').glob('*.qmd'):
   if '://' not in target:
    rel=(p.parent/target).resolve().relative_to(B.resolve()).as_posix()
    if rel not in registered:errors.append(f'Unregistered image: {rel}')
-manifest=ROOT/'docs/sources/batch-002-013.json'
-if manifest.exists():
+for manifest in sorted((ROOT/'docs/sources').glob('batch-*.json')):
  for source in json.loads(manifest.read_text()):
   path=ROOT/source['archive']
   if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=source['sha256']:errors.append('Transcript archive changed: '+source['archive'])
- ledger=json.loads((ROOT/'docs/sources/coverage-002-013.json').read_text())
+for ledger_path in sorted((ROOT/'docs/sources').glob('coverage-*.json')):
+ ledger=json.loads(ledger_path.read_text())
  for unit in ledger['units']:
   path,heading=unit['output_ref'].split(' > ',1)
   if not (ROOT/path).is_file() or not re.search(r'^#{1,6} '+re.escape(heading)+r'\s*$',(ROOT/path).read_text(),re.M):errors.append('Broken coverage reference: '+unit['id'])
- print(f'Coverage references checked: {len(ledger["units"])}; {sum(u["status"]=="unclear" for u in ledger["units"])} source-detail gaps remain explicitly disclosed.')
+ print(f'Coverage {ledger_path.name}: {len(ledger["units"])} mapped units checked.')
 class Page(HTMLParser):
  def __init__(self,text):self.ids=set();self.links=[];self.text=[];self.skip=0;super().__init__();self.feed(text)
  def handle_starttag(self,tag,attrs):

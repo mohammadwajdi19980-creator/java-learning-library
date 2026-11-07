@@ -494,9 +494,22 @@
       "original_title": "Branching Statements (Labeled Break / Labeled Continue)",
       "module": "M04",
       "subject": "S09",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-017.html",
+      "source_url": "http://www.youtube.com/watch?v=HqCSeKHXrhQ",
+      "transcript_archive": "docs/sources/transcripts/video-017.txt",
+      "coverage_ledger": "docs/sources/coverage-017-019.json",
+      "prerequisites": [
+        13,
+        15,
+        16
+      ],
+      "source_limitations": [
+        "No exact source code or input values supplied for every example; complete runnable examples are transparently illustrative."
+      ],
+      "display_title": "Labeled Break & Continue",
+      "code_verification": "JDK 25 CLI: complete programs, normal/boundary cases and intentional compile failures checked"
     },
     {
       "id": 18,
@@ -504,9 +517,21 @@
       "original_title": "Method / Function Part 1",
       "module": "M05",
       "subject": "S10",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-018.html",
+      "source_url": "http://www.youtube.com/watch?v=izzJtoZnbHY",
+      "transcript_archive": "docs/sources/transcripts/video-018.txt",
+      "coverage_ledger": "docs/sources/coverage-017-019.json",
+      "prerequisites": [
+        3,
+        4
+      ],
+      "source_limitations": [
+        "No exact source code or input values supplied for every example; complete runnable examples are transparently illustrative."
+      ],
+      "display_title": "Methods — Definition & Calls",
+      "code_verification": "JDK 25 CLI: complete programs, normal/boundary cases and intentional compile failures checked"
     },
     {
       "id": 19,
@@ -514,9 +539,22 @@
       "original_title": "Method / Function Part 2 (Examples)",
       "module": "M05",
       "subject": "S10",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-019.html",
+      "source_url": "http://www.youtube.com/watch?v=UJ-MVRviD28",
+      "transcript_archive": "docs/sources/transcripts/video-019.txt",
+      "coverage_ledger": "docs/sources/coverage-017-019.json",
+      "prerequisites": [
+        18,
+        6,
+        7
+      ],
+      "source_limitations": [
+        "No exact source code or input values supplied for every example; complete runnable examples are transparently illustrative."
+      ],
+      "display_title": "Minimum, Average & Varargs",
+      "code_verification": "JDK 25 CLI: complete programs, normal/boundary cases and intentional compile failures checked"
     },
     {
       "id": 20,

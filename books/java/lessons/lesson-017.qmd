@@ -1,0 +1,182 @@
+---
+title: "Labeled Break & Continue"
+subtitle: "حدّد أي Block أو Loop تريد الخروج منها أو متابعة تكرارها"
+---
+
+<div class="lesson-meta"><span>M04 · S09</span><span>LESSON #017</span></div>
+
+**مرحبا**
+
+هذا الدرس يشرح `Label` مع `break` و`continue`. تحتاج فهم `for` و`if`. الدرس يقدّم تذكيرًا قصيرًا بـ `Nested Loops`؛ [S09](../subjects/s09.qmd) يوضّح الأجزاء المتاحة من الموضوع.
+
+## Unlabeled vs Labeled
+
+`Nested Loops` تعني وجود `Loop` داخل أخرى: كل تكرار من `Outer Loop` يشغّل `Inner Loop` من بدايتها. بدون `Label`، تستهدف `break` أقرب `Loop` أو `switch` تحتويها، و`continue` تستهدف أقرب `Loop`.
+
+| Statement | Target | What happens next |
+|---|---|---|
+| `break;` | أقرب `Loop` أو `switch` | يكمل من بعدها |
+| `break outerLoop;` | الـ `Statement` المحاطة باسم `outerLoop` | يكمل من بعدها بالكامل |
+| `continue;` | أقرب `Loop` | يتجاوز بقية الجسم ويتابع تكرارها |
+| `continue outerLoop;` | الـ `Loop` المحاطة باسم `outerLoop` | يتجاوز بقية الجسم حتى نهاية جسمها ويتابع تكرارها |
+
+**توضيح للدقة:** `break outerLoop;` لا تعني إغلاق البرنامج؛ تخرج من الهدف المحدد، ثم تكمل الأسطر التي بعده. و`continue` لا تخرج من الـ `Loop` نهائيًا.
+
+## Labeled Block
+
+إذا كانت `if` داخل `Block` عادية، بدون `Loop` أو `switch`، فلا تصلح `break;` وحدها. نعطي الـ `Block` اسمًا متبوعًا بـ `:`، ثم نستعمل هذا الاسم مع `break`.
+
+**مثال توضيحي كامل:** احفظه باسم `LabeledBlockDemo.java`.
+
+```java
+public class LabeledBlockDemo {
+    public static void main(String[] args) {
+        System.out.println("Before");
+        exitBlock: {
+            System.out.println("Inside");
+            if (5 < 6) {
+                break exitBlock;
+            }
+            System.out.println("Skipped");
+        }
+        System.out.println("After");
+    }
+}
+```
+
+**Output**
+
+```text
+Before
+Inside
+After
+```
+
+1. نطبع `Before`، ثم ندخل `exitBlock` ونطبع `Inside`.
+2. المقارنة `5 < 6` تساوي `true`؛ `break exitBlock;` تخرج من الـ `Block` المسماة.
+3. لا نصل إلى `Skipped`، لكن نصل إلى `After`. لهذا الخروج من `Block` ليس إنهاء البرنامج.
+
+`exitBlock` اسم نختاره وفق قواعد `Identifier`: بدون مسافات، وليس `Keyword`. مثال صالح: `outerLoop`. لازم يكون الهدف محيطًا بمكان استعمال `break`؛ لا تقفز إلى اسم موجود في مكان آخر من البرنامج.
+
+## Stars in Nested Loops
+
+نستخدم المثال نفسه بثلاث صيغ حتى ترى الفرق مباشرة. `row` تبدأ من `1` إلى `3`، وفي كل مرة تبدأ `col` من `1`. عند `col == 3` نغيّر اتجاه التنفيذ قبل طباعة النجمة. الأسماء والحدود التالية اختيارات توضيحية.
+
+احفظ باسم `StarBranchesDemo.java`:
+
+```java
+public class StarBranchesDemo {
+    public static void main(String[] args) {
+        System.out.println("Unlabeled break");
+        for (int row = 1; row <= 3; row++) {
+            for (int col = 1; col <= 4; col++) {
+                if (col == 3) {
+                    break;
+                }
+                System.out.println("* " + row + ":" + col);
+            }
+            System.out.println("Row done");
+        }
+
+        System.out.println("Labeled break");
+        stopRows: for (int row = 1; row <= 3; row++) {
+            for (int col = 1; col <= 4; col++) {
+                if (col == 3) {
+                    break stopRows;
+                }
+                System.out.println("* " + row + ":" + col);
+            }
+            System.out.println("Row done");
+        }
+        System.out.println("After labeled break");
+
+        System.out.println("Labeled continue");
+        nextRow: for (int row = 1; row <= 3; row++) {
+            for (int col = 1; col <= 4; col++) {
+                if (col == 3) {
+                    continue nextRow;
+                }
+                System.out.println("* " + row + ":" + col);
+            }
+            System.out.println("Row done");
+        }
+        System.out.println("After labeled continue");
+    }
+}
+```
+
+كل نجمة معها قيمتا `row:col` لسهولة التتبع، وليستا جزءًا من قواعد `Label`.
+
+| Version | Printed star positions | Row done | After the loops |
+|---|---|---|---|
+| Unlabeled break | `1:1, 1:2, 2:1, 2:2, 3:1, 3:2` | ثلاث مرات | يكمل إلى المثال التالي |
+| Labeled break | `1:1, 1:2` فقط | لا تُطبع | يطبع `After labeled break` |
+| Labeled continue | `1:1, 1:2, 2:1, 2:2, 3:1, 3:2` | لا تُطبع | يطبع `After labeled continue` |
+
+**لماذا؟** `break;` تنهي `Inner Loop` فقط، لذلك تصل إلى `Row done` وتتابع `Outer Loop`. أما `break stopRows;` فتخرج من الاثنتين. و`continue nextRow;` تتجاوز بقية `Inner Loop` وبقية جسم `Outer Loop`، بما فيه `Row done`، ثم تنفّذ `row++` وتفحص `row <= 3`. لا تعيد `row = 1`.
+
+<details><summary>Full Output</summary>
+
+```text
+Unlabeled break
+* 1:1
+* 1:2
+Row done
+* 2:1
+* 2:2
+Row done
+* 3:1
+* 3:2
+Row done
+Labeled break
+* 1:1
+* 1:2
+After labeled break
+Labeled continue
+* 1:1
+* 1:2
+* 2:1
+* 2:2
+* 3:1
+* 3:2
+After labeled continue
+```
+
+</details>
+
+## Label Targets & Common Mistakes
+
+- `break label;` يمكن أن تستهدف `Labeled Block` عادية أو `Labeled Loop` تحيط بها.
+- `continue label;` تحتاج أن يكون الاسم على `Loop` نفسها، وليس على `Block` عادية تحتوي `Loop` بداخلها.
+- نكتب `outerLoop: for (...)` عند التعريف، و`break outerLoop;` أو `continue outerLoop;` عند الاستعمال.
+- وجود `if` لا يجعل `break;` صالحة وحدها؛ المهم وجود `Loop` أو `switch` محيطة بها.
+
+هذا **Fragment غير صالح** لأن `part` ليست `Loop`:
+
+```java
+part: {
+    continue part;
+}
+```
+
+## Knowledge Check
+
+1. لماذا لم نطبع `Skipped`، لكن طبعنا `After` في المثال الأول؟
+2. في مثال النجوم، ما الذي يتغير لو استبدلت `break stopRows;` بـ `break;`؟
+3. هل تصل `continue nextRow;` إلى `Row done`؟ وهل تزيد `row`؟
+4. هل يجوز `continue` لاسم على `Block` عادية؟ وهل تنهي `break` البرنامج؟
+
+<details><summary>Answers</summary>
+
+1. خرجنا من `exitBlock`؛ السطر الأول داخلها بعد الخروج، والثاني خارجها.
+2. نخرج من `Inner Loop` فقط؛ تظهر نجمتان لكل قيمة `row` وتُطبع `Row done` ثلاث مرات.
+3. لا تصل إلى `Row done`، لكنها تنفّذ تحديث `Outer Loop` ثم تفحص شرطها.
+4. لا في الحالتين؛ `continue` تحتاج `Loop`، و`break` تخرج من هدفها فقط.
+
+</details>
+
+## Related Pages
+
+[For Loop](lesson-013.qmd) · [S09 Partial Review](../subjects/s09.qmd) · [Methods](lesson-018.qmd) · [Glossary](../glossary.qmd).
+
+مرجع الدقة: [Oracle — Branching Statements](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/branch.html). تتبّع التنفيذ هنا معروض كـ Code وجدول دقيقين؛ الأمثلة الكاملة جُرّبت باستخدام `JDK 25` عبر `CLI`.

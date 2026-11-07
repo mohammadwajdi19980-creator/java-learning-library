@@ -7,7 +7,7 @@ format:
 ---
 
 <p class="roadmap-intro">هذا فهرس دروس الكتاب. افتح أي Module لرؤية مواضيعه وصفحات الدروس المتاحة؛ الدروس المخططة لم تكتمل بعد.</p>
-<p class="book-state">14 lessons available · 77 lessons planned</p>
+<p class="book-state">17 lessons available · 77 lessons planned</p>
 
 ::: {.content-visible unless-format="epub"}
 
@@ -75,7 +75,7 @@ format:
 <ul>
 <li>#015 — Branching Statements (Break/Continue)<span class="source-state">Not yet available</span></li>
 <li>#016 — Repetition Control Statement (Nested Loops)<span class="source-state">Not yet available</span></li>
-<li>#017 — Branching Statements (Labeled Break / Labeled Continue)<span class="source-state">Not yet available</span></li>
+<li><a href="lessons/lesson-017.html">#017 — Branching Statements (Labeled Break / Labeled Continue)</a><span class="source-state">Available</span></li>
 </ul>
 </div>
 </details>
@@ -85,8 +85,8 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s10.html">S10 · Methods &amp; Overloading</a></h3>
 <ul>
-<li>#018 — Method / Function Part 1<span class="source-state">Not yet available</span></li>
-<li>#019 — Method / Function Part 2 (Examples)<span class="source-state">Not yet available</span></li>
+<li><a href="lessons/lesson-018.html">#018 — Method / Function Part 1</a><span class="source-state">Available</span></li>
+<li><a href="lessons/lesson-019.html">#019 — Method / Function Part 2 (Examples)</a><span class="source-state">Available</span></li>
 <li>#020 — Built in Method / Function<span class="source-state">Not yet available</span></li>
 <li>#021 — Overloading Method / Function<span class="source-state">Not yet available</span></li>
 </ul>
@@ -300,6 +300,12 @@ format:
 - [#011 · Sentinel & Flag](lessons/lesson-011.qmd)
 - [#012 · Do-While](lessons/lesson-012.qmd)
 - [#013 · For](lessons/lesson-013.qmd)
+- [#017 · Labeled Break & Continue](lessons/lesson-017.qmd)
+
+## M05 · Methods & Recursion
+
+- [#018 · Methods — Definition & Calls](lessons/lesson-018.qmd)
+- [#019 · Minimum, Average & Varargs](lessons/lesson-019.qmd)
 
 
 بقية الدروس غير متاحة بعد؛ هذا الفهرس يسرد الصفحات المتاحة فقط.

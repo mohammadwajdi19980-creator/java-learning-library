@@ -20,6 +20,9 @@
 | #011 · Knowledge Check | Sentinel & Flag | [Open](lessons/lesson-011.qmd#knowledge-check) |
 | #012 · Knowledge Check | Do-While | [Open](lessons/lesson-012.qmd#knowledge-check) |
 | #013 · Knowledge Check | For | [Open](lessons/lesson-013.qmd#knowledge-check) |
+| #017 · Knowledge Check | Labeled Break & Continue | [Open](lessons/lesson-017.qmd#knowledge-check) |
+| #018 · Knowledge Check | Methods — Definition & Calls | [Open](lessons/lesson-018.qmd#knowledge-check) |
+| #019 · Knowledge Check | Minimum, Average & Varargs | [Open](lessons/lesson-019.qmd#knowledge-check) |
 | S01 · Exam | 20 marks · Introduction & Setup | [Open](subjects/s01.qmd#subject-exam) |
 | S02 · Exam | 20 marks · Escape Sequences & Comments | [Open](subjects/s02.qmd#subject-exam) |
 | S03 · Exam | 20 marks · Data Types & Operators | [Open](subjects/s03.qmd#subject-exam) |
@@ -28,6 +31,9 @@
 | S06 · Exam | 20 marks · Switch Statements | [Open](subjects/s06.qmd#subject-exam) |
 | S07 · Exam | 20 marks · While Loops | [Open](subjects/s07.qmd#subject-exam) |
 | S08 · Partial Review | #012–#013 only; #014 awaiting source | [Open](subjects/s08.qmd#partial-review) |
+
+| S09 · Partial Review | #017 only; #015–#016 not yet available | [Open](subjects/s09.qmd#partial-review) |
+| S10 · Partial Review | #018–#019 only; #020–#021 not yet available | [Open](subjects/s10.qmd#partial-review) |
 
 ## Assessment Path
 

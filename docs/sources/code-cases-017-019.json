@@ -1,0 +1,149 @@
+{
+  "programs": {
+    "LabeledBlockDemo": [
+      {
+        "output": "Before\nInside\nAfter\n"
+      }
+    ],
+    "StarBranchesDemo": [
+      {
+        "output": "Unlabeled break\n* 1:1\n* 1:2\nRow done\n* 2:1\n* 2:2\nRow done\n* 3:1\n* 3:2\nRow done\nLabeled break\n* 1:1\n* 1:2\nAfter labeled break\nLabeled continue\n* 1:1\n* 1:2\n* 2:1\n* 2:2\n* 3:1\n* 3:2\nAfter labeled continue\n"
+      }
+    ],
+    "MethodDemo": [
+      {
+        "output": "Welcome\n10\nWelcome\n"
+      }
+    ],
+    "MinimumDemo": [
+      {
+        "input": "7 2 9\n",
+        "output": "2\n"
+      },
+      {
+        "input": "2 7 9\n",
+        "output": "2\n"
+      },
+      {
+        "input": "9 7 2\n",
+        "output": "2\n"
+      },
+      {
+        "input": "4 4 4\n",
+        "output": "4\n"
+      },
+      {
+        "input": "-5 0 -2\n",
+        "output": "-5\n"
+      },
+      {
+        "input": "-2147483648 0 2147483647\n",
+        "output": "-2147483648\n"
+      },
+      {
+        "input": "0 0 1\n",
+        "output": "0\n"
+      }
+    ],
+    "AverageDemo": [
+      {
+        "input": "1.5 2.5 3.5\n",
+        "output": "2.5\n"
+      },
+      {
+        "input": "1 2 2\n",
+        "output": "1.6666666666666667\n"
+      },
+      {
+        "input": "-3 0 3\n",
+        "output": "0.0\n"
+      },
+      {
+        "input": "0 0 0\n",
+        "output": "0.0\n"
+      },
+      {
+        "input": "3 4 5\n",
+        "output": "4.0\n"
+      },
+      {
+        "input": "-1.5 -2.5 -3.5\n",
+        "output": "-2.5\n"
+      }
+    ],
+    "VarargsSumDemo": [
+      {
+        "output": "5\n15\n0\n"
+      }
+    ]
+  },
+  "invalid_examples": [
+    {
+      "name": "break-without-target",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) { if (5 < 6) { break; } } }"
+    },
+    {
+      "name": "continue-to-ordinary-block",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) { part: { continue part; } } }"
+    },
+    {
+      "name": "continue-to-block-containing-loop",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) { part: { for (int i=0;i<2;i++) { continue part; } } } }"
+    },
+    {
+      "name": "break-to-non-enclosing-label",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) { part: {} break part; } }"
+    },
+    {
+      "name": "nested-method-definition",
+      "stage": "compile",
+      "code": "class Invalid { public static void main(String[] args) { void task() {} } }"
+    },
+    {
+      "name": "instance-call-from-static-main",
+      "stage": "compile",
+      "code": "class Invalid { void task() {} public static void main(String[] args) { task(); } }"
+    },
+    {
+      "name": "missing-return-path",
+      "stage": "compile",
+      "code": "class Invalid { static int task(int n) { if (n > 0) return n; } }"
+    },
+    {
+      "name": "void-return-value",
+      "stage": "compile",
+      "code": "class Invalid { static void task() { return 5; } }"
+    },
+    {
+      "name": "void-result-assignment",
+      "stage": "compile",
+      "code": "class Invalid { static void task() {} public static void main(String[] args) { int x=task(); } }"
+    },
+    {
+      "name": "incompatible-return-type",
+      "stage": "compile",
+      "code": "class Invalid { static boolean task() { return 5; } }"
+    },
+    {
+      "name": "varargs-not-last",
+      "stage": "compile",
+      "code": "class Invalid { static int sum(int... values, int last) { return last; } }"
+    },
+    {
+      "name": "multiple-varargs",
+      "stage": "compile",
+      "code": "class Invalid { static int sum(int... first, int... second) { return 0; } }"
+    }
+  ],
+  "probes": [
+    {
+      "name": "MethodBoundaryChecks",
+      "code": "class MethodBoundaryChecks {\n    public static void main(String[] args) {\n        if (MethodDemo.addition(3, -3) != 0) throw new AssertionError(\"addition\");\n        if (MinimumDemo.min(9, 7, 2) != 2) throw new AssertionError(\"second comparison\");\n        if (MinimumDemo.min(4, 4, 4) != 4) throw new AssertionError(\"equal minimum\");\n        if (VarargsSumDemo.sum() != 0) throw new AssertionError(\"empty\");\n        if (VarargsSumDemo.sum(-5, 2) != -3) throw new AssertionError(\"signed\");\n        if (VarargsSumDemo.sum(2147483647, 0) != 2147483647) throw new AssertionError(\"int boundary\");\n        if (VarargsSumDemo.sum(new int[] {4, 5}) != 9) throw new AssertionError(\"array representation\");\n        if (VarargsSumDemo.sum(4, 6, 1) != 11) throw new AssertionError(\"review answer\");\n        if (AverageDemo.average(1, 2, 2) != 5.0 / 3.0) throw new AssertionError(\"fraction\");\n        if (AverageDemo.average(-3, 0, 3) != 0.0) throw new AssertionError(\"signed average\");\n        System.out.println(\"10 method boundary checks passed\");\n    }\n}",
+      "output": "10 method boundary checks passed\n"
+    }
+  ]
+}

@@ -1,16 +1,44 @@
-# S09 — Nested Loops & Branching
+---
+title: "S09 · Nested Loops & Branching"
+subtitle: "Partial Review · Lesson #017 only"
+---
 
-<div class="lesson-meta"><span>M04</span><span>S09</span><span>#015–#017</span></div>
+<div class="lesson-meta"><span>M04 · S09</span><span>Partial</span></div>
 
-هذا **Subject** داخل [M04 — Loops & Branching](../modules/m04.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
+## Lessons
 
-## الدروس الأصلية
+- [#017 · Labeled Break & Continue](../lessons/lesson-017.qmd) متاح.
+- `#015 · Break / Continue` و`#016 · Nested Loops` غير متاحين بعد. المراجعة هنا تقتصر على شرح #017 والتذكير الموجود فيه؛ ليست Exam لكامل Subject.
 
-- **`#015`** — Branching Statements (Break/Continue) — *الدرس غير متاح بعد*
-- **`#016`** — Repetition Control Statement (Nested Loops) — *الدرس غير متاح بعد*
-- **`#017`** — Branching Statements (Labeled Break / Labeled Continue) — *الدرس غير متاح بعد*
+## Partial Review
 
-## اختبار نهاية الموضوع
+تدريب مبني على الدرس المرتبط أعلاه. خمس أسئلة، لكل سؤال أربع علامات. حاول قبل فتح الإجابات.
 
-عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ Code، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.
+1. ميّز أهداف `break;` و`break outerLoop;` و`continue outerLoop;`، وهل أي منها يغلق البرنامج تلقائيًا؟
+2. اكتب الصيغة العامة لـ `Labeled Block` اسمها `part`، واخرج منها عند `5 < 6`.
+3. في مثال النجوم، لماذا تعطي `break;` ست نجوم، بينما `break stopRows;` تعطي نجمتين؟
+4. لماذا لا تطبع `continue nextRow;` عبارة `Row done`؟ وما الذي يحدث لـ `row` بعدها؟
+5. هل تصلح `continue part;` داخل `Block` عادية اسمها `part`؟ وهل تصلح `break;` داخل `if` بدون `Loop` أو `switch` محيطة؟ فسّر.
 
+<details><summary>Answers & Marking</summary>
+
+1. الأقرب؛ الهدف المسمى والخروج منه؛ متابعة تكرار الـ `Loop` المسماة. لا تغلق البرنامج تلقائيًا. علامة لكل نقطة.
+2. أربع علامات: `Label` ومكان `:`، و`{ }`، والشرط، و`break` بالاسم الصحيح:
+
+```java
+part: {
+    if (5 < 6) {
+        break part;
+    }
+}
+```
+
+3. الأولى تنهي `Inner Loop` عند كل `row`، فتطبع نجمتين ثلاث مرات. الثانية تخرج من `Outer Loop` عند أول `row`. علامتان لكل سبب.
+4. تتجاوز بقية جسم الـ `Loop` المسماة، ومنه سطر الطباعة؛ ثم تنفّذ `row++` وتفحص الشرط. علامتان لكل جزء.
+5. لا؛ هدف `continue` يجب أن يكون `Loop`. ولا؛ `if` وحدها لا توفّر هدفًا لـ `Unlabeled Break`. علامتان لكل توضيح.
+
+</details>
+
+## Next Page
+
+[Methods — Definition & Calls](../lessons/lesson-018.qmd). [For Loop](../lessons/lesson-013.qmd) لتثبيت ترتيب التنفيذ.

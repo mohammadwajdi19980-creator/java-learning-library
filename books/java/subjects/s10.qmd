@@ -1,17 +1,36 @@
-# S10 — Methods & Overloading
+---
+title: "S10 · Methods & Overloading"
+subtitle: "Partial Review · Lessons #018–#019"
+---
 
-<div class="lesson-meta"><span>M05</span><span>S10</span><span>#018–#021</span></div>
+<div class="lesson-meta"><span>M05 · S10</span><span>Partial</span></div>
 
-هذا **Subject** داخل [M05 — Methods & Recursion](../modules/m05.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
+## Lessons
 
-## الدروس الأصلية
+- [#018 · Methods — Definition & Calls](../lessons/lesson-018.qmd).
+- [#019 · Minimum, Average & Varargs](../lessons/lesson-019.qmd).
+- `#020 · Built-in Methods` و`#021 · Overloading` غير متاحين بعد. المراجعة التالية تغطي الدرسين المتاحين فقط؛ لا توجد Exam تدّعي اكتمال Subject.
 
-- **`#018`** — Method / Function Part 1 — *الدرس غير متاح بعد*
-- **`#019`** — Method / Function Part 2 (Examples) — *الدرس غير متاح بعد*
-- **`#020`** — Built in Method / Function — *الدرس غير متاح بعد*
-- **`#021`** — Overloading Method / Function — *الدرس غير متاح بعد*
+## Partial Review
 
-## اختبار نهاية الموضوع
+خمس أسئلة، لكل سؤال أربع علامات. اذكر السبب مع النتيجة.
 
-عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ Code، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.
+1. اشرح وظيفة `public` و`static` و`int` في تعريف `addition`، وأين نكتب التعريف بالنسبة إلى `main`؟
+2. في `int answer = addition(4, 6);`، ما `Arguments` وما `Parameters` في تعريف الدرس؟ وهل نحتاج نفس أسماء `Variables`؟ وأين تذهب القيمة `10`؟
+3. تتبع `min(9, 7, 2)`، ثم فسّر لماذا البداية بـ `0` أو استعمال `else if` بدل الشرط الثاني قد يعطي نتيجة خاطئة.
+4. اكتب `return` لحساب متوسط ثلاث قيم `double`، وفسّر أهمية `()` والفرق بين `return` والطباعة.
+5. ما نتائج `sum(4, 6, 1)` و`sum()`؟ وما نوع `numbers` داخل `sum(int... numbers)`؟ ولماذا لا تكتب `Varargs Parameter` قبل `Parameter` أخرى؟
 
+<details><summary>Answers & Marking</summary>
+
+1. `Access Modifier`، ثم `static Modifier` للاستدعاء المباشر في أسلوبنا، ثم `Return Type`. التعريف داخل `Class` وخارج `main`. علامة لكل جزء.
+2. `4, 6`؛ و`operand1, operand2`؛ لا نحتاج نفس الأسماء؛ تُخزّن `10` في `answer`. علامة لكل جزء.
+3. `9 → 7 → 2` (علامتان). البداية بـ `0` تخطئ مع كل الأعداد الموجبة (علامة)، و`else if` تتجاوز فحص `2` بعد نجاح مقارنة `7` فترجع `7` (علامة).
+4. `return (n1 + n2 + n3) / 3.0;` (علامتان). الأقواس تجعل القسمة بعد جمع الثلاثة (علامة). `return` تعطي `Caller` قيمة، والطباعة تعرضها (علامة).
+5. `11` و`0` (علامتان)؛ `int[]` (علامة)؛ الصيغة تتطلب أن تكون `Varargs` آخر `Parameter` (علامة).
+
+</details>
+
+## Related Pages
+
+[Glossary](../glossary.qmd) · [Practice & Exams](../exams.qmd).

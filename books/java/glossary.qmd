@@ -637,3 +637,206 @@
 
 :::
 
+
+**Lessons #017–#019 Terms**
+
+## [Label]{dir="ltr" lang="en"}
+
+اسم قبل `Statement` متبوع بـ `:`؛ نستعمله مع `break` أو `continue` لتحديد الهدف المحيط.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** An identifier attached to a statement so a labeled break or continue can name its enclosing target.
+
+:::
+
+## [Labeled Break]{dir="ltr" lang="en"}
+
+الصيغة `break label;` تنهي الهدف المسمى وتكمل من بعده؛ لا تعني إنهاء البرنامج.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A break statement that exits the enclosing statement identified by its label.
+
+:::
+
+## [Labeled Continue]{dir="ltr" lang="en"}
+
+الصيغة `continue label;` تتجاوز بقية جسم الـ `Loop` المسماة وتتابعها وفق قواعدها؛ في `for` تنفّذ التحديث ثم الفحص.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A continue statement that advances the enclosing labeled loop rather than merely the innermost loop.
+
+:::
+
+## [Nested Loops]{dir="ltr" lang="en"}
+
+وجود `Loop` داخل جسم `Loop` أخرى؛ كل تكرار من الخارجية يشغّل الداخلية من بدايتها.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A loop contained in the body of another loop.
+
+:::
+
+## [Code Reusability]{dir="ltr" lang="en"}
+
+كتابة مهمة مرة واحدة واستعمالها بالاستدعاء بدل نسخ نفس `Code` في عدة أماكن.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The ability to use one implementation of a task from multiple places.
+
+:::
+
+## [Modifier]{dir="ltr" lang="en"}
+
+جزء من التعريف يحدد خاصية فيه؛ مثل `public` للوصول و`static` للارتباط بـ `Class`. ليس كل `Modifier` خاصًا بالوصول.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A declaration keyword that specifies a property such as accessibility or static membership.
+
+:::
+
+## [Access Modifier]{dir="ltr" lang="en"}
+
+مثل `public` أو `private`؛ يحدد إمكانية الوصول. `static` ليست من هذه الفئة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A modifier that controls the accessibility of a declaration.
+
+:::
+
+## [Static Method]{dir="ltr" lang="en"}
+
+`Method` تحمل `static`؛ نستدعي أمثلة نفس `Class` مباشرة من `static main` دون إنشاء `Object`.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A method associated with a class and callable without creating an instance for that invocation.
+
+:::
+
+## [Return Type]{dir="ltr" lang="en"}
+
+النوع المعلن للقيمة العائدة، مثل `int` أو `double`، أو `void` إذا لا توجد قيمة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The declared type of a method result, or void when no result value is returned.
+
+:::
+
+## [Parameter]{dir="ltr" lang="en"}
+
+اسم ونوع داخل تعريف `Method` يستقبلان قيمة عند الاستدعاء.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A variable declared in a method parameter list to receive an argument value.
+
+:::
+
+## [Argument]{dir="ltr" lang="en"}
+
+القيمة أو `Expression` التي نرسلها عند `Method Call`؛ تُربط بالـ `Parameters` بالترتيب.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A value or expression supplied at a method invocation.
+
+:::
+
+## [Method Call]{dir="ltr" lang="en"}
+
+استعمال اسم `Method` مع `()` والقيم المناسبة لتنفيذ جسمها؛ ثم يعود التنفيذ إلى `Caller`.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** An invocation that executes a method with supplied arguments.
+
+:::
+
+## [Return Value]{dir="ltr" lang="en"}
+
+القيمة التي تعود إلى مكان الاستدعاء باستخدام `return`؛ يمكن تخزينها أو استعمالها، ولا تُطبع تلقائيًا.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The result value delivered by a method invocation to its caller.
+
+:::
+
+## [void]{dir="ltr" lang="en"}
+
+تعني أن الاستدعاء لا يعطي قيمة؛ يمكن إنهاء `Method` بـ `return;` بدون قيمة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A method return declaration indicating that no result value is produced.
+
+:::
+
+## [Built-in Method]{dir="ltr" lang="en"}
+
+`Method` جاهزة في `Library` مثل `Scanner.nextInt()`؛ لا نكتب تعريفها في المثال.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A method provided by an existing library rather than implemented in the current program.
+
+:::
+
+## [User-Defined Method]{dir="ltr" lang="en"}
+
+`Method` يكتب المبرمج تعريفها، مثل `min` في [تطبيقات Methods](lessons/lesson-019.qmd).
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A method implemented by the programmer for an application task.
+
+:::
+
+## [Varargs]{dir="ltr" lang="en"}
+
+صيغة مثل `int... numbers` لقبول عدد متغيّر من القيم؛ داخل `Method` تكون `numbers` من نوع `int[]`.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A variable-arity parameter that accepts a varying number of arguments and is represented as an array in the method.
+
+:::
+
+## [Array]{dir="ltr" lang="en"}
+
+مجموعة عناصر من نفس النوع؛ نحتاج هنا فقط أن `Varargs` تستخدمها وأن `for-each` تمر على قيمها.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A fixed-length collection of elements of one component type.
+
+:::
+
+## [for-each]{dir="ltr" lang="en"}
+
+صيغة مثل `for (int number : numbers)` لزيارة عناصر `Array` بالتتابع.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** An enhanced for statement that visits the elements of an array or iterable in turn.
+
+:::
+
+## [Caller]{dir="ltr" lang="en"}
+
+الجزء الذي طلب تنفيذ `Method`؛ ترجع إليه متابعة التنفيذ، وتصل إليه القيمة العائدة إذا وُجدت.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The code that invokes a method and receives control when that invocation completes normally.
+
+:::
+

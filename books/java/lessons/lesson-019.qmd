@@ -1,0 +1,164 @@
+---
+title: "Methods — Minimum, Average & Varargs"
+subtitle: "حلّ ثلاثة تطبيقات، وافهم انتقال القيم وسبب كل خطوة"
+---
+
+<div class="lesson-meta"><span>M05 · S10</span><span>LESSON #019</span></div>
+
+**مرحبا**
+
+هذا تطبيق على [Methods — Definition & Calls](lesson-018.qmd). سنحل `Minimum` ثم `Average`، وبعدهما `Varargs`. الأسماء وقيم التشغيل أمثلة توضيحية؛ الفكرة والخطوات هي أساس الحل.
+
+## Minimum of Three Integers
+
+**المطلوب:** اكتب `Method` تستقبل ثلاثة أعداد وتعطي أصغر قيمة. نختار `Return Type` من نوع `int` حتى نستطيع استعمال النتيجة لاحقًا، بدل حصرها بالطباعة داخل `Method`.
+
+احفظ باسم `MinimumDemo.java`:
+
+```java
+import java.util.Scanner;
+
+public class MinimumDemo {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int x = input.nextInt();
+        int y = input.nextInt();
+        int z = input.nextInt();
+        int result = min(x, y, z);
+        System.out.println(result);
+    }
+
+    public static int min(int n1, int n2, int n3) {
+        int min = n1;
+        if (n2 < min) {
+            min = n2;
+        }
+        if (n3 < min) {
+            min = n3;
+        }
+        return min;
+    }
+}
+```
+
+**Input** `7 2 9` → **Output** `2`.
+
+| Step | State | Why |
+|---|---|---|
+| `min(x, y, z)` | `n1 = 7, n2 = 2, n3 = 9` | الترتيب يربط كل `Argument` بـ `Parameter` |
+| `int min = n1` | `min = 7` | نفترض أول قيمة أصغر قيمة حاليًا؛ لا نفترض الصفر |
+| `n2 < min` | `2 < 7` → `true`، ثم `min = 2` | وجدنا قيمة أصغر |
+| `n3 < min` | `9 < 2` → `false` | يبقى الأصغر الحالي `2` |
+| `return min` | تعود `2` إلى `result` | بعدها يطبعها `main` |
+
+لماذا لا نبدأ من `0`؟ مع `7, 2, 9` لن نجد عددًا أقل من الصفر، فنرجع قيمة لم تكن بين الأعداد. البداية بـ `n1` تحل هذا الخطأ، وتعمل أيضًا مع الأعداد السالبة والمتساوية. بعد فحص `n2` نفحص `n3` دائمًا؛ لذلك استعملنا شرطين مستقلين، وليس `else if`.
+
+`min` في `int min = n1;` اسم `Local Variable`، أما `min(x, y, z)` فهو `Method Call`.
+
+## Built-in vs User-Defined Methods
+
+| Method | Kind | Role here |
+|---|---|---|
+| `input.nextInt()` | Built-in / Library Method | جاهزة ضمن `Scanner`؛ تقرأ قيمة `int` |
+| `min(x, y, z)` | User-Defined Method | كتبنا تعريفها وخطوات المقارنة بأنفسنا |
+
+كلتاهما `Method Call`. الفرق من أين جاء التعريف، وليس أن واحدة تحتاج اسمًا أو أقواسًا والثانية لا.
+
+## Average of Three Numbers
+
+**المطلوب:** `average(double n1, double n2, double n3)` تعطي المتوسط بنوع `double`.
+
+احفظ باسم `AverageDemo.java`:
+
+```java
+import java.util.Scanner;
+
+public class AverageDemo {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double x = input.nextDouble();
+        double y = input.nextDouble();
+        double z = input.nextDouble();
+        double result = average(x, y, z);
+        System.out.println(result);
+    }
+
+    public static double average(double n1, double n2, double n3) {
+        return (n1 + n2 + n3) / 3.0;
+    }
+}
+```
+
+**Input** `1.5 2.5 3.5` → **Output** `2.5`.
+
+نجمع أولًا داخل `()`، فنحصل على `7.5`، ثم نقسم على `3.0`. لو كتبنا `n1 + n2 + n3 / 3.0`، تُقسم `n3` وحدها قبل الجمع بسبب `Operator Precedence`؛ النتيجة ليست المتوسط.
+
+هنا `Parameters` أصلًا من نوع `double`؛ كتابة `/ 3` ستبقى قسمة بنتيجة `double` أيضًا. استعملنا `3.0` لتوضيح المقصود. لكن مع `int`، حساب `1 + 2 + 2` ثم القسمة على `3` يعطي `1`؛ تخزينه بعد ذلك في `double` لا يسترجع الكسر. [Arithmetic Operators](lesson-004.qmd) تراجع السبب.
+
+## Varargs & for-each
+
+ماذا لو احتجنا جمع قيمتين الآن، وخمس قيم لاحقًا؟ `Varargs` تسمح بتمرير عدد متغيّر من القيم من النوع المحدد باستخدام `int... numbers` بدل تثبيت عدد `Parameters`.
+
+داخل `Method`، `numbers` هي `Array` من `int`: مجموعة قيم من نفس النوع. سنستخدم منها هنا فكرة واحدة فقط: `for-each` تمر على كل قيمة بالتتابع، بدون الحاجة إلى شرح بقية موضوع `Arrays` الآن.
+
+احفظ باسم `VarargsSumDemo.java`:
+
+```java
+public class VarargsSumDemo {
+    public static void main(String[] args) {
+        System.out.println(sum(2, 3));
+        System.out.println(sum(1, 2, 3, 4, 5));
+        System.out.println(sum());
+    }
+
+    public static int sum(int... numbers) {
+        int total = 0;
+        for (int number : numbers) {
+            total += number;
+        }
+        return total;
+    }
+}
+```
+
+**Output**
+
+```text
+5
+15
+0
+```
+
+| Call | Values visited | total after each value | Return Value |
+|---|---|---|---|
+| `sum(2, 3)` | `2, 3` | `2, 5` | `5` |
+| `sum(1, 2, 3, 4, 5)` | `1, 2, 3, 4, 5` | `1, 3, 6, 10, 15` | `15` |
+| `sum()` | لا توجد قيم | يبقى `0` | `0` |
+
+في `for (int number : numbers)`، `number` تأخذ القيمة الحالية من `numbers` في كل مرة، و`total += number` تضيفها للمجموع. لا توجد قيمة جديدة؟ ينتهي `for-each` ونرجع `total`. لذلك تعمل الصيغة نفسها مع عددين أو خمسة أو بدون قيم.
+
+**قاعدة كتابة:** يمكن أن يوجد `Varargs Parameter` واحد فقط، ويكون آخر `Parameter`. الصيغة `int... numbers` لا تعني قبول أي نوع من البيانات؛ النوع هنا `int`. ولا تعني أن على `Method` إرجاع `Array`؛ مثالنا يعيد مجموعًا واحدًا من نوع `int`.
+
+## Knowledge Check
+
+1. تتبع `min(9, 7, 2)`، ولماذا نبدأ بـ `n1` بدل `0`؟
+2. لماذا لا نستبدل الشرط الثاني في `min` بـ `else if`؟
+3. ما الفرق بين طباعة الأصغر داخل `min` وإرجاعه إلى `main`؟
+4. صحّح `return n1 + n2 + n3 / 3.0;` لحساب المتوسط.
+5. ما نتائج `sum(4, 6, 1)` و`sum()`؟ وما نوع `numbers` داخل التعريف؟
+
+<details><summary>Answers</summary>
+
+1. `min` تبدأ `9`، ثم تصبح `7`، ثم `2`. نبدأ بقيمة من الأعداد نفسها، حتى لا نرجع صفرًا غير موجود بينها.
+2. مع `9, 7, 2` سينجح الشرط الأول، فيتجاوز `else if` مقارنة `2` ويرجع `7` خطأً.
+3. `return` تعطي `Caller` قيمة يمكن تخزينها أو حساب شيء آخر بها؛ الطباعة وحدها تعرضها فقط.
+4. `return (n1 + n2 + n3) / 3.0;`.
+5. `11` و`0`؛ `numbers` هي `int[]`، و`sum` تعيد `int`.
+
+</details>
+
+## Related Pages
+
+[Methods — Definition & Calls](lesson-018.qmd) · [S10 Partial Review](../subjects/s10.qmd) · [Glossary](../glossary.qmd).
+
+مراجع الدقة: [Oracle — Parameters, Arguments & Varargs](https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html) · [Returning a Value](https://docs.oracle.com/javase/tutorial/java/javaOO/returnvalue.html). البرامج الكاملة جُرّبت باستخدام `JDK 25` عبر `CLI`؛ أمثلة الأرقام العشرية تستخدم `Locale` إنجليزية أثناء التحقق.

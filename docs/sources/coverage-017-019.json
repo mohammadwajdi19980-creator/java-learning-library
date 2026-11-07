@@ -1,0 +1,448 @@
+{
+  "scope": "All three user-supplied transcripts #017–#019; source receipt does not imply missing #014–#016 are complete",
+  "sources": [
+    {
+      "id": "video-017",
+      "title": "Branching Statements (Labeled Break / Labeled Continue)",
+      "inventory_complete": true,
+      "source_inspection": "Complete user-pasted transcript read; original audiovisual content not claimed as inspected"
+    },
+    {
+      "id": "video-018",
+      "title": "Method / Function Part 1",
+      "inventory_complete": true,
+      "source_inspection": "Complete user-pasted transcript read; original audiovisual content not claimed as inspected"
+    },
+    {
+      "id": "video-019",
+      "title": "Method / Function Part 2 (Examples)",
+      "inventory_complete": true,
+      "source_inspection": "Complete user-pasted transcript read; original audiovisual content not claimed as inspected"
+    }
+  ],
+  "units": [
+    {
+      "id": "017-01",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Unlabeled break and continue targets",
+      "concept": "Unlabeled break and continue targets",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Unlabeled vs Labeled",
+      "status": "covered"
+    },
+    {
+      "id": "017-02",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Short Nested Loops prerequisite reminder",
+      "concept": "Short Nested Loops prerequisite reminder",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Unlabeled vs Labeled",
+      "status": "covered"
+    },
+    {
+      "id": "017-03",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Labeled vs unlabeled behavior",
+      "concept": "Labeled vs unlabeled behavior",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Unlabeled vs Labeled",
+      "status": "covered"
+    },
+    {
+      "id": "017-04",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Leaving the target does not terminate the program",
+      "concept": "Leaving the target does not terminate the program",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Unlabeled vs Labeled",
+      "status": "covered"
+    },
+    {
+      "id": "017-05",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · if with 5 < 6 and unlabeled break restriction",
+      "concept": "if with 5 < 6 and unlabeled break restriction",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Labeled Block",
+      "status": "covered"
+    },
+    {
+      "id": "017-06",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Curly braces and a named block",
+      "concept": "Curly braces and a named block",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Labeled Block",
+      "status": "covered"
+    },
+    {
+      "id": "017-07",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Identifier/Keyword naming rules and colon placement",
+      "concept": "Identifier/Keyword naming rules and colon placement",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Labeled Block",
+      "status": "covered"
+    },
+    {
+      "id": "017-08",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · break label syntax and resumption after target",
+      "concept": "break label syntax and resumption after target",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Labeled Block",
+      "status": "covered"
+    },
+    {
+      "id": "017-09",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Star-printing nested-loop example",
+      "concept": "Star-printing nested-loop example",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Stars in Nested Loops",
+      "status": "covered"
+    },
+    {
+      "id": "017-10",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Unlabeled break exits inner loop only",
+      "concept": "Unlabeled break exits inner loop only",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Stars in Nested Loops",
+      "status": "covered"
+    },
+    {
+      "id": "017-11",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Label before outer for and labeled break exits both",
+      "concept": "Label before outer for and labeled break exits both",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Stars in Nested Loops",
+      "status": "covered"
+    },
+    {
+      "id": "017-12",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Labeled continue skips remaining inner and outer bodies",
+      "concept": "Labeled continue skips remaining inner and outer bodies",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Stars in Nested Loops",
+      "status": "covered"
+    },
+    {
+      "id": "017-13",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Outer for update and condition after continue",
+      "concept": "Outer for update and condition after continue",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Stars in Nested Loops",
+      "status": "covered"
+    },
+    {
+      "id": "017-14",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Independent traces and exact printed output",
+      "concept": "Independent traces and exact printed output",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Stars in Nested Loops",
+      "status": "covered"
+    },
+    {
+      "id": "017-15",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Break to ordinary enclosing block vs continue only to loop",
+      "concept": "Break to ordinary enclosing block vs continue only to loop",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Label Targets & Common Mistakes",
+      "status": "covered"
+    },
+    {
+      "id": "017-16",
+      "source_id": "video-017",
+      "source_ref": "docs/sources/transcripts/video-017.txt · Enclosing label requirement and invalid target example",
+      "concept": "Enclosing label requirement and invalid target example",
+      "output_ref": "books/java/lessons/lesson-017.qmd > Label Targets & Common Mistakes",
+      "status": "covered"
+    },
+    {
+      "id": "018-01",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Named block with one task",
+      "concept": "Named block with one task",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Method & Code Reusability",
+      "status": "covered"
+    },
+    {
+      "id": "018-02",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Code Reusability rather than repeated copies",
+      "concept": "Code Reusability rather than repeated copies",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Method & Code Reusability",
+      "status": "covered"
+    },
+    {
+      "id": "018-03",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Readability, organization and Debugging",
+      "concept": "Readability, organization and Debugging",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Method & Code Reusability",
+      "status": "covered"
+    },
+    {
+      "id": "018-04",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Method/Function terminology in explicit-class examples",
+      "concept": "Method/Function terminology in explicit-class examples",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Method & Code Reusability",
+      "status": "covered"
+    },
+    {
+      "id": "018-05",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · public/private access and static modifier distinction",
+      "concept": "public/private access and static modifier distinction",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Declaration Parts",
+      "status": "covered"
+    },
+    {
+      "id": "018-06",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Return types int double String boolean and void",
+      "concept": "Return types int double String boolean and void",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Declaration Parts",
+      "status": "covered"
+    },
+    {
+      "id": "018-07",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Method Name and camelCase",
+      "concept": "Method Name and camelCase",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Declaration Parts",
+      "status": "covered"
+    },
+    {
+      "id": "018-08",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Typed Parameters List and parentheses",
+      "concept": "Typed Parameters List and parentheses",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Declaration Parts",
+      "status": "covered"
+    },
+    {
+      "id": "018-09",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Body between braces",
+      "concept": "Body between braces",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Declaration Parts",
+      "status": "covered"
+    },
+    {
+      "id": "018-10",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Definitions inside Class but outside main, before or after",
+      "concept": "Definitions inside Class but outside main, before or after",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Complete Program & Call Flow",
+      "status": "covered"
+    },
+    {
+      "id": "018-11",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Call/Invoke and no execution from declaration alone",
+      "concept": "Call/Invoke and no execution from declaration alone",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Complete Program & Call Flow",
+      "status": "covered"
+    },
+    {
+      "id": "018-12",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Calling repeatedly and return to caller",
+      "concept": "Calling repeatedly and return to caller",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Complete Program & Call Flow",
+      "status": "covered"
+    },
+    {
+      "id": "018-13",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Method may call another Method",
+      "concept": "Method may call another Method",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Complete Program & Call Flow",
+      "status": "covered"
+    },
+    {
+      "id": "018-14",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Declaration parameters vs call arguments and positional binding",
+      "concept": "Declaration parameters vs call arguments and positional binding",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Parameters vs Arguments",
+      "status": "covered"
+    },
+    {
+      "id": "018-15",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Compatible return value for non-void and path completeness",
+      "concept": "Compatible return value for non-void and path completeness",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Return Type & void",
+      "status": "covered"
+    },
+    {
+      "id": "018-16",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · return is not necessarily last textual line",
+      "concept": "return is not necessarily last textual line",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Return Type & void",
+      "status": "covered"
+    },
+    {
+      "id": "018-17",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · void printing without result; bare return is permitted",
+      "concept": "void printing without result; bare return is permitted",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Return Type & void",
+      "status": "covered"
+    },
+    {
+      "id": "018-18",
+      "source_id": "video-018",
+      "source_ref": "docs/sources/transcripts/video-018.txt · Invalid assignment of void result and nested method declaration",
+      "concept": "Invalid assignment of void result and nested method declaration",
+      "output_ref": "books/java/lessons/lesson-018.qmd > Return Type & void",
+      "status": "covered"
+    },
+    {
+      "id": "019-01",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · Three-number int min signature",
+      "concept": "Three-number int min signature",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Minimum of Three Integers",
+      "status": "covered"
+    },
+    {
+      "id": "019-02",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · Return instead of immediate print for reuse",
+      "concept": "Return instead of immediate print for reuse",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Minimum of Three Integers",
+      "status": "covered"
+    },
+    {
+      "id": "019-03",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · Initial min = n1",
+      "concept": "Initial min = n1",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Minimum of Three Integers",
+      "status": "covered"
+    },
+    {
+      "id": "019-04",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · Compare n2 then n3 independently",
+      "concept": "Compare n2 then n3 independently",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Minimum of Three Integers",
+      "status": "covered"
+    },
+    {
+      "id": "019-05",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · return min and Scanner input/result in main",
+      "concept": "return min and Scanner input/result in main",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Minimum of Three Integers",
+      "status": "covered"
+    },
+    {
+      "id": "019-06",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · Trace, equal/negative values and wrong zero initialization",
+      "concept": "Trace, equal/negative values and wrong zero initialization",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Minimum of Three Integers",
+      "status": "covered"
+    },
+    {
+      "id": "019-07",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · Scanner.nextInt vs programmer min",
+      "concept": "Scanner.nextInt vs programmer min",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Built-in vs User-Defined Methods",
+      "status": "covered"
+    },
+    {
+      "id": "019-08",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · Three-double average signature and result",
+      "concept": "Three-double average signature and result",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Average of Three Numbers",
+      "status": "covered"
+    },
+    {
+      "id": "019-09",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · Parentheses before division and precedence error",
+      "concept": "Parentheses before division and precedence error",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Average of Three Numbers",
+      "status": "covered"
+    },
+    {
+      "id": "019-10",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · Double division and 3.0 clarification",
+      "concept": "Double division and 3.0 clarification",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Average of Three Numbers",
+      "status": "covered"
+    },
+    {
+      "id": "019-11",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · Variable number of arguments including two and five",
+      "concept": "Variable number of arguments including two and five",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Varargs & for-each",
+      "status": "covered"
+    },
+    {
+      "id": "019-12",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · int... numbers syntax",
+      "concept": "int... numbers syntax",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Varargs & for-each",
+      "status": "covered"
+    },
+    {
+      "id": "019-13",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · Array representation and brief for-each bridge",
+      "concept": "Array representation and brief for-each bridge",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Varargs & for-each",
+      "status": "covered"
+    },
+    {
+      "id": "019-14",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · Accumulate all values and return total",
+      "concept": "Accumulate all values and return total",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Varargs & for-each",
+      "status": "covered"
+    },
+    {
+      "id": "019-15",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · No arguments returns initial zero",
+      "concept": "No arguments returns initial zero",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Varargs & for-each",
+      "status": "covered"
+    },
+    {
+      "id": "019-16",
+      "source_id": "video-019",
+      "source_ref": "docs/sources/transcripts/video-019.txt · One varargs parameter in final position and declared element type",
+      "concept": "One varargs parameter in final position and declared element type",
+      "output_ref": "books/java/lessons/lesson-019.qmd > Varargs & for-each",
+      "status": "covered"
+    }
+  ],
+  "exact_source_limits": [
+    "No timestamped exact code was supplied for star loops, basic Method demonstration, or Varargs calls; names, counts, input values, and complete runnable programs are explicitly illustrative."
+  ],
+  "corrections": [
+    "static is a modifier, not an access modifier.",
+    "A labeled break resumes after its enclosing target, rather than automatically ending the program.",
+    "A labeled continue must name an enclosing loop.",
+    "A void method may contain bare return; non-void paths must return a compatible value rather than requiring return only at the last line."
+  ],
+  "visual_review": {
+    "searched": [
+      "Java labeled break continue nested loop diagram",
+      "Java method declaration parameters return type diagram",
+      "Commons methods diagrams"
+    ],
+    "selected": "Online Method declaration figure: every label and code line inspected; caption distinguishes omitted static.",
+    "not_selected": [
+      "Label infographic unavailable with HTTP 503",
+      "Robot/zipline illustration did not precisely show the execution steps",
+      "Hectal page exposes a generic for-loop Mermaid definition, not an exact labeled-loop picture"
+    ],
+    "precise_teaching_visuals": "Use runnable Code and trace/comparison tables for the exact labeled-loop and min/average/Varargs mechanisms; no generated diagram or invented Screenshot."
+  }
+}
