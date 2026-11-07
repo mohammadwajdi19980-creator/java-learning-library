@@ -14,4 +14,4 @@
 - 5 original complete programs and intentional failures passed.
 - 17 additional complete programs passed 59 sample, boundary, and intentional-error checks.
 - Full 68-page HTML/EPUB build passed; rendered links/anchors and EPUB integrity passed. All public HTML/EPUB scanned: zero video references, 57 explicit LTR definitions, no LTR inheritance on Arabic sections.
-- Live desktop/mobile verification: pending publication.
+- Live verification passed after successful workflow 42350978341 for commit 1f8a8dcde66dc7faaf651b0856939b5864a691e8. All 57 English definitions computed LTR/left; Arabic paragraphs computed RTL/right. Checked 1363px desktop and 454px narrow layout, no horizontal overflow, mobile menu, Text Editor search results, Lesson 01 page links, and Subject S02 English terminology. Refreshed Glossary confirmed the final Character terminology pass.
