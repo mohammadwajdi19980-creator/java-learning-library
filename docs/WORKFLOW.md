@@ -55,6 +55,8 @@ The broader 523-topic Java_Master_Topic_Index includes other uploaded university
 
 For future implementation, use a reviewable branch/PR where appropriate and avoid publishing incomplete work through an incidental push to main. Do not introduce repeated permission questions for routine work already authorized.
 
+Lesson openings use «مرحبا».
+
 ## Teaching scope and batches
 
 - Accept several supplied topics or transcripts in one batch. Read the entire batch first, identify each video's existing ID/title, and preserve Adel Nasim's sequence and topic boundaries. Do not infer missing content or video IDs from attachment filenames.
