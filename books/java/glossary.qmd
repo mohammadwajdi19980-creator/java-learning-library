@@ -20,7 +20,7 @@
 
 <span class="english-term" dir="ltr" lang="en">English term: Source Code</span>
 
-**بالعربية:** Source Code اللي بيكتبه المطور بلغة مثل Java. غالبًا بنحفظه في ملفات تنتهي بـ `.java`. قبل ما يتنفذ بالصورة المعتادة، يحتاج ترجمة أو معالجة بواسطة أدوات مناسبة.
+**بالعربية:** Source Code اللي بيكتبه المطور بلغة مثل Java. غالبًا بنحفظه في `Files` تنتهي بـ `.java`. قبل ما يتنفذ بالصورة المعتادة، يحتاج ترجمة أو معالجة بواسطة أدوات مناسبة.
 
 ::: {.english-definition dir="ltr" lang="en"}
 
@@ -44,7 +44,7 @@
 
 <span class="english-term" dir="ltr" lang="en">English term: Compiler · javac</span>
 
-**بالعربية:** أداة بترجم Code من صيغة إلى أخرى، وغالبًا تجري فحوصًا أثناء الترجمة. Java Compiler الشائع `javac` يحوّل ملفات `.java` إلى ملفات `.class` التي تحتوي على Bytecode.
+**بالعربية:** أداة بترجم Code من صيغة إلى أخرى، وغالبًا تجري فحوصًا أثناء الترجمة. Java Compiler الشائع `javac` يحوّل `Files` `.java` إلى `Files` `.class` التي تحتوي على Bytecode.
 
 ::: {.english-definition dir="ltr" lang="en"}
 
@@ -56,7 +56,7 @@
 
 <span class="english-term" dir="ltr" lang="en">English term: Bytecode</span>
 
-**بالعربية:** تعليمات وسيطة لا ترتبط مباشرة بمعالج محدد. Java بتستخدمها حتى تقدر `Runtime Environments` المتوافقة مع JVM المتوافقة تنفّذها على أنظمة مختلفة. عادةً بتنحفظ داخل ملفات `.class`.
+**بالعربية:** تعليمات وسيطة لا ترتبط مباشرة بـ `Processor` محدد. Java بتستخدمها حتى تقدر `Runtime Environments` المتوافقة مع JVM تنفّذها على أنظمة مختلفة. عادةً بتنحفظ داخل `Files` `.class`.
 
 ::: {.english-definition dir="ltr" lang="en"}
 
@@ -141,13 +141,13 @@
 
 :::
 
-**مثال:** من قائمة Projects تفتح الملف، ومن Run تشغّله، وتشوف النتيجة في Output.
+**مثال:** من قائمة Projects تفتح `File`، ومن Run تشغّله، وتشوف النتيجة في Output.
 
 ## [Project]{dir="ltr" lang="en"}
 
 <span class="english-term" dir="ltr" lang="en">English term: Project</span>
 
-**بالعربية:** مجلد وإعدادات تجمع ملفات المصدر والموارد وخيارات البناء والتشغيل الخاصة بتطبيق واحد أو جزء منه. مش شرط يكون Class واحدة فقط.
+**بالعربية:** `Folder` وإعدادات تجمع `Files` المصدر والموارد وخيارات البناء والتشغيل الخاصة بتطبيق واحد أو جزء منه. مش شرط يكون Class واحدة فقط.
 
 ::: {.english-definition dir="ltr" lang="en"}
 
@@ -159,7 +159,7 @@
 
 <span class="english-term" dir="ltr" lang="en">English term: Package</span>
 
-**بالعربية:** طريقة في Java لتجميع Classes مرتبطة ببعض ضمن مساحة أسماء منظمة، وتساعد في الفصل بين أجزاء `Project` والتحكم ببعض قواعد الوصول. غالبًا أسماء Packages تكون صغيرة مثل `intro`.
+**بالعربية:** طريقة في Java لتجميع Classes مرتبطة ببعض ضمن `Namespace` منظمة، وتساعد في الفصل بين أجزاء `Project` والتحكم ببعض قواعد الوصول. غالبًا أسماء Packages تكون صغيرة مثل `intro`.
 
 ::: {.english-definition dir="ltr" lang="en"}
 
@@ -291,7 +291,7 @@
 
 <span class="english-term" dir="ltr" lang="en">English term: Semicolon · ;</span>
 
-**بالعربية:** علامة تستخدم لإنهاء أنواع كثيرة من تعليمات Java، ومنها أوامر الطباعة. ليس كل سطر في Java يحتاجها؛ مثل السطر الذي يفتح Class وينتهي بقوس معقوف لاحقًا.
+**بالعربية:** علامة تستخدم لإنهاء أنواع كثيرة من `Statements` في Java، ومنها أوامر الطباعة. ليس كل سطر في Java يحتاجها؛ مثل السطر الذي يفتح Class وينتهي بقوس معقوف لاحقًا.
 
 ::: {.english-definition dir="ltr" lang="en"}
 
@@ -315,7 +315,7 @@
 
 <span class="english-term" dir="ltr" lang="en">English term: PATH Environment Variable</span>
 
-**بالعربية:** إعداد في `Operating System` يحدد المجلدات التي يبحث فيها الـ Terminal عن البرامج عند كتابة اسمها. لما أمر `javac` لا يعمل رغم تثبيت JDK، ممكن يكون السبب أن مجلد أدوات JDK غير موجود في PATH.
+**بالعربية:** إعداد في `Operating System` يحدد `Folders` التي يبحث فيها الـ Terminal عن البرامج عند كتابة اسمها. لما أمر `javac` لا يعمل رغم تثبيت JDK، ممكن يكون السبب أن `Folder` أدوات JDK غير موجود في PATH.
 
 ::: {.english-definition dir="ltr" lang="en"}
 
@@ -389,7 +389,7 @@
 
 ## [Comment]{dir="ltr" lang="en"}
 
-ملاحظة في المصدر بصيغة `//` أو `/* */`، لا تُنفذ كتعليمة ولا تُطبع بحد ذاتها.
+ملاحظة في المصدر بصيغة `//` أو `/* */`، لا تُنفذ كـ `Statement` ولا تُطبع بحد ذاتها.
 
 ::: {.english-definition dir="ltr" lang="en"}
 
@@ -499,7 +499,7 @@
 
 ## [Scanner]{dir="ltr" lang="en"}
 
-أداة لقراءة قيم مثل الأرقام والنصوص من مصدر إدخال؛ نستعمل `new Scanner(System.in)` في الأمثلة.
+أداة لقراءة قيم مثل الأرقام والنصوص من مصدر `Input`؛ نستعمل `new Scanner(System.in)` في الأمثلة.
 
 ::: {.english-definition dir="ltr" lang="en"}
 
@@ -579,7 +579,7 @@
 
 ## [Loop]{dir="ltr" lang="en"}
 
-تكرار جسم تعليمات وفق قواعد الاستمرار والتحديث. عند التتبع نفرّق بين عدد الدورات والحالة النهائية.
+تكرار جسم يحتوي `Statements` وفق قواعد الاستمرار والتحديث. عند التتبع نفرّق بين عدد الدورات والحالة النهائية.
 
 ::: {.english-definition dir="ltr" lang="en"}
 
@@ -599,7 +599,7 @@
 
 ## [Sentinel]{dir="ltr" lang="en"}
 
-قيمة متفق عليها لإنهاء الإدخال، وعادةً تُستثنى من البيانات والحساب.
+قيمة متفق عليها لإنهاء `Input`، وعادةً تُستثنى من البيانات والحساب.
 
 ::: {.english-definition dir="ltr" lang="en"}
 

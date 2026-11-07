@@ -39,7 +39,7 @@ subtitle: "جهّز بيئة العمل واكتب أول برنامج"
 
 <span class="english-term">Integrated Development Environment · IDE</span>
 
-طيب وين رح نكتب Code؟ ممكن تكتبه في `Text Editor`، لكن رح يكون الموضوع أصعب. عشان هيك بنستخدم برنامج بيساعدنا نرتّب الملفات، نكتب الأوامر، نشوف الأخطاء، ونشغّل `Project` بسهولة.
+طيب وين رح نكتب Code؟ ممكن تكتبه في `Text Editor`، لكن رح يكون الموضوع أصعب. عشان هيك بنستخدم برنامج بيساعدنا نرتّب `Files`، نكتب الأوامر، نشوف الأخطاء، ونشغّل `Project` بسهولة.
 
 بالكورس رح نستخدم **Apache NetBeans**. الـ IDE مش هو لغة Java، ومش بديل عن JDK؛ هو `User Interface` مريحة بتستخدم أدوات التطوير الموجودة عندك.
 
@@ -61,8 +61,8 @@ subtitle: "جهّز بيئة العمل واكتب أول برنامج"
 أقترح نسخة **Eclipse Temurin JDK 25 LTS** المجانية لهذا الكتاب؛ مناسبة للتعلّم ويدعمها Apache NetBeans 31.
 
 1. افتح الموقع الرسمي: [Download Eclipse Temurin JDK](https://adoptium.net/temurin/releases/).
-2. اختر `JDK 25 (LTS)`، ثم `Windows` و`x64` إذا كان جهازك بنظام Windows 64-bit على معالج Intel أو AMD.
-3. حمّل ملف التثبيت `.msi` ثم شغّله وأكمل خطوات التثبيت.
+2. اختر `JDK 25 (LTS)`، ثم `Windows` و`x64` إذا كان جهازك بنظام Windows 64-bit على `Processor` Intel أو AMD.
+3. حمّل `File` التثبيت `.msi` ثم شغّله وأكمل خطوات التثبيت.
 4. افتح نافذة أوامر جديدة من قائمة Start، واكتب:
 
 ```powershell
@@ -78,14 +78,14 @@ javac -version
 winget install EclipseAdoptium.Temurin.25.JDK
 ```
 
-على macOS أو Linux اختَر ملف التنزيل المناسب لجهازك من نفس موقع Adoptium، بدل تنزيل ملف Windows.
+على macOS أو Linux اختَر `File` التنزيل المناسب لجهازك من نفس موقع Adoptium، بدل تنزيل `File` Windows.
 
 ### ثانيًا: Apache NetBeans
 
 1. افتح [صفحة Apache NetBeans الرسمية](https://netbeans.apache.org/front/main/download/).
 2. اختر الإصدار المناسب للـ `Operating System`. هذا الدرس يستخدم **NetBeans 31**؛ راجع صفحة التنزيل لمعرفة الإصدار المتاح لنظامك.
-3. إذا نزّلت ملف `netbeans-31-bin.zip` الرسمي، استخرجه واتبع تعليمات تشغيل النسخة الخاصة بنظامك.
-4. فيه مُثبّتات سهلة من مجتمع NetBeans مذكورة على الموقع الرسمي، وبعضها يحتوي على JDK لتشغيل الـ IDE. هاي ملفات التثبيت من جهات مساهمة وليست ملفات تثبيت صادرة مباشرة عن Apache.
+3. إذا نزّلت `File` `netbeans-31-bin.zip` الرسمي، استخرجه واتبع تعليمات تشغيل النسخة الخاصة بنظامك.
+4. فيه مُثبّتات سهلة من مجتمع NetBeans مذكورة على الموقع الرسمي، وبعضها يحتوي على JDK لتشغيل الـ IDE. هاي `Files` التثبيت من جهات مساهمة وليست `Files` تثبيت صادرة مباشرة عن Apache.
 5. شغّل NetBeans. إذا طلب تحديد JDK، اختر النسخة التي ثبّتها الجهاز.
 
 ::: {.callout-note}
@@ -113,7 +113,7 @@ winget install EclipseAdoptium.Temurin.25.JDK
 
 اللي يهمنا حاليًا أربع أماكن:
 
-- **Projects:** وين بنشوف `Project` وملفاته.
+- **Projects:** وين بنشوف `Project` و`Files` الخاصة فيه.
 - **Editor:** المساحة اللي بنكتب فيها Code.
 - **Run:** خيار تشغيل البرنامج.
 - **Output:** المكان اللي بنشوف فيه النتيجة ورسائل التشغيل.
@@ -122,9 +122,9 @@ winget install EclipseAdoptium.Temurin.25.JDK
 
 <span class="english-term">Project · Package · Class · Java Source File</span>
 
-تخيّل إنك بدك تعمل برنامج لمحل. مش منطقي تحط كل شيء في ملف واحد وتسميه عشوائيًا. حتى في أول مثال بسيط، نتعلم ننظّم شغلنا.
+تخيّل إنك بدك تعمل برنامج لمحل. مش منطقي تحط كل شيء في `File` واحد وتسميه عشوائيًا. حتى في أول مثال بسيط، نتعلم ننظّم شغلنا.
 
-![العلاقة بين Project وPackage وClass وFile](../assets/diagrams/java-project-tree-01.svg){fig-alt="شجرة مبسطة توضّح أن Project يحتوي على مجلد مصدر، وpackage اسمها intro، وملف FirstProgram.java الذي يحتوي public class FirstProgram" width="100%"}
+![العلاقة بين Project وPackage وClass وFile](../assets/diagrams/java-project-tree-01.svg){fig-alt="شجرة مبسطة توضّح أن Project يحتوي على Folder مصدر، وpackage اسمها intro، وFile FirstProgram.java الذي يحتوي public class FirstProgram" width="100%"}
 
 ### Create a Project
 
@@ -147,7 +147,7 @@ winget install EclipseAdoptium.Temurin.25.JDK
 3. اضغط بالزر اليمين على Package، ثم `New → Java Class`.
 4. سمّ الـ Class باسم `FirstProgram` واضغط `Finish`.
 
-هسا رح يظهر ملف جديد اسمه:
+هسا رح يظهر `File` جديد اسمه:
 
 ```text
 FirstProgram.java
@@ -158,8 +158,8 @@ FirstProgram.java
 
 - الاسم `FirstProgram` بلا مسافات، ويبدأ بحرف كبير لأنه اسم Class وفق أسلوب Java المعتاد.
 - اسم Package `intro` بحروف صغيرة.
-- لما نكتب `public class FirstProgram`، لازم يكون الملف `FirstProgram.java` بنفس الأحرف الكبيرة والصغيرة.
-- شرط التطابق يخص الـ `public top-level class` تحديدًا، مش كل Class ممكن تكتبها بأي ملف.
+- لما نكتب `public class FirstProgram`، لازم يكون `File` `FirstProgram.java` بنفس الأحرف الكبيرة والصغيرة.
+- شرط التطابق يخص الـ `public top-level class` تحديدًا، مش كل Class ممكن تكتبها بأي `File`.
 - تسمية `MyFirstJava` للـ `Project` اختيار تنظيمي، مش شرط من Java نفسها.
 
 :::
@@ -198,7 +198,7 @@ Hello, Java!
 package intro;
 ```
 
-هذا السطر بحدّد Package اللي بينتمي إلها الملف. Package بتساعدنا ننظم مجموعة Classes مرتبطة ببعض. حاليًا Package واحدة بتكفي.
+هذا السطر بحدّد Package اللي بينتمي إلها `File`. Package بتساعدنا ننظم مجموعة Classes مرتبطة ببعض. حاليًا Package واحدة بتكفي.
 
 **ثانيًا — Class**
 
@@ -241,7 +241,7 @@ System.out.println("Hello, Java!");
 ;
 ```
 
-Semicolon بتنهي هذا النوع من التعليمات. نسيانها بعد أمر الطباعة يسبب Compile-Time Error.
+Semicolon بتنهي هذا النوع من `Statements`. نسيانها بعد أمر الطباعة يسبب Compile-Time Error.
 
 ## Run & Output
 
@@ -249,7 +249,7 @@ Semicolon بتنهي هذا النوع من التعليمات. نسيانها �
 
 هذه Screenshot من مثال Maven في الدليل الرسمي. قد تختلف رسائل البناء، لكن Output هو المكان الذي ستشاهد فيه النتيجة ورسائل التشغيل.
 
-احفظ الملف من `File → Save`، أو اضغط `Ctrl + S` على Windows، ثم شغّل `Project` من:
+احفظ `File` من `File → Save`، أو اضغط `Ctrl + S` على Windows، ثم شغّل `Project` من:
 
 ```text
 Run → Run Project
@@ -419,7 +419,7 @@ System.out.println(8 + 2 / 2);
 
 **أ:** JDK توفّر أدوات التطوير والترجمة والتشغيل. IDE تنظّم الكتابة و`Projects` وتساعد على التشغيل وتتبع الأخطاء. `Text Editor` وحده يمكن استعماله، لكن يحتاج خطوات يدوية أكثر.
 
-**ب:** `Project → Package → Java File`. قد يحتوي `Project` على `Packages` كثيرة، وقد تتنوع مجلداته حسب `Build System`.
+**ب:** `Project → Package → Java File`. قد يحتوي `Project` على `Packages` كثيرة، وقد تتنوع `Folders` الخاصة فيه حسب `Build System`.
 
 **ج:** لا؛ المسافة غير مسموحة داخل اسم Identifier واحد في Java. الاسم الصحيح مثل `FirstProgram`.
 
@@ -435,13 +435,13 @@ System.out.println(8 + 2 / 2);
 
 ## Connecting the Concepts
 
-بعد ما ثبّتنا الأدوات، صرنا نعرف إن **Project** يجمع الملفات والإعدادات الخاصة بالتطبيق، و**Package** وسيلة لتنظيم Code، و**Class** فيها نقطة بدء تقليدية اسمها `main`، وبداخلها بنكتب أوامر مثل الطباعة. لما نضغط `Run`، بيجي دور أدوات البناء والتشغيل. وإذا صار خطأ، بنحدد هل المشكلة في الترجمة، أو أثناء التشغيل، أو في النتيجة نفسها.
+بعد ما ثبّتنا الأدوات، صرنا نعرف إن **Project** يجمع `Files` والإعدادات الخاصة بالتطبيق، و**Package** وسيلة لتنظيم Code، و**Class** فيها نقطة بدء تقليدية اسمها `main`، وبداخلها بنكتب أوامر مثل الطباعة. لما نضغط `Run`، بيجي دور أدوات البناء والتشغيل. وإذا صار خطأ، بنحدد هل المشكلة في الترجمة، أو أثناء التشغيل، أو في النتيجة نفسها.
 
 **لا تستعجل تحفظ كل مصطلح:** المطلوب حاليًا إنك تفهم التسلسل وتقدر تكتب المثال وتشغّله وتعدّل عليه لحالك.
 
 ## Source & Additions
 
-**يغطي هذا الدرس:** تنزيل أدوات Java، تعريف JDK وIDE، استعمال Apache NetBeans، إنشاء Project وPackage وClass، التسمية، `main`، الطباعة، علامات الاقتباس وSemicolon، الحفظ والتشغيل، حساسية الحروف، وأمثلة Compile-Time وRuntime وLogical Error.
+**يغطي هذا الدرس:** تنزيل أدوات Java، تعريف JDK وIDE، استعمال Apache NetBeans، إنشاء Project وPackage وClass، التسمية، `main`، الطباعة، علامات الاقتباس وSemicolon، الحفظ والتشغيل، `Case Sensitivity`، وأمثلة Compile-Time وRuntime وLogical Error.
 
 **إضافات الكتاب:** اختيار إصدار حديث، فحص `java` و`javac`، تعليمات واضحة لمسار إنشاء `Project`، الرسوم التخطيطية، `Code` نظيف قابل للتجربة، تصحيح القسمة الصحيحة، والفروق الدقيقة في قواعد تسمية Classes والـ Keywords.
 

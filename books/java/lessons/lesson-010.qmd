@@ -11,7 +11,7 @@ subtitle: "افحص الشرط، نفّذ، وحدّث القيمة، ثم ار�
 
 ![While flow: initialize, test, display, increment, repeat](../assets/reference/while-flow.jpg){fig-alt="count starts at 0; test count less than 5; true displays a message and increments count; false exits" width="640"}
 
-من [Kenneth Leroy Busbee · CC BY 3.0](https://commons.wikimedia.org/wiki/File:Flowchart_while.jpg)، دون تعديل. الرسم يبدأ من `0` ويتوقف عند `< 5`؛ مثالنا التالي يبدأ من `1` ويستعمل `<= 5`. كلاهما ينفّذ خمس مرات. الرسالة في الرسم مجرد موضع التعليمة المتكررة.
+من [Kenneth Leroy Busbee · CC BY 3.0](https://commons.wikimedia.org/wiki/File:Flowchart_while.jpg)، دون تعديل. الرسم يبدأ من `0` ويتوقف عند `< 5`؛ مثالنا التالي يبدأ من `1` ويستعمل `<= 5`. كلاهما ينفّذ خمس مرات. الرسالة في الرسم مجرد موضع `Statement` المتكررة.
 
 ## Initialization, Condition & Update
 
@@ -41,7 +41,7 @@ System.out.println(counter);
 
 لو نسيت `counter++`، تبقى القيمة `1` ويبقى الشرط متحققًا. ومثلها `while (true)` ما عندها نهاية من الشرط نفسه. لا تشغّل مثالًا يطبع بلا نهاية بدون قصد؛ زر الإيقاف في `IDE` يوقف تجربة شغالة.
 
-في الصيغة بدون `{ }` تتحكم `while` بتعليمة واحدة. وإذا كتبت `while (condition);` فقد جعلت الجسم فارغًا، وربما منعت التحديث الذي قصدته.
+في الصيغة بدون `{ }` تتحكم `while` بـ `Statement` واحدة. وإذا كتبت `while (condition);` فقد جعلت الجسم فارغًا، وربما منعت التحديث الذي قصدته.
 
 ## Countdown & Step Size
 

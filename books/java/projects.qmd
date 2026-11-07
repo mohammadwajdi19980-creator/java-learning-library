@@ -9,7 +9,7 @@
 | نظام علامات للطلاب | Beginner · M05–M06 | Methods، Arrays، Strings | حساب المعدّل وأعلى وأقل علامة |
 | نظام إدارة مكتبة | Intermediate · M07–M09 | Classes، Objects، Inheritance، ArrayList | إضافة كتب وإعارتها والبحث |
 | متجر بسيط بObjects | Intermediate · M10–M11 | Interfaces، Polymorphism، Enum | سلة وطرق دفع تجريبية |
-| نظام مخزون مع حفظ ملفات | Applied Core · M12–M13 | Exceptions، File I/O، Serialization | حفظ البيانات واستعادتها |
+| نظام مخزون مع حفظ `Files` | Applied Core · M12–M13 | Exceptions، File I/O، Serialization | حفظ البيانات واستعادتها |
 
 ::: {.callout-note}
 ## طريقة التقييم

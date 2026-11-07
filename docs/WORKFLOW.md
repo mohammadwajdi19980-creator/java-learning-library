@@ -1,6 +1,6 @@
 # Java Learning Library — Working Guide
 
-Version 1.4 · 7 November 2026
+Version 1.5 · 7 November 2026
 
 The user has authorized implementation and publication of the audit fixes and appearance redesign. The earlier analysis-only limit was specific to the audit turn. Preserve original video IDs, Arabic explanations, English technical terminology, and source coverage.
 
@@ -32,6 +32,7 @@ The broader 523-topic Java_Master_Topic_Index includes other uploaded university
 
 - Keep technical names in English everywhere: Class, Object, Method, Constructor, Package, Array, Inheritance, Interface, Compiler, Source Code, Bytecode, JVM, and so on.
 - Explain their meaning in Arabic, without replacing their names with Arabic technical labels. Use Text Editor, Code Editor, Variable, Local Variable, Expression, Assignment, Loop, Counter, Project, Build System, Character, Control Characters, Empty Statement, and Standard Output; never substitute translated names. Ordinary Arabic explanation stays Arabic.
+- This applies to all technical components and tools, not just Java syntax: Server, Browser, Processor, Operating System, Library, Framework, Namespace, File, Folder, Keyboard, Input, Output, and Statement. Review context rather than limiting the rule to a few previously reported words. Maintain scripts/technical_terms.json as a checked alias list; ordinary Arabic explanations and nontechnical meanings remain Arabic.
 - Put a main term on its own English heading or label, followed by the Arabic explanation.
 - Use LTR direction and bidirectional isolation for inline English where an inline occurrence is necessary.
 - Code, commands, filenames, API names, mathematical expressions, and Output remain LTR.

@@ -31,8 +31,11 @@ for p in [*B.rglob('*.qmd'),B/'includes/shell.html']:
   if not dest.exists():errors.append(f'{p.relative_to(ROOT)}: missing HTML link {target}')
 # Reader-facing terminology and reference contract (archives retain original provenance).
 public_pages=[p for p in B.rglob('*.qmd') if '_book' not in p.parts]
+term_aliases=[alias for aliases in json.loads((ROOT/'scripts/technical_terms.json').read_text()).values() for alias in aliases]
+translated_name=re.compile(r'(?<![\u0621-\u064a])(?:'+'|'.join(map(re.escape,sorted(term_aliases,key=len,reverse=True)))+r')(?![\u0621-\u064a])')
 for p in public_pages:
  text=p.read_text()
+ if translated_name.search(text):errors.append(f'{p.relative_to(ROOT)}: component/tool name must be English')
  if re.search(r'youtu(?:be\.com|\.be)|\bvideos?\b|فيديو|تفريغ|\btranscripts?\b',text,re.I):errors.append(f'{p.relative_to(ROOT)}: video reference in public book')
  if re.search(r'(?<![\u0621-\u064a])(?:محرر|المحرر|متغير|المتغير|متغيرات|المتغيرات|مصفوفة|كائن|دالة|حلقة|الحلقة|عداد|التعبير|التعبيرات|الإسناد|المشروع|المشاريع|محرف|المحرف|محارف|المحارف)(?![\u0621-\u064a])',text):errors.append(f'{p.relative_to(ROOT)}: translated technical name')
 glossary=(B/'glossary.qmd').read_text()

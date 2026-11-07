@@ -11,7 +11,7 @@ subtitle: "نفّذ مرة أولًا، ثم قرّر إذا بدك تكرّر"
 
 ![Do-While: body executes before the test](../assets/reference/do-while-flow.svg){fig-alt="Do-While flow: execute statements, test condition, true returns to the body and false exits" width="270"}
 
-من [P. Kemp · CC0](https://commons.wikimedia.org/wiki/File:Do-while-loop-diagram.svg). اتبع السهم: يصل للتعليمة قبل المعين؛ هذه هي الفكرة التي تختلف عن `while`.
+من [P. Kemp · CC0](https://commons.wikimedia.org/wiki/File:Do-while-loop-diagram.svg). اتبع السهم: يصل للـ `Statement` قبل المعين؛ هذه هي الفكرة التي تختلف عن `while`.
 
 ```java
 int counter = 0;
@@ -57,7 +57,7 @@ Do body
 | `while (counter < 5)` | يفحص `false` | `0` |
 | `do ... while (counter < 5)` | ينفذ الجسم ويزيد إلى `6`، ثم يفحص | `1` |
 
-نختار الصيغة حسب المطلوب، مش لأنها «أسرع» بطبيعتها. `do-while` تناسب إدخالًا أو قائمة لازم تظهر مرة قبل تحديد قرار التكرار.
+نختار الصيغة حسب المطلوب، مش لأنها «أسرع» بطبيعتها. `do-while` تناسب `Input`ًا أو قائمة لازم تظهر مرة قبل تحديد قرار التكرار.
 
 ## Read Before Testing
 
@@ -84,13 +84,13 @@ public class DoChars {
 }
 ```
 
-**Input** `A B C Q` → **Output** `Count = 3`. لو زدنا `count` دون شرط لكانت `4`، لأننا حسبنا إشارة الإنهاء أيضًا. أول إدخال `Q` يعطي `0` في الحل المعروض.
+**Input** `A B C Q` → **Output** `Count = 3`. لو زدنا `count` دون شرط لكانت `4`، لأننا حسبنا إشارة الإنهاء أيضًا. أول `Input` `Q` يعطي `0` في الحل المعروض.
 
 عرّفنا `letter` قبل الجسم حتى تكون متاحة في الشرط بعده. تخزين القيمة فيها داخل الجسم يحصل قبل كل قراءة إلها في الشرط.
 
 ## Worked Exercise: Repeated Calculator
 
-تطبيق الدرس يعود إلى [Switch Calculator](lesson-009.qmd): اقرأ رقمين، ثم اختر عملية، وكرر ما دامت العملية واحدة من الخمس. أي اختيار آخر ينهي. هذا يعيد بناء المثال بنفس ترتيب الإدخال؛ أضفنا فقط فحص القسمة على صفر.
+تطبيق الدرس يعود إلى [Switch Calculator](lesson-009.qmd): اقرأ رقمين، ثم اختر عملية، وكرر ما دامت العملية واحدة من الخمس. أي اختيار آخر ينهي. هذا يعيد بناء المثال بنفس ترتيب `Input`؛ أضفنا فقط فحص القسمة على صفر.
 
 احفظ باسم `RepeatedCalculator.java`:
 

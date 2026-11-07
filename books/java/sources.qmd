@@ -47,7 +47,7 @@
 
 ## Screenshot Provenance
 
-الصور الحقيقية في Lesson #01 مأخوذة من [Apache NetBeans Java Quick Start](https://netbeans.apache.org/tutorial/main/kb/docs/java/quickstart/). يعرض الدليل `Project` Maven؛ هذه الصور مرجع بصري وليست لقطات موثّقة من NetBeans 31 أو من مثالنا باستخدام Ant. الرسوم التخطيطية الأخرى موسومة بصورة مستقلة. راجع `assets/registry.json` لتفاصيل الملفات والمصدر.
+الصور الحقيقية في Lesson #01 مأخوذة من [Apache NetBeans Java Quick Start](https://netbeans.apache.org/tutorial/main/kb/docs/java/quickstart/). يعرض الدليل `Project` Maven؛ هذه الصور مرجع بصري وليست لقطات موثّقة من NetBeans 31 أو من مثالنا باستخدام Ant. الرسوم التخطيطية الأخرى موسومة بصورة مستقلة. راجع `assets/registry.json` لتفاصيل `Files` والمصدر.
 
 
 ## Online Diagram Attribution
