@@ -1,0 +1,293 @@
+{
+  "programs": {
+    "MathImportDemo": [
+      {
+        "input": "",
+        "output": "11\n2.0\n-2.0\n2\n3.0\n8.0\n"
+      }
+    ],
+    "OverloadingDemo": [
+      {
+        "input": "",
+        "output": "60\n15.0\n11.5\n11.5\n6\n"
+      }
+    ],
+    "RestaurantOrderDemo": [
+      {
+        "input": "",
+        "output": "10.0\n18.0\n16.0\n"
+      }
+    ],
+    "MainOverloadDemo": [
+      {
+        "input": "",
+        "output": "Inside message\nx = 15\n500\n"
+      }
+    ],
+    "FactorialDemo": [
+      {
+        "input": "0\n",
+        "output": "1\n"
+      },
+      {
+        "input": "1\n",
+        "output": "1\n"
+      },
+      {
+        "input": "5\n",
+        "output": "120\n"
+      },
+      {
+        "input": "20\n",
+        "output": "2432902008176640000\n"
+      },
+      {
+        "input": "-1\n",
+        "output": "Use 0..20\n"
+      },
+      {
+        "input": "21\n",
+        "output": "Use 0..20\n"
+      }
+    ],
+    "RecursionOrderDemo": [
+      {
+        "input": "",
+        "output": "5 4 3 2 1 \n1 2 3 4 5 \n"
+      }
+    ],
+    "IndirectRecursionDemo": [
+      {
+        "input": "",
+        "output": "A3 B2 A1 \n"
+      }
+    ],
+    "FibonacciValueDemo": [
+      {
+        "input": "0\n",
+        "output": "0\n"
+      },
+      {
+        "input": "1\n",
+        "output": "1\n"
+      },
+      {
+        "input": "4\n",
+        "output": "3\n"
+      },
+      {
+        "input": "7\n",
+        "output": "13\n"
+      },
+      {
+        "input": "9\n",
+        "output": "34\n"
+      },
+      {
+        "input": "30\n",
+        "output": "832040\n"
+      },
+      {
+        "input": "-1\n",
+        "output": "Use 0..30\n"
+      },
+      {
+        "input": "31\n",
+        "output": "Use 0..30\n"
+      }
+    ],
+    "FibonacciSequenceDemo": [
+      {
+        "input": "0\n",
+        "output": ""
+      },
+      {
+        "input": "1\n",
+        "output": "0\n"
+      },
+      {
+        "input": "2\n",
+        "output": "0 1\n"
+      },
+      {
+        "input": "5\n",
+        "output": "0 1 1 2 3\n"
+      },
+      {
+        "input": "6\n",
+        "output": "0 1 1 2 3 5\n"
+      },
+      {
+        "input": "-1\n",
+        "output": "Use 0..40\n"
+      }
+    ],
+    "RangeSumDemo": [
+      {
+        "input": "4 6\n",
+        "output": "15\n"
+      },
+      {
+        "input": "6 4\n",
+        "output": "15\n"
+      },
+      {
+        "input": "6 6\n",
+        "output": "6\n"
+      },
+      {
+        "input": "1 3\n",
+        "output": "6\n"
+      },
+      {
+        "input": "-2 2\n",
+        "output": "0\n"
+      },
+      {
+        "input": "-5 -3\n",
+        "output": "-12\n"
+      }
+    ],
+    "ArrayInputDemo": [
+      {
+        "input": "3 15 33 7\n",
+        "output": "15\n33\n7\n"
+      },
+      {
+        "input": "0\n",
+        "output": ""
+      },
+      {
+        "input": "-1\n",
+        "output": "Size must be non-negative\n"
+      }
+    ],
+    "ArrayStatisticsDemo": [
+      {
+        "input": "5 1 5 3 6 8 6\n",
+        "output": "Sum: 23\nAverage: 4.6\nFound\nMin: 1\nMax: 8\n1 3 5 6 8 \n"
+      },
+      {
+        "input": "3 -5 -2 -8 99\n",
+        "output": "Sum: -15\nAverage: -5.0\nNot found\nMin: -8\nMax: -2\n-8 -5 -2 \n"
+      },
+      {
+        "input": "1 4 4\n",
+        "output": "Sum: 4\nAverage: 4.0\nFound\nMin: 4\nMax: 4\n4 \n"
+      },
+      {
+        "input": "3 0 0 0 0\n",
+        "output": "Sum: 0\nAverage: 0.0\nFound\nMin: 0\nMax: 0\n0 0 0 \n"
+      },
+      {
+        "input": "2 2147483647 2147483647 2147483647\n",
+        "output": "Sum: 4294967294\nAverage: 2.147483647E9\nFound\nMin: 2147483647\nMax: 2147483647\n2147483647 2147483647 \n"
+      },
+      {
+        "input": "0\n",
+        "output": "Use a non-empty array\n"
+      }
+    ],
+    "CharArrayDemo": [
+      {
+        "input": "Hello Java\n",
+        "output": "Hello Java\nab\nB\nABCa\nAB\nCDE\n"
+      },
+      {
+        "input": "\n",
+        "output": "\nab\nB\nABCa\nAB\nCDE\n"
+      },
+      {
+        "input": "مرحبا\n",
+        "output": "مرحبا\nab\nB\nABCa\nAB\nCDE\n"
+      }
+    ],
+    "MathUtilitiesProject": [
+      {
+        "input": "",
+        "output": "60\n4.0\n120\n15\n"
+      }
+    ]
+  },
+  "invalid_examples": [
+    {
+      "name": "return-type-only-overload",
+      "code": "class Invalid { static int s(int a,int b){return a+b;} static double s(int x,int y){return x+y;} }",
+      "stage": "compile"
+    },
+    {
+      "name": "static-only-overload",
+      "code": "class Invalid { static int s(int a){return a;} int s(int b){return b;} }",
+      "stage": "compile"
+    },
+    {
+      "name": "double-literal-to-float",
+      "code": "class Invalid { static void s(float a) {} public static void main(String[] args){s(1.5);} }",
+      "stage": "compile"
+    },
+    {
+      "name": "ambiguous-mixed-overloads",
+      "code": "class Invalid { static void s(int a,float b){} static void s(float a,int b){} public static void main(String[] args){s(1,2);} }",
+      "stage": "compile"
+    },
+    {
+      "name": "array-missing-size-and-values",
+      "code": "class Invalid { int[] a = new int[]; }",
+      "stage": "compile"
+    },
+    {
+      "name": "array-length-as-method",
+      "code": "class Invalid { public static void main(String[] args){int[] a=new int[2];System.out.println(a.length());} }",
+      "stage": "compile"
+    },
+    {
+      "name": "array-size-long",
+      "code": "class Invalid { public static void main(String[] args){long n=2;int[] a=new int[n];} }",
+      "stage": "compile"
+    },
+    {
+      "name": "unassigned-local-array",
+      "code": "class Invalid { public static void main(String[] args){int[] a;System.out.println(a.length);} }",
+      "stage": "compile"
+    },
+    {
+      "name": "sort-void-assignment",
+      "code": "class Invalid { public static void main(String[] args){int[] a={2,1};a=java.util.Arrays.sort(a);} }",
+      "stage": "compile"
+    },
+    {
+      "name": "array-index-equals-length",
+      "code": "class Invalid { public static void main(String[] args){int[] a=new int[5];System.out.println(a[5]);} }",
+      "stage": "runtime",
+      "exception": "ArrayIndexOutOfBoundsException"
+    },
+    {
+      "name": "array-negative-size",
+      "code": "class Invalid { public static void main(String[] args){int n=-1;int[] a=new int[n];} }",
+      "stage": "runtime",
+      "exception": "NegativeArraySizeException"
+    },
+    {
+      "name": "char-range-overflow",
+      "code": "class Invalid { public static void main(String[] args){char[] c={'A','B','C','D','E'};System.out.println(new String(c,2,5));} }",
+      "stage": "runtime",
+      "exception": "IndexOutOfBoundsException"
+    },
+    {
+      "name": "no-recursion-base",
+      "code": "class Invalid { static void again(){again();} public static void main(String[] args){again();} }",
+      "stage": "runtime",
+      "exception": "StackOverflowError"
+    }
+  ],
+  "probes": [
+    {
+      "name": "Batch020BoundaryChecks",
+      "code": "class Batch020BoundaryChecks {\n    public static void main(String[] args) {\n        if (Math.ceil(-1.2)!=-1.0 || Math.floor(-1.2)!=-2.0 || Math.round(-1.5)!=-1) throw new AssertionError(\"signed rounding\");\n        if (Math.max(Math.max(10,6),15)!=15 || Math.pow(Math.sqrt(100),2)!=100.0) throw new AssertionError(\"nested calls\");\n        for (int i=0;i<10000;i++) {\n            double r=Math.random();\n            if (r<0.0 || r>=1.0) throw new AssertionError(\"random bound\");\n            int n=(int)(r*10)+1;\n            if(n<1 || n>10) throw new AssertionError(\"scaled bound\");\n        }\n        if ((int)(0.0*10)+1!=1 || (int)(Math.nextDown(1.0)*10)+1!=10) throw new AssertionError(\"random endpoints\");\n        if (OverloadingDemo.sum(1,2)!=3 || OverloadingDemo.sum(1,2,3)!=6) throw new AssertionError(\"overloads\");\n        if (RestaurantOrderDemo.order(15,3,\"NO\")!=18.0) throw new AssertionError(\"no promo\");\n        if (FactorialDemo.factorial(0)!=1 || FactorialDemo.factorial(4)!=24) throw new AssertionError(\"factorial\");\n        if (FibonacciValueDemo.fib(4)!=3 || FibonacciValueDemo.fib(9)!=34) throw new AssertionError(\"fib\");\n        if (RangeSumDemo.sumRange(3,1)!=6 || RangeSumDemo.sumRange(-1,-3)!=-6) throw new AssertionError(\"range\");\n        int[] values={5,2,-8,10};java.util.Arrays.sort(values);\n        if (values[0]!=-8 || values[3]!=10) throw new AssertionError(\"sort\");\n        char[] chars={97,98}; if(chars[0]!='a'||chars[1]!='b'||(char)66!='B'||(int)'0'!=48) throw new AssertionError(\"codes\");\n        char[] part={'A','B','C','D','E'};\n        if(!new String(part,2,3).equals(\"CDE\")) throw new AssertionError(\"offset/count\");\n        int[] zeros=new int[2];boolean[] flags=new boolean[2];String[] names=new String[2];char[] empty=new char[2];\n        if(zeros[0]!=0 || flags[0] || names[0]!=null || empty[0]!='\\u0000') throw new AssertionError(\"defaults\");\n        if(MathUtilitiesProject.factorial(1)!=1 || MathUtilitiesProject.sumRange(6,6)!=6 || MathUtilitiesProject.sumRange(-2,2)!=0) throw new AssertionError(\"module project\");\n        System.out.println(\"Batch 020-026 boundary checks passed\");\n    }\n}",
+      "output": "Batch 020-026 boundary checks passed\n"
+    }
+  ],
+  "program_paths": [
+    "books/java/assessments/m05.qmd"
+  ]
+}

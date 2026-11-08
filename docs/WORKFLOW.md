@@ -213,3 +213,11 @@ Use RELEASE-CHECKLIST.md. Update this guide when requirements or workflow change
 - Batch #017–#019 adds S09/S10 Partial Reviews only. #014–#016 and #020–#021 remain unavailable until supplied.
 - verify_batch.py merges all code-cases-*.json manifests and requires a case for every complete published batch program. It also runs independent method-boundary probes and intentional invalid cases.
 - validate_book.py checks every batch-*.json source hash and every coverage-*.json mapped heading, not only the first batch.
+
+
+## Batch #020–#026
+
+- M05 now has all six Lessons and a Module Exam/Project. S10/S11 have full Exams; S12 stays partial until #027 arrives. Preserve the separate missing #014–#016 gap.
+- Code manifests may declare `program_paths` for complete solutions outside Lessons, such as Module assessments. All such programs require independent expected outputs and boundary checks.
+- The custom navigation path resolver must include `assessments/` when computing the book root.
+- Do not equate a hash of an editorial source inventory with a verbatim transcript archive. `batch-020-026.json` explicitly marks four verbatim attachments and three inline-source inventories; original inline text is in the conversation. Never claim those three inventories are verbatim copies.

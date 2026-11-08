@@ -1,0 +1,178 @@
+---
+title: "Method Overloading — One Name, Different Parameters"
+subtitle: "ميّز بين Signatures، وتتبع أي Method يختارها Compiler"
+---
+
+<div class="lesson-meta"><span>M05 · S10</span><span>LESSON #021</span></div>
+
+**مرحبا**
+
+ليش `Math.abs` تشتغل مع `int` ومع `double` بنفس الاسم؟ لأنها مجموعة `Methods` لها الاسم نفسه، لكن `Parameter Lists` مختلفة. هذا هو **Method Overloading**.
+
+## Method Signature
+
+ضمن الأمثلة غير الـ Generic هنا، `Signature` هي اسم `Method` مع أنواع `Parameters` وترتيبها. يهمنا **العدد والنوع والترتيب**؛ أسماء `Parameters` و`Return Type` ليست وسيلة لتمييز Overloads.
+
+| Declaration | Signature |
+|---|---|
+| `int sum(int a, int b)` | `sum(int, int)` |
+| `float sum(float a, float b)` | `sum(float, float)` |
+| `int sum(int a, int b, int c)` | `sum(int, int, int)` |
+| `float sum(int a, float b)` | `sum(int, float)` |
+| `float sum(float a, int b)` | `sum(float, int)` |
+
+الأسماء `a` و`b` هنا اختيارية، لكن الأنواع ومواقعها هي التي تميز الاستدعاء. تغيير اسم `sum` إلى `add` ينتج اسمًا آخر، وليس Overloading للاسم نفسه.
+
+## Worked Example
+
+احفظ باسم `OverloadingDemo.java`:
+
+```java
+public class OverloadingDemo {
+    public static int sum(int a, int b) {
+        return a + b;
+    }
+    public static float sum(float a, float b) {
+        return a + b;
+    }
+    public static float sum(int a, float b) {
+        return a + b;
+    }
+    public static float sum(float a, int b) {
+        return a + b;
+    }
+    public static int sum(int a, int b, int c) {
+        return a + b + c;
+    }
+    public static void main(String[] args) {
+        System.out.println(sum(10, 50));
+        System.out.println(sum(10.5f, 4.5f));
+        System.out.println(sum(10, 1.5f));
+        System.out.println(sum(1.5f, 10));
+        System.out.println(sum(1, 2, 3));
+    }
+}
+```
+
+**Output**
+
+```text
+60
+15.0
+11.5
+11.5
+6
+```
+
+| Call | Chosen Signature | Why |
+|---|---|---|
+| `sum(10, 50)` | `sum(int, int)` | تطابق العدد والأنواع |
+| `sum(10.5f, 4.5f)` | `sum(float, float)` | وجود `f` يجعل القيم `float` |
+| `sum(10, 1.5f)` | `sum(int, float)` | النوع الثاني مختلف |
+| `sum(1.5f, 10)` | `sum(float, int)` | الترتيب مختلف |
+| `sum(1, 2, 3)` | `sum(int, int, int)` | عدد `Arguments` مختلف |
+
+لو كانت `Method` الوحيدة تستقبل `int`، لن تقبل قيمة `float` مباشرة. وتغيير `Return Type` إلى `float` وحده لا يغير نوع `Arguments` المقبولة. كمان `1.5` بدون `f` هي `double`؛ فلا تمرّرها إلى `float Parameter` وتفترض أنها نفس النوع. عند عدم وجود تطابق مباشر قد تُستخدم تحويلات مسموحة؛ لا يعني أي اختلاف أن هناك Overload مناسبة تلقائيًا.
+
+## What Does Not Create an Overload?
+
+**Invalid declarations — أمثلة مقصودة للفهم، لا تضعها سويًا في برنامجك:**
+
+```java
+int sum(int a, int b) { return a + b; }
+double sum(int x, int y) { return x + y; }
+```
+
+الاسمان و`Parameter Types` متطابقان؛ اختلاف `Return Type` أو أسماء `Parameters` لا يكفي. كذلك اختلاف `public`/`private` أو وجود `static` وحده لا يصنع `Signature` جديدة. لا تحتاج أن تجرّب الاستدعاء حتى يظهر الخطأ؛ التصريحان المتكرران مرفوضان أصلًا.
+
+**توضيح اختيار `Compiler`:** إضافة `sum(int, float)` و`sum(float, int)` وحدهما قد تجعل `sum(1, 2)` ملتبسة؛ كل واحدة أفضل من جهة مختلفة. في برنامجنا توجد `sum(int,int)` فتحسم الاستدعاء.
+
+## One Order, Several Ways
+
+نفس الفكرة في `Order`: طلب من داخل المطعم، أو مع توصيل، أو مع `Promo Code`. أسماء البرامج والأرقام التالية مثال توضيحي لنفس السيناريو؛ الكود الكامل لم يُعطَ حرفيًا.
+
+احفظ باسم `RestaurantOrderDemo.java`:
+
+```java
+public class RestaurantOrderDemo {
+    public static double order(double total) {
+        return total;
+    }
+    public static double order(double total, int delivery) {
+        return total + delivery;
+    }
+    public static double order(double total, int delivery, String promoCode) {
+        double bill = total + delivery;
+        if (promoCode.equals("SAVE2")) {
+            bill -= 2;
+        }
+        return bill;
+    }
+    public static void main(String[] args) {
+        System.out.println(order(10));
+        System.out.println(order(15, 3));
+        System.out.println(order(15, 3, "SAVE2"));
+    }
+}
+```
+
+**Output:** `10.0` ثم `18.0` ثم `16.0`، كل واحدة في سطر. في الثالثة: `15 + 3 - 2 = 16`. الاسم يعبر عن العمل نفسه، و`Parameters` تميز طريقة الطلب. هذا تمهيد لفكرة تعدد الأشكال، وليس شرحًا لـ `Overriding` الآن.
+
+## Calls Within Calls
+
+`Method` تقدر تستدعي `Method` أخرى؛ التنفيذ يدخل إليها، يرجع، ثم يكمل السطر التالي في `Caller`. مثل `show(15)` ثم طباعة `x` داخلها؛ ترتيب الاستدعاء أهم من ترتيب كتابة التعريفات داخل `Class`.
+
+حتى `main` يمكن عمل Overloading لها. احفظ باسم `MainOverloadDemo.java`:
+
+```java
+public class MainOverloadDemo {
+    public static void main(String[] args) {
+        show(15);
+        main(500);
+    }
+    public static void show(int x) {
+        message();
+        System.out.println("x = " + x);
+    }
+    public static void message() {
+        System.out.println("Inside message");
+    }
+    public static void main(int number) {
+        System.out.println(number);
+    }
+}
+```
+
+**Output**
+
+```text
+Inside message
+x = 15
+500
+```
+
+نقطة البدء في هذا المثال التقليدي هي `main(String[] args)`، وليست `main(int)`. الأخيرة تشتغل لأننا استدعيناها صراحةً. مش صحيح أن كل برنامج لا يمكن أن يحتوي إلا `Method` واحدة اسمها `main`.
+
+## Knowledge Check
+
+1. هل `sum(int x,int y)` و`sum(int first,int second)` مختلفتان؟
+2. هل اختلاف `Return Type` أو `static` وحده يكفي؟
+3. ما الفرق بين `sum(int,float)` و`sum(float,int)`؟
+4. لماذا `sum(1.5,2.5)` لا تطابق `sum(float,float)` تلقائيًا؟
+5. إذا حذفنا `main(500);`، هل تُنفَّذ `main(int)` في المثال؟
+
+<details><summary>Answers</summary>
+
+1. لا؛ أسماء `Parameters` ليست جزء التمييز في `Signature`.
+2. لا؛ نحتاج اختلاف `Parameter Types` أو عددها أو ترتيب أنواع مختلفة.
+3. ترتيب أنواع `Arguments` المقبولة مختلف.
+4. القيمتان `double`، والتحويل إلى `float` قد يفقد دقة؛ استخدم `f` أو Overload مناسبة.
+5. لا؛ وجود تعريفها لا يعني استدعاءها.
+
+</details>
+
+## Related Pages
+
+[Built-in Methods](lesson-020.qmd) · [Recursion](lesson-022.qmd) · [S10 Review & Exam](../subjects/s10.qmd).
+
+مرجع الدقة: [JLS — Method Signature & Overloading](https://docs.oracle.com/javase/specs/jls/se25/html/jls-8.html#jls-8.4.9). الأسماء والقيم غير الواضحة صيغت كأمثلة توضيحية. البرامج الكاملة والـ Invalid Cases جُرّبت بـ `JDK 25 CLI`.

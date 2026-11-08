@@ -840,3 +840,327 @@
 
 :::
 
+
+## [Math]{dir="ltr" lang="en"}
+
+Class جاهزة ضمن `java.lang` فيها `static Methods` للحسابات مثل `abs` و`sqrt` و`pow`. نقرأ نوع المدخلات والنتيجة من API، ولا نفترض أن النتيجة `int` لأن شكلها بلا كسر.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A Java standard-library class containing static methods for common numerical operations, including absolute value, rounding, powers, roots and pseudorandom values.
+
+:::
+
+**مثال:** `Math.sqrt(9)` تعطي `3.0` من نوع `double`.
+
+## [Static Import]{dir="ltr" lang="en"}
+
+صيغة تتيح استعمال أسماء `static Members` بدون اسم Class في كل مرة. لا تنشئ Object، ولا تعني أن كل Methods تصبح محلية؛ هي تسهيل للوصول إلى أسمائها.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** An import declaration that allows accessible static members of a type to be referenced by their simple names in a compilation unit.
+
+:::
+
+**مثال:** `import static java.lang.Math.sqrt;` ثم `sqrt(9)`.
+
+## [Method Signature]{dir="ltr" lang="en"}
+
+في أمثلتنا، اسم Method مع أنواع Parameters وترتيبها. تختلف `Signature` عند تغيير العدد أو نوع في موقع محدد. أسماء Parameters وReturn Type وحدهما لا يصنعان Signature مختلفة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** For the non-generic methods used here, the method name together with its ordered formal parameter types; return type and parameter names do not distinguish overloads.
+
+:::
+
+**مثال:** `sum(int,float)` تختلف عن `sum(float,int)`.
+
+## [Method Overloading]{dir="ltr" lang="en"}
+
+عدة Methods تشترك في الاسم وتختلف في Signatures. يستعمل Compiler عدد Arguments وأنواعها لاختيار الاستدعاء المناسب. وجود عدة تعريفات لا يضمن أن كل Call غير ملتبسة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** Defining or inheriting multiple methods with the same name and distinct applicable signatures, with overload resolution based on argument count and compile-time types.
+
+:::
+
+**مثال:** `sum(1,2)` و`sum(1.5f,2.5f)` تختاران Overloads مناسبة إذا وُجدت.
+
+## [Recursion]{dir="ltr" lang="en"}
+
+حل تصاغ فيه المهمة باستدعاء أصغر لنفسها، مباشرة أو عبر Methods أخرى. لازم نحدد Base Case يمكن الوصول إليها، ونغير الحالة مع كل Call حتى نقترب منها.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A technique in which a method invokes itself directly or through other methods, usually reducing the problem toward a terminating base case.
+
+:::
+
+**مثال:** `factorial(n)` تستعمل `factorial(n-1)`.
+
+## [Base Case]{dir="ltr" lang="en"}
+
+حالة يمكن حلها أو إيقافها بدون Recursive Call جديدة. قد نحتاج أكثر من واحدة؛ مثل صفر وواحد في Fibonacci. مجرد كتابة شرط غير قابل للوصول لا يضمن التوقف.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A terminating case whose result is known without making another recursive call.
+
+:::
+
+**مثال:** `if (n == 0 || n == 1) return n;` في Fibonacci.
+
+## [Recursive Call]{dir="ltr" lang="en"}
+
+استدعاء ينفذ Method نفسها من جديد، بقيم ينبغي أن تقترب من Base Case. Caller تنتظر نتيجة الاستدعاء إذا احتاجتها قبل إكمال حسابها.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A method invocation that directly or indirectly re-enters the same method as part of solving a smaller or changed instance of a problem.
+
+:::
+
+**مثال:** `return n * factorial(n - 1);` تنتظر النتيجة قبل الضرب.
+
+## [Direct Recursion]{dir="ltr" lang="en"}
+
+Method تستدعي نفسها مباشرةً داخل جسمها. هذا يصف علاقة الاستدعاء؛ لا يعني بالضرورة أن لها فرعًا واحدًا أو أنها تعيد قيمة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** Recursion in which a method directly invokes itself.
+
+:::
+
+**مثال:** `after(n-1)` داخل `after`.
+
+## [Indirect Recursion]{dir="ltr" lang="en"}
+
+Methods تتبادل الاستدعاء حتى تعود إلى Method سابقة، مثل A ثم B ثم A. التوقف يعتمد على تقدم الحالة وBase Cases المناسبة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** Recursion in which a sequence of calls through other methods eventually returns to a method already active in the call chain.
+
+:::
+
+**مثال:** `a(3) → b(2) → a(1) → b(0)`.
+
+## [Call Stack]{dir="ltr" lang="en"}
+
+بنية تحتفظ بحالة Calls النشطة؛ لما Call تنتهي، يرجع التنفيذ إلى Caller المنتظرة. في Recursion نحتاج الاحتفاظ بقيم كل Call ومسار العودة، وهذا يستهلك مساحة مع زيادة العمق.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The runtime stack that tracks active method invocations and their execution state so control can return to callers.
+
+:::
+
+**مثال:** في Factorial تبقى Calls الأكبر منتظرة حتى تنتهي الأصغر.
+
+## [StackOverflowError]{dir="ltr" lang="en"}
+
+Error تحصل عند احتياج Call Stack لمساحة أكثر من المتاحة؛ من أسبابها Recursion بلا توقف أو بعمق كبير جدًا. وجود Base Case صحيحة لا يجعل العمق غير محدود.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** An error thrown when a computation requires more stack space than is available, often because of excessively deep recursion.
+
+:::
+
+**مثال:** استدعاء `repeat()` لنفسها بلا شرط توقف.
+
+## [Factorial]{dir="ltr" lang="en"}
+
+لعدد صحيح غير سالب، حاصل ضرب الأعداد من الواحد حتى العدد، مع تعريف `0! = 1`. النموذج Recursive يكتب `n * factorial(n-1)` مع Base Cases صحيحة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** For a non-negative integer n, the product of the positive integers from 1 through n, with 0 factorial defined as 1.
+
+:::
+
+**مثال:** `5! = 120` و`0! = 1`.
+
+## [Fibonacci]{dir="ltr" lang="en"}
+
+سلسلة تبدأ بـ `0,1`، وبعدها كل قيمة مجموع السابقتين. سؤال القيمة عند Index يختلف عن طباعة عدد معين من القيم.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The sequence with F(0)=0, F(1)=1 and F(n)=F(n-1)+F(n-2) for n greater than 1.
+
+:::
+
+**مثال:** `fib(4)=3`؛ أول خمس قيم `0,1,1,2,3`.
+
+## [Element]{dir="ltr" lang="en"}
+
+قيمة في موضع داخل Array. جميع المواضع لها Component Type واحد، ونصل إلى كل موضع باستخدام Index صالح.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A value stored in one indexed component of an array.
+
+:::
+
+**مثال:** `numbers[1]` هي Element الثانية، وليست الأولى.
+
+## [Index]{dir="ltr" lang="en"}
+
+رقم يحدد موضعًا داخل Array؛ يبدأ من صفر. مع طول n، المجال الصحيح من `0` إلى `n-1`، إذا كانت Array غير فارغة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A zero-based integer position used to access an array component.
+
+:::
+
+**مثال:** في Array طولها 5، آخر Index هو 4.
+
+## [Array Length]{dir="ltr" lang="en"}
+
+عدد Elements الثابت بعد إنشاء Array. نقرأه من Field اسمها `length` بدون أقواس. اختيار الطول قد يحصل أثناء التشغيل، لكن نفس Array لا يتغير طولها لاحقًا.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The fixed number of components established when an array object is created and exposed through its length field.
+
+:::
+
+**مثال:** `numbers.length` وليست `numbers.length()`.
+
+## [Default Value]{dir="ltr" lang="en"}
+
+القيمة الأولية التي تمنحها Java تلقائيًا لـ Array Elements: صفر للأنواع الرقمية، false لـ boolean، وNull Character لـ char، وnull للمراجع. هذا لا يجيز قراءة Local Variable غير مهيأة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A language-defined initial value automatically assigned to array components and fields, unlike an unassigned local variable.
+
+:::
+
+**مثال:** `new int[2]` تحتوي `0,0`؛ `new String[2]` تحتوي `null,null`.
+
+## [ArrayIndexOutOfBoundsException]{dir="ltr" lang="en"}
+
+Exception أثناء التشغيل عند محاولة الوصول إلى Index سالب أو لا يقل عن length. رسالة Compiler الناجحة لا تثبت أن جميع Indices المستخدمة وقت التشغيل سليمة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A runtime exception thrown when an array access uses a negative index or an index greater than or equal to the array length.
+
+:::
+
+**مثال:** `new int[5]` لا تحتوي على Index رقم 5.
+
+## [Linear Search]{dir="ltr" lang="en"}
+
+نبحث بالمرور على القيم بالتتابع ومقارنتها بالهدف. إذا المطلوب مجرد الوجود، نوقف أول تطابق ونحدد النتيجة بواسطة Flag.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A search that examines elements sequentially until a match is found or all elements have been checked.
+
+:::
+
+**مثال:** Flag تبدأ false وتصبح true إذا تساوت قيمة مع target.
+
+## [Sorting]{dir="ltr" lang="en"}
+
+تغيير ترتيب القيم وفق معيار. في درسنا Arrays.sort ترتب الأرقام وchar تصاعديًا وتعدل نفس Array؛ لا ندرس هنا خوارزمية Sorting داخلية.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** Reordering elements according to an ordering criterion; the array sorting calls used here mutate the original array into ascending order.
+
+:::
+
+**مثال:** `{5,2,-8,10}` تصبح `{-8,2,5,10}`.
+
+## [Char Array]{dir="ltr" lang="en"}
+
+Array من قيم char، يمكن تعديل كل Element فيها. println لها Overload تطبع المحتوى مباشرة. التحويل من String يتم بـ toCharArray؛ هذا ليس Encryption.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A mutable Java array whose components are UTF-16 char code units.
+
+:::
+
+**مثال:** `char[] letters = {'H','i'};` ثم `System.out.println(letters);`.
+
+## [ASCII]{dir="ltr" lang="en"}
+
+ترميز من 128 قيمة، نستخدم منه أكواد الحروف والأرقام في الأمثلة. يشكل جزءًا متوافقًا من Unicode، لكنه لا يصف كل النصوص التي تدعمها Java.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A 7-bit character encoding with 128 code positions, whose basic character codes are preserved in Unicode.
+
+:::
+
+**مثال:** `'A'=65`، `'a'=97`، `'0'=48`.
+
+## [UTF-16 Code Unit]{dir="ltr" lang="en"}
+
+قيمة من 16-bit، وهي ما تمثله char في Java. بعض الرموز تحتاج قيمتين من char، لذلك لا نساوي دائمًا بين عدد chars وعدد الرموز الظاهرة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A 16-bit unit of UTF-16 encoding; supplementary Unicode characters are represented by a pair of such units.
+
+:::
+
+**مثال:** قيم ASCII المستخدمة في الدرس تقع ضمن char واحدة.
+
+## [Offset and Count]{dir="ltr" lang="en"}
+
+في `new String(char[], offset, count)`، offset تحدد بداية القراءة وcount تحدد عدد char المطلوب. الرقم الثاني ليس نهاية Range؛ يجب بقاء الجزء المطلوب ضمن الحدود.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** An offset identifies a starting position and a count identifies how many items are included from that position.
+
+:::
+
+**مثال:** مع ABCDE، البداية 2 والعدد 3 يعطيان CDE.
+
+## [Immutability]{dir="ltr" lang="en"}
+
+صفة تعني أن حالة Object نفسها لا تتغير بعد الإنشاء. String Immutable؛ العمليات التي تعطي نصًا مختلفًا لا تعدل محتوى String الأصلية. char[] قابلة لتغيير Elements، لكن هذا لا يجعلها أسرع أو مشفرة دائمًا.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The property of an object whose state cannot be changed after construction. Java Strings are immutable, whereas char arrays are mutable.
+
+:::
+
+**مثال:** `letters[0]='B'` ممكنة في char[]، ولا يوجد تعديل مماثل لـ String بنفس الأسلوب.
+
+## [Static Import Wildcard]{dir="ltr" lang="en"}
+
+علامة `*` في Static Import تتيح الوصول إلى جميع Static Members المتاحة من Class ضمن السياق. لا تعني أننا سنستعملها كلها، ولا أنها تصبح جزءًا من تعريف Class الخاصة بنا.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The star form of a static import that makes accessible static members of a named type available by simple name.
+
+:::
+
+**مثال:** `import static java.lang.Math.*;`.
+
+## [Pseudorandom Value]{dir="ltr" lang="en"}
+
+قيمة تأتي من آلية توليد تبدو عشوائية ضمن نطاق محدد. Math.random تعطي double من صفر شامل إلى واحد غير شامل؛ النتيجة ليست Output ثابتة لكل تشغيل.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A value produced by a deterministic random-number-generating process, distributed to simulate randomness within a specified domain.
+
+:::
+
+**مثال:** `0.0 <= Math.random() < 1.0`.

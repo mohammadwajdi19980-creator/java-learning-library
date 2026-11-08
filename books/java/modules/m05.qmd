@@ -2,7 +2,7 @@
 title: "M05 · Methods & Recursion"
 ---
 
-<div class="lesson-meta"><span>In progress</span><span>2 / 6 lessons available</span><span>4 lessons remaining</span></div>
+<div class="lesson-meta"><span>Complete</span><span>6 / 6 lessons available</span><span>0 lessons remaining</span></div>
 
 ## Subjects
 
@@ -12,20 +12,24 @@ title: "M05 · Methods & Recursion"
 
 - [#018 · Methods — Definition & Calls](../lessons/lesson-018.qmd)
 - [#019 · Minimum, Average & Varargs](../lessons/lesson-019.qmd)
-- #020 · Built in Method / Function — Not yet available
-- #021 · Overloading Method / Function — Not yet available
+- [#020 · Built-in Methods](../lessons/lesson-020.qmd)
+- [#021 · Method Overloading](../lessons/lesson-021.qmd)
 
-هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+Review & Exam متاح بعد الدروس المذكورة.
 
 ### S11 · Recursion
 
 [Open Subject](../subjects/s11.qmd)
 
-- #022 · Recursion/Recursive Methods Part 1 — Not yet available
-- #023 · Recursion/Recursive Methods Part 2 — Not yet available
+- [#022 · Recursion — Base Case & Calls](../lessons/lesson-022.qmd)
+- [#023 · Recursion — Fibonacci & Range Sum](../lessons/lesson-023.qmd)
 
-هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+Review & Exam متاح بعد الدروس المذكورة.
 
 ## Reading Path
 
 ابدأ من [#018](../lessons/lesson-018.qmd)، وراجع كل Subject بعد دروسه. اتبع Previous / Next للتقدّم بالترتيب.
+
+## Module Assessment
+
+[M05 Exam & Math Utilities Project](../assessments/m05.qmd)

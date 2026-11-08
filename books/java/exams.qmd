@@ -33,8 +33,25 @@
 | S08 · Partial Review | #012–#013 only; #014 awaiting source | [Open](subjects/s08.qmd#partial-review) |
 
 | S09 · Partial Review | #017 only; #015–#016 not yet available | [Open](subjects/s09.qmd#partial-review) |
-| S10 · Partial Review | #018–#019 only; #020–#021 not yet available | [Open](subjects/s10.qmd#partial-review) |
+| S10 · Exam | 40 marks · Methods & Overloading | [Open](subjects/s10.qmd#subject-exam) |
+| S11 · Exam | 30 marks · Recursion | [Open](subjects/s11.qmd#subject-exam) |
+| S12 · Partial Review | #024–#026 only; #027 not yet available | [Open](subjects/s12.qmd#partial-review) |
+| M05 · Exam & Project | 30-mark Exam + 40-mark Project | [Open](assessments/m05.qmd) |
+
+| #020 · Knowledge Check | Built-in Methods | [Open](lessons/lesson-020.qmd#knowledge-check) |
+
+| #021 · Knowledge Check | Method Overloading | [Open](lessons/lesson-021.qmd#knowledge-check) |
+
+| #022 · Knowledge Check | Recursion — Base Case & Calls | [Open](lessons/lesson-022.qmd#knowledge-check) |
+
+| #023 · Knowledge Check | Recursion — Fibonacci & Range Sum | [Open](lessons/lesson-023.qmd#knowledge-check) |
+
+| #024 · Knowledge Check | One-Dimensional Arrays | [Open](lessons/lesson-024.qmd#knowledge-check) |
+
+| #025 · Knowledge Check | Array Exercises | [Open](lessons/lesson-025.qmd#practice-answers) |
+
+| #026 · Knowledge Check | Char Arrays | [Open](lessons/lesson-026.qmd#knowledge-check) |
 
 ## Assessment Path
 
-كل Lesson لها Knowledge Check، وكل Subject مكتمل له Exam بعد دروسه. M04 وباقي المنهج لم يكتمل بعد؛ لا توجد Final Exam تدّعي تغطية ما لم نستلمه.
+كل Lesson لها Knowledge Check، وكل Subject مكتمل له Exam بعد دروسه. M05 اكتمل وله Exam وProject؛ M04 وبقية المنهج لم يكتمل بعد، لذلك لا توجد Final Exam تدّعي تغطية ما لم نستلمه.

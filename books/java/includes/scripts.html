@@ -1,6 +1,6 @@
 <script>
 (()=>{'use strict';
-const path=location.pathname,nested=path.match(/^(.*\/)(?:lessons|subjects|modules)\/[^/]+$/),base=nested?nested[1]:path.slice(0,path.lastIndexOf('/')+1);
+const path=location.pathname,nested=path.match(/^(.*\/)(?:lessons|subjects|modules|assessments)\/[^/]+$/),base=nested?nested[1]:path.slice(0,path.lastIndexOf('/')+1);
 document.querySelectorAll('[data-book-path]').forEach(a=>{a.href=base+a.dataset.bookPath;if(a.href===location.href.split('#')[0]||(a.dataset.bookPath==='index.html'&&path===base))a.setAttribute('aria-current','page');});
 const activeModule=document.querySelector('.nav-module [aria-current="page"]')?.closest('details');
 if(activeModule)document.querySelectorAll('.nav-module').forEach(d=>d.open=d===activeModule);

@@ -92,5 +92,7 @@ for m in data['modules']:
   lines += ['', 'Review & Exam متاح بعد الدروس المذكورة.' if len(ready_sub)==len(subset) else 'هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.', '']
  if done:
   lines+=['## Reading Path','',f'ابدأ من [{done[0]["source_id"]}](../lessons/lesson-{done[0]["id"]:03}.qmd)، وراجع كل Subject بعد دروسه. اتبع Previous / Next للتقدّم بالترتيب.','']
+ if m['id']=='M05' and len(done)==len(group):
+  lines+=['## Module Assessment', '', '[M05 Exam & Math Utilities Project](../assessments/m05.qmd)', '']
  (B/'modules'/f'{m["id"].lower()}.qmd').write_text('\n'.join(lines))
 print(f'Curriculum: {available} available, {received} transcripts, {len(lessons)} mapped.')

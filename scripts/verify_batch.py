@@ -6,16 +6,17 @@ ROOT=Path(__file__).resolve().parents[1]
 B=ROOT/'books/java'
 
 def verify():
-    specs={'programs':{},'invalid_examples':[],'probes':[]}
+    specs={'programs':{},'invalid_examples':[],'probes':[],'program_paths':[]}
     for spec_path in sorted((ROOT/'docs/sources').glob('code-cases-*.json')):
         batch=json.loads(spec_path.read_text())
         assert not (set(specs['programs']) & set(batch['programs'])), 'Duplicate program specification'
         specs['programs'].update(batch['programs'])
         specs['invalid_examples'].extend(batch['invalid_examples'])
         specs['probes'].extend(batch.get('probes',[]))
+        specs['program_paths'].extend(batch.get('program_paths',[]))
     programs={}
-    for p in sorted((B/'lessons').glob('lesson-*.qmd')):
-        if int(p.stem.split('-')[-1])<2:
+    for p in [*sorted((B/'lessons').glob('lesson-*.qmd')), *[ROOT/x for x in specs['program_paths']]]:
+        if p.parent.name=='lessons' and int(p.stem.split('-')[-1])<2:
             continue
         for code in re.findall(r'```java\n(.*?)```',p.read_text(),re.S):
             m=re.search(r'public class (\w+)',code)

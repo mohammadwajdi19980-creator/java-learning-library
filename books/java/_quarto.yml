@@ -65,13 +65,25 @@ book:
         - modules/m05.qmd
         - lessons/lesson-018.qmd
         - lessons/lesson-019.qmd
+        - lessons/lesson-020.qmd
+        - lessons/lesson-021.qmd
         - subjects/s10.qmd
+        - lessons/lesson-022.qmd
+        - lessons/lesson-023.qmd
+        - subjects/s11.qmd
+        - assessments/m05.qmd
+    - part: "M06 · Arrays & Strings"
+      chapters:
+        - modules/m06.qmd
+        - lessons/lesson-024.qmd
+        - lessons/lesson-025.qmd
+        - lessons/lesson-026.qmd
+        - subjects/s12.qmd
     - roadmap.qmd
     - projects.qmd
     - exams.qmd
     - part: "Planned Curriculum"
       chapters:
-        - modules/m06.qmd
         - modules/m07.qmd
         - modules/m08.qmd
         - modules/m09.qmd
@@ -79,8 +91,6 @@ book:
         - modules/m11.qmd
         - modules/m12.qmd
         - modules/m13.qmd
-        - subjects/s11.qmd
-        - subjects/s12.qmd
         - subjects/s13.qmd
         - subjects/s14.qmd
         - subjects/s15.qmd

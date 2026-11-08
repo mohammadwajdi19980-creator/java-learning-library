@@ -1,0 +1,58 @@
+[
+  {
+    "lesson_id": 20,
+    "archive": "docs/sources/transcripts/video-020.txt",
+    "sha256": "733ec60a3dfccf46aa9d015c17278bbb1810fa9df02df37577606487b418a252",
+    "source_url": null,
+    "origin": "User batch dated 2026-11-08; matched by subject content and canonical course title, not filename",
+    "archive_kind": "verbatim attachment"
+  },
+  {
+    "lesson_id": 21,
+    "archive": "docs/sources/transcripts/inline-021-source.md",
+    "sha256": "6182b526936c9924efcb3fbec8f31c98cd169334d061d391e23241203376a3b2",
+    "source_url": null,
+    "origin": "User batch dated 2026-11-08; matched by subject content and canonical course title, not filename",
+    "archive_kind": "editorial inventory of inline transcript; original remains in conversation"
+  },
+  {
+    "lesson_id": 22,
+    "archive": "docs/sources/transcripts/video-022.txt",
+    "sha256": "7c2a3744948dcbe6c77c023ec4ac39ca670171f323356f4b751033383fe172f0",
+    "source_url": null,
+    "origin": "User batch dated 2026-11-08; matched by subject content and canonical course title, not filename",
+    "archive_kind": "verbatim attachment"
+  },
+  {
+    "lesson_id": 23,
+    "archive": "docs/sources/transcripts/video-023.txt",
+    "sha256": "3a01aa8742d9bcfd1bac564408f9bc1bd4142ce8b3ed5b9ba1a717e39daa719f",
+    "source_url": null,
+    "origin": "User batch dated 2026-11-08; matched by subject content and canonical course title, not filename",
+    "archive_kind": "verbatim attachment"
+  },
+  {
+    "lesson_id": 24,
+    "archive": "docs/sources/transcripts/video-024.txt",
+    "sha256": "1d261552e278e9e56b3a2219e7ab041c14e54fb41e024671de77f200145a108d",
+    "source_url": null,
+    "origin": "User batch dated 2026-11-08; matched by subject content and canonical course title, not filename",
+    "archive_kind": "verbatim attachment"
+  },
+  {
+    "lesson_id": 25,
+    "archive": "docs/sources/transcripts/inline-025-source.md",
+    "sha256": "3844c4665cd06cfc6931e7e5139a3062ad5452bb402154f34244a00e57908c8d",
+    "source_url": null,
+    "origin": "User batch dated 2026-11-08; matched by subject content and canonical course title, not filename",
+    "archive_kind": "editorial inventory of inline transcript; original remains in conversation"
+  },
+  {
+    "lesson_id": 26,
+    "archive": "docs/sources/transcripts/inline-026-source.md",
+    "sha256": "4305bb44b0f7dcb2c5a5376e694cb2f0dc01e755a557f6c444ade13e05d9d7df",
+    "source_url": null,
+    "origin": "User batch dated 2026-11-08; matched by subject content and canonical course title, not filename",
+    "archive_kind": "editorial inventory of inline transcript; original remains in conversation"
+  }
+]

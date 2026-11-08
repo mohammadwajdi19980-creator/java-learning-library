@@ -1,0 +1,1766 @@
+{
+  "scope": "All seven supplied subjects #020–#026: four attachments read in full plus three inline transcripts; source inventories identify reconstruction gaps",
+  "sources": [
+    {
+      "id": "source-020",
+      "title": "Lesson #020",
+      "inventory_complete": true,
+      "archive": "docs/sources/transcripts/video-020.txt",
+      "source_inspection": "Entire uploaded transcript read; original audiovisual content not claimed as inspected."
+    },
+    {
+      "id": "source-021",
+      "title": "Lesson #021",
+      "inventory_complete": true,
+      "archive": "docs/sources/transcripts/inline-021-source.md",
+      "source_inspection": "Entire supplied text read; source visuals not claimed as inspected. Inline inventory is not a verbatim transcript."
+    },
+    {
+      "id": "source-022",
+      "title": "Lesson #022",
+      "inventory_complete": true,
+      "archive": "docs/sources/transcripts/video-022.txt",
+      "source_inspection": "Entire uploaded transcript read; original audiovisual content not claimed as inspected."
+    },
+    {
+      "id": "source-023",
+      "title": "Lesson #023",
+      "inventory_complete": true,
+      "archive": "docs/sources/transcripts/video-023.txt",
+      "source_inspection": "Entire uploaded transcript read; original audiovisual content not claimed as inspected."
+    },
+    {
+      "id": "source-024",
+      "title": "Lesson #024",
+      "inventory_complete": true,
+      "archive": "docs/sources/transcripts/video-024.txt",
+      "source_inspection": "Entire uploaded transcript read; original audiovisual content not claimed as inspected."
+    },
+    {
+      "id": "source-025",
+      "title": "Lesson #025",
+      "inventory_complete": true,
+      "archive": "docs/sources/transcripts/inline-025-source.md",
+      "source_inspection": "Entire supplied text read; source visuals not claimed as inspected. Inline inventory is not a verbatim transcript."
+    },
+    {
+      "id": "source-026",
+      "title": "Lesson #026",
+      "inventory_complete": true,
+      "archive": "docs/sources/transcripts/inline-026-source.md",
+      "source_inspection": "Entire supplied text read; source visuals not claimed as inspected. Inline inventory is not a verbatim transcript."
+    }
+  ],
+  "units": [
+    {
+      "id": "020-01",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Reading an API",
+      "idea": "Built-in Methods contrasted with user-written Methods",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Reading an API"
+    },
+    {
+      "id": "020-02",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Reading an API",
+      "idea": "API return types, parameter types and modifiers",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Reading an API"
+    },
+    {
+      "id": "020-03",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Reading an API",
+      "idea": "abs int/double overloads and using returned values",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Reading an API"
+    },
+    {
+      "id": "020-04",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Math Methods",
+      "idea": "abs and Absolute Value",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Math Methods"
+    },
+    {
+      "id": "020-05",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Math Methods",
+      "idea": "ceil for positive and negative values",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Math Methods"
+    },
+    {
+      "id": "020-06",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Math Methods",
+      "idea": "floor for positive and negative values",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Math Methods"
+    },
+    {
+      "id": "020-07",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Math Methods",
+      "idea": "round nearest and half-boundary examples",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Math Methods"
+    },
+    {
+      "id": "020-08",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Math Methods",
+      "idea": "sqrt numeric argument and result",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Math Methods"
+    },
+    {
+      "id": "020-09",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Math Methods",
+      "idea": "log and log10 calculator functions",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Math Methods"
+    },
+    {
+      "id": "020-10",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Math Methods",
+      "idea": "pow base and exponent",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Math Methods"
+    },
+    {
+      "id": "020-11",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Math Methods",
+      "idea": "max and min compare two values",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Math Methods"
+    },
+    {
+      "id": "020-12",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Math Methods",
+      "idea": "Distinguish double return from integer-looking output",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Math Methods"
+    },
+    {
+      "id": "020-13",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Class Name vs Static Import",
+      "idea": "Math in java.lang available without ordinary import",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Class Name vs Static Import"
+    },
+    {
+      "id": "020-14",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Class Name vs Static Import",
+      "idea": "Class-qualified static calls without a new Object",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Class Name vs Static Import"
+    },
+    {
+      "id": "020-15",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Class Name vs Static Import",
+      "idea": "static import one member versus wildcard",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Class Name vs Static Import"
+    },
+    {
+      "id": "020-16",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Class Name vs Static Import",
+      "idea": "Distinguish static Math access from Scanner object access",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Class Name vs Static Import"
+    },
+    {
+      "id": "020-17",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Nested Method Calls",
+      "idea": "Nested max compares more than two values",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Nested Method Calls"
+    },
+    {
+      "id": "020-18",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Nested Method Calls",
+      "idea": "Use returned Method value as Argument for pow and sqrt",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Nested Method Calls"
+    },
+    {
+      "id": "020-19",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Nested Method Calls",
+      "idea": "Follow inner return before outer invocation",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Nested Method Calls"
+    },
+    {
+      "id": "020-20",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Random Values and Ranges",
+      "idea": "random double domain includes zero excludes one",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Random Values and Ranges"
+    },
+    {
+      "id": "020-21",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Random Values and Ranges",
+      "idea": "Random output varies between executions",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Random Values and Ranges"
+    },
+    {
+      "id": "020-22",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Random Values and Ranges",
+      "idea": "Scale inclusive integer range with max-min+1",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Random Values and Ranges"
+    },
+    {
+      "id": "020-23",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Random Values and Ranges",
+      "idea": "Casting location before or after multiplication",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Random Values and Ranges"
+    },
+    {
+      "id": "020-24",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Random Values and Ranges",
+      "idea": "Continuous double scaled range differs from integer range",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Random Values and Ranges"
+    },
+    {
+      "id": "020-25",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · Random Values and Ranges",
+      "idea": "Random Class exists but separate scope",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > Random Values and Ranges"
+    },
+    {
+      "id": "020-26",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · String and Character Methods",
+      "idea": "String charAt and other categories such as concat replace split lowercasing",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > String and Character Methods"
+    },
+    {
+      "id": "020-27",
+      "source_id": "source-020",
+      "locator": "docs/sources/transcripts/video-020.txt · String and Character Methods",
+      "idea": "Character classification Methods; use API instead of covering all Methods",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-020.qmd > String and Character Methods"
+    },
+    {
+      "id": "021-01",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Method Signature",
+      "idea": "Same name differing parameter lists",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Method Signature"
+    },
+    {
+      "id": "021-02",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Method Signature",
+      "idea": "Count type and order discriminate overloads",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Method Signature"
+    },
+    {
+      "id": "021-03",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Method Signature",
+      "idea": "Parameter names not signature discrimination",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Method Signature"
+    },
+    {
+      "id": "021-04",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Method Signature",
+      "idea": "Return type not signature discrimination",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Method Signature"
+    },
+    {
+      "id": "021-05",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Worked Example",
+      "idea": "Integer two-argument sum",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Worked Example"
+    },
+    {
+      "id": "021-06",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Worked Example",
+      "idea": "Fractional arguments versus int parameters",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Worked Example"
+    },
+    {
+      "id": "021-07",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Worked Example",
+      "idea": "Preserve original integer Method and add floating overload",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Worked Example"
+    },
+    {
+      "id": "021-08",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Worked Example",
+      "idea": "Two mixed-type overloads differ by order",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Worked Example"
+    },
+    {
+      "id": "021-09",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Worked Example",
+      "idea": "Third argument differentiates arity",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Worked Example"
+    },
+    {
+      "id": "021-10",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Worked Example",
+      "idea": "Decimal literal double versus f suffix",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Worked Example"
+    },
+    {
+      "id": "021-11",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Worked Example",
+      "idea": "Compiler chooses based on argument types and permitted conversions",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Worked Example"
+    },
+    {
+      "id": "021-12",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · What Does Not Create an Overload?",
+      "idea": "Return type alone cannot overload",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > What Does Not Create an Overload?"
+    },
+    {
+      "id": "021-13",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · What Does Not Create an Overload?",
+      "idea": "Access modifier and static alone cannot overload",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > What Does Not Create an Overload?"
+    },
+    {
+      "id": "021-14",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · What Does Not Create an Overload?",
+      "idea": "Renaming Method is a separate name",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > What Does Not Create an Overload?"
+    },
+    {
+      "id": "021-15",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · What Does Not Create an Overload?",
+      "idea": "Mixed overload ambiguity clarified",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > What Does Not Create an Overload?"
+    },
+    {
+      "id": "021-16",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · One Order, Several Ways",
+      "idea": "Restaurant dine-in order",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > One Order, Several Ways"
+    },
+    {
+      "id": "021-17",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · One Order, Several Ways",
+      "idea": "Order with delivery charge",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > One Order, Several Ways"
+    },
+    {
+      "id": "021-18",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · One Order, Several Ways",
+      "idea": "Order with promo discount: 15+3-2=16",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > One Order, Several Ways"
+    },
+    {
+      "id": "021-19",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · One Order, Several Ways",
+      "idea": "Illustrative identifiers and promo text marked",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > One Order, Several Ways"
+    },
+    {
+      "id": "021-20",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Calls Within Calls",
+      "idea": "One Method calls another and resumes afterward",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Calls Within Calls"
+    },
+    {
+      "id": "021-21",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Calls Within Calls",
+      "idea": "show(15) prints after nested message call",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Calls Within Calls"
+    },
+    {
+      "id": "021-22",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Calls Within Calls",
+      "idea": "main may be overloaded",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Calls Within Calls"
+    },
+    {
+      "id": "021-23",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Calls Within Calls",
+      "idea": "Conventional main(String[]) entry point",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Calls Within Calls"
+    },
+    {
+      "id": "021-24",
+      "source_id": "source-021",
+      "locator": "docs/sources/transcripts/inline-021-source.md · Calls Within Calls",
+      "idea": "Explicit main(500) executes main(int)",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-021.qmd > Calls Within Calls"
+    },
+    {
+      "id": "022-01",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Base Case and Progress",
+      "idea": "Recursive Method calls itself",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Base Case and Progress"
+    },
+    {
+      "id": "022-02",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Base Case and Progress",
+      "idea": "Unbounded recursion and StackOverflowError",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Base Case and Progress"
+    },
+    {
+      "id": "022-03",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Base Case and Progress",
+      "idea": "Stop condition must be reachable",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Base Case and Progress"
+    },
+    {
+      "id": "022-04",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Base Case and Progress",
+      "idea": "Per-call progress towards stop condition",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Base Case and Progress"
+    },
+    {
+      "id": "022-05",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Counter Example",
+      "idea": "Increment before conditional yields four prints",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Counter Example"
+    },
+    {
+      "id": "022-06",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Counter Example",
+      "idea": "Base Case plus increment yields five prints",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Counter Example"
+    },
+    {
+      "id": "022-07",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Counter Example",
+      "idea": "Update after recursive call fails to progress",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Counter Example"
+    },
+    {
+      "id": "022-08",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Counter Example",
+      "idea": "Static Counter retained across calls and must reset",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Counter Example"
+    },
+    {
+      "id": "022-09",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Factorial: From Loop to Recursion",
+      "idea": "Iterative factorial idea and multiplicative identity",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Factorial: From Loop to Recursion"
+    },
+    {
+      "id": "022-10",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Factorial: From Loop to Recursion",
+      "idea": "Recursive relation n * factorial(n-1)",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Factorial: From Loop to Recursion"
+    },
+    {
+      "id": "022-11",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Factorial: From Loop to Recursion",
+      "idea": "Factorial(5)=120",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Factorial: From Loop to Recursion"
+    },
+    {
+      "id": "022-12",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Factorial: From Loop to Recursion",
+      "idea": "Zero and one Base Cases",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Factorial: From Loop to Recursion"
+    },
+    {
+      "id": "022-13",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Factorial: From Loop to Recursion",
+      "idea": "Negative inputs excluded; fixed-width overflow guard",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Factorial: From Loop to Recursion"
+    },
+    {
+      "id": "022-14",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Factorial: From Loop to Recursion",
+      "idea": "Calls wait for smaller results",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Factorial: From Loop to Recursion"
+    },
+    {
+      "id": "022-15",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Factorial: From Loop to Recursion",
+      "idea": "Trace descent and return product accumulation",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Factorial: From Loop to Recursion"
+    },
+    {
+      "id": "022-16",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Print Before or After the Call?",
+      "idea": "Print before call yields descending values",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Print Before or After the Call?"
+    },
+    {
+      "id": "022-17",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Print Before or After the Call?",
+      "idea": "Print after call yields ascending values",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Print Before or After the Call?"
+    },
+    {
+      "id": "022-18",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Print Before or After the Call?",
+      "idea": "Each invocation retains its own n",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Print Before or After the Call?"
+    },
+    {
+      "id": "022-19",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Print Before or After the Call?",
+      "idea": "return ends current call not whole program",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Print Before or After the Call?"
+    },
+    {
+      "id": "022-20",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Direct and Indirect Recursion",
+      "idea": "Direct A calls A",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Direct and Indirect Recursion"
+    },
+    {
+      "id": "022-21",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Direct and Indirect Recursion",
+      "idea": "Indirect A calls B calls A",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Direct and Indirect Recursion"
+    },
+    {
+      "id": "022-22",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Direct and Indirect Recursion",
+      "idea": "Termination required for mutual call chain",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Direct and Indirect Recursion"
+    },
+    {
+      "id": "022-23",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Recursion vs Iteration",
+      "idea": "Same sample problems can use loops",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Recursion vs Iteration"
+    },
+    {
+      "id": "022-24",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Recursion vs Iteration",
+      "idea": "Call Stack space and invocation overhead",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Recursion vs Iteration"
+    },
+    {
+      "id": "022-25",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Recursion vs Iteration",
+      "idea": "Recursion may simplify code but not always faster",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Recursion vs Iteration"
+    },
+    {
+      "id": "022-26",
+      "source_id": "source-022",
+      "locator": "docs/sources/transcripts/video-022.txt · Recursion vs Iteration",
+      "idea": "Trees mentioned as later application without additional scope",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-022.qmd > Recursion vs Iteration"
+    },
+    {
+      "id": "023-01",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Fibonacci: Value at an Index",
+      "idea": "Sequence seeds zero and one",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Fibonacci: Value at an Index"
+    },
+    {
+      "id": "023-02",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Fibonacci: Value at an Index",
+      "idea": "Recurrence sum of previous two",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Fibonacci: Value at an Index"
+    },
+    {
+      "id": "023-03",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Fibonacci: Value at an Index",
+      "idea": "fib(4)=3, fib(7)=13, fib(9)=34",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Fibonacci: Value at an Index"
+    },
+    {
+      "id": "023-04",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Fibonacci: Value at an Index",
+      "idea": "Two Base Cases",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Fibonacci: Value at an Index"
+    },
+    {
+      "id": "023-05",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Fibonacci: Value at an Index",
+      "idea": "Value at index distinct from first n values",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Fibonacci: Value at an Index"
+    },
+    {
+      "id": "023-06",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Trace fib(4)",
+      "idea": "Split two recursive branches to Base Cases",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Trace fib(4)"
+    },
+    {
+      "id": "023-07",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Trace fib(4)",
+      "idea": "Return values combined bottom up",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Trace fib(4)"
+    },
+    {
+      "id": "023-08",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Trace fib(4)",
+      "idea": "Java left-to-right operand evaluation",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Trace fib(4)"
+    },
+    {
+      "id": "023-09",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Trace fib(4)",
+      "idea": "Repeated subcalls are not automatically cached",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Trace fib(4)"
+    },
+    {
+      "id": "023-10",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Trace fib(4)",
+      "idea": "Do not mutate n with n-- between branches",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Trace fib(4)"
+    },
+    {
+      "id": "023-11",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Print the First n Values",
+      "idea": "first second next variables",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Print the First n Values"
+    },
+    {
+      "id": "023-12",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Print the First n Values",
+      "idea": "Print initial seeds before remaining count",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Print the First n Values"
+    },
+    {
+      "id": "023-13",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Print the First n Values",
+      "idea": "Pass count-2 after two seeds",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Print the First n Values"
+    },
+    {
+      "id": "023-14",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Print the First n Values",
+      "idea": "Update first=second and second=next",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Print the First n Values"
+    },
+    {
+      "id": "023-15",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Print the First n Values",
+      "idea": "Count decreases to zero",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Print the First n Values"
+    },
+    {
+      "id": "023-16",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Print the First n Values",
+      "idea": "Trace five values 0 1 1 2 3",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Print the First n Values"
+    },
+    {
+      "id": "023-17",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Print the First n Values",
+      "idea": "Six values end at five",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Print the First n Values"
+    },
+    {
+      "id": "023-18",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Print the First n Values",
+      "idea": "Reset state and handle zero/one counts",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Print the First n Values"
+    },
+    {
+      "id": "023-19",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Inclusive Range Sum",
+      "idea": "Range includes both endpoints",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Inclusive Range Sum"
+    },
+    {
+      "id": "023-20",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Inclusive Range Sum",
+      "idea": "Equal start/end Base Case returns endpoint",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Inclusive Range Sum"
+    },
+    {
+      "id": "023-21",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Inclusive Range Sum",
+      "idea": "Increasing range uses start+1",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Inclusive Range Sum"
+    },
+    {
+      "id": "023-22",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Inclusive Range Sum",
+      "idea": "Decreasing range uses start-1",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Inclusive Range Sum"
+    },
+    {
+      "id": "023-23",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Inclusive Range Sum",
+      "idea": "Examples 4..6=15 and 6..4=15",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Inclusive Range Sum"
+    },
+    {
+      "id": "023-24",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Inclusive Range Sum",
+      "idea": "Unreachable Base Case can overflow Stack",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Inclusive Range Sum"
+    },
+    {
+      "id": "023-25",
+      "source_id": "source-023",
+      "locator": "docs/sources/transcripts/video-023.txt · Inclusive Range Sum",
+      "idea": "Loop and arithmetic-series formula mentioned without replacing lesson goal",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-023.qmd > Inclusive Range Sum"
+    },
+    {
+      "id": "024-01",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Create and Access",
+      "idea": "Need collection rather than many individual Variables",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Create and Access"
+    },
+    {
+      "id": "024-02",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Create and Access",
+      "idea": "Posts/container analogy limited to fixed Array scope",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Create and Access"
+    },
+    {
+      "id": "024-03",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Create and Access",
+      "idea": "Component Type and fixed number of Elements",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Create and Access"
+    },
+    {
+      "id": "024-04",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Create and Access",
+      "idea": "new int[5] allocation",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Create and Access"
+    },
+    {
+      "id": "024-05",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Create and Access",
+      "idea": "Zero-based first and last Index",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Create and Access"
+    },
+    {
+      "id": "024-06",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Create and Access",
+      "idea": "Assign/read/update individual Element",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Create and Access"
+    },
+    {
+      "id": "024-07",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Create and Access",
+      "idea": "Element storage versus full object memory cost",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Create and Access"
+    },
+    {
+      "id": "024-08",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Declaration and Initialization Forms",
+      "idea": "Brackets next to type or name",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Declaration and Initialization Forms"
+    },
+    {
+      "id": "024-09",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Declaration and Initialization Forms",
+      "idea": "Declaration and allocation separate",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Declaration and Initialization Forms"
+    },
+    {
+      "id": "024-10",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Declaration and Initialization Forms",
+      "idea": "Initializer determines length",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Declaration and Initialization Forms"
+    },
+    {
+      "id": "024-11",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Declaration and Initialization Forms",
+      "idea": "new int[] needs initializer if no size",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Declaration and Initialization Forms"
+    },
+    {
+      "id": "024-12",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Declaration and Initialization Forms",
+      "idea": "Declaration alone does not allocate an Array",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Declaration and Initialization Forms"
+    },
+    {
+      "id": "024-13",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Default Values",
+      "idea": "Numeric defaults zero",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Default Values"
+    },
+    {
+      "id": "024-14",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Default Values",
+      "idea": "boolean false",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Default Values"
+    },
+    {
+      "id": "024-15",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Default Values",
+      "idea": "char U+0000",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Default Values"
+    },
+    {
+      "id": "024-16",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Default Values",
+      "idea": "Reference types null",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Default Values"
+    },
+    {
+      "id": "024-17",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Default Values",
+      "idea": "Local variables still require definite assignment",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Default Values"
+    },
+    {
+      "id": "024-18",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Default Values",
+      "idea": "String[] and user-defined Post[] preview without OOP detour",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Default Values"
+    },
+    {
+      "id": "024-19",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · length and Index Bounds",
+      "idea": "length field has no parentheses",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > length and Index Bounds"
+    },
+    {
+      "id": "024-20",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · length and Index Bounds",
+      "idea": "last Index length-1",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > length and Index Bounds"
+    },
+    {
+      "id": "024-21",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · length and Index Bounds",
+      "idea": "ArrayIndexOutOfBoundsException runtime beyond bounds",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > length and Index Bounds"
+    },
+    {
+      "id": "024-22",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Traverse with for and for-each",
+      "idea": "For i=0 and i<length",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Traverse with for and for-each"
+    },
+    {
+      "id": "024-23",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Traverse with for and for-each",
+      "idea": "Ali Ahmad Bilal traversal example",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Traverse with for and for-each"
+    },
+    {
+      "id": "024-24",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Traverse with for and for-each",
+      "idea": "Starting at one misses first",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Traverse with for and for-each"
+    },
+    {
+      "id": "024-25",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Traverse with for and for-each",
+      "idea": "Using <=length fails at end",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Traverse with for and for-each"
+    },
+    {
+      "id": "024-26",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Traverse with for and for-each",
+      "idea": "while/do-while alternatives",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Traverse with for and for-each"
+    },
+    {
+      "id": "024-27",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Traverse with for and for-each",
+      "idea": "for-each visits each value",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Traverse with for and for-each"
+    },
+    {
+      "id": "024-28",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Size Chosen at Runtime",
+      "idea": "User may choose size at runtime",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Size Chosen at Runtime"
+    },
+    {
+      "id": "024-29",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Size Chosen at Runtime",
+      "idea": "Size fixed after creation",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Size Chosen at Runtime"
+    },
+    {
+      "id": "024-30",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Size Chosen at Runtime",
+      "idea": "Allowed integer-compatible size types versus long/float/double",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Size Chosen at Runtime"
+    },
+    {
+      "id": "024-31",
+      "source_id": "source-024",
+      "locator": "docs/sources/transcripts/video-024.txt · Size Chosen at Runtime",
+      "idea": "Zero-length valid and negative rejected",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-024.qmd > Size Chosen at Runtime"
+    },
+    {
+      "id": "025-01",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sum and Average",
+      "idea": "Sum starts at additive identity zero",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sum and Average"
+    },
+    {
+      "id": "025-02",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sum and Average",
+      "idea": "Trace first 1 then 5 accumulated to six",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sum and Average"
+    },
+    {
+      "id": "025-03",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sum and Average",
+      "idea": "Full illustrative values sum to23",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sum and Average"
+    },
+    {
+      "id": "025-04",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sum and Average",
+      "idea": "Average divides by length",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sum and Average"
+    },
+    {
+      "id": "025-05",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sum and Average",
+      "idea": "Cast before division to preserve fraction",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sum and Average"
+    },
+    {
+      "id": "025-06",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sum and Average",
+      "idea": "Scanner input in loop",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sum and Average"
+    },
+    {
+      "id": "025-07",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sum and Average",
+      "idea": "Can accumulate in same input loop",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sum and Average"
+    },
+    {
+      "id": "025-08",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sum and Average",
+      "idea": "Empty array must be guarded",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sum and Average"
+    },
+    {
+      "id": "025-09",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Search with a Flag",
+      "idea": "Sequential equality checks against target",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Search with a Flag"
+    },
+    {
+      "id": "025-10",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Search with a Flag",
+      "idea": "false flag before loop",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Search with a Flag"
+    },
+    {
+      "id": "025-11",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Search with a Flag",
+      "idea": "true and break on first match",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Search with a Flag"
+    },
+    {
+      "id": "025-12",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Search with a Flag",
+      "idea": "Single final found/not found decision",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Search with a Flag"
+    },
+    {
+      "id": "025-13",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Search with a Flag",
+      "idea": "for and for-each alternatives",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Search with a Flag"
+    },
+    {
+      "id": "025-14",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Minimum and Maximum",
+      "idea": "Initialize extrema from first element",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Minimum and Maximum"
+    },
+    {
+      "id": "025-15",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Minimum and Maximum",
+      "idea": "Scan comparisons independently",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Minimum and Maximum"
+    },
+    {
+      "id": "025-16",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Minimum and Maximum",
+      "idea": "Can start index1 to avoid self-comparison",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Minimum and Maximum"
+    },
+    {
+      "id": "025-17",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Minimum and Maximum",
+      "idea": "Negative min -8 and max10 sample",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Minimum and Maximum"
+    },
+    {
+      "id": "025-18",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Minimum and Maximum",
+      "idea": "Why zero is not a safe default extrema",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Minimum and Maximum"
+    },
+    {
+      "id": "025-19",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Minimum and Maximum",
+      "idea": "No first element in an empty array",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Minimum and Maximum"
+    },
+    {
+      "id": "025-20",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sort with Arrays.sort",
+      "idea": "Built-in sort instead of new algorithm",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sort with Arrays.sort"
+    },
+    {
+      "id": "025-21",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sort with Arrays.sort",
+      "idea": "Import java.util.Arrays",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sort with Arrays.sort"
+    },
+    {
+      "id": "025-22",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sort with Arrays.sort",
+      "idea": "Overloads for component types",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sort with Arrays.sort"
+    },
+    {
+      "id": "025-23",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sort with Arrays.sort",
+      "idea": "Pass array name without indexing",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sort with Arrays.sort"
+    },
+    {
+      "id": "025-24",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sort with Arrays.sort",
+      "idea": "Ascending values after sort",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sort with Arrays.sort"
+    },
+    {
+      "id": "025-25",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Sort with Arrays.sort",
+      "idea": "sort mutates original and returns void",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Sort with Arrays.sort"
+    },
+    {
+      "id": "025-26",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Complete Program",
+      "idea": "Runnable assembly of tasks and input contract",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Complete Program"
+    },
+    {
+      "id": "025-27",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Complete Program",
+      "idea": "Long accumulator to avoid int overflow within same sum task",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Complete Program"
+    },
+    {
+      "id": "025-28",
+      "source_id": "source-025",
+      "locator": "docs/sources/transcripts/inline-025-source.md · Complete Program",
+      "idea": "No invented external exercises URL",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-025.qmd > Complete Program"
+    },
+    {
+      "id": "026-01",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Create and Print char[]",
+      "idea": "char[] creation with Single Quotes",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Create and Print char[]"
+    },
+    {
+      "id": "026-02",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Create and Print char[]",
+      "idea": "Assign elements using same zero-based indexing",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Create and Print char[]"
+    },
+    {
+      "id": "026-03",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Create and Print char[]",
+      "idea": "println(char[]) prints contents directly",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Create and Print char[]"
+    },
+    {
+      "id": "026-04",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Create and Print char[]",
+      "idea": "Contrast println int[] and String concatenation",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Create and Print char[]"
+    },
+    {
+      "id": "026-05",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Character Codes: ASCII and Unicode",
+      "idea": "ASCII code chart usage",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Character Codes: ASCII and Unicode"
+    },
+    {
+      "id": "026-06",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Character Codes: ASCII and Unicode",
+      "idea": "97=a 98=b",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Character Codes: ASCII and Unicode"
+    },
+    {
+      "id": "026-07",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Character Codes: ASCII and Unicode",
+      "idea": "65=A 66=B",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Character Codes: ASCII and Unicode"
+    },
+    {
+      "id": "026-08",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Character Codes: ASCII and Unicode",
+      "idea": "48=digit zero not numeric zero",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Character Codes: ASCII and Unicode"
+    },
+    {
+      "id": "026-09",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Character Codes: ASCII and Unicode",
+      "idea": "Sequential English codes",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Character Codes: ASCII and Unicode"
+    },
+    {
+      "id": "026-10",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Character Codes: ASCII and Unicode",
+      "idea": "char constant numeric conversion and explicit cast",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Character Codes: ASCII and Unicode"
+    },
+    {
+      "id": "026-11",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Character Codes: ASCII and Unicode",
+      "idea": "UTF-16 clarification versus ASCII-only claim",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Character Codes: ASCII and Unicode"
+    },
+    {
+      "id": "026-12",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Input with Scanner",
+      "idea": "next reads token until whitespace",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Input with Scanner"
+    },
+    {
+      "id": "026-13",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Input with Scanner",
+      "idea": "nextLine reads whole line",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Input with Scanner"
+    },
+    {
+      "id": "026-14",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Input with Scanner",
+      "idea": "toCharArray conversion",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Input with Scanner"
+    },
+    {
+      "id": "026-15",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Input with Scanner",
+      "idea": "Temporary String optional",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Input with Scanner"
+    },
+    {
+      "id": "026-16",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Input with Scanner",
+      "idea": "Prior numeric input newline reminder",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Input with Scanner"
+    },
+    {
+      "id": "026-17",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Length and Null Characters",
+      "idea": "Java char[] does not require C-style terminator",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Length and Null Characters"
+    },
+    {
+      "id": "026-18",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Length and Null Characters",
+      "idea": "Partly written Array retains full length",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Length and Null Characters"
+    },
+    {
+      "id": "026-19",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Length and Null Characters",
+      "idea": "Default Null Character not Space or deleted element",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Length and Null Characters"
+    },
+    {
+      "id": "026-20",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Sorting char[]",
+      "idea": "Arrays.sort for char[]",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Sorting char[]"
+    },
+    {
+      "id": "026-21",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Sorting char[]",
+      "idea": "Uppercase then lowercase follows numeric code",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Sorting char[]"
+    },
+    {
+      "id": "026-22",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Sorting char[]",
+      "idea": "Not universal natural-language sorting",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Sorting char[]"
+    },
+    {
+      "id": "026-23",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Create a String from a Range",
+      "idea": "String(char[],offset,count)",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Create a String from a Range"
+    },
+    {
+      "id": "026-24",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Create a String from a Range",
+      "idea": "Start zero counttwo",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Create a String from a Range"
+    },
+    {
+      "id": "026-25",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Create a String from a Range",
+      "idea": "Starttwo countthree gives CDE",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Create a String from a Range"
+    },
+    {
+      "id": "026-26",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · Create a String from a Range",
+      "idea": "Out-of-range Exception is deferred to its own section",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > Create a String from a Range"
+    },
+    {
+      "id": "026-27",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · char[] vs String",
+      "idea": "String immutable versus mutable char[]",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > char[] vs String"
+    },
+    {
+      "id": "026-28",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · char[] vs String",
+      "idea": "Password wipe capability not encryption",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > char[] vs String"
+    },
+    {
+      "id": "026-29",
+      "source_id": "source-026",
+      "locator": "docs/sources/transcripts/inline-026-source.md · char[] vs String",
+      "idea": "No universal speed superiority claim",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-026.qmd > char[] vs String"
+    }
+  ]
+}

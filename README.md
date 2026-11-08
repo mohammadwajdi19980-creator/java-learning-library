@@ -6,7 +6,7 @@ A visual, Arabic-first Java textbook based progressively on 77 Adel Nasim videos
 
 ## Current scope
 
-Two lessons are available (#00 and #01); three transcripts have been received (#00–#02). Lesson #02 has not been written. All 77 original video titles are mapped. Receipt, editorial readiness, publication, and learner mastery are separate states.
+24 lessons are available: #00–#013 and #017–#026. #014–#016 remain unavailable. M05 is complete; S12 is partial pending #027. All 77 original topic IDs are mapped. Receipt, readiness, publication and learner mastery are separate states.
 
 ## Editing
 

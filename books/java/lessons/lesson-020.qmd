@@ -1,0 +1,161 @@
+---
+title: "Built-in Methods — Math, String & Character"
+subtitle: "استعمل الأدوات الجاهزة، واقرأ نوع النتيجة قبل استخدامها"
+---
+
+<div class="lesson-meta"><span>M05 · S10</span><span>LESSON #020</span></div>
+
+**مرحبا**
+
+في [Methods — Definition & Calls](lesson-018.qmd) كتبنا `Methods` بأنفسنا. الآن بدنا نستعمل `Methods` جاهزة ضمن Java Libraries، بدل ما نعيد كتابة حسابات معروفة. مش مطلوب نحفظ كل الـ API؛ نعرف كيف نقرأها ونختار المناسب.
+
+## Reading an API
+
+افتح [Math API](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Math.html). أمام كل `Method` ستجد `Modifiers` و`Return Type` و`Parameters` ووصفًا للعملية. مثلًا:
+
+```java
+public static double abs(double a)
+public static int abs(int a)
+```
+
+الاسم واحد، لكن `Parameter Type` يختلف؛ `abs(-1.5)` ترجع `1.5`، و`abs(-11)` ترجع `11`. هاي مقدمة عملية لـ [Method Overloading](lesson-021.qmd). القيمة الراجعة يمكن طباعتها مباشرة، أو تخزينها في `Variable` من نوع مناسب.
+
+## Math Methods
+
+| Method Call | Output | Meaning |
+|---|---|---|
+| `Math.abs(-11)` | `11` | Absolute Value |
+| `Math.ceil(1.2)` | `2.0` | أصغر عدد صحيح ليس أقل من القيمة، بنوع `double` |
+| `Math.ceil(-1.2)` | `-1.0` | نتجه نحو الأكبر، وليس بعيدًا عن الصفر |
+| `Math.floor(1.2)` | `1.0` | أكبر عدد صحيح ليس أكبر من القيمة، بنوع `double` |
+| `Math.floor(-1.2)` | `-2.0` | نتجه نحو الأصغر؛ ليس مجرد حذف الجزء العشري |
+| `Math.round(1.49)` | `1` | أقرب عدد صحيح |
+| `Math.round(1.5)` | `2` | عند التعادل نتجه نحو Positive Infinity |
+| `Math.round(-1.5)` | `-1` | قاعدة التعادل نفسها مع السالب |
+| `Math.sqrt(9)` | `3.0` | Square Root |
+| `Math.log(1)` | `0.0` | Natural Logarithm؛ الأساس `e` |
+| `Math.log10(100)` | `2.0` | Logarithm بالأساس `10` |
+| `Math.pow(2, 3)` | `8.0` | `2 × 2 × 2` |
+| `Math.max(1, 5)` | `5` | الأكبر من قيمتين |
+| `Math.min(1, 5)` | `1` | الأصغر من قيمتين |
+
+`ceil` و`floor` يعيدان `double` حتى لو كانت النتيجة بلا جزء عشري. أما `round(double)` فتعيد `long`، و`round(float)` تعيد `int`. اقرأ `Return Type` بدل التخمين من شكل النتيجة.
+
+## Class Name vs Static Import
+
+`Math` داخل `java.lang`، المتاحة تلقائيًا؛ لذلك لا نحتاج `import java.lang.Math;`. نستدعي `static Methods` بواسطة اسم `Class`، بدون إنشاء `Object`:
+
+```java
+double answer = Math.sqrt(100);
+System.out.println(answer); // 10.0
+```
+
+الطريقة الثانية `static import`. مثال كامل، احفظه باسم `MathImportDemo.java`:
+
+```java
+import static java.lang.Math.*;
+
+public class MathImportDemo {
+    public static void main(String[] args) {
+        System.out.println(abs(-11));
+        System.out.println(ceil(1.2));
+        System.out.println(floor(-1.2));
+        System.out.println(round(1.5));
+        System.out.println(sqrt(9));
+        System.out.println(pow(2, 3));
+    }
+}
+```
+
+**Output**
+
+```text
+11
+2.0
+-2.0
+2
+3.0
+8.0
+```
+
+الـ `*` تتيح استعمال أسماء `static Members` بدون `Math.`. وإذا احتجنا اسمًا واحدًا نكتب `import static java.lang.Math.sqrt;`. لا تخلطها مع `import java.lang.Math.*;`؛ الأخيرة لا تستورد `static Methods` بهذه الطريقة.
+
+## Nested Method Calls
+
+يمكن تمرير نتيجة `Method Call` إلى أخرى. نفهمها من الداخل للخارج:
+
+```java
+System.out.println(Math.max(Math.max(10, 6), 15)); // 15
+System.out.println(Math.pow(Math.sqrt(100), 2));  // 100.0
+```
+
+الأول: `max(10, 6)` تعطي `10`، ثم `max(10, 15)` تعطي `15`. والثاني: `sqrt(100)` تعطي `10.0`، ثم `pow(10.0, 2)` تعطي `100.0`. `max` و`min` تستقبلان قيمتين في كل استدعاء، لذلك نحتاج التركيب عند مقارنة أكثر من قيمتين.
+
+## Random Values and Ranges
+
+`Math.random()` تعطي `double` تحقق:
+
+```text
+0.0 <= value < 1.0
+```
+
+ممكن ترجع `0.0`، لكنها لا ترجع `1.0`. كل تشغيل قد يعطي نتيجة مختلفة؛ لا تنتظر Output ثابتة.
+
+لـ `int` من `min` إلى `max` **شاملين**، استخدم هذه الصيغة للنطاقات الصغيرة في أمثلتنا، بشرط `min <= max`:
+
+```java
+int min = 1;
+int max = 10;
+int value = (int) (Math.random() * (max - min + 1)) + min;
+System.out.println(value);
+```
+
+| Step | Range |
+|---|---|
+| `Math.random()` | `[0, 1)` |
+| نضرب في `10` | `[0, 10)` |
+| نحول إلى `int` | `0` إلى `9` |
+| نضيف `1` | `1` إلى `10` |
+
+**توضيح:** الـ `+1` هدفها الحصول على `int` يشمل الحد الأعلى. قبل `Casting`، الصيغة الكاملة `Math.random() * 10 + 1` تعطي `double` ضمن `[1, 11)`، وليس `[1, 10]`. وتحويل `Math.random()` إلى `int` **قبل** الضرب يعطي `0` دائمًا. توجد أيضًا `Random Class`، لكن تفاصيلها خارج نطاق هذا الدرس.
+
+## String and Character Methods
+
+لا تقتصر الـ API على الأرقام. نستطيع مراجعة [String API](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html) و[Character API](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Character.html) حسب الحاجة:
+
+| Purpose | Example | Result |
+|---|---|---|
+| الوصول إلى `Character` | `"Java".charAt(0)` | `'J'` |
+| دمج نصين | `"Ja".concat("va")` | `"Java"` |
+| فحص جزء من النص | `"Java".contains("av")` | `true` |
+| استبدال `Character` | `"Java".replace('a', 'o')` | `"Jovo"` |
+| تقسيم النص | `"a,b".split(",")` | أجزاء نصية؛ تفاصيل `Array` لاحقًا |
+| تغيير شكل الأحرف | `"JAVA".toLowerCase()` | `"java"` |
+| فحص هل هي `Letter` | `Character.isLetter('A')` | `true` |
+| فحص هل هي `Digit` | `Character.isDigit('7')` | `true` |
+
+هاي أمثلة قصيرة توضح قراءة الـ API، وليست مطالبة بحفظ كل `Methods` أو التعمق في موضوع `Arrays` الآن.
+
+## Knowledge Check
+
+1. ما الفرق بين `ceil(-1.2)` و`floor(-1.2)`؟ ولماذا؟
+2. ما نوع نتيجة `round(1.5)`؟ وهل تخزين `sqrt(9)` في `int` مباشرة صحيح؟
+3. تتبع `Math.max(Math.max(4, 12), 8)`.
+4. ما الخطأ في `(int) Math.random() * 10 + 1`؟
+5. كيف تستعمل `abs` بدون كتابة `Math.`؟
+
+<details><summary>Answers</summary>
+
+1. `-1.0` و`-2.0`؛ الأولى نحو الأكبر والثانية نحو الأصغر.
+2. `long` لأن `1.5` من نوع `double`. أما `sqrt` فترجع `double`، فلا تُخزّن في `int` مباشرة دون تحويل صريح.
+3. `max(4,12) = 12`، ثم `max(12,8) = 12`.
+4. الـ `Casting` يسبق الضرب فتصبح القيمة `0`؛ النتيجة `1` دائمًا. ضع الضرب داخل `()` قبل `Casting`.
+5. `import static java.lang.Math.abs;` أو `import static java.lang.Math.*;`.
+
+</details>
+
+## Related Pages
+
+[Method Overloading](lesson-021.qmd) · [S10 Review & Exam](../subjects/s10.qmd) · [Glossary](../glossary.qmd).
+
+أمثلة التشغيل الرقمية منسقة لتوضيح العمليات المذكورة؛ ليست اقتباسًا حرفيًا لأسماء غير واضحة. البرنامج الكامل جُرّب بـ `JDK 25` عبر `CLI`، وفُحصت حدود `random` بشكل مستقل.

@@ -2,7 +2,7 @@
 title: "M06 · Arrays & Strings"
 ---
 
-<div class="lesson-meta"><span>Planned</span><span>0 / 6 lessons available</span><span>6 lessons remaining</span></div>
+<div class="lesson-meta"><span>In progress</span><span>3 / 6 lessons available</span><span>3 lessons remaining</span></div>
 
 ## Subjects
 
@@ -10,9 +10,9 @@ title: "M06 · Arrays & Strings"
 
 [Open Subject](../subjects/s12.qmd)
 
-- #024 · One Dimensional Arrays (1D Array) — Not yet available
-- #025 · One Dimensional Array (Exercises, Practice) — Not yet available
-- #026 · One Dimensional Array (Char Array) — Not yet available
+- [#024 · One-Dimensional Arrays](../lessons/lesson-024.qmd)
+- [#025 · Array Exercises](../lessons/lesson-025.qmd)
+- [#026 · Char Arrays](../lessons/lesson-026.qmd)
 - #027 · Passing Arrays to Methods — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
@@ -32,3 +32,7 @@ title: "M06 · Arrays & Strings"
 - #029 · String & Array String — Not yet available
 
 هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+
+## Reading Path
+
+ابدأ من [#024](../lessons/lesson-024.qmd)، وراجع كل Subject بعد دروسه. اتبع Previous / Next للتقدّم بالترتيب.

@@ -211,5 +211,59 @@
     "license": "Third-party educational illustration; source attribution retained. No open license asserted.",
     "notes": "Labels inspected: public, int, addition, two int parameters, sum and return. Used only as a declaration diagram; lesson explicitly distinguishes its missing static modifier. Not a Screenshot.",
     "validated": true
+  },
+  {
+    "id": "reference-022",
+    "file": "assets/reference/factorial-022.svg",
+    "type": "online-explanatory-image",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/1/17/CPT-Recursion-Factorial-Code.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:CPT-Recursion-Factorial-Code.svg",
+    "author": "Pluke",
+    "license": "CC0 1.0",
+    "changes": "None",
+    "owner_lesson": 22,
+    "validated": true,
+    "validation": "Decoded/rasterized locally and visually inspected; actual display and live checks recorded in release",
+    "selection": "Online-first search matched source topic. Factorial uses non-Java code in original, explicitly explained. F4 tree has reversed visual branch order, explicitly distinguished from Java evaluation order."
+  },
+  {
+    "id": "reference-023",
+    "file": "assets/reference/fibonacci-023.svg",
+    "type": "online-explanatory-image",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Fib_4.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Fib_4.png",
+    "author": "Svick",
+    "license": "CC BY-SA 3.0",
+    "changes": "Original PNG pixels embedded in an SVG container; no pixel alteration.",
+    "owner_lesson": 23,
+    "validated": true,
+    "validation": "Decoded/rasterized locally and visually inspected; actual display and live checks recorded in release",
+    "selection": "Online-first search matched source topic. Factorial uses non-Java code in original, explicitly explained. F4 tree has reversed visual branch order, explicitly distinguished from Java evaluation order."
+  },
+  {
+    "id": "reference-026",
+    "file": "assets/reference/ascii-026.svg",
+    "type": "online-explanatory-image",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/d/dd/ASCII-Table.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:ASCII-Table.svg",
+    "author": "ZZT32 and Wikimedia contributors",
+    "license": "Public Domain",
+    "changes": "Original SVG rasterized at 1200px with Inkscape and embedded in SVG container for compact transport; no content change.",
+    "owner_lesson": 26,
+    "validated": true,
+    "validation": "Decoded/rasterized locally and visually inspected; actual display and live checks recorded in release",
+    "selection": "Online-first search; required codes verified, readable values repeated in text table."
+  },
+  {
+    "id": "array-indices-024",
+    "file": "assets/reference/array-indices-024.svg",
+    "type": "precise-technical-diagram",
+    "source": "Original SVG derived from tested Array values; no screenshot claim",
+    "source_page": "https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html",
+    "owner_lesson": 24,
+    "license": "Project-authored",
+    "validated": true,
+    "validation": "SVG XML and values checked; mobile and desktop inspection before release",
+    "selection": "Oracle figure found online but original image endpoint returned a 195-byte HTML Site Unavailable response; rejected it. Exact indices and values rendered with SVG per precise-diagram exception in WORKFLOW, avoiding image-generation inaccuracies."
   }
 ]

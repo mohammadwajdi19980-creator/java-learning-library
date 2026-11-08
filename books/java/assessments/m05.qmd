@@ -1,0 +1,97 @@
+---
+title: "M05 · Exam & Math Utilities Project"
+subtitle: "اربط Methods وOverloading وRecursion في تطبيق صغير"
+---
+
+<div class="lesson-meta"><span>M05</span><span>Lessons #018–#023</span></div>
+
+هذه أسئلة وProject إضافية للتدريب على **المواضيع الموجودة فقط**. لا تحتاج Arrays أو OOP المتقدم.
+
+## Module Exam
+
+المجموع **30 علامة**، ستة أسئلة × 5 علامات.
+
+1. صمم `Method` تعيد أصغر ثلاث قيم `int`، وفسر لماذا تبدأ من أول قيمة.
+2. اشرح `Parameter` و`Argument` و`Return Type` و`Caller` بمثال `average(1,2,2)`؛ امنع خطأ `Integer Division`.
+3. اقترح Overloads لجمع قيمتين `int` أو قيمتين `double`. هل تغيير نوع النتيجة وحده يصلح؟
+4. تتبع `Math.max(Math.sqrt(81), Math.pow(2,3))`، ثم اذكر فرق `ceil(-1.2)` و`floor(-1.2)`.
+5. ارسم على ورقة Calls لـ `factorial(3)`، ثم اكتب ترتيب الطباعة قبل وبعد Call مع نفس بداية `3`.
+6. احسب `fib(4)` و`sumRange(6,4)`، وفسر Base Cases والتقدم في كل واحدة.
+
+<details><summary>Solutions & Marking</summary>
+
+1. [Minimum Solution](../lessons/lesson-019.qmd#minimum-of-three-integers): Initialization بقيمة أولى (1)، مقارنتان مستقلتان (2)، `return` (1)، تفسير خطأ البداية بصفر (1).
+2. قيم الاستدعاء `1,2,2` هي Arguments، والأسماء في التعريف Parameters؛ النوع `double`؛ Caller تستقبل النتيجة `5.0/3.0`. علامة لكل مفهوم وتصحيح القسمة.
+3. `sum(int,int)` و`sum(double,double)`؛ العدد متساوٍ والأنواع مختلفة (3). النتيجة وحدها لا تميّز Signature (2).
+4. `sqrt(81)=9.0` و`pow(2,3)=8.0` ثم الأكبر `9.0` (3). `-1.0` و`-2.0` (2).
+5. النزول `3→2→1` ثم الرجوع `1→2→6` (3). الطباعة قبل Call: `3 2 1` وبعدها: `1 2 3` (2).
+6. `3` و`15` (2). Fibonacci تتوقف عند `0,1` وترجع للخلف، وRange Sum تتوقف عندما الطرفان متساويان وتتجه من `6` إلى `4` (3).
+
+</details>
+
+## Project Brief
+
+أنشئ `MathUtilitiesProject.java` بهذه الوظائف:
+
+- `sum(int,int)` و`sum(double,double)` لحساب مجموع قيمتين.
+- `factorial(int)` باستخدام Recursion، وBase Cases للصفر والواحد.
+- `sumRange(int,int)` شاملاً الطرفين، ويعمل بالاتجاهين.
+- `main` تعرض الحالات النموذجية: `10+50`، `1.5+2.5`، `5!`، ومجموع `6..4`.
+
+**حدود التجربة:** Factorial لـ `0..20`، وRange Sum لنطاقات صغيرة؛ نفترض أن Caller تحترم هذه الحدود. لا نعد بدعم قيم لا نهائية أو أعماق Recursion ضخمة.
+
+### Milestones & Rubric
+
+| Milestone | Acceptance condition | Marks |
+|---|---|---|
+| Overloads | نفس الاسم وSignatures صحيحة ونتائج دقيقة | 10 |
+| Factorial | Base Cases وProgress وReturn صحيحة | 10 |
+| Range Sum | يعمل مع اتجاهين ومع الطرفين المتساويين | 10 |
+| main & explanation | Output مطابقة وشرح السبب وCode منظمة | 10 |
+
+**Boundary Checks:** `factorial(0)=1`؛ `factorial(1)=1`؛ `sumRange(6,6)=6`؛ `sumRange(-2,2)=0`؛ `sum(0,0)=0`.
+
+## Reference Solution
+
+حاول أولًا، ثم اقرأ الحل الكامل:
+
+```java
+public class MathUtilitiesProject {
+    static int sum(int a, int b) {
+        return a + b;
+    }
+    static double sum(double a, double b) {
+        return a + b;
+    }
+    static long factorial(int n) {
+        if (n == 0 || n == 1) return 1;
+        return n * factorial(n - 1);
+    }
+    static long sumRange(int start, int end) {
+        if (start == end) return start;
+        if (start < end) return start + sumRange(start + 1, end);
+        return start + sumRange(start - 1, end);
+    }
+    public static void main(String[] args) {
+        System.out.println(sum(10, 50));
+        System.out.println(sum(1.5, 2.5));
+        System.out.println(factorial(5));
+        System.out.println(sumRange(6, 4));
+    }
+}
+```
+
+**Output**
+
+```text
+60
+4.0
+120
+15
+```
+
+كل Method مسؤولة عن عملية واحدة، و`main` تجمع النتائج وتعرضها. لا نضع الطباعة داخل Methods الحسابية حتى يمكن إعادة استعمال Return Values. جُرّب الحل وحالات الحدود عبر `JDK 25 CLI`.
+
+## Related Pages
+
+[S10 Exam](../subjects/s10.qmd) · [S11 Exam](../subjects/s11.qmd) · [Glossary](../glossary.qmd).

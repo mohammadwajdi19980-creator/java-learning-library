@@ -562,9 +562,20 @@
       "original_title": "Built in Method / Function",
       "module": "M05",
       "subject": "S10",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-020.html",
+      "display_title": "Built-in Methods",
+      "transcript_archive": "docs/sources/transcripts/video-020.txt",
+      "coverage_ledger": "docs/sources/coverage-020-026.json",
+      "prerequisites": [
+        18,
+        19
+      ],
+      "code_verification": "JDK 25 CLI complete examples, boundary cases and intentional failures; see code-cases-020-026.json",
+      "source_limitations": [
+        "Some complete code, names and literal inputs are missing in speech-to-text; reconstructions are explicitly illustrative."
+      ]
     },
     {
       "id": 21,
@@ -572,9 +583,20 @@
       "original_title": "Overloading Method / Function",
       "module": "M05",
       "subject": "S10",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-021.html",
+      "display_title": "Method Overloading",
+      "transcript_archive": "docs/sources/transcripts/inline-021-source.md",
+      "coverage_ledger": "docs/sources/coverage-020-026.json",
+      "prerequisites": [
+        20
+      ],
+      "code_verification": "JDK 25 CLI complete examples, boundary cases and intentional failures; see code-cases-020-026.json",
+      "source_limitations": [
+        "Some complete code, names and literal inputs are missing in speech-to-text; reconstructions are explicitly illustrative.",
+        "Inline original remains in user conversation; repository stores an explicitly identified editorial inventory with original opening/closing anchors, not a verbatim transcript."
+      ]
     },
     {
       "id": 22,
@@ -582,9 +604,20 @@
       "original_title": "Recursion/Recursive Methods Part 1",
       "module": "M05",
       "subject": "S11",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-022.html",
+      "display_title": "Recursion — Base Case & Calls",
+      "transcript_archive": "docs/sources/transcripts/video-022.txt",
+      "coverage_ledger": "docs/sources/coverage-020-026.json",
+      "prerequisites": [
+        18,
+        21
+      ],
+      "code_verification": "JDK 25 CLI complete examples, boundary cases and intentional failures; see code-cases-020-026.json",
+      "source_limitations": [
+        "Some complete code, names and literal inputs are missing in speech-to-text; reconstructions are explicitly illustrative."
+      ]
     },
     {
       "id": 23,
@@ -592,9 +625,19 @@
       "original_title": "Recursion/Recursive Methods Part 2",
       "module": "M05",
       "subject": "S11",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-023.html",
+      "display_title": "Recursion — Fibonacci & Range Sum",
+      "transcript_archive": "docs/sources/transcripts/video-023.txt",
+      "coverage_ledger": "docs/sources/coverage-020-026.json",
+      "prerequisites": [
+        22
+      ],
+      "code_verification": "JDK 25 CLI complete examples, boundary cases and intentional failures; see code-cases-020-026.json",
+      "source_limitations": [
+        "Some complete code, names and literal inputs are missing in speech-to-text; reconstructions are explicitly illustrative."
+      ]
     },
     {
       "id": 24,
@@ -602,9 +645,20 @@
       "original_title": "One Dimensional Arrays (1D Array)",
       "module": "M06",
       "subject": "S12",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-024.html",
+      "display_title": "One-Dimensional Arrays",
+      "transcript_archive": "docs/sources/transcripts/video-024.txt",
+      "coverage_ledger": "docs/sources/coverage-020-026.json",
+      "prerequisites": [
+        13,
+        19
+      ],
+      "code_verification": "JDK 25 CLI complete examples, boundary cases and intentional failures; see code-cases-020-026.json",
+      "source_limitations": [
+        "Some complete code, names and literal inputs are missing in speech-to-text; reconstructions are explicitly illustrative."
+      ]
     },
     {
       "id": 25,
@@ -612,9 +666,20 @@
       "original_title": "One Dimensional Array (Exercises, Practice)",
       "module": "M06",
       "subject": "S12",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-025.html",
+      "display_title": "Array Exercises",
+      "transcript_archive": "docs/sources/transcripts/inline-025-source.md",
+      "coverage_ledger": "docs/sources/coverage-020-026.json",
+      "prerequisites": [
+        24
+      ],
+      "code_verification": "JDK 25 CLI complete examples, boundary cases and intentional failures; see code-cases-020-026.json",
+      "source_limitations": [
+        "Some complete code, names and literal inputs are missing in speech-to-text; reconstructions are explicitly illustrative.",
+        "Inline original remains in user conversation; repository stores an explicitly identified editorial inventory with original opening/closing anchors, not a verbatim transcript."
+      ]
     },
     {
       "id": 26,
@@ -622,9 +687,21 @@
       "original_title": "One Dimensional Array (Char Array)",
       "module": "M06",
       "subject": "S12",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-026.html",
+      "display_title": "Char Arrays",
+      "transcript_archive": "docs/sources/transcripts/inline-026-source.md",
+      "coverage_ledger": "docs/sources/coverage-020-026.json",
+      "prerequisites": [
+        24,
+        25
+      ],
+      "code_verification": "JDK 25 CLI complete examples, boundary cases and intentional failures; see code-cases-020-026.json",
+      "source_limitations": [
+        "Some complete code, names and literal inputs are missing in speech-to-text; reconstructions are explicitly illustrative.",
+        "Inline original remains in user conversation; repository stores an explicitly identified editorial inventory with original opening/closing anchors, not a verbatim transcript."
+      ]
     },
     {
       "id": 27,

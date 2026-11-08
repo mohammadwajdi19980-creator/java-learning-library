@@ -24,6 +24,14 @@
 | #018 | [Methods — Definition & Calls](lessons/lesson-018.qmd) |
 | #019 | [Minimum, Average & Varargs](lessons/lesson-019.qmd) |
 
+| #020 | [Built-in Methods](lessons/lesson-020.qmd) |
+| #021 | [Method Overloading](lessons/lesson-021.qmd) |
+| #022 | [Recursion — Base Case & Calls](lessons/lesson-022.qmd) |
+| #023 | [Recursion — Fibonacci & Range Sum](lessons/lesson-023.qmd) |
+| #024 | [One-Dimensional Arrays](lessons/lesson-024.qmd) |
+| #025 | [Array Exercises](lessons/lesson-025.qmd) |
+| #026 | [Char Arrays](lessons/lesson-026.qmd) |
+
 ## Technical accuracy notes
 
 - [Logical, Ternary & Instanceof](lessons/lesson-008.qmd): `instanceof` operator، ليس method.
@@ -70,3 +78,15 @@
 - [Method Definition & Calls](lessons/lesson-018.qmd): [Oracle — Defining Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html) and [Return Values](https://docs.oracle.com/javase/tutorial/java/javaOO/returnvalue.html).
 - [Minimum, Average & Varargs](lessons/lesson-019.qmd): [Oracle — Parameters & Varargs](https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html).
 - صورة `Method Declaration` في Lesson #018 مأخوذة من [المصدر](https://medium.com/@shourya12cbg2476/title-mastering-java-functions-and-methods-9671a562a213)، دون تعديل. الصورة تشرح الأجزاء الأساسية؛ إضافة `static` موضحة في شرحنا. ليست Screenshot من `NetBeans`، ولا ننسب لها ترخيصًا مفتوحًا.
+
+## Methods, Recursion & Arrays References
+
+- [Math API](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Math.html): Rounding، Return Types، وrandom range.
+- [JLS Method Signature](https://docs.oracle.com/javase/specs/jls/se25/html/jls-8.html#jls-8.4.2): Overloading وParameter Types.
+- [Arrays](https://dev.java/learn/language-basics/arrays/): Length، Indices، Initialization.
+- [Character](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Character.html): UTF-16 وليس ASCII فقط.
+- [String](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html): char[] وoffset/count.
+- Factorial image: Pluke، [CC0](https://commons.wikimedia.org/wiki/File:CPT-Recursion-Factorial-Code.svg)، دون تعديل؛ صياغة المصدر ليست Java.
+- Fibonacci image: Svick، [CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:Fib_4.png)، دون تعديل؛ الرسم يوضح القيمة وليس ترتيب تقييم Java.
+- ASCII image: ZZT32 ومساهمو Wikimedia، [Public Domain](https://commons.wikimedia.org/wiki/File:ASCII-Table.svg)، دون تعديل.
+- Array Indices: رسم SVG دقيق من إعداد الكتاب لقيم المثال؛ ليس Screenshot.

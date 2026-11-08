@@ -1,17 +1,37 @@
-# S12 — One-Dimensional Arrays
+---
+title: "S12 · One-Dimensional Arrays"
+subtitle: "Partial Review · Lessons #024–#026"
+---
 
-<div class="lesson-meta"><span>M06</span><span>S12</span><span>#024–#027</span></div>
+<div class="lesson-meta"><span>M06 · S12</span><span>Partial</span></div>
 
-هذا **Subject** داخل [M06 — Arrays & Strings](../modules/m06.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
+## Lessons
 
-## الدروس الأصلية
+- [#024 · Array Basics](../lessons/lesson-024.qmd).
+- [#025 · Array Exercises](../lessons/lesson-025.qmd).
+- [#026 · Char Arrays](../lessons/lesson-026.qmd).
+- `#027 · Passing Arrays to Methods` غير متاح بعد؛ لا توجد Exam كاملة تغطيه.
 
-- **`#024`** — One Dimensional Arrays (1D Array) — *الدرس غير متاح بعد*
-- **`#025`** — One Dimensional Array (Exercises, Practice) — *الدرس غير متاح بعد*
-- **`#026`** — One Dimensional Array (Char Array) — *الدرس غير متاح بعد*
-- **`#027`** — Passing Arrays to Methods — *الدرس غير متاح بعد*
+## Partial Review
 
-## اختبار نهاية الموضوع
+خمس أسئلة × 4 علامات = 20 علامة على الصفحات المتاحة فقط.
 
-عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ Code، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.
+1. إذا `int[] values = new int[4]`، ما `length` وآخر `Index` وDefault Value؟ وهل `values[4]` مسموحة؟
+2. احسب `Sum` و`Average` و`Min` و`Max` للقيم `{1,5,3,6,8}`؛ ما الذي يضيع إذا استعملنا `int / int`؟
+3. اكتب خطوات `Linear Search` عن `99` وفسر متى نطبع `Not found` ولماذا نبدأ `Flag=false`.
+4. ما نتيجة فرز `{'a','C','B','A'}`؟ وما أكواد `'A'` و`'a'` و`'0'`؟
+5. قارن `next().toCharArray()` و`nextLine().toCharArray()`، ثم فسر `new String(chars,2,3)` ولماذا `char[]` لا تعني تشفيرًا تلقائيًا.
 
+<details><summary>Answers & Marking</summary>
+
+1. `4` و`3` و`0`؛ لا، ويحدث `ArrayIndexOutOfBoundsException`. علامة لكل جزء.
+2. `23,4.6,1,8`؛ قسمة `int` تعطي `4` فتخسر الجزء العشري قبل التخزين في `double`. أربع علامات للنتائج والتفسير.
+3. نبدأ `false`، نفحص كل قيمة، عند التطابق نغيّرها إلى `true` ونخرج. نطبع مرة بعد انتهاء المرور؛ `99` غير الموجودة تبقي الحالة `false`. علامة لكل خطوة.
+4. `ABCa` (علامة)؛ الأكواد `65,97,48` (3 علامات).
+5. الأولى Token واحدة، والثانية بقية السطر مع Spaces (علامتان). `2` بداية و`3` عدد، وليس نهاية (علامة). `char[]` قابلة للتعديل والمسح، وهذا غير التشفير (علامة).
+
+</details>
+
+## Related Pages
+
+[M06 — Arrays & Strings](../modules/m06.qmd) · [Glossary](../glossary.qmd).

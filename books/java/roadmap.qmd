@@ -7,7 +7,7 @@ format:
 ---
 
 <p class="roadmap-intro">هذا فهرس دروس الكتاب. افتح أي Module لرؤية مواضيعه وصفحات الدروس المتاحة؛ الدروس المخططة لم تكتمل بعد.</p>
-<p class="book-state">17 lessons available · 77 lessons planned</p>
+<p class="book-state">24 lessons available · 77 lessons planned</p>
 
 ::: {.content-visible unless-format="epub"}
 
@@ -87,13 +87,13 @@ format:
 <ul>
 <li><a href="lessons/lesson-018.html">#018 — Method / Function Part 1</a><span class="source-state">Available</span></li>
 <li><a href="lessons/lesson-019.html">#019 — Method / Function Part 2 (Examples)</a><span class="source-state">Available</span></li>
-<li>#020 — Built in Method / Function<span class="source-state">Not yet available</span></li>
-<li>#021 — Overloading Method / Function<span class="source-state">Not yet available</span></li>
+<li><a href="lessons/lesson-020.html">#020 — Built in Method / Function</a><span class="source-state">Available</span></li>
+<li><a href="lessons/lesson-021.html">#021 — Overloading Method / Function</a><span class="source-state">Available</span></li>
 </ul>
 <h3><a href="subjects/s11.html">S11 · Recursion</a></h3>
 <ul>
-<li>#022 — Recursion/Recursive Methods Part 1<span class="source-state">Not yet available</span></li>
-<li>#023 — Recursion/Recursive Methods Part 2<span class="source-state">Not yet available</span></li>
+<li><a href="lessons/lesson-022.html">#022 — Recursion/Recursive Methods Part 1</a><span class="source-state">Available</span></li>
+<li><a href="lessons/lesson-023.html">#023 — Recursion/Recursive Methods Part 2</a><span class="source-state">Available</span></li>
 </ul>
 </div>
 </details>
@@ -103,9 +103,9 @@ format:
 <div class="module-content">
 <h3><a href="subjects/s12.html">S12 · One-Dimensional Arrays</a></h3>
 <ul>
-<li>#024 — One Dimensional Arrays (1D Array)<span class="source-state">Not yet available</span></li>
-<li>#025 — One Dimensional Array (Exercises, Practice)<span class="source-state">Not yet available</span></li>
-<li>#026 — One Dimensional Array (Char Array)<span class="source-state">Not yet available</span></li>
+<li><a href="lessons/lesson-024.html">#024 — One Dimensional Arrays (1D Array)</a><span class="source-state">Available</span></li>
+<li><a href="lessons/lesson-025.html">#025 — One Dimensional Array (Exercises, Practice)</a><span class="source-state">Available</span></li>
+<li><a href="lessons/lesson-026.html">#026 — One Dimensional Array (Char Array)</a><span class="source-state">Available</span></li>
 <li>#027 — Passing Arrays to Methods<span class="source-state">Not yet available</span></li>
 </ul>
 <h3><a href="subjects/s13.html">S13 · Multidimensional Arrays</a></h3>
@@ -306,6 +306,16 @@ format:
 
 - [#018 · Methods — Definition & Calls](lessons/lesson-018.qmd)
 - [#019 · Minimum, Average & Varargs](lessons/lesson-019.qmd)
+- [#020 · Built-in Methods](lessons/lesson-020.qmd)
+- [#021 · Method Overloading](lessons/lesson-021.qmd)
+- [#022 · Recursion — Base Case & Calls](lessons/lesson-022.qmd)
+- [#023 · Recursion — Fibonacci & Range Sum](lessons/lesson-023.qmd)
+
+## M06 · Arrays & Strings
+
+- [#024 · One-Dimensional Arrays](lessons/lesson-024.qmd)
+- [#025 · Array Exercises](lessons/lesson-025.qmd)
+- [#026 · Char Arrays](lessons/lesson-026.qmd)
 
 
 بقية الدروس غير متاحة بعد؛ هذا الفهرس يسرد الصفحات المتاحة فقط.

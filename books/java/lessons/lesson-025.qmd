@@ -1,0 +1,195 @@
+---
+title: "Array Exercises — Sum, Average, Search, Min, Max & Sort"
+subtitle: "حلّ العمليات واحدة واحدة، وافهم لماذا نبدأ من الصفر أو من أول Element"
+---
+
+<div class="lesson-meta"><span>M06 · S12</span><span>LESSON #025</span></div>
+
+**مرحبا**
+
+بعد [إنشاء Array والوصول لعناصرها](lesson-024.qmd)، سنحل نفس عائلة المسائل: `Sum`، `Average`، `Search`، `Minimum/Maximum`، ثم `Sort`. القيم التوضيحية التالية تجعل الخطوات قابلة للتجربة؛ بعضها لم يظهر كاملًا في المادة المتاحة.
+
+## Sum and Average
+
+لنأخذ:
+
+```java
+int[] numbers = {1, 5, 3, 6, 8};
+int sum = 0;
+for (int i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+}
+double average = (double) sum / numbers.length;
+System.out.println(sum);     // 23
+System.out.println(average); // 4.6
+```
+
+| i | numbers[i] | sum before | sum after |
+|---|---|---|---|
+| `0` | `1` | `0` | `1` |
+| `1` | `5` | `1` | `6` |
+| `2` | `3` | `6` | `9` |
+| `3` | `6` | `9` | `15` |
+| `4` | `8` | `15` | `23` |
+
+نبدأ `sum = 0` لأنه لا يغير الجمع، ونحسب `Average = Sum / Count`. ليش الـ `Casting`؟ حتى لا نحسب `23 / 5` كـ `Integer Division` ونخسر الكسر قبل التخزين في `double`.
+
+يمكن قراءة القيم من `Scanner` داخل `Loop` ثم الحساب، أو جمع `sum` في نفس `Loop` أثناء القراءة لتجنب مرور زائد. وإذا كانت `Array` فارغة لا يوجد متوسط معرف؛ نفحصها قبل القسمة.
+
+## Search with a Flag
+
+بدنا نعرف هل القيمة `target` موجودة، وليس طباعة `Not found` مع كل قيمة غير مطابقة:
+
+```java
+int target = 6;
+boolean found = false;
+for (int number : numbers) {
+    if (number == target) {
+        found = true;
+        break;
+    }
+}
+System.out.println(found ? "Found" : "Not found");
+```
+
+نفترض أنها غير موجودة. عند أول تطابق نغيّر `Flag` إلى `true` ونخرج لأن المطلوب مجرد وجودها. إذا انتهى المرور بدون تطابق تبقى `false`. هذا `Linear Search`؛ نستطيع تنفيذه بـ `for` العادية أيضًا.
+
+## Minimum and Maximum
+
+نفترض مؤقتًا أن أول `Element` هي الأصغر والأكبر، ثم نختبر البقية:
+
+```java
+int[] values = {5, 2, -8, 10};
+int min = values[0];
+int max = values[0];
+for (int i = 1; i < values.length; i++) {
+    if (values[i] < min) min = values[i];
+    if (values[i] > max) max = values[i];
+}
+System.out.println(min); // -8
+System.out.println(max); // 10
+```
+
+| Value checked | min after check | max after check |
+|---|---|---|
+| البداية `5` | `5` | `5` |
+| `2` | `2` | `5` |
+| `-8` | `-8` | `5` |
+| `10` | `-8` | `10` |
+
+لا نبدأ من `0`: مع قيم موجبة قد نرجع `0` كأصغر رغم أنه ليس موجودًا، ومع قيم سالبة قد نرجعه كأكبر. البداية من `values[0]` تحتاج `length > 0`. ممكن بدء المرور من `0` أيضًا، لكن مقارنة الأولى مع نفسها غير ضرورية.
+
+## Sort with Arrays.sort
+
+بدل شرح خوارزمية `Sorting` جديدة، نستعمل `Built-in Method`:
+
+```java
+import java.util.Arrays;
+```
+
+وداخل `Method`:
+
+```java
+Arrays.sort(values);
+for (int value : values) {
+    System.out.print(value + " ");
+}
+```
+
+**Output:** `-8 2 5 10 `، من الأصغر للأكبر. نمرر `values` بدون `[]`؛ الأقواس في `values[i]` تعني الوصول إلى `Element` واحدة. `Arrays.sort` تعدّل `Array` نفسها وترجع `void`، فلا نكتب `values = Arrays.sort(values);`. توجد Overloads لأنواع أخرى ومنها `char[]` في [الدرس التالي](lesson-026.qmd).
+
+## Complete Program
+
+احفظ باسم `ArrayStatisticsDemo.java`. **Input:** الحجم، ثم هذا العدد من القيم، ثم قيمة البحث. هذا تجميع توضيحي للمسائل السابقة في برنامج واحد:
+
+```java
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class ArrayStatisticsDemo {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int size = input.nextInt();
+        if (size <= 0) {
+            System.out.println("Use a non-empty array");
+            return;
+        }
+        int[] numbers = new int[size];
+        long sum = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = input.nextInt();
+            sum += numbers[i];
+        }
+        int target = input.nextInt();
+        boolean found = false;
+        for (int number : numbers) {
+            if (number == target) {
+                found = true;
+                break;
+            }
+        }
+        int min = numbers[0];
+        int max = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] < min) min = numbers[i];
+            if (numbers[i] > max) max = numbers[i];
+        }
+        double average = (double) sum / numbers.length;
+        System.out.println("Sum: " + sum);
+        System.out.println("Average: " + average);
+        System.out.println(found ? "Found" : "Not found");
+        System.out.println("Min: " + min);
+        System.out.println("Max: " + max);
+        Arrays.sort(numbers);
+        for (int number : numbers) {
+            System.out.print(number + " ");
+        }
+        System.out.println();
+    }
+}
+```
+
+**Input**
+
+```text
+5
+1 5 3 6 8
+6
+```
+
+**Output** — آخر سطر فيه Space بعد آخر رقم:
+
+```text
+Sum: 23
+Average: 4.6
+Found
+Min: 1
+Max: 8
+1 3 5 6 8
+```
+
+استعملنا `long sum` حتى لا يحصل `int Overflow` عند جمع قيم `int` كبيرة؛ هذا توضيح لنفس عملية الجمع، مش تغيير في المسألة. نفّذنا `Search` قبل `Sort` حتى يبقى تسلسل المسائل واضحًا، ولم نضف `Binary Search` أو خوارزميات أخرى.
+
+## Practice & Answers
+
+1. مع `{-5,-2,-8}`: أوجد `Sum` و`Average` و`Min` و`Max`.
+2. ماذا يحدث للـ `Flag` إذا بحثنا عن `99` غير الموجودة؟
+3. لماذا نقسم على `numbers.length` وليس آخر `Index`؟
+4. هل فحص `numbers[0]` مسموح إذا `length == 0`؟
+5. بعد `Arrays.sort(numbers)`، هل ترتيب `numbers` الأصلي محفوظ داخلها؟
+
+<details><summary>Answers</summary>
+
+1. `-15`، `-5.0`، `-8`، `-2`.
+2. تبقى `false` ونطبع `Not found` مرة بعد انتهاء المرور.
+3. نحتاج عدد القيم؛ آخر `Index = length - 1` ليس عددها.
+4. لا؛ لا توجد أول `Element` أصلًا.
+5. لا؛ هذه `Method` تغيّر ترتيب نفس `Array`.
+
+</details>
+
+## Related Pages
+
+[Array Basics](lesson-024.qmd) · [Char Arrays](lesson-026.qmd) · [S12 Partial Review](../subjects/s12.qmd).
+
+مرجع الدقة: [Arrays API — sort](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Arrays.html). البرنامج الكامل جُرّب على قيم موجبة وسالبة ومتساوية، ومع وجود قيمة البحث وغيابها.

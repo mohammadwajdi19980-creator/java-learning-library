@@ -1,15 +1,47 @@
-# S11 — Recursion
+---
+title: "S11 · Recursion"
+subtitle: "Review & Exam · Lessons #022–#023"
+---
 
-<div class="lesson-meta"><span>M05</span><span>S11</span><span>#022–#023</span></div>
+<div class="lesson-meta"><span>M05 · S11</span><span>Complete</span></div>
 
-هذا **Subject** داخل [M05 — Methods & Recursion](../modules/m05.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
+## Lessons
 
-## الدروس الأصلية
+- [#022 · Base Case, Calls & Return Order](../lessons/lesson-022.qmd).
+- [#023 · Fibonacci & Range Sum](../lessons/lesson-023.qmd).
 
-- **`#022`** — Recursion/Recursive Methods Part 1 — *الدرس غير متاح بعد*
-- **`#023`** — Recursion/Recursive Methods Part 2 — *الدرس غير متاح بعد*
+## Subject Exam
 
-## اختبار نهاية الموضوع
+ست أسئلة × 5 علامات = **30 علامة**. اشرح خطواتك قبل مراجعة الإجابات.
 
-عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ Code، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.
+1. ما شرطان التوقف الصحيح في `Recursion`؟ وضح لماذا وضع زيادة `Counter` بعد `Recursive Call` قد يمنع التوقف.
+2. اكتب `Base Cases` لـ `factorial`، ثم تتبع `factorial(4)` نزولًا ورجوعًا.
+3. قارن طباعة `n` قبل وبعد `call(n-1)` مع بداية `3` وتوقف عند `n<1`.
+4. أوجد `fib(4)`، وفسر لماذا نحتاج `fib(0)` و`fib(1)`، وهل تكرار `fib(2)` يحفظه تلقائيًا؟
+5. تتبع طباعة أول خمس قيم من `Fibonacci` باستخدام `first` و`second` و`next`، وفسر لماذا نرسل `count-2`.
+6. اكتب `sumRange(start,end)` شاملة الطرفين وتعمل في الاتجاهين. ما نتائج `4,6` و`6,4` و`6,6`؟
 
+<details><summary>Answers & Marking</summary>
+
+1. `Base Case` صحيحة وقابلة للوصول (2)، وتقدم فعلي نحوها (2). لو كان التحديث بعد الاستدعاء، فكل Call جديدة ترى الحالة القديمة قبل الوصول للتحديث (1).
+2. `0! = 1` و`1! = 1` (2). النزول `4→3→2→1`، والرجوع `1→2→6→24` (3).
+3. قبلها `3 2 1` وبعدها `1 2 3` (2). الأولى تطبع أثناء النزول، والثانية عند الرجوع بعد الاستدعاءات الأصغر؛ لكل Call قيمة `n` مستقلة (3).
+4. `fib(4)=fib(3)+fib(2)=2+1=3` (2). القاعدتان `0` و`1` تعطيان البداية وتوقفان النزول (2). لا يوجد تخزين تلقائي هنا (1).
+5. نبدأ `0,1`؛ ثم `next=1` فالحالة `1,1`؛ ثم `2` فالحالة `1,2`؛ ثم `3` فالحالة `2,3`. النتيجة `0 1 1 2 3` (3)، ونرسل `3` لأن أول قيمتين طُبعتا (2).
+6. حل مختصر:
+
+```java
+static long sumRange(int start, int end) {
+    if (start == end) return start;
+    if (start < end) return start + sumRange(start + 1, end);
+    return start + sumRange(start - 1, end);
+}
+```
+
+علامة لكل فرع من الفروع الثلاثة، وعلامتان للنتائج `15,15,6` مع تفسير الاتجاه.
+
+</details>
+
+## Related Pages
+
+[M05 Module Exam & Project](../assessments/m05.qmd) · [Glossary](../glossary.qmd).
