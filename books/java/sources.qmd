@@ -99,3 +99,10 @@
 - [Arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html): Rows قد تختلف أطوالها في Java.
 - [String API](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html): Content Equality، compareTo، Immutability، وsplit مع Regex.
 - الرسوم في Lessons #027–#029 من إعداد الكتاب باستخدام SVG لقيم وعلاقات دقيقة؛ ليست Screenshots.
+
+## Introduction Accuracy
+
+- [Introduction to Java](lessons/lesson-000.qmd): شرح Binary وMachine Language وربطهما بـ Bytecode وJVM وProcessor.
+- [JVM Specification](https://docs.oracle.com/javase/specs/jvms/se25/html/jvms-1.html#jvms-1.2): محتوى class Files، واستقلال Bytecode عن Machine Code الخاصة بالجهاز.
+- [Java Cryptography Architecture](https://docs.oracle.com/en/java/javase/25/security/java-cryptography-architecture-jca-reference-guide.html): أدوات Encryption ضمن Java.
+- رسومات Lesson #00 تخطيطية، وليست Screenshots؛ Output في الرسم ومثال `Main.java` هي `Java`. مثال Binary يوضح العدد خمسة، وليس أمر طباعة فعليًا.

@@ -52,9 +52,13 @@
   {
     "id": "java-pipeline",
     "file": "assets/diagrams/java-pipeline.svg",
-    "type": "educational-diagram",
-    "source": "Original book illustration",
-    "validated": true
+    "type": "precise-technical-diagram",
+    "source": "Project-authored diagram aligned to Main.java; not a Screenshot",
+    "validated": true,
+    "owner_lesson": 0,
+    "source_page": "https://docs.oracle.com/javase/specs/jvms/se25/html/jvms-1.html#jvms-1.2",
+    "validation": "SVG XML and visible labels checked; Output matches tested Main.java. Live display recorded separately.",
+    "selection": "Existing repo-native SVG corrected with exact vector editing. Source/Bytecode/Machine Code roles clarified; artificial bit string removed."
   },
   {
     "id": "java-first-program-01",
@@ -87,9 +91,13 @@
   {
     "id": "java-pipeline-mobile",
     "file": "assets/diagrams/java-pipeline-mobile.svg",
-    "type": "educational-diagram",
-    "source": "Original mobile adaptation",
-    "validated": true
+    "type": "precise-technical-diagram",
+    "source": "Project-authored diagram aligned to Main.java; not a Screenshot",
+    "validated": true,
+    "owner_lesson": 0,
+    "source_page": "https://docs.oracle.com/javase/specs/jvms/se25/html/jvms-1.html#jvms-1.2",
+    "validation": "SVG XML and visible labels checked; Output matches tested Main.java. Live display recorded separately.",
+    "selection": "Existing repo-native SVG corrected with exact vector editing. Source/Bytecode/Machine Code roles clarified; artificial bit string removed."
   },
   {
     "id": "java-worlds-mobile",
@@ -313,5 +321,29 @@
     "validated": true,
     "selection": "Online-first searches: Oracle Arrays, HWS Javanotes array parameters and 2D arrays, Wikimedia String Pool. HWS two-dimensional-array.png downloaded and visually inspected: low-resolution dense labels and different values; rejected for readability and exact-example fidelity. Other results generic. Exact diagram exception in WORKFLOW used rather than generated text/arrows.",
     "validation": "XML parsed; values checked against runnable Java; rendered/live visual review recorded separately."
+  },
+  {
+    "id": "machine-basics-000",
+    "file": "assets/diagrams/machine-basics-000.svg",
+    "type": "precise-technical-diagram",
+    "owner_lesson": 0,
+    "source": "Project-authored exact Binary data example and processor instruction distinction; not a Screenshot",
+    "source_page": "https://docs.oracle.com/javase/specs/jvms/se25/html/jvms-1.html#jvms-1.2",
+    "license": "Project-authored",
+    "selection": "Online-first search: Oracle Java execution and machine-code diagrams. The official security flow includes class loading and verification outside this introduction and does not match Main.java or explain Binary data versus instructions. Exact-diagram exception used for literal bit-pattern correctness, rather than generated labels.",
+    "validated": true,
+    "validation": "XML parsed; 00000101 interpreted as unsigned binary equals5, not a print instruction; mobile and desktop variants reviewed separately."
+  },
+  {
+    "id": "machine-basics-000-mobile",
+    "file": "assets/diagrams/machine-basics-000-mobile.svg",
+    "type": "precise-technical-diagram",
+    "owner_lesson": 0,
+    "source": "Project-authored exact Binary data example and processor instruction distinction; not a Screenshot",
+    "source_page": "https://docs.oracle.com/javase/specs/jvms/se25/html/jvms-1.html#jvms-1.2",
+    "license": "Project-authored",
+    "selection": "Online-first search: Oracle Java execution and machine-code diagrams. The official security flow includes class loading and verification outside this introduction and does not match Main.java or explain Binary data versus instructions. Exact-diagram exception used for literal bit-pattern correctness, rather than generated labels.",
+    "validated": true,
+    "validation": "XML parsed; 00000101 interpreted as unsigned binary equals5, not a print instruction; mobile and desktop variants reviewed separately."
   }
 ]

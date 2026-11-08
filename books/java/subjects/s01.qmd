@@ -13,8 +13,8 @@
 
 **التعليمات:** حاول بدون فتح الدروس. التقييم من 20 علامة: 6 أسئلة مفاهيم × علامتين، وتطبيقان × 4 علامات. عند الإجابة فسّر السبب، مش بس اذكر الكلمة.
 
-1. **(2)** ليش بنحتاج `Programming Language`؟ وشو دور المبرمج؟
-2. **(2)** رتب مراحل تنفيذ Java: `Source Code`، `Bytecode`، `JVM`، `Compiler`.
+1. **(2)** لماذا نحتاج `High-Level Languages`؟ وهل `Binary` و`Machine Language` نفس الشيء؟
+2. **(2)** رتب `Source Code` و`Compiler` و`Bytecode` و`JVM`، ثم سمّ ما تنفّذه `Processor` الفعلية.
 3. **(2)** اشرح الفرق بين `JDK` و`IDE`، مع مثال على كل واحد.
 4. **(2)** شو العلاقة بين `Project` و`Package` و`Java File` و`Class`؟
 5. **(2)** وين يبدأ تنفيذ البرنامج التقليدي، وليش بنستخدم `main`؟
@@ -32,8 +32,8 @@ public class StartApp {
 
 <details><summary>الإجابات النموذجية ومعايير التصحيح</summary>
 
-1. حتى نعطي الجهاز تعليمات واضحة لتنفيذ مهمة. المبرمج يحدد المطلوب والخطوات ويكتب ويختبر الحل.
-2. `Source Code → Compiler → Bytecode → JVM` ثم النتيجة.
+1. High-Level Languages أسهل لكتابة الحل وقراءته وتطويره (1). Binary طريقة تمثيل بـ0 و1؛ Machine Language أوامر ذات معنى عند Processor محددة، وليستا نفس الشيء (1).
+2. `Source Code → Compiler → Bytecode → JVM` (1). Processor الفعلية تنفّذ Machine Code الملائمة لها، وتصل نتيجة مثال الطباعة إلى Output (1).
 3. JDK أدوات الترجمة والتشغيل مثل `javac`. IDE أداة الكتابة والتنظيم مثل NetBeans.
 4. `Project` يجمع `Files` والإعدادات؛ Package تنظّم Classes؛ `File` Java يحوي تعريفات برمجية منها Class واحدة على الأقل في مثالنا.
 5. من `main` بالصيغة التقليدية لتطبيق Java المستقل.

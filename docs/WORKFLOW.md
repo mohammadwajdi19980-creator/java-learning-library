@@ -1,6 +1,6 @@
 # Java Learning Library — Working Guide
 
-Version 1.8 · 8 November 2026
+Version 1.9 · 8 November 2026
 
 The user has authorized implementation and publication of the audit fixes and appearance redesign. The earlier analysis-only limit was specific to the audit turn. Preserve original video IDs, Arabic explanations, English technical terminology, and source coverage.
 
@@ -233,3 +233,13 @@ Use RELEASE-CHECKLIST.md. Update this guide when requirements or workflow change
 - The #027 inline archive is an explicitly labeled editorial inventory; #028/#029 attachment archives preserve full supplied text with LF normalization and separate raw attachment hashes.
 - Online-first research can reject an actually inspected diagram for small dense text or mismatched example values. Record this decision; use the exact-diagram exception for source-matching References, indices, and grids. Do not claim rejected online images or schematics are genuine NetBeans Screenshots.
 - When rendering HTML and EPUB in separate invocations, use Quarto `--no-clean` after the first render so one format does not remove the other from `_book`. Validate the final output directory after both formats exist. Keep `books/java/assessments/*.html` ignored like the other generated chapter folders.
+
+## Introduction repair — Lesson #00
+
+- The first Lesson must connect Computer/Processor, Binary representation, Machine Language, High-Level Languages, Source Code, Bytecode, and native execution. Do not reduce the hardware connection to an unexplained phrase such as low level.
+- Distinguish a Binary data example from an actual machine instruction. Do not decorate Bytecode with arbitrary Bits that look like a translation of the printed Java example.
+- Explain the actual roles: javac produces class Files containing Bytecode and metadata; a compatible JVM runs Bytecode using interpretation and possibly JIT; the physical Processor executes native Machine Code. Do not require JIT for every JVM or every instruction.
+- Match all pictured filenames and visible Output to the actual tested example, including mobile variants. SVG filters can hide shapes in rasterizers/EPUB readers; inspect a rendered image and remove unsupported effects rather than accepting unreadable labels.
+- Keep Lesson #00 headings English LTR and Arabic explanations RTL. Define Library/Framework and other introductory names briefly before relying on them. Computer, Screen, Processor and User remain English names.
+- Restore the source Security/Encryption talking point with a short accuracy caveat; do not turn the introduction into a separate Security or Computer Architecture course.
+- Maintain source coverage-000.json, S01 questions, and the bilingual Glossary alongside future introduction changes.

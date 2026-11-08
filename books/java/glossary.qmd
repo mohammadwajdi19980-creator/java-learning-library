@@ -1392,3 +1392,195 @@ Array تكون كل Element فيها Reference إلى String. نستعمل Index
 :::
 
 **مثال:** `String[] names={"Ali","Mona"};` طولها `2`، وطول `names[0]` هو `3`.
+
+## [Computer]{dir="ltr" lang="en"}
+
+جهاز ينفّذ أعمالًا اعتمادًا على Program وInput. في مثالنا يأخذ رقمين، ينفّذ عملية الجمع، ثم يعرض النتيجة. وجود الجهاز وحده لا يحدد المهمة؛ نحتاج خطوات توضّح المطلوب.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A computing device that processes data according to programs, receiving input and producing results through its hardware and software.
+
+:::
+
+**مثال:** جمع `2` و`3` ثم عرض `5`.
+
+## [Processor]{dir="ltr" lang="en"}
+
+يُسمّى أيضًا CPU؛ الجزء الذي ينفّذ Machine Instructions وعملياتها. التعليمات المقبولة وترميزها تتبع بنيته، لذلك لا نفترض أن أي Machine Code تعمل على أي Processor. دوره يختلف عن دور Java Compiler أو JVM.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The hardware component, also called the CPU, that executes the machine instructions supported by its architecture. It does not directly execute Java source text in the conventional Java execution model.
+
+:::
+
+**مثال:** في نموذج Java المعتاد، تنفّذ Processor تعليمات Runtime وMachine Code الملائمة لها.
+
+## [Instruction]{dir="ltr" lang="en"}
+
+أمر محدد يطلب تنفيذ عملية. عند الكلام عن Machine Language، لكل Instruction ترميز تقبله Processor معينة. وقد يختلف مستوى Instructions بين Source Code وBytecode وMachine Code؛ لا نعتبر الصيغ الثلاث متطابقة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A command specifying an operation to perform. Machine instructions are encoded operations supported by a processor, while bytecode instructions target a virtual machine.
+
+:::
+
+**مثال:** الجمع مثال لعملية يمكن أن توجد لها Machine Instruction.
+
+## [Binary]{dir="ltr" lang="en"}
+
+طريقة تمثيل تستخدم الرمزين `0` و`1`. كل واحد منهما Bit، ويمكن لمجموعات Bits أن ترمز بيانات أو أوامر. المعنى يعتمد على طريقة تفسيرها؛ ليست كل مجموعة Bits أمرًا قابلًا للتنفيذ.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A base-two representation using the digits zero and one. Binary patterns can encode data or instructions; their meaning depends on the encoding and interpretation.
+
+:::
+
+**مثال:** `00000101` تمثل العدد `5` عند تفسيرها كعدد صحيح غير سالب من ثمانية Bits، وليست أمرًا يطبع `5`.
+
+## [Machine Language]{dir="ltr" lang="en"}
+
+الأوامر التي تنفّذها Processor مباشرةً حسب ما تدعمه بنيتها، ويُسمّى Code بهذا الشكل Machine Code. ترميزها Binary، لكن Binary وحدها لا تحدد معنى الأمر أو صحته. لا تخلطها بـ Java Source Code أو Bytecode التي تستهدف JVM.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The processor-specific language of executable machine instructions, encoded as machine code. It is distinct from Java source code and from the bytecode instructions defined for a JVM.
+
+:::
+
+**مثال:** نقل نفس Bytecode بين بيئتين متوافقتين لا يعني أن Machine Code أو نسخة JVM متطابقة بينهما.
+
+## [High-Level Language]{dir="ltr" lang="en"}
+
+تتيح كتابة Code بصيغة أسهل للمطور من كتابة ترميز Machine Instructions مباشرةً. Java مثال عليها. تبقى بحاجة إلى أدوات وRuntime توصل العمل إلى الجهاز، ولا تنفّذ Processor النص المكتوب كما هو.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A programming language that expresses computations through abstractions more convenient for humans than native machine instruction encodings. Java is a high-level language.
+
+:::
+
+**مثال:** نكتب `System.out.println("Java");` بدل كتابة Machine Instructions الخاصة بتنفيذ الطباعة.
+
+## [Interpreter]{dir="ltr" lang="en"}
+
+يطبّق عمليات Instructions أثناء التشغيل. في نموذج JVM البرمجي المعتاد، يقرأ Bytecode وينفّذ سلوكها؛ والـ Interpreter نفسها تعمل بتعليمات ينفّذها Processor. لا يعني ذلك أن Processor تقرأ Java Source Code مباشرةً.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A runtime component that carries out the operations described by instructions, such as JVM bytecode, without requiring all of that code to be compiled to native machine code in advance.
+
+:::
+
+**مثال:** قد تبدأ JVM بتنفيذ Bytecode عبر Interpreter، وتستعمل JIT Compiler لبعض الأجزاء لاحقًا.
+
+## [JIT Compiler]{dir="ltr" lang="en"}
+
+الاسم الكامل Just-In-Time Compiler. قد يحوّل أجزاء من Bytecode إلى Machine Code أثناء التشغيل، خصوصًا الأجزاء المتكررة لتحسين الأداء. يختلف عن javac التي تُنتج Bytecode من Source Code؛ ولا نفترض أن كل JVM ملزمة باستخدام JIT.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A just-in-time compiler translates code, such as selected JVM bytecode, into native machine code during execution. It differs from javac, which normally compiles Java source into class files.
+
+:::
+
+**مثال:** `javac` تنتج `Main.class`؛ وقد تستعمل JVM بعدها JIT Compiler أثناء تنفيذها.
+
+## [Library]{dir="ltr" lang="en"}
+
+Code جاهزة توفر عمليات نستعملها بدل إعادة تنفيذها. توفّر الوظائف، لكن يلزم اختيارها واستخدامها بطريقة صحيحة. لا تعني اسم Programming Language جديدة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** Reusable software that provides functionality an application can call or use rather than implement from scratch.
+
+:::
+
+**مثال:** الأدوات الجاهزة التي تساعدنا على بناء نوافذ وأزرار توفر وظائف قابلة لإعادة الاستخدام.
+
+## [Framework]{dir="ltr" lang="en"}
+
+بنية وأدوات تساعد على تنظيم التطبيق وبنائه. نستخدمها ضمن طريقة العمل التي توفرها، بينما Library تركز على وظائف جاهزة نحتاجها. يكفي هذا الفرق المبدئي هنا؛ الأسماء العملية تأتي بحسب نوع التطبيق.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A reusable software structure and set of facilities that guide how an application is organized and built.
+
+:::
+
+**مثال:** قد توفر Framework طريقة لتنظيم الأجزاء التي تستقبل طلبات الموقع وتعالجها.
+
+## [Security]{dir="ltr" lang="en"}
+
+حماية التطبيق وبياناته من الاستعمال أو الوصول غير المسموح به. توفر Java أدوات تساعد على ذلك، لكن صحة التصميم وطريقة الاستعمال مهمة؛ اختيار Java لا يضمن الأمان تلقائيًا. هذا تعريف أولي، وليس دراسة تفصيلية للحماية.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The protection of software and data against unauthorized access or misuse. Java security features support this goal but do not guarantee that an application is secure.
+
+:::
+
+**مثال:** Encryption واحدة من الأدوات التي قد تساعد ضمن تصميم مناسب للحماية.
+
+## [Encryption]{dir="ltr" lang="en"}
+
+تحويل البيانات إلى شكل لا تُقرأ منه بصورتها الأصلية، مع إمكانية استعادتها بالطريقة والمفتاح المناسبين. هي استخدام محدد ضمن Security، وليست مرادفًا لكل الحماية أو لكل ترميز Binary.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A cryptographic transformation that converts plaintext into ciphertext, with decryption recovering the original data using the appropriate method and key.
+
+:::
+
+**مثال:** تمثيل العدد خمسة بـ Binary لا يشفّره؛ تغيير طريقة التمثيل وحده ليس Encryption.
+
+## [Operating System]{dir="ltr" lang="en"}
+
+يدير موارد الجهاز ويوفر خدمات للتطبيقات. Windows وmacOS وLinux أمثلة عليه. في التشغيل التقليدي لـ Java نحتاج تنفيذ JVM مناسبًا لهذا النظام وللجهاز وإصدار Bytecode؛ نفس Bytecode لا تعني نفس نسخة JVM.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** System software that manages hardware resources and provides services to applications. A conventional Java runtime must be compatible with the host operating system and hardware.
+
+:::
+
+**مثال:** نحتاج إصدار JVM مناسبًا لـ Windows، وآخر مناسبًا لـ Linux بحسب الجهاز.
+
+## [Standard Output]{dir="ltr" lang="en"}
+
+جهة الإرسال النصية الافتراضية التي نستخدمها في مثال الطباعة عبر System.out. غالبًا نراها في Console، لكن يمكن توجيهها إلى وجهة أخرى. لذلك لا نساوي دائمًا بينها وبين Screen فعلية.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The conventional output stream used for normal program output. Java exposes it as System.out; its destination is often a console but can be redirected.
+
+:::
+
+**مثال:** `System.out.println("Java");` ترسل النص ثم نهاية سطر إلى Standard Output.
+
+## [Console]{dir="ltr" lang="en"}
+
+مساحة للتعامل النصي مع التشغيل ونتائجه، مثل عرض Output داخل IDE أو Terminal. يختلف دورها عن Screen بوصفها الجزء المرئي من الجهاز؛ Console واجهة نصية نراها عليها.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A text-oriented interface through which a program’s output, and sometimes its input, is presented, such as a terminal or an IDE output pane.
+
+:::
+
+**مثال:** بعد تشغيل المثال يظهر `Java` في Console المناسبة لبيئة التشغيل.
+
+## [User Interface]{dir="ltr" lang="en"}
+
+تُختصر UI؛ الجزء الذي يتعامل معه الشخص عند استعمال التطبيق. النوافذ والأزرار أمثلة على مكوّناتها المرئية. Swing وJavaFX من الأدوات التي تساعد على بناء Desktop UI باستخدام Java.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The part of an application through which a user interacts with it, including controls and presentation such as windows and buttons in a graphical interface.
+
+:::
+
+**مثال:** نافذة تعرض نتيجة عملية حسابية مع زر لطلب الحساب.

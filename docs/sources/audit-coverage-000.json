@@ -1,0 +1,11 @@
+{
+  "scope": "Lesson #00 source coverage and explicit user-requested Machine Language repair; source inventory reviewed manually",
+  "mechanical_status": "pass",
+  "sources_declared": 1,
+  "units_declared": 23,
+  "status_counts": {
+    "covered": 23
+  },
+  "issues": [],
+  "limit": "Checks the declared ledger only; does not verify source completeness, true duplication, or semantic accuracy."
+}

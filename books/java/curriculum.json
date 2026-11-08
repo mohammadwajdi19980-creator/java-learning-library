@@ -214,7 +214,13 @@
       "source_status": "received",
       "editorial_status": "reviewed",
       "url": "lessons/lesson-000.html",
-      "display_title": "Introduction to Java"
+      "display_title": "Introduction to Java",
+      "transcript_archive": "docs/sources/transcripts/inline-000-source-inventory.md",
+      "coverage_ledger": "docs/sources/coverage-000.json",
+      "code_verification": "Main.java compiled and run by scripts/verify_java.py; Output Java matches desktop/mobile illustrations",
+      "source_limitations": [
+        "Speech-to-text ambiguities corrected; source inventory is not a verbatim archive."
+      ]
     },
     {
       "id": 1,

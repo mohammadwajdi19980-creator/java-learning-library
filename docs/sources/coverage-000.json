@@ -1,0 +1,221 @@
+{
+  "scope": "Lesson #00 source coverage and explicit user-requested Machine Language repair; source inventory reviewed manually",
+  "sources": [
+    {
+      "id": "source-000",
+      "title": "Introduction to Java",
+      "inventory_complete": true,
+      "archive": "docs/sources/transcripts/inline-000-source-inventory.md",
+      "source_inspection": "Full user-supplied introduction compared with published Lesson #00; inventory is not a verbatim transcript."
+    }
+  ],
+  "units": [
+    {
+      "id": "000-01",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Learning goals",
+      "idea": "Audience includes first-time learners and those adding Java; practical gradual study",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Learning goals"
+    },
+    {
+      "id": "000-02",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Why Programming?",
+      "idea": "Need explicit ordered instructions to make a Computer perform a task",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Why Programming?"
+    },
+    {
+      "id": "000-03",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Binary",
+      "idea": "Restore original zero/one representation; bits can represent data or instructions; five is a data example",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Binary"
+    },
+    {
+      "id": "000-04",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Machine Language",
+      "idea": "Processor executes its supported Machine Language instruction set; native encoding is processor-specific",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Machine Language"
+    },
+    {
+      "id": "000-05",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Programming Languages",
+      "idea": "High-Level Languages bridge human-readable source and actual execution; Syntax matters",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Programming Languages"
+    },
+    {
+      "id": "000-06",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Application Areas",
+      "idea": "Desktop, Web Backend, Enterprise and Android applications",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Application Areas"
+    },
+    {
+      "id": "000-07",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Application Areas",
+      "idea": "Enterprise links accounting, purchasing and sales systems without repeating unsupported all-Oracle-systems claim",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Application Areas"
+    },
+    {
+      "id": "000-08",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Application Areas",
+      "idea": "Embedded support is conditional; not every car or household device runs Java",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Application Areas"
+    },
+    {
+      "id": "000-09",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Library and Framework",
+      "idea": "Define previously unexplained Library, Framework, Swing, JavaFX and UI names briefly",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Library and Framework"
+    },
+    {
+      "id": "000-10",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Security and Encryption",
+      "idea": "Restore security tools and encryption use case without claiming automatic security",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Security and Encryption"
+    },
+    {
+      "id": "000-11",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Object-Oriented Programming",
+      "idea": "Introductory OOP name and idea only; details deferred",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Object-Oriented Programming"
+    },
+    {
+      "id": "000-12",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Writing Java",
+      "idea": "Full source example prints Java, with matching Output and syntax role",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Writing Java"
+    },
+    {
+      "id": "000-13",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Compiler",
+      "idea": "Compiler checks and translates; compilation success does not prove logic",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Compiler"
+    },
+    {
+      "id": "000-14",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Bytecode",
+      "idea": "Main.class is a file containing Bytecode and metadata, not a file named Bytecode",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Bytecode"
+    },
+    {
+      "id": "000-15",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · JVM",
+      "idea": "Compatible JVM runs Bytecode on the host environment",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > JVM"
+    },
+    {
+      "id": "000-16",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Interpreter",
+      "idea": "Interpreter applies bytecode operations while its runtime executes native instructions",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Interpreter"
+    },
+    {
+      "id": "000-17",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Just-In-Time Compiler",
+      "idea": "Brief optional JIT role connects Bytecode to Machine Code without claiming all execution requires prior JIT",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Just-In-Time Compiler"
+    },
+    {
+      "id": "000-18",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Processor and Output",
+      "idea": "Restore explicit hardware execution link and keep picture Output equal to Java",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Processor and Output"
+    },
+    {
+      "id": "000-19",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Write Once, Run Anywhere",
+      "idea": "Same Bytecode runs with compatible platform-specific JVM; dependencies and versions qualify portability",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Write Once, Run Anywhere"
+    },
+    {
+      "id": "000-20",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Java Editions & Technologies",
+      "idea": "SE foundation, EE to Jakarta enterprise specifications, ME limited targets, JavaFX UI",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Java Editions & Technologies"
+    },
+    {
+      "id": "000-21",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Java Editions & Technologies",
+      "idea": "Current Android Kotlin-first clarification kept distinct from core Java scope",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Java Editions & Technologies"
+    },
+    {
+      "id": "000-22",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · How to Study",
+      "idea": "Study focused, practice rather than binge, progress gradually and revisit details",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > How to Study"
+    },
+    {
+      "id": "000-23",
+      "source_id": "source-000",
+      "locator": "Original inline introduction and user correction 2026-11-08 · Knowledge Check",
+      "idea": "Questions test Binary versus Machine Language and Source/Bytecode/Machine Code roles",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-000.qmd > Knowledge Check"
+    }
+  ]
+}
