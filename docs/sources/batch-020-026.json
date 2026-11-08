@@ -2,10 +2,11 @@
   {
     "lesson_id": 20,
     "archive": "docs/sources/transcripts/video-020.txt",
-    "sha256": "733ec60a3dfccf46aa9d015c17278bbb1810fa9df02df37577606487b418a252",
+    "sha256": "ab90c08590292ade18089a324acd4f76ce9cab01b2756093aa9a82f5f4b421f2",
     "source_url": null,
     "origin": "User batch dated 2026-11-08; matched by subject content and canonical course title, not filename",
-    "archive_kind": "verbatim attachment"
+    "archive_kind": "verbatim attachment text; CRLF normalized to LF for repository transport",
+    "original_attachment_sha256": "733ec60a3dfccf46aa9d015c17278bbb1810fa9df02df37577606487b418a252"
   },
   {
     "lesson_id": 21,
@@ -18,26 +19,29 @@
   {
     "lesson_id": 22,
     "archive": "docs/sources/transcripts/video-022.txt",
-    "sha256": "7c2a3744948dcbe6c77c023ec4ac39ca670171f323356f4b751033383fe172f0",
+    "sha256": "e8de5121034d769d04ec232323865298850e0d64fa0e0bbdf77f5d32aa48bae6",
     "source_url": null,
     "origin": "User batch dated 2026-11-08; matched by subject content and canonical course title, not filename",
-    "archive_kind": "verbatim attachment"
+    "archive_kind": "verbatim attachment text; CRLF normalized to LF for repository transport",
+    "original_attachment_sha256": "7c2a3744948dcbe6c77c023ec4ac39ca670171f323356f4b751033383fe172f0"
   },
   {
     "lesson_id": 23,
     "archive": "docs/sources/transcripts/video-023.txt",
-    "sha256": "3a01aa8742d9bcfd1bac564408f9bc1bd4142ce8b3ed5b9ba1a717e39daa719f",
+    "sha256": "16064667d6506b2cb641128f12e8de3bbfd2d7c2a08f425f7576d976c54835eb",
     "source_url": null,
     "origin": "User batch dated 2026-11-08; matched by subject content and canonical course title, not filename",
-    "archive_kind": "verbatim attachment"
+    "archive_kind": "verbatim attachment text; CRLF normalized to LF for repository transport",
+    "original_attachment_sha256": "3a01aa8742d9bcfd1bac564408f9bc1bd4142ce8b3ed5b9ba1a717e39daa719f"
   },
   {
     "lesson_id": 24,
     "archive": "docs/sources/transcripts/video-024.txt",
-    "sha256": "1d261552e278e9e56b3a2219e7ab041c14e54fb41e024671de77f200145a108d",
+    "sha256": "ce6f8becb64f10a72737d4951348aa87168427876b3a97f9095e0a81338353d4",
     "source_url": null,
     "origin": "User batch dated 2026-11-08; matched by subject content and canonical course title, not filename",
-    "archive_kind": "verbatim attachment"
+    "archive_kind": "verbatim attachment text; CRLF normalized to LF for repository transport",
+    "original_attachment_sha256": "1d261552e278e9e56b3a2219e7ab041c14e54fb41e024671de77f200145a108d"
   },
   {
     "lesson_id": 25,

@@ -575,7 +575,8 @@
       "code_verification": "JDK 25 CLI complete examples, boundary cases and intentional failures; see code-cases-020-026.json",
       "source_limitations": [
         "Some complete code, names and literal inputs are missing in speech-to-text; reconstructions are explicitly illustrative."
-      ]
+      ],
+      "archive_normalization": "LF; original attachment SHA256 retained in batch manifest"
     },
     {
       "id": 21,
@@ -617,7 +618,8 @@
       "code_verification": "JDK 25 CLI complete examples, boundary cases and intentional failures; see code-cases-020-026.json",
       "source_limitations": [
         "Some complete code, names and literal inputs are missing in speech-to-text; reconstructions are explicitly illustrative."
-      ]
+      ],
+      "archive_normalization": "LF; original attachment SHA256 retained in batch manifest"
     },
     {
       "id": 23,
@@ -637,7 +639,8 @@
       "code_verification": "JDK 25 CLI complete examples, boundary cases and intentional failures; see code-cases-020-026.json",
       "source_limitations": [
         "Some complete code, names and literal inputs are missing in speech-to-text; reconstructions are explicitly illustrative."
-      ]
+      ],
+      "archive_normalization": "LF; original attachment SHA256 retained in batch manifest"
     },
     {
       "id": 24,
@@ -658,7 +661,8 @@
       "code_verification": "JDK 25 CLI complete examples, boundary cases and intentional failures; see code-cases-020-026.json",
       "source_limitations": [
         "Some complete code, names and literal inputs are missing in speech-to-text; reconstructions are explicitly illustrative."
-      ]
+      ],
+      "archive_normalization": "LF; original attachment SHA256 retained in batch manifest"
     },
     {
       "id": 25,
