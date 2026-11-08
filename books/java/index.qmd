@@ -18,7 +18,7 @@ page-layout: full
 
 <div class="home-proof" dir="ltr"><span>77 planned lessons</span><span>Arabic explanations</span><span>English terminology</span></div>
 
-<div class="section-heading"><div><p class="eyebrow" dir="ltr">ONE STEP AT A TIME</p><h2>ابدأ من هنا</h2></div><span class="availability">24 lessons available</span></div>
+<div class="section-heading"><div><p class="eyebrow" dir="ltr">ONE STEP AT A TIME</p><h2>ابدأ من هنا</h2></div><span class="availability">27 lessons available</span></div>
 
 <div class="lesson-grid">
 <a class="lesson-card" href="lessons/lesson-000.html"><div class="lesson-card-top"><span class="lesson-number">00</span><span class="status-dot">AVAILABLE</span></div><div class="mini-diagram" aria-hidden="true"><span>.java</span><i>→</i><span>JVM</span><i>→</i><span>Run</span></div><p class="card-label">THE FOUNDATIONS</p><h3 dir="ltr">Introduction to Java</h3><p>شو هي؟ ليش نستخدمها؟ وكيف تتحوّل الأوامر إلى برنامج يعمل؟</p><span class="card-action">افتح الدرس <span aria-hidden="true">←</span></span></a>
@@ -50,8 +50,10 @@ page-layout: full
 <li><a href="subjects/s10.html">S10 · Methods &amp; Overloading</a><small>#018 / #019 / #020 / #021</small></li>
 <li><a href="subjects/s11.html">S11 · Recursion</a><small>#022 / #023</small></li>
 </ul></section>
-<section class="module-card"><p class="eyebrow" dir="ltr">M06 · In progress · 3 / 6 lessons</p><h3 dir="ltr"><a href="modules/m06.html">Arrays &amp; Strings</a></h3><ul>
-<li><a href="subjects/s12.html">S12 · One-Dimensional Arrays</a><small>#024 / #025 / #026</small></li>
+<section class="module-card"><p class="eyebrow" dir="ltr">M06 · Complete · 6 / 6 lessons</p><h3 dir="ltr"><a href="modules/m06.html">Arrays &amp; Strings</a></h3><ul>
+<li><a href="subjects/s12.html">S12 · One-Dimensional Arrays</a><small>#024 / #025 / #026 / #027</small></li>
+<li><a href="subjects/s13.html">S13 · Multidimensional Arrays</a><small>#028</small></li>
+<li><a href="subjects/s14.html">S14 · Strings</a><small>#029</small></li>
 </ul></section>
 </div>
 
@@ -59,14 +61,14 @@ page-layout: full
 
 <section class="library-tools"><a href="glossary.html"><span dir="ltr">01 / GLOSSARY</span><h3>كل مصطلح في مكانه</h3><p>الاسم بالإنجليزية، والمعنى بشرح عربي واضح.</p></a><a href="roadmap.html"><span dir="ltr">02 / CONTENTS</span><h3>شوف الصورة كاملة</h3><p>دروس الكتاب الـ 77، مرتّبة حسب الموضوع، مع حالة كل درس.</p></a></section>
 
-<p class="book-state">24 lessons available · 77 lessons planned</p>
+<p class="book-state">27 lessons available · 77 lessons planned</p>
 ```
 
 :::
 
 ::: {.content-visible when-format="epub"}
 
-كتابك لتعلّم Java من الصفر، بشرح عربي ومصطلحات إنجليزية. 24 Lessons متاحة من أصل 77 درسًا مخططًا.
+كتابك لتعلّم Java من الصفر، بشرح عربي ومصطلحات إنجليزية. 27 Lessons متاحة من أصل 77 درسًا مخططًا.
 
 ## M01 · Java & Tools
 
@@ -109,6 +111,9 @@ page-layout: full
 - [#024 · One-Dimensional Arrays](lessons/lesson-024.qmd)
 - [#025 · Array Exercises](lessons/lesson-025.qmd)
 - [#026 · Char Arrays](lessons/lesson-026.qmd)
+- [#027 · Passing & Returning Arrays](lessons/lesson-027.qmd)
+- [#028 · Multidimensional Arrays](lessons/lesson-028.qmd)
+- [#029 · Strings & String Arrays](lessons/lesson-029.qmd)
 
 
 [Glossary](glossary.qmd) · [Practice & Exams](exams.qmd) · [Sources](sources.qmd)

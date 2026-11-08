@@ -7,7 +7,7 @@ format:
 ---
 
 <p class="roadmap-intro">هذا فهرس دروس الكتاب. افتح أي Module لرؤية مواضيعه وصفحات الدروس المتاحة؛ الدروس المخططة لم تكتمل بعد.</p>
-<p class="book-state">24 lessons available · 77 lessons planned</p>
+<p class="book-state">27 lessons available · 77 lessons planned</p>
 
 ::: {.content-visible unless-format="epub"}
 
@@ -106,15 +106,15 @@ format:
 <li><a href="lessons/lesson-024.html">#024 — One Dimensional Arrays (1D Array)</a><span class="source-state">Available</span></li>
 <li><a href="lessons/lesson-025.html">#025 — One Dimensional Array (Exercises, Practice)</a><span class="source-state">Available</span></li>
 <li><a href="lessons/lesson-026.html">#026 — One Dimensional Array (Char Array)</a><span class="source-state">Available</span></li>
-<li>#027 — Passing Arrays to Methods<span class="source-state">Not yet available</span></li>
+<li><a href="lessons/lesson-027.html">#027 — Passing Arrays to Methods</a><span class="source-state">Available</span></li>
 </ul>
 <h3><a href="subjects/s13.html">S13 · Multidimensional Arrays</a></h3>
 <ul>
-<li>#028 — Multidimensional Arrays &amp; Passing Multidimensional Arrays to Methods<span class="source-state">Not yet available</span></li>
+<li><a href="lessons/lesson-028.html">#028 — Multidimensional Arrays &amp; Passing Multidimensional Arrays to Methods</a><span class="source-state">Available</span></li>
 </ul>
 <h3><a href="subjects/s14.html">S14 · Strings</a></h3>
 <ul>
-<li>#029 — String &amp; Array String<span class="source-state">Not yet available</span></li>
+<li><a href="lessons/lesson-029.html">#029 — String &amp; Array String</a><span class="source-state">Available</span></li>
 </ul>
 </div>
 </details>
@@ -316,6 +316,9 @@ format:
 - [#024 · One-Dimensional Arrays](lessons/lesson-024.qmd)
 - [#025 · Array Exercises](lessons/lesson-025.qmd)
 - [#026 · Char Arrays](lessons/lesson-026.qmd)
+- [#027 · Passing & Returning Arrays](lessons/lesson-027.qmd)
+- [#028 · Multidimensional Arrays](lessons/lesson-028.qmd)
+- [#029 · Strings & String Arrays](lessons/lesson-029.qmd)
 
 
 بقية الدروس غير متاحة بعد؛ هذا الفهرس يسرد الصفحات المتاحة فقط.

@@ -9,3 +9,4 @@ books/java/modules/*.html
 books/java/subjects/*.html
 books/java/site_libs/
 books/java/search.json
+books/java/assessments/*.html

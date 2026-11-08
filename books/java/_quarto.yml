@@ -78,7 +78,13 @@ book:
         - lessons/lesson-024.qmd
         - lessons/lesson-025.qmd
         - lessons/lesson-026.qmd
+        - lessons/lesson-027.qmd
         - subjects/s12.qmd
+        - lessons/lesson-028.qmd
+        - subjects/s13.qmd
+        - lessons/lesson-029.qmd
+        - subjects/s14.qmd
+        - assessments/m06.qmd
     - roadmap.qmd
     - projects.qmd
     - exams.qmd
@@ -91,8 +97,6 @@ book:
         - modules/m11.qmd
         - modules/m12.qmd
         - modules/m13.qmd
-        - subjects/s13.qmd
-        - subjects/s14.qmd
         - subjects/s15.qmd
         - subjects/s16.qmd
         - subjects/s17.qmd

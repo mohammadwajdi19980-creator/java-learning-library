@@ -2,7 +2,7 @@
 title: "M06 · Arrays & Strings"
 ---
 
-<div class="lesson-meta"><span>In progress</span><span>3 / 6 lessons available</span><span>3 lessons remaining</span></div>
+<div class="lesson-meta"><span>Complete</span><span>6 / 6 lessons available</span><span>0 lessons remaining</span></div>
 
 ## Subjects
 
@@ -13,26 +13,30 @@ title: "M06 · Arrays & Strings"
 - [#024 · One-Dimensional Arrays](../lessons/lesson-024.qmd)
 - [#025 · Array Exercises](../lessons/lesson-025.qmd)
 - [#026 · Char Arrays](../lessons/lesson-026.qmd)
-- #027 · Passing Arrays to Methods — Not yet available
+- [#027 · Passing & Returning Arrays](../lessons/lesson-027.qmd)
 
-هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+Review & Exam متاح بعد الدروس المذكورة.
 
 ### S13 · Multidimensional Arrays
 
 [Open Subject](../subjects/s13.qmd)
 
-- #028 · Multidimensional Arrays & Passing Multidimensional Arrays to Methods — Not yet available
+- [#028 · Multidimensional Arrays](../lessons/lesson-028.qmd)
 
-هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+Review & Exam متاح بعد الدروس المذكورة.
 
 ### S14 · Strings
 
 [Open Subject](../subjects/s14.qmd)
 
-- #029 · String & Array String — Not yet available
+- [#029 · Strings & String Arrays](../lessons/lesson-029.qmd)
 
-هذا Subject لم يكتمل بعد؛ المراجعة تقتصر على الدروس المتاحة.
+Review & Exam متاح بعد الدروس المذكورة.
 
 ## Reading Path
 
 ابدأ من [#024](../lessons/lesson-024.qmd)، وراجع كل Subject بعد دروسه. اتبع Previous / Next للتقدّم بالترتيب.
+
+## Module Assessment
+
+[M06 Exam & Student Report Project](../assessments/m06.qmd)

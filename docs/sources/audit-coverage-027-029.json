@@ -1,0 +1,11 @@
+{
+  "scope": "All three supplied transcripts #027–#029: inline #027 and two complete attachments; correction and reconstruction limits recorded",
+  "mechanical_status": "pass",
+  "sources_declared": 3,
+  "units_declared": 69,
+  "status_counts": {
+    "covered": 69
+  },
+  "issues": [],
+  "limit": "Checks the declared ledger only; does not verify source completeness, true duplication, or semantic accuracy."
+}

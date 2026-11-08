@@ -1,0 +1,649 @@
+{
+  "scope": "All three supplied transcripts #027–#029: inline #027 and two complete attachments; correction and reconstruction limits recorded",
+  "sources": [
+    {
+      "id": "source-027",
+      "title": "Lesson #027",
+      "inventory_complete": true,
+      "archive": "docs/sources/transcripts/inline-027-source.md",
+      "source_inspection": "Entire supplied text read; original audiovisual screens not supplied or claimed inspected. Inline record is an editorial inventory, not a verbatim transcript."
+    },
+    {
+      "id": "source-028",
+      "title": "Lesson #028",
+      "inventory_complete": true,
+      "archive": "docs/sources/transcripts/video-028.txt",
+      "source_inspection": "Entire attachment read; audiovisual original not claimed inspected."
+    },
+    {
+      "id": "source-029",
+      "title": "Lesson #029",
+      "inventory_complete": true,
+      "archive": "docs/sources/transcripts/video-029.txt",
+      "source_inspection": "Entire attachment read; audiovisual original not claimed inspected."
+    }
+  ],
+  "units": [
+    {
+      "id": "027-01",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Array Parameters",
+      "idea": "Separate Methods by task: fill, print, sort and search",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Array Parameters"
+    },
+    {
+      "id": "027-02",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Array Parameters",
+      "idea": "Array Parameter syntax int[] x or int x[] and compatible element types",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Array Parameters"
+    },
+    {
+      "id": "027-03",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Array Parameters",
+      "idea": "Call passes Array name without brackets; argument and parameter names can differ",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Array Parameters"
+    },
+    {
+      "id": "027-04",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Array Parameters",
+      "idea": "Loop over length internally; separate whole-array size argument is unnecessary",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Array Parameters"
+    },
+    {
+      "id": "027-05",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Array Parameters",
+      "idea": "Reuse print Method with different Arrays and lengths",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Array Parameters"
+    },
+    {
+      "id": "027-06",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Anonymous Arrays",
+      "idea": "Pass new int[]{1,2,3} directly without a named caller Variable",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Anonymous Arrays"
+    },
+    {
+      "id": "027-07",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Returning an Array",
+      "idea": "Array Return Type and local Array returned by reference value",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Returning an Array"
+    },
+    {
+      "id": "027-08",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Returning an Array",
+      "idea": "Return anonymous Array directly",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Returning an Array"
+    },
+    {
+      "id": "027-09",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Returning an Array",
+      "idea": "Capture returned reference and read indexed elements; direct create()[1]",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Returning an Array"
+    },
+    {
+      "id": "027-10",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Printing a Reference",
+      "idea": "Printing int[] or array-returning Method shows Object representation, not elements; distinguish println(char[])",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Printing a Reference"
+    },
+    {
+      "id": "027-11",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Printing a Reference",
+      "idea": "Representation is not a guaranteed physical Memory address",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Printing a Reference"
+    },
+    {
+      "id": "027-12",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Assignment and Aliasing",
+      "idea": "a=b copies Reference rather than Elements; initial Arrays 1,2,3 and 40,50,60",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Assignment and Aliasing"
+    },
+    {
+      "id": "027-13",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Assignment and Aliasing",
+      "idea": "Mutations to100 then500 visible through both names",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Assignment and Aliasing"
+    },
+    {
+      "id": "027-14",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Assignment and Aliasing",
+      "idea": "Three or more aliases share Elements; setting zero visible across all",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Assignment and Aliasing"
+    },
+    {
+      "id": "027-15",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Java Is Always Pass-by-Value",
+      "idea": "Method mutates Element to50 visible at Caller",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Java Is Always Pass-by-Value"
+    },
+    {
+      "id": "027-16",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Java Is Always Pass-by-Value",
+      "idea": "Primitive y=5 remains5 despite assigning10 to local Parameter",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Java Is Always Pass-by-Value"
+    },
+    {
+      "id": "027-17",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Java Is Always Pass-by-Value",
+      "idea": "Correct inaccurate call-by-reference claim: Java copies Reference value",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Java Is Always Pass-by-Value"
+    },
+    {
+      "id": "027-18",
+      "source_id": "source-027",
+      "locator": "docs/sources/transcripts/inline-027-source.md · Java Is Always Pass-by-Value",
+      "idea": "Parameter reassignment does not reassign caller Variable; no Java & parameter syntax",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-027.qmd > Java Is Always Pass-by-Value"
+    },
+    {
+      "id": "028-01",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Arrays of Arrays",
+      "idea": "Student grades motivate Row/Column table",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Arrays of Arrays"
+    },
+    {
+      "id": "028-02",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Arrays of Arrays",
+      "idea": "Java 2D is Array of Arrays; equal or different row lengths",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Arrays of Arrays"
+    },
+    {
+      "id": "028-03",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Arrays of Arrays",
+      "idea": "Zero-based two-index access and source Jagged values 1,5,8 / 5,6 / 4",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Arrays of Arrays"
+    },
+    {
+      "id": "028-04",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Declaration and Allocation",
+      "idea": "All three bracket placement forms; preferred type-side declaration",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Declaration and Allocation"
+    },
+    {
+      "id": "028-05",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Rectangular Array",
+      "idea": "new int[3][4] allocates Rows and int default zeros",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Rectangular Array"
+    },
+    {
+      "id": "028-06",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Rectangular Array",
+      "idea": "Row/Column bounds and last indices",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Rectangular Array"
+    },
+    {
+      "id": "028-07",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Rectangular Array",
+      "idea": "Sizes may come from Variables or user Input",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Rectangular Array"
+    },
+    {
+      "id": "028-08",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Allocate Each Row Separately",
+      "idea": "new int[3][] then allocate each Row independently with lengths3,2,1",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Allocate Each Row Separately"
+    },
+    {
+      "id": "028-09",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Allocate Each Row Separately",
+      "idea": "Outer References default null; unallocated Row differs from out-of-bounds",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Allocate Each Row Separately"
+    },
+    {
+      "id": "028-10",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Allocate Each Row Separately",
+      "idea": "Outer length versus current Row length",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Allocate Each Row Separately"
+    },
+    {
+      "id": "028-11",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Allocate Each Row Separately",
+      "idea": "Reject new int[][4] and bare new int[][]; initializer alternatives",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Allocate Each Row Separately"
+    },
+    {
+      "id": "028-12",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Nested Loops and for-each",
+      "idea": "Nested Loops reset Column each Row and use current length",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Nested Loops and for-each"
+    },
+    {
+      "id": "028-13",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Nested Loops and for-each",
+      "idea": "Print one Row using two indices; printing int[] Row directly is not contents",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Nested Loops and for-each"
+    },
+    {
+      "id": "028-14",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Nested Loops and for-each",
+      "idea": "Trace each Row and Column with given values",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Nested Loops and for-each"
+    },
+    {
+      "id": "028-15",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Nested Loops and for-each",
+      "idea": "Nested for-each uses int[] outside and int inside",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Nested Loops and for-each"
+    },
+    {
+      "id": "028-16",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Passing and Returning int[][]",
+      "idea": "Receive int[][] Parameter; pass name only",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Passing and Returning int[][]"
+    },
+    {
+      "id": "028-17",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Passing and Returning int[][]",
+      "idea": "Return int[][] and assign result at caller",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Passing and Returning int[][]"
+    },
+    {
+      "id": "028-18",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Passing and Returning int[][]",
+      "idea": "Shared Element changes with copied Reference value, not call-by-reference",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Passing and Returning int[][]"
+    },
+    {
+      "id": "028-19",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Transpose a Rectangular Matrix",
+      "idea": "Source matrix 1,3,5 / 2,4,6 prints transpose 1,2 / 3,4 / 5,6",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Transpose a Rectangular Matrix"
+    },
+    {
+      "id": "028-20",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Transpose a Rectangular Matrix",
+      "idea": "Swap traversal axes with correct bounds; careless swapping indices can fail",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Transpose a Rectangular Matrix"
+    },
+    {
+      "id": "028-21",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Transpose a Rectangular Matrix",
+      "idea": "Printing transpose does not mutate original",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Transpose a Rectangular Matrix"
+    },
+    {
+      "id": "028-22",
+      "source_id": "source-028",
+      "locator": "docs/sources/transcripts/video-028.txt · Transpose a Rectangular Matrix",
+      "idea": "Rectangular nonempty precondition and higher dimension int[][][] preview",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-028.qmd > Transpose a Rectangular Matrix"
+    },
+    {
+      "id": "029-01",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · Creating a String",
+      "idea": "String Literal versus new String; String Class in java.lang needs no import",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > Creating a String"
+    },
+    {
+      "id": "029-02",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · Creating a String",
+      "idea": "Direct printing and convenience of String Methods versus char[]; defer OOP details",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > Creating a String"
+    },
+    {
+      "id": "029-03",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · Concatenation and Immutability",
+      "idea": "concat and plus join Hello with I am Ahmad",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > Concatenation and Immutability"
+    },
+    {
+      "id": "029-04",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · Concatenation and Immutability",
+      "idea": "Immutability means capture returned result; same rule across transformation Methods",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > Concatenation and Immutability"
+    },
+    {
+      "id": "029-05",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · String Pool and References",
+      "idea": "Identical literals share interned reference; arbitrary equal content need not",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > String Pool and References"
+    },
+    {
+      "id": "029-06",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · String Pool and References",
+      "idea": "new String creates distinct Object with same content",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > String Pool and References"
+    },
+    {
+      "id": "029-07",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · String Pool and References",
+      "idea": "Reassignment changes one reference without mutating shared String; reference assignment shares identity",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > String Pool and References"
+    },
+    {
+      "id": "029-08",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · equals and equalsIgnoreCase",
+      "idea": "== identity versus equals content; do not choose based merely on visible new",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > equals and equalsIgnoreCase"
+    },
+    {
+      "id": "029-09",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · equals and equalsIgnoreCase",
+      "idea": "Input content comparison uses equals; primitive == value comparison",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > equals and equalsIgnoreCase"
+    },
+    {
+      "id": "029-10",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · equals and equalsIgnoreCase",
+      "idea": "equalsIgnoreCase ignores Case but not sequence or extra characters",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > equals and equalsIgnoreCase"
+    },
+    {
+      "id": "029-11",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · compareTo",
+      "idea": "Negative zero positive and UTF16-based first-mismatch comparison",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > compareTo"
+    },
+    {
+      "id": "029-12",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · compareTo",
+      "idea": "D68 minus e101 equals-33; A65 versus B66 yields-1, reverse1",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > compareTo"
+    },
+    {
+      "id": "029-13",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · compareTo",
+      "idea": "Stop at first mismatch despite remaining characters; equal content0",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > compareTo"
+    },
+    {
+      "id": "029-14",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · compareTo",
+      "idea": "Necessary equal-prefix length difference rule",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > compareTo"
+    },
+    {
+      "id": "029-15",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · trim and Case Conversion",
+      "idea": "trim removes edge characters through U0020, not internal spaces or all Unicode spaces",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > trim and Case Conversion"
+    },
+    {
+      "id": "029-16",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · trim and Case Conversion",
+      "idea": "toUpperCase and toLowerCase return results; Locale caveat kept brief",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > trim and Case Conversion"
+    },
+    {
+      "id": "029-17",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · String.valueOf",
+      "idea": "Overloads convert int float etc or Object to text, not numeric-to-String cast",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > String.valueOf"
+    },
+    {
+      "id": "029-18",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · String.valueOf",
+      "idea": "Appending empty String alternative; no blanket performance claim",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > String.valueOf"
+    },
+    {
+      "id": "029-19",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · replace, contains, startsWith and endsWith",
+      "idea": "replace matching text or char, every literal occurrence; not regex replaceAll",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > replace, contains, startsWith and endsWith"
+    },
+    {
+      "id": "029-20",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · replace, contains, startsWith and endsWith",
+      "idea": "contains contiguous ordered text, String argument not char",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > replace, contains, startsWith and endsWith"
+    },
+    {
+      "id": "029-21",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · replace, contains, startsWith and endsWith",
+      "idea": "startsWith and endsWith inspect prefix and suffix with Case sensitivity",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > replace, contains, startsWith and endsWith"
+    },
+    {
+      "id": "029-22",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · substring",
+      "idea": "substring(begin) from zero-based index to end; zero gives all content",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > substring"
+    },
+    {
+      "id": "029-23",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · substring",
+      "idea": "substring(begin,end) exclusive end:2,4 yieldsCD",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > substring"
+    },
+    {
+      "id": "029-24",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · substring",
+      "idea": "Valid bounds and empty range; distinguish end from char[] constructor count",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > substring"
+    },
+    {
+      "id": "029-25",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · split and String Arrays",
+      "idea": "split separator returns String[]; literal star delimiter requires escaped Regex",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > split and String Arrays"
+    },
+    {
+      "id": "029-26",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · split and String Arrays",
+      "idea": "String Array initializer, indexed whole Strings and for/for-each output",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > split and String Arrays"
+    },
+    {
+      "id": "029-27",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · split and String Arrays",
+      "idea": "Array length property versus String length() Method",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > split and String Arrays"
+    },
+    {
+      "id": "029-28",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · split and String Arrays",
+      "idea": "Default split discards trailing empty parts; literal dot escape; invalid bare star",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > split and String Arrays"
+    },
+    {
+      "id": "029-29",
+      "source_id": "source-029",
+      "locator": "docs/sources/transcripts/video-029.txt · split and String Arrays",
+      "idea": "Replacing String Array element changes reference not immutable String contents",
+      "kind": "concept-or-example",
+      "status": "covered",
+      "output_ref": "books/java/lessons/lesson-029.qmd > split and String Arrays"
+    }
+  ]
+}

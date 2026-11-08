@@ -19,11 +19,19 @@
     },
     {
       "id": "M05",
-      "title": "Methods & Recursion"
+      "title": "Methods & Recursion",
+      "assessment": {
+        "path": "assessments/m05.qmd",
+        "title": "M05 Exam & Math Utilities Project"
+      }
     },
     {
       "id": "M06",
-      "title": "Arrays & Strings"
+      "title": "Arrays & Strings",
+      "assessment": {
+        "path": "assessments/m06.qmd",
+        "title": "M06 Exam & Student Report Project"
+      }
     },
     {
       "id": "M07",
@@ -713,9 +721,22 @@
       "original_title": "Passing Arrays to Methods",
       "module": "M06",
       "subject": "S12",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-027.html",
+      "display_title": "Passing & Returning Arrays",
+      "transcript_archive": "docs/sources/transcripts/inline-027-source.md",
+      "coverage_ledger": "docs/sources/coverage-027-029.json",
+      "prerequisites": [
+        18,
+        24,
+        26
+      ],
+      "code_verification": "JDK 25 CLI; complete programs, independent boundary probes and intentional invalid cases in code-cases-027-029.json",
+      "source_limitations": [
+        "Some exact code identifiers and literals are unclear; runnable reconstructions are identified as illustrative.",
+        "Original inline transcript remains in user conversation; repository archive is explicitly an editorial inventory, not verbatim."
+      ]
     },
     {
       "id": 28,
@@ -723,9 +744,20 @@
       "original_title": "Multidimensional Arrays & Passing Multidimensional Arrays to Methods",
       "module": "M06",
       "subject": "S13",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-028.html",
+      "display_title": "Multidimensional Arrays",
+      "transcript_archive": "docs/sources/transcripts/video-028.txt",
+      "coverage_ledger": "docs/sources/coverage-027-029.json",
+      "prerequisites": [
+        27
+      ],
+      "code_verification": "JDK 25 CLI; complete programs, independent boundary probes and intentional invalid cases in code-cases-027-029.json",
+      "source_limitations": [
+        "Some exact code identifiers and literals are unclear; runnable reconstructions are identified as illustrative."
+      ],
+      "archive_normalization": "LF; raw original attachment SHA256 separately retained"
     },
     {
       "id": 29,
@@ -733,9 +765,22 @@
       "original_title": "String & Array String",
       "module": "M06",
       "subject": "S14",
-      "source_status": "awaiting",
-      "editorial_status": "not_written",
-      "url": null
+      "source_status": "received",
+      "editorial_status": "reviewed",
+      "url": "lessons/lesson-029.html",
+      "display_title": "Strings & String Arrays",
+      "transcript_archive": "docs/sources/transcripts/video-029.txt",
+      "coverage_ledger": "docs/sources/coverage-027-029.json",
+      "prerequisites": [
+        26,
+        27,
+        28
+      ],
+      "code_verification": "JDK 25 CLI; complete programs, independent boundary probes and intentional invalid cases in code-cases-027-029.json",
+      "source_limitations": [
+        "Some exact code identifiers and literals are unclear; runnable reconstructions are identified as illustrative."
+      ],
+      "archive_normalization": "LF; raw original attachment SHA256 separately retained"
     },
     {
       "id": 30,

@@ -161,6 +161,6 @@ CDE
 
 ## Related Pages
 
-[Array Basics](lesson-024.qmd) · [Array Exercises](lesson-025.qmd) · [S12 Partial Review](../subjects/s12.qmd) · [Glossary](../glossary.qmd).
+[Array Basics](lesson-024.qmd) · [Array Exercises](lesson-025.qmd) · [S12 Review & Exam](../subjects/s12.qmd) · [Glossary](../glossary.qmd).
 
 مراجع الدقة: [Character](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Character.html) · [String Constructors](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html) · [PrintStream](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/io/PrintStream.html). البرنامج الكامل جُرّب عبر `JDK 25 CLI`. الأمثلة النصية غير المكتملة صيغت كقيم توضيحية؛ الفرق بين Unicode وASCII وبين المسح والتشفير تصحيح لنفس النقاط المطروحة.

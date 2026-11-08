@@ -23,7 +23,6 @@
 | #017 | [Labeled Break & Continue](lessons/lesson-017.qmd) |
 | #018 | [Methods — Definition & Calls](lessons/lesson-018.qmd) |
 | #019 | [Minimum, Average & Varargs](lessons/lesson-019.qmd) |
-
 | #020 | [Built-in Methods](lessons/lesson-020.qmd) |
 | #021 | [Method Overloading](lessons/lesson-021.qmd) |
 | #022 | [Recursion — Base Case & Calls](lessons/lesson-022.qmd) |
@@ -31,6 +30,9 @@
 | #024 | [One-Dimensional Arrays](lessons/lesson-024.qmd) |
 | #025 | [Array Exercises](lessons/lesson-025.qmd) |
 | #026 | [Char Arrays](lessons/lesson-026.qmd) |
+| #027 | [Passing & Returning Arrays](lessons/lesson-027.qmd) |
+| #028 | [Multidimensional Arrays](lessons/lesson-028.qmd) |
+| #029 | [Strings & String Arrays](lessons/lesson-029.qmd) |
 
 ## Technical accuracy notes
 
@@ -90,3 +92,10 @@
 - Fibonacci image: Svick، [CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:Fib_4.png)، دون تعديل؛ الرسم يوضح القيمة وليس ترتيب تقييم Java.
 - ASCII image: ZZT32 ومساهمو Wikimedia، [Public Domain](https://commons.wikimedia.org/wiki/File:ASCII-Table.svg)، دون تعديل.
 - Array Indices: رسم SVG دقيق من إعداد الكتاب لقيم المثال؛ ليس Screenshot.
+
+## Arrays & Strings Accuracy
+
+- [Passing Arguments](https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html): Java دائمًا Pass-by-Value، بما فيها Reference Values.
+- [Arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html): Rows قد تختلف أطوالها في Java.
+- [String API](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html): Content Equality، compareTo، Immutability، وsplit مع Regex.
+- الرسوم في Lessons #027–#029 من إعداد الكتاب باستخدام SVG لقيم وعلاقات دقيقة؛ ليست Screenshots.

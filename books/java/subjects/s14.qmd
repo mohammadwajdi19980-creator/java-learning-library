@@ -1,14 +1,40 @@
-# S14 — Strings
+---
+title: "S14 · Strings"
+subtitle: "Review & Exam · Lesson #029"
+---
 
-<div class="lesson-meta"><span>M06</span><span>S14</span><span>#029–#029</span></div>
+<div class="lesson-meta"><span>M06 · S14</span><span>Complete</span></div>
 
-هذا **Subject** داخل [M06 — Arrays & Strings](../modules/m06.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
+## Lesson
 
-## الدروس الأصلية
+[#029 · Strings & String Arrays](../lessons/lesson-029.qmd). هذه أسئلة إضافية على العمليات المشروحة؛ لا تحتاج Classes من تصميمك أو Regex متقدمة.
 
-- **`#029`** — String & Array String — *الدرس غير متاح بعد*
+## Subject Exam
 
-## اختبار نهاية الموضوع
+ثمانية أسئلة × 5 علامات = **40 علامة**.
 
-عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ Code، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.
+1. إذا `String a="Hi", b="Hi", c=new String("Hi");`، احسب `a==b` و`a==c` و`a.equals(c)`. ثم فسّر هل `a="Bye"` تغيّر `b`؟
+2. اشرح سبب بقاء `s` كما هي بعد `s.concat("!")`، وطبق نفس الفكرة على `replace` و`trim`.
+3. احسب `"ABCD".compareTo("ABCe")` و`"AB".compareTo("ABC")` و`"Java".compareTo("Java")`. ما معنى إشارة النتيجة؟
+4. اكتب Expression تحول `"  Hello Java  "` إلى `"hello java"`، وتحول الرقم `10` إلى String. هل الأولى تحذف Space الداخلية؟ وهل الثانية Casting؟
+5. احسب `"Java Java".replace("Java","Code")` و`"banana".replace('a','o')`. هل تُستبدل أول مطابقة فقط؟
+6. احسب `"Java".contains("ava")` و`"Java".startsWith("ja")` و`"Java".endsWith("va")` و`"JAVA".equalsIgnoreCase("javaX")`. ثم صحح `contains('a')`.
+7. ما نتائج `"ABCDE".substring(2)` و`substring(2,4)` و`substring(5)`؟ ما الذي تمثله `4`؟
+8. قسّم `"A*B*C"` إلى String Array، ثم بيّن فرق `parts.length` و`parts[0].length()`، وكيف تطبع كل النصوص.
 
+<details><summary>Solutions & Marking</summary>
+
+1. `true,false,true` (3). Literal References مشتركة، أما `new` فتنشئ Object مختلفة؛ إعادة Assignment لـ `a` لا تغيّر `b` (2).
+2. String Immutable؛ Method تعيد نتيجة، ويجب الاحتفاظ بها مثل `s=s.concat("!")` (3). نفس القاعدة لـ `replace` و`trim` (2).
+3. `-33,-1,0` (3). الإشارة تحدد ترتيب الأولى مقارنةً بالثانية؛ أول اختلاف هو `68-101`، أو فرق الطول إذا الجزء المشترك متطابق (2).
+4. `text.trim().toLowerCase()` و`String.valueOf(10)` (2). Space الداخلية تبقى (1). الثانية تحويل إلى تمثيل نصي، وليست Casting؛ `10+""` بديل صحيح (2).
+5. `Code Code` و`bonono` (4). جميع المطابقات، وليس الأولى فقط (1).
+6. `true,false,true,false` (4). التصحيح `contains("a")` (1).
+7. `CDE` و`CD` ونص فارغ `""` (3). `4` هي End Index غير مشمولة، وليست عددًا (2).
+8. `String[] parts="A*B*C".split("\\*");` (2). الطولان `3` و`1`؛ الأولى عدد Strings والثانية طول أول String (2). Loop تطبع `parts[i]` أو `for(String part:parts)` (1).
+
+</details>
+
+## Related Pages
+
+[M06 Exam & Project](../assessments/m06.qmd) · [Glossary](../glossary.qmd).

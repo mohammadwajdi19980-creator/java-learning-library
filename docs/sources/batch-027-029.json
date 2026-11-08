@@ -1,0 +1,28 @@
+[
+  {
+    "lesson_id": 27,
+    "archive": "docs/sources/transcripts/inline-027-source.md",
+    "sha256": "51761e5c62811d132baf37e66efb9e28565b32e12c8fb9442934ffb293fd985a",
+    "source_url": null,
+    "origin": "Inline user message dated 2026-11-08",
+    "archive_kind": "editorial inventory of inline transcript; original remains in conversation"
+  },
+  {
+    "lesson_id": 28,
+    "archive": "docs/sources/transcripts/video-028.txt",
+    "sha256": "ce22d7475c496b9c8fb4fcea03d563e27c0ab40ba696723a3ea1f0a83bb8807a",
+    "original_attachment_sha256": "08f5174d34e24f6e2c319577196d8c8574dd4cedd083494fbb5e970e2c8c21ce",
+    "source_url": null,
+    "origin": "User attachment, 2026-11-08; identified by complete content, not filename",
+    "archive_kind": "verbatim attachment text; CRLF normalized to LF for repository transport"
+  },
+  {
+    "lesson_id": 29,
+    "archive": "docs/sources/transcripts/video-029.txt",
+    "sha256": "d4caa7080c78ea17dade4eee01b39b04acc13b03e9d091750284de9caca8e2ca",
+    "original_attachment_sha256": "f23702aa3aba28d0b104e0eeba66d699777f63c49c08a6d03674eb597875d430",
+    "source_url": null,
+    "origin": "User attachment, 2026-11-08; identified by complete content, not filename",
+    "archive_kind": "verbatim attachment text; CRLF normalized to LF for repository transport"
+  }
+]

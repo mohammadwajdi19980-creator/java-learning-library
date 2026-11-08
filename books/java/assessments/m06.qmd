@@ -1,0 +1,129 @@
+---
+title: "M06 · Exam & Student Report Project"
+subtitle: "اجمع Arrays وMethods وStrings في تقرير علامات واضح"
+---
+
+<div class="lesson-meta"><span>M06 · Complete</span><span>Lessons #024–#029</span></div>
+
+أكمل [S12](../subjects/s12.qmd) و[S13](../subjects/s13.qmd) و[S14](../subjects/s14.qmd) أولًا. الأسئلة والـ Project إضافات تدريبية على المواضيع المشروحة فقط.
+
+## Module Exam
+
+المجموع **40 علامة**؛ ثمانية أسئلة × 5 علامات.
+
+1. أنشئ Array بالقيم `{1,5,3,6,8}`، واحسب Sum وAverage وMin وMax. كيف تمنع Integer Division؟
+2. صف Linear Search وطريقة ترتيب Array باستخدام `Arrays.sort`. هل Assignment إلى اسم آخر تنسخ Elements؟
+3. قارن `char[]` و`String` من ناحية التعديل والطباعة، ثم رتّب `{'b','A','a'}`.
+4. تتبع `int[] a={1,2}; int[] b=a; b[0]=50; b=new int[]{9};`، ثم حدد `a[0]` و`b[0]` وسبب اختلافهما.
+5. اكتب Nested Loops لطباعة `{{1,5,8},{5,6},{4}}`، ثم اذكر لماذا لا تستعمل طول Row الأولى لكل Rows.
+6. وضّح ما الذي يحدث عند `change(int[][] x){x[0][0]=70;}` مقارنةً بـ `x=new int[][]{{70}};` داخل نفس Method.
+7. قارن `==` و`equals` و`equalsIgnoreCase`، ثم احسب `"ABCD".compareTo("ABCe")`.
+8. قسّم `"A*B*C"`، واستخرج `CD` من `"ABCDE"`، ونظف Spaces المحيطة بـ `"  Hi Java  "`. اذكر Return Type لكل عملية.
+
+<details><summary>Solutions & Marking</summary>
+
+1. النتائج `23,4.6,1,8` (4)؛ مثلًا `sum/(double)values.length` (1). [حل الحسابات](../lessons/lesson-025.qmd).
+2. نمر حتى نجد الهدف ونستعمل Flag أو Return مناسبة (2)؛ `java.util.Arrays.sort(values)` تعدّل ترتيب Elements داخل Array (2)؛ Assignment تنسخ Reference فقط (1).
+3. `char[]` قابلة لتعديل Elements و`println(char[])` تطبع الأحرف؛ String Immutable وطباعتها تعرض محتواها (4). الترتيب `Aab` (1).
+4. `a[0]=50` و`b[0]=9` (2)؛ التعديل الأول وصل إلى المشتركة، ثم Reassignment فصلت Reference الموجودة في `b` (3).
+5. Outer حدها `a.length`، وInner حدها `a[row].length`، والطباعة لـ `a[row][col]` (3). الأطوال `3,2,1` مختلفة؛ الحد الثابت قد يتجاوز Rows الأقصر (2).
+6. الأولى تعدّل Element المشتركة فيراها Caller (2)؛ الثانية تغيّر Parameter المحلية فقط (2). كلاهما `Pass-by-Value` لنسخة Reference (1).
+7. Identity ثم Content ثم Content دون اختلاف Case (3)؛ النتيجة `-33` لأن `68-101` عند أول اختلاف (2).
+8. `split("\\*")` تعيد `String[]` (2)، و`substring(2,4)` تعيد String `CD` (2)، و`trim()` تعيد String `Hi Java` (1).
+
+</details>
+
+## Project Brief
+
+أنشئ `StudentReportProject.java` يعرض تقرير علامات، ثم يبحث عن طالب:
+
+- `String[]` للأسماء، و`int[][]` للعلامات؛ Row عند Index معيّنة تخص الاسم عند نفس Index.
+- أنشئ البيانات داخل Method تعيد `int[][]`. استعمل Rows بأطوال مختلفة.
+- اكتب Methods منفصلة لحساب Average وMin وMax لـ `int[]`.
+- اطبع اسم كل طالب بعد `trim()`، ثم القيم الثلاث. لا تغيّر ترتيب الأسماء أو Rows.
+- اقرأ اسمًا كاملًا بـ `Scanner.nextLine()`، ونظفه، ثم ابحث بـ `equalsIgnoreCase`.
+- إذا وجدته اطبع الاسم وAverage؛ وإلا اطبع `Not found` مرة واحدة.
+
+**حدود التجربة:** نفس عدد الأسماء وRows، كل اسم غير `null`، وكل Row موجودة وغير فارغة، وعلاماتها من `0` إلى `100`. هذه شروط البيانات، وليست ادعاءً بأن الحل يعالج أي Input غير صالحة. البحث الفارغ لا يطابق أسماء المثال. لا نحتاج OOP أو Files أو Exceptions مخصصة.
+
+| Milestone | Acceptance condition | Marks |
+|---|---|---|
+| Data and Methods | ترابط الأسماء مع Rows، وReturn Type وParameters صحيحة | 10 |
+| Calculations | نتائج صحيحة، ولا تضيع الكسور في Average | 10 |
+| Report | Loop تعتمد طول Row الحالية، وأسماء بلا Spaces محيطة | 10 |
+| Search | يتجاهل Case وSpaces المحيطة، ويفرق Found عن Not found | 10 |
+
+**Boundary Checks:** Row من علامة واحدة؛ علامات كلها متساوية؛ Average فيها كسر؛ اسم غير موجود؛ اسم بـ Case مختلفة؛ واسم فيه Spaces محيطة.
+
+## Reference Solution
+
+حاول قبل قراءة الحل. المثال كامل؛ Input هي سطر واحد لاسم البحث:
+
+```java
+import java.util.Scanner;
+
+public class StudentReportProject {
+    static int[][] loadGrades() {
+        return new int[][]{{80, 90}, {70, 85, 95}, {60}};
+    }
+    static double average(int[] values) {
+        int sum = 0;
+        for (int value : values) sum += value;
+        return sum / (double) values.length;
+    }
+    static int min(int[] values) {
+        int result = values[0];
+        for (int value : values) {
+            if (value < result) result = value;
+        }
+        return result;
+    }
+    static int max(int[] values) {
+        int result = values[0];
+        for (int value : values) {
+            if (value > result) result = value;
+        }
+        return result;
+    }
+    static int findStudent(String[] names, String query) {
+        for (int i = 0; i < names.length; i++) {
+            if (names[i].trim().equalsIgnoreCase(query.trim())) return i;
+        }
+        return -1;
+    }
+    public static void main(String[] args) {
+        String[] names = {" Ali ", "Mona", "Omar"};
+        int[][] grades = loadGrades();
+        for (int row = 0; row < grades.length; row++) {
+            System.out.printf("%s: average=%.2f min=%d max=%d%n",
+                names[row].trim(), average(grades[row]),
+                min(grades[row]), max(grades[row]));
+        }
+        Scanner input = new Scanner(System.in);
+        int index = findStudent(names, input.nextLine());
+        if (index == -1) {
+            System.out.println("Not found");
+        } else {
+            System.out.printf("Found %s: %.2f%n",
+                names[index].trim(), average(grades[index]));
+        }
+    }
+}
+```
+
+**Input** ` mOnA ` — مع Spaces حولها:
+
+```text
+Ali: average=85.00 min=80 max=90
+Mona: average=83.33 min=70 max=95
+Omar: average=60.00 min=60 max=60
+Found Mona: 83.33
+```
+
+`average(grades[row])` تمرر Row الحالية كـ `int[]`؛ لا تفترض عدد علامات ثابتًا. بدأنا Min وMax من أول Element حتى تكونا من البيانات نفسها. Casting في Average تمنع Integer Division. الـ Search تعيد Index، فنستعمل نفس Index للوصول لعلامات الطالب؛ عند `-1` لا نحاول قراءة Row.
+
+`printf` تعرض رقمين بعد الفاصلة؛ العرض التقريبي `83.33` لا يعني أن قيمة Average المخزنة بلا كسور إضافية. شكل الفاصلة يعتمد على Locale في الجهاز؛ Output المعروضة جُرّبت بإعداد English عبر `JDK 25 CLI`.
+
+## Related Pages
+
+[M06](../modules/m06.qmd) · [S12 Exam](../subjects/s12.qmd) · [S13 Exam](../subjects/s13.qmd) · [S14 Exam](../subjects/s14.qmd) · [Glossary](../glossary.qmd).

@@ -1,14 +1,36 @@
-# S13 — Multidimensional Arrays
+---
+title: "S13 · Multidimensional Arrays"
+subtitle: "Review & Exam · Lesson #028"
+---
 
-<div class="lesson-meta"><span>M06</span><span>S13</span><span>#028–#028</span></div>
+<div class="lesson-meta"><span>M06 · S13</span><span>Complete</span></div>
 
-هذا **Subject** داخل [M06 — Arrays & Strings](../modules/m06.qmd). الدروس المخططة لهذا Subject مذكورة أدناه؛ ستظهر روابط صفحاتها عندما تكتمل الكتابة والمراجعة.
+## Lesson
 
-## الدروس الأصلية
+[#028 · Multidimensional Arrays](../lessons/lesson-028.qmd): اقرأها أولًا، ثم حل هذه الأسئلة الإضافية من نفس نطاقها.
 
-- **`#028`** — Multidimensional Arrays & Passing Multidimensional Arrays to Methods — *الدرس غير متاح بعد*
+## Subject Exam
 
-## اختبار نهاية الموضوع
+المجموع **30 علامة**؛ ستة أسئلة × 5 علامات.
 
-عند اكتمال دروس الموضوع سنضيف اختبارًا يتضمن أسئلة الفهم، تتبع تنفيذ Code، تمارين تطبيقية، وإجابات مفصّلة. لا توجد أسئلة مضافة قبل التحقق من تغطية المادة.
+1. عرّف `int[][] a={{1,5,8},{5,6},{4}}`. اذكر عدد Rows وأطوالها وقيمة `a[1][1]`، ثم فسّر لماذا `a[2][1]` غير صالحة.
+2. قارن `new int[3][4]` و`new int[3][]`، وميّز Default Values داخل Rows عن Default References في Outer Array.
+3. صحح `new int[][4]`، ثم اكتب Loop تطبع جميع Elements في Jagged Array بدون افتراض طول ثابت.
+4. اكتب Nested for-each مناسبة لنوع `int[][]`. لماذا Outer Variable ليس `int`؟
+5. اطبع Transpose للقيم `{{1,3,5},{2,4,6}}`، وحدد أبعاد الأصل والنتيجة وحدود كل Loop. هل Code الطباعة وحدها تعدّل الأصل؟
+6. اكتب Method تعيد `int[][]`، وأخرى تستقبلها وتغير أول Element إلى `50`. فسّر ما الذي يُنسخ عند Call وما الذي يراه Caller.
 
+<details><summary>Solutions & Marking</summary>
+
+1. `3` Rows (1)، أطوالها `3,2,1` (1)، القيمة `6` (1)، وآخر Column في Row الثالثة هي `0`؛ الوصول إلى `1` يسبب `ArrayIndexOutOfBoundsException` (2).
+2. الأولى تنشئ Outer Array وثلاث Rows طول كل واحدة `4`، وقيم `int` تبدأ بصفر (2). الثانية تنشئ Outer Array فقط؛ الثلاث References تساوي `null` (2). يجب إنشاء Row قبل قراءة Element داخلها (1).
+3. صيغة مستطيلة `new int[3][4]` أو نبدأ بـ `new int[3][]` ثم ننشئ Rows (1). Outer Loop حدها `a.length` وInner Loop حدها `a[row].length` وتطبع `a[row][col]` (4). [الحل الكامل](../lessons/lesson-028.qmd#nested-loops-and-for-each).
+4. الخارجية `for(int[] row:a)` والداخلية `for(int value:row)` (4). كل Element في Outer Array هي Reference إلى Array من `int` (1).
+5. السطور `1 2`، ثم `3 4`، ثم `5 6` (1). الأصل `2×3` والنتيجة `3×2` (1). Outer Loop على Columns حتى `matrix[0].length` والداخلية على Rows حتى `matrix.length` (2). لا تعديل؛ قراءة وطباعة فقط (1). [Code الكاملة](../lessons/lesson-028.qmd#transpose-a-rectangular-matrix).
+6. `static int[][] create(){return new int[][]{{1,2}};}` (2). `static void change(int[][] a){a[0][0]=50;}` (1). تنسخ Reference بالـ `Pass-by-Value` (1)، فيرى Caller القيمة `50` في نفس Array (1).
+
+</details>
+
+## Related Pages
+
+[M06](../modules/m06.qmd) · [Strings](../lessons/lesson-029.qmd) · [Glossary](../glossary.qmd).

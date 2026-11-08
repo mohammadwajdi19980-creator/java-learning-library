@@ -31,27 +31,25 @@
 | S06 · Exam | 20 marks · Switch Statements | [Open](subjects/s06.qmd#subject-exam) |
 | S07 · Exam | 20 marks · While Loops | [Open](subjects/s07.qmd#subject-exam) |
 | S08 · Partial Review | #012–#013 only; #014 awaiting source | [Open](subjects/s08.qmd#partial-review) |
-
 | S09 · Partial Review | #017 only; #015–#016 not yet available | [Open](subjects/s09.qmd#partial-review) |
 | S10 · Exam | 40 marks · Methods & Overloading | [Open](subjects/s10.qmd#subject-exam) |
 | S11 · Exam | 30 marks · Recursion | [Open](subjects/s11.qmd#subject-exam) |
-| S12 · Partial Review | #024–#026 only; #027 not yet available | [Open](subjects/s12.qmd#partial-review) |
+| S12 · Exam | 40 marks · One-Dimensional Arrays | [Open](subjects/s12.qmd#subject-exam) |
+| S13 · Exam | 30 marks · Multidimensional Arrays | [Open](subjects/s13.qmd#subject-exam) |
+| S14 · Exam | 40 marks · Strings | [Open](subjects/s14.qmd#subject-exam) |
+| M06 · Exam & Project | 40-mark Exam + 40-mark Project | [Open](assessments/m06.qmd) |
 | M05 · Exam & Project | 30-mark Exam + 40-mark Project | [Open](assessments/m05.qmd) |
-
 | #020 · Knowledge Check | Built-in Methods | [Open](lessons/lesson-020.qmd#knowledge-check) |
-
 | #021 · Knowledge Check | Method Overloading | [Open](lessons/lesson-021.qmd#knowledge-check) |
-
 | #022 · Knowledge Check | Recursion — Base Case & Calls | [Open](lessons/lesson-022.qmd#knowledge-check) |
-
 | #023 · Knowledge Check | Recursion — Fibonacci & Range Sum | [Open](lessons/lesson-023.qmd#knowledge-check) |
-
 | #024 · Knowledge Check | One-Dimensional Arrays | [Open](lessons/lesson-024.qmd#knowledge-check) |
-
 | #025 · Knowledge Check | Array Exercises | [Open](lessons/lesson-025.qmd#practice-answers) |
-
 | #026 · Knowledge Check | Char Arrays | [Open](lessons/lesson-026.qmd#knowledge-check) |
+| #027 · Knowledge Check | Passing & Returning Arrays | [Open](lessons/lesson-027.qmd#knowledge-check) |
+| #028 · Knowledge Check | Multidimensional Arrays | [Open](lessons/lesson-028.qmd#knowledge-check) |
+| #029 · Knowledge Check | Strings & String Arrays | [Open](lessons/lesson-029.qmd#knowledge-check) |
 
 ## Assessment Path
 
-كل Lesson لها Knowledge Check، وكل Subject مكتمل له Exam بعد دروسه. M05 اكتمل وله Exam وProject؛ M04 وبقية المنهج لم يكتمل بعد، لذلك لا توجد Final Exam تدّعي تغطية ما لم نستلمه.
+كل Lesson لها Knowledge Check، وكل Subject مكتمل له Exam بعد دروسه. M05 وM06 اكتملتا، ولكل منهما Exam وProject؛ M04 وبقية المنهج لم يكتمل بعد، لذلك لا توجد Final Exam تدّعي تغطية ما لم نستلمه.

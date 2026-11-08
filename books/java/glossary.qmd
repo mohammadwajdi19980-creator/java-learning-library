@@ -1164,3 +1164,231 @@ Array من قيم char، يمكن تعديل كل Element فيها. println له
 :::
 
 **مثال:** `0.0 <= Math.random() < 1.0`.
+
+## [Reference]{dir="ltr" lang="en"}
+
+قيمة تُستعمل للوصول إلى Object، ومنها Array. نسخ Reference لا ينسخ محتوى Object؛ ممكن يصير عندنا اسمان يصلان لنفس المحتوى. لا نتعامل معها كعنوان مادي مكشوف في Memory.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A value that refers to an object. Copying a reference can make two variables refer to the same object without copying its contents.
+
+:::
+
+**مثال:** `int[] b=a;` يجعل `b` و`a` يشيران لنفس Array.
+
+## [Aliasing]{dir="ltr" lang="en"}
+
+وجود أكثر من Reference تشير إلى نفس Object. تعديل Element في Array المشتركة يظهر عبر جميع الأسماء التي ما زالت تشير إليها؛ إعادة Assignment لاسم واحد قد تجعله يشير إلى Array مختلفة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The situation in which multiple references refer to the same object, so mutations of that shared object can be observed through any of them.
+
+:::
+
+**مثال:** بعد `b=a; b[0]=50;` نقرأ `50` من `a[0]`.
+
+## [Pass-by-Value]{dir="ltr" lang="en"}
+
+آلية تمرير Arguments في Java: تُنسخ القيمة إلى Parameter. مع Primitive ننسخ الرقم أو القيمة نفسها، ومع Array أو Object ننسخ Reference. لذلك تغيير Parameter المحلية لا يستبدل Variable عند Caller، لكن يمكن عبر Reference الوصول إلى Object المشتركة وتعديلها إن كانت قابلة للتعديل.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** Java passes every argument by value. A primitive value is copied directly; a reference argument copies the reference value, allowing shared-object mutation but not reassignment of the caller’s variable.
+
+:::
+
+**مثال:** `x=10` لا يغير رقم Caller؛ `a[0]=10` قد يغير Element المشتركة.
+
+## [Anonymous Array]{dir="ltr" lang="en"}
+
+Array نُنشئها مباشرةً بدون Variable مستقلة باسم عند Caller. مفيدة إذا احتجنا إعطاء القيم لـ Method أو إرجاعها دون استعمال اسم وسيط. تنطبق عليها قواعد النوع والطول المعتادة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** An array created without a separate named variable at the point of use, commonly supplied directly as an argument or return value.
+
+:::
+
+**مثال:** `print(new int[]{1,2,3});`
+
+## [Multidimensional Array]{dir="ltr" lang="en"}
+
+Array تكون Elements فيها Arrays أخرى. في Java، نوع `int[][]` يحتوي References إلى Rows من `int[]`؛ لا يلزم أن تكون Rows كلها بنفس الطول. للوصول إلى رقم نستخدم Index للـ Row وأخرى داخلها.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** An array whose elements are themselves arrays. A Java two-dimensional int array contains references to int-array rows, which may have different lengths.
+
+:::
+
+**مثال:** `int[][] a={{1,5,8},{5,6},{4}};`
+
+## [Row and Column]{dir="ltr" lang="en"}
+
+في تمثيل 2D Array كجدول، Row تختارها أول Index وColumn تختار Element داخل تلك Row. الاثنتان تبدأان من صفر. `a.length` عدد Rows، بينما `a[row].length` عدد Elements في Row الحالية.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A row is one inner array in the table view of a two-dimensional array; a column index selects an element within that row. Both indices are zero-based.
+
+:::
+
+**مثال:** `a[1][0]` أول Element في ثاني Row.
+
+## [Rectangular Array]{dir="ltr" lang="en"}
+
+2D Array كل Rows فيها بنفس الطول. الصيغة `new int[3][4]` تنشئ ثلاث Rows، في كل واحدة أربع Elements تبدأ بصفر. مجرد نوع `int[][]` لا يفرض أن كل استعمال له مستطيل.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A two-dimensional array whose rows all have the same length. Allocating new int[3][4] creates three int-array rows, each of length four.
+
+:::
+
+**مثال:** آخر موقع في المثال `a[2][3]`.
+
+## [Jagged Array]{dir="ltr" lang="en"}
+
+تُسمى أيضًا Ragged Array؛ هي Array of Arrays تختلف أطوال Rows فيها. نستعمل طول Row الحالية عند المرور عليها، وإلا قد نتجاوز حدود Rows الأقصر. لا نخلط Row فارغة بطول صفر مع Reference تساوي `null`.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** An array of arrays whose rows may have different lengths. Traversal must use each current row’s length rather than assume a single shared column count.
+
+:::
+
+**مثال:** `{{1,5,8},{5,6},{4}}` أطوال Rows فيها `3,2,1`.
+
+## [Transpose]{dir="ltr" lang="en"}
+
+تبديل دور Rows وColumns: موقع `[r][c]` في الأصل يقابله `[c][r]` في النتيجة. إذا الأصل مستطيل `2×3` فالنتيجة `3×2`. طباعة القيم بهذا الترتيب لا تعدّل الأصل ما لم نكتب Code تنفذ تعديلًا.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A rearrangement of a rectangular matrix that exchanges rows and columns: the value at original position [r][c] appears at transposed position [c][r].
+
+:::
+
+**مثال:** `{{1,3,5},{2,4,6}}` تظهر كـ `{{1,2},{3,4},{5,6}}`.
+
+## [NullPointerException]{dir="ltr" lang="en"}
+
+Runtime Exception تحدث عند محاولة استعمال Reference تساوي `null` للوصول إلى ما يلزم Object موجودة. مثلًا Outer Array قد تكون موجودة لكن Row لم تُنشأ بعد؛ قراءة Element داخل هذه Row تفشل. هذا يختلف عن Index خارج الحدود.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A runtime exception raised when code uses null where an object is required, such as accessing an element through an unallocated array row.
+
+:::
+
+**مثال:** `int[][] a=new int[3][];` ثم `a[0][0]` تفشل لأن `a[0]` تساوي `null`.
+
+## [String Literal]{dir="ltr" lang="en"}
+
+نص مكتوب بين Double Quotes داخل Source Code. Java تمثله بـ String؛ النصوص الحرفية المتطابقة تشترك في String مُدارة بواسطة String Pool. هذا لا يعني أن كل String قادمة من Input أو من `new` تشارك نفس Reference.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A quoted text value in Java source code, represented by a String object. Identical string literals are interned and share a pooled String instance.
+
+:::
+
+**مثال:** `String greeting="Hello";`
+
+## [String Pool]{dir="ltr" lang="en"}
+
+آلية مشاركة للـ Strings المُدارة كقيم interned، ومنها String Literals. تسمح لنصين حرفيين متطابقين بالوصول إلى نفس String Object. `new String("Hi")` تنشئ Object مميزة ذات نفس المحتوى؛ لا نفترض أن تساوي المحتوى يعني تساوي References.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** The set of interned String instances used to share equal string literals and other interned strings. Equal contents alone do not imply that arbitrary String references identify the same instance.
+
+:::
+
+**مثال:** `"Hi"=="Hi"` صحيحة، لكن `"Hi"==new String("Hi")` غير صحيحة.
+
+## [Reference Equality]{dir="ltr" lang="en"}
+
+فحص هل Reference Values تشير إلى نفس Object. مع String تستعمل `==` لهذا السؤال، ولا تفحص الأحرف نفسها. قد تتساوى Contents في Objectين مختلفتين مع بقاء هذه المقارنة `false`.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A comparison of whether two reference values refer to the same object, performed by == for references. It is distinct from comparing string contents.
+
+:::
+
+**مثال:** `a==b` تفحص الهوية؛ `a.equals(b)` تفحص محتوى Strings.
+
+## [Content Equality]{dir="ltr" lang="en"}
+
+مع String تعني تطابق النص حسب الأحرف وترتيبها، بغض النظر عن كون References تشير إلى نفس Object. تستعمل `equals` للمحتوى مع Case، و`equalsIgnoreCase` إذا أردنا تجاهل Case فقط. لا تتجاهل الأخيرة حرفًا زائدًا أو ترتيبًا مختلفًا.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** For strings, equality of the character sequence rather than object identity. equals is case-sensitive; equalsIgnoreCase compares while ignoring case differences.
+
+:::
+
+**مثال:** `"JAVA".equalsIgnoreCase("java")` تعطي `true`.
+
+## [Lexicographic Comparison]{dir="ltr" lang="en"}
+
+مقارنة نصين من البداية بحسب أول UTF-16 Code Unit مختلفة. في `String.compareTo` نطرح قيمة الثانية من الأولى عند أول اختلاف؛ وإذا كل الجزء المشترك متطابق نطرح الطولين. النتيجة السالبة أو الصفر أو الموجبة تحدد الترتيب.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** String comparison by the first differing UTF-16 code unit, using its numeric difference; if one string is an exact prefix of the other, compareTo returns the length difference.
+
+:::
+
+**مثال:** `"ABCD".compareTo("ABCe")` تعطي `-33`.
+
+## [Substring]{dir="ltr" lang="en"}
+
+جزء من String نأخذه بواسطة `substring`. نسخة Argument واحدة تبدأ من Index المحددة حتى النهاية؛ نسخة Argumentين تأخذ من البداية المحددة إلى ما قبل End Index. الأصل لا يتغير، ويجوز أن تكون النتيجة فارغة عند تساوي الطرفين.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A contiguous portion of a string. substring(begin,end) includes begin and excludes end, while substring(begin) extends to the end of the string.
+
+:::
+
+**مثال:** `"ABCDE".substring(2,4)` تعطي `CD`، لا `CDE`.
+
+## [Delimiter]{dir="ltr" lang="en"}
+
+ما نستخدمه للفصل بين أجزاء Input أو نص، مثل فاصلة بين أسماء. في أمثلة `String.split` نحدد الفاصل بــ Regex؛ لذلك بعض الرموز تحتاج Escape حتى نقصدها حرفيًا، مثل النجمة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A separator used to divide text into parts. String.split specifies its separator as a regular expression, so some literal separator characters must be escaped.
+
+:::
+
+**مثال:** `"A,B,C".split(",")` تعيد ثلاث Strings.
+
+## [Regular Expression]{dir="ltr" lang="en"}
+
+تُختصر Regex؛ صيغة تصف ما نريد مطابقته في نص. نحتاج هنا فقط معرفة أن `split` تفسر Argument بهذه القواعد، وأن `*` و`.` لهما معنى خاص. لا يلزم تعلم قواعدها المتقدمة لحل أمثلة الدرس.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** A pattern language used to match text. String.split accepts a regular expression rather than treating every separator argument as literal text.
+
+:::
+
+**مثال:** لفصل `A*B` نكتب `split("\\*")` في Java، لأن النجمة يجب أن تكون حرفية.
+
+## [String Array]{dir="ltr" lang="en"}
+
+Array تكون كل Element فيها Reference إلى String. نستعمل Index للوصول إلى نص كامل، وLoop لطباعة جميع النصوص. `length` تخص عدد Elements في Array، بينما `length()` تخص طول String المحددة.
+
+::: {.english-definition dir="ltr" lang="en"}
+
+**English definition:** An array whose elements are String references. The array length counts string slots, while an individual string’s length() counts its UTF-16 code units.
+
+:::
+
+**مثال:** `String[] names={"Ali","Mona"};` طولها `2`، وطول `names[0]` هو `3`.

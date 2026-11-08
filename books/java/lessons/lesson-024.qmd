@@ -169,6 +169,6 @@ public class ArrayInputDemo {
 
 ## Related Pages
 
-[Array Exercises](lesson-025.qmd) · [Char Arrays](lesson-026.qmd) · [S12 Partial Review](../subjects/s12.qmd).
+[Array Exercises](lesson-025.qmd) · [Char Arrays](lesson-026.qmd) · [S12 Review & Exam](../subjects/s12.qmd).
 
 مرجع الدقة: [Dev.java — Arrays](https://dev.java/learn/language-basics/arrays/). ترتيب الأمثلة يعرض الإنشاء ثم الوصول ثم المرور، مع قيم توضيحية عند غياب الأرقام الدقيقة. جُرّب البرنامج عبر `JDK 25 CLI`.

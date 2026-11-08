@@ -18,6 +18,8 @@
 :::
 
 
-## Available Project
+## Available Projects
 
-[Math Utilities — M05](assessments/m05.qmd#project-brief): متطلبات وحل كامل وRubric واختبارات حدود، بعد إكمال Methods وRecursion. بقية القائمة خطط مستقبلية.
+[Math Utilities — M05](assessments/m05.qmd#project-brief): متطلبات وحل كامل وRubric واختبارات حدود، بعد إكمال Methods وRecursion.
+
+[Student Report — M06](assessments/m06.qmd#project-brief): أسماء الطلاب وعلاماتهم باستخدام String Arrays وJagged Arrays وMethods، مع بحث وحل كامل وRubric. بقية القائمة خطط مستقبلية.

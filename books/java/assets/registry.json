@@ -265,5 +265,53 @@
     "validated": true,
     "validation": "SVG XML and values checked; mobile and desktop inspection before release",
     "selection": "Oracle figure found online but original image endpoint returned a 195-byte HTML Site Unavailable response; rejected it. Exact indices and values rendered with SVG per precise-diagram exception in WORKFLOW, avoiding image-generation inaccuracies."
+  },
+  {
+    "id": "array-alias-027",
+    "file": "assets/reference/array-alias-027.svg",
+    "type": "precise-technical-diagram",
+    "source": "Project-authored SVG with exact labels, values and references; not a Screenshot",
+    "source_page": "https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html",
+    "owner_lesson": 27,
+    "license": "Project-authored",
+    "validated": true,
+    "selection": "Online-first searches: Oracle Arrays, HWS Javanotes array parameters and 2D arrays, Wikimedia String Pool. HWS two-dimensional-array.png downloaded and visually inspected: low-resolution dense labels and different values; rejected for readability and exact-example fidelity. Other results generic. Exact diagram exception in WORKFLOW used rather than generated text/arrows.",
+    "validation": "XML parsed; values checked against runnable Java; rendered/live visual review recorded separately."
+  },
+  {
+    "id": "jagged-028",
+    "file": "assets/reference/jagged-028.svg",
+    "type": "precise-technical-diagram",
+    "source": "Project-authored SVG with exact labels, values and references; not a Screenshot",
+    "source_page": "https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html",
+    "owner_lesson": 28,
+    "license": "Project-authored",
+    "validated": true,
+    "selection": "Online-first searches: Oracle Arrays, HWS Javanotes array parameters and 2D arrays, Wikimedia String Pool. HWS two-dimensional-array.png downloaded and visually inspected: low-resolution dense labels and different values; rejected for readability and exact-example fidelity. Other results generic. Exact diagram exception in WORKFLOW used rather than generated text/arrows.",
+    "validation": "XML parsed; values checked against runnable Java; rendered/live visual review recorded separately."
+  },
+  {
+    "id": "transpose-028",
+    "file": "assets/reference/transpose-028.svg",
+    "type": "precise-technical-diagram",
+    "source": "Project-authored SVG with exact labels, values and references; not a Screenshot",
+    "source_page": "https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html",
+    "owner_lesson": 28,
+    "license": "Project-authored",
+    "validated": true,
+    "selection": "Online-first searches: Oracle Arrays, HWS Javanotes array parameters and 2D arrays, Wikimedia String Pool. HWS two-dimensional-array.png downloaded and visually inspected: low-resolution dense labels and different values; rejected for readability and exact-example fidelity. Other results generic. Exact diagram exception in WORKFLOW used rather than generated text/arrows.",
+    "validation": "XML parsed; values checked against runnable Java; rendered/live visual review recorded separately."
+  },
+  {
+    "id": "string-pool-029",
+    "file": "assets/reference/string-pool-029.svg",
+    "type": "precise-technical-diagram",
+    "source": "Project-authored SVG with exact labels, values and references; not a Screenshot",
+    "source_page": "https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html",
+    "owner_lesson": 29,
+    "license": "Project-authored",
+    "validated": true,
+    "selection": "Online-first searches: Oracle Arrays, HWS Javanotes array parameters and 2D arrays, Wikimedia String Pool. HWS two-dimensional-array.png downloaded and visually inspected: low-resolution dense labels and different values; rejected for readability and exact-example fidelity. Other results generic. Exact diagram exception in WORKFLOW used rather than generated text/arrows.",
+    "validation": "XML parsed; values checked against runnable Java; rendered/live visual review recorded separately."
   }
 ]

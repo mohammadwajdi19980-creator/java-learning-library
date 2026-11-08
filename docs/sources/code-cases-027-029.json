@@ -1,0 +1,138 @@
+{
+  "programs": {
+    "ArrayMethodsDemo": [
+      {
+        "output": "1 2 3 4\n40 50 60\n1 2 3\n4 2 6\n4\n2\n7 8\n"
+      }
+    ],
+    "ArrayPassingDemo": [
+      {
+        "output": "5\n50\n50\n3\n"
+      }
+    ],
+    "MatrixMethodsDemo": [
+      {
+        "output": "1 5 8\n5 6\n4\nfor-each:\n1 5 8 \n5 6 \n4 \n50\n"
+      }
+    ],
+    "TransposePrintDemo": [
+      {
+        "output": "1 2\n3 4\n5 6\n"
+      }
+    ],
+    "StringIdentityDemo": [
+      {
+        "output": "true\nfalse\ntrue\nHello\ntrue\n"
+      }
+    ],
+    "StringArrayDemo": [
+      {
+        "output": "3\nA\nB\nC\nAhmad\n5\nAhmad\nMona\nOmar\n"
+      }
+    ],
+    "StringMethodsDemo": [
+      {
+        "output": "[Hello Java]\nHELLO JAVA\nhello java\nHello I am Ahmad\n10\n-33\n-1\n1\n0\ntrue\nCode Code\nbonono\ntrue\ntrue\ntrue\nCDE\nCD\nHello Java\n"
+      }
+    ],
+    "StudentReportProject": [
+      {
+        "input": " mOnA \n",
+        "output": "Ali: average=85.00 min=80 max=90\nMona: average=83.33 min=70 max=95\nOmar: average=60.00 min=60 max=60\nFound Mona: 83.33\n"
+      },
+      {
+        "input": "ALI\n",
+        "output": "Ali: average=85.00 min=80 max=90\nMona: average=83.33 min=70 max=95\nOmar: average=60.00 min=60 max=60\nFound Ali: 85.00\n"
+      },
+      {
+        "input": "Omar\n",
+        "output": "Ali: average=85.00 min=80 max=90\nMona: average=83.33 min=70 max=95\nOmar: average=60.00 min=60 max=60\nFound Omar: 60.00\n"
+      },
+      {
+        "input": "Sara\n",
+        "output": "Ali: average=85.00 min=80 max=90\nMona: average=83.33 min=70 max=95\nOmar: average=60.00 min=60 max=60\nNot found\n"
+      },
+      {
+        "input": "\n",
+        "output": "Ali: average=85.00 min=80 max=90\nMona: average=83.33 min=70 max=95\nOmar: average=60.00 min=60 max=60\nNot found\n"
+      }
+    ]
+  },
+  "program_paths": [
+    "books/java/assessments/m06.qmd"
+  ],
+  "invalid_examples": [
+    {
+      "name": "Array parameter may not specify length",
+      "code": "class Invalid {static void f(int[4] a){}}",
+      "stage": "compile"
+    },
+    {
+      "name": "Anonymous array call needs new type",
+      "code": "class Invalid {static void f(int[] a){} public static void main(String[] x){f({1,2});}}",
+      "stage": "compile"
+    },
+    {
+      "name": "Outer dimension required first",
+      "code": "class Invalid {int[][] a=new int[][4];}",
+      "stage": "compile"
+    },
+    {
+      "name": "Array initializer or dimension required",
+      "code": "class Invalid {int[][] a=new int[][];}",
+      "stage": "compile"
+    },
+    {
+      "name": "contains does not accept char",
+      "code": "class Invalid {boolean value=\"Java\".contains('a');}",
+      "stage": "compile"
+    },
+    {
+      "name": "Unallocated row reference",
+      "code": "class Invalid {public static void main(String[] x){int[][] a=new int[3][];System.out.println(a[0][0]);}}",
+      "stage": "runtime",
+      "exception": "NullPointerException"
+    },
+    {
+      "name": "Jagged shorter row bound",
+      "code": "class Invalid {public static void main(String[] x){int[][] a={{1,5,8},{5,6},{4}};System.out.println(a[2][1]);}}",
+      "stage": "runtime",
+      "exception": "ArrayIndexOutOfBoundsException"
+    },
+    {
+      "name": "Transpose naive swapped indices",
+      "code": "class Invalid {public static void main(String[] x){int[][] a={{1,3,5},{2,4,6}};for(int r=0;r<2;r++)for(int c=0;c<3;c++)System.out.println(a[c][r]);}}",
+      "stage": "runtime",
+      "exception": "ArrayIndexOutOfBoundsException"
+    },
+    {
+      "name": "substring invalid end",
+      "code": "class Invalid {public static void main(String[] x){System.out.println(\"ABCDE\".substring(2,6));}}",
+      "stage": "runtime",
+      "exception": "StringIndexOutOfBoundsException"
+    },
+    {
+      "name": "Bare star is invalid Regex",
+      "code": "class Invalid {public static void main(String[] x){System.out.println(\"A*B*C\".split(\"*\").length);}}",
+      "stage": "runtime",
+      "exception": "PatternSyntaxException"
+    }
+  ],
+  "probes": [
+    {
+      "name": "ArrayReferenceBoundaries",
+      "code": "class ArrayReferenceBoundaries {public static void main(String[] x) {\nint[] a={1,2,3},b={40,50,60};a=b;b[0]=100;System.out.println(a[0]);a[0]=500;System.out.println(b[0]);int[] c=b,d=c;d[0]=0;System.out.println(a[0]+\":\"+b[0]+\":\"+c[0]);\nArrayMethodsDemo.print(new int[0]);ArrayMethodsDemo.print(new int[]{9});\nint[] original={1,2};ArrayPassingDemo.replaceParameter(original);System.out.println(original[0]+\":\"+original.length);\nint[] one=ArrayMethodsDemo.create(),two=ArrayMethodsDemo.create();one[0]=99;System.out.println(two[0]);\nint[][] jag={{1,5,8},{5,6},{4}};System.out.println(jag.length+\":\"+jag[0].length+\":\"+jag[1].length+\":\"+jag[2].length);MatrixMethodsDemo.print(new int[][]{{},{7},{}});\nint[][] allocated=new int[3][4],partial=new int[3][];System.out.println(allocated[2][3]);System.out.println(partial[0]==null);\nSystem.out.println(new int[]{1}.toString().startsWith(\"[I@\"));\n}}",
+      "output": "100\n500\n0:0:0\n\n9\n1:2\n4\n3:3:2:1\n\n7\n\n0\ntrue\ntrue\n"
+    },
+    {
+      "name": "StringBoundaryCases",
+      "code": "class StringBoundaryCases {public static void main(String[] x){\nString s=\"Hello\";s.concat(\"!\");s.replace(\"H\",\"J\");s.toUpperCase();System.out.println(s);\nSystem.out.println(\"AB\".compareTo(\"ABC\"));System.out.println(\"\".compareTo(\"ABC\"));\nSystem.out.println(\"ABCDE\".substring(5).isEmpty());System.out.println(\"ABCDE\".substring(2,2).isEmpty());\nSystem.out.println(\"[\"+\"  Hi Java  \".trim()+\"]\");System.out.println(\"\\u2003Hi\\u2003\".trim().length());\nSystem.out.println(\"A*B*C\".split(\"\\\\*\").length);System.out.println(\"A.B\".split(\"\\\\.\").length);System.out.println(\"A,B,\".split(\",\").length);\nSystem.out.println(\"Java\".contains(\"avaJ\"));System.out.println(\"Java\".startsWith(\"ja\"));System.out.println(\"JAVA\".equalsIgnoreCase(\"javaX\"));\nSystem.out.println(String.valueOf(1.5));System.out.println(String.valueOf(true));\n}}",
+      "output": "Hello\n-1\n-3\ntrue\ntrue\n[Hi Java]\n4\n3\n2\n2\nfalse\nfalse\nfalse\n1.5\ntrue\n"
+    },
+    {
+      "name": "StudentReportBoundaries",
+      "code": "class StudentReportBoundaries {public static void main(String[] x){\nSystem.out.println(StudentReportProject.average(new int[]{1,2}));System.out.println(StudentReportProject.min(new int[]{60}));System.out.println(StudentReportProject.max(new int[]{60}));System.out.println(StudentReportProject.average(new int[]{80,80}));\nString[] names={\" Ali \",\"Mona\",\"Omar\"};System.out.println(StudentReportProject.findStudent(names,\" aLI \"));System.out.println(StudentReportProject.findStudent(names,\"nobody\"));System.out.println(StudentReportProject.findStudent(names,\"\"));\nSystem.out.println(StudentReportProject.min(new int[]{0,100}));System.out.println(StudentReportProject.max(new int[]{0,100}));\n}}",
+      "output": "1.5\n60\n60\n80.0\n0\n-1\n-1\n0\n100\n"
+    }
+  ]
+}

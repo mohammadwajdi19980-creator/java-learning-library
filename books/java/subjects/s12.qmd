@@ -1,34 +1,40 @@
 ---
 title: "S12 · One-Dimensional Arrays"
-subtitle: "Partial Review · Lessons #024–#026"
+subtitle: "Review & Exam · Lessons #024–#027"
 ---
 
-<div class="lesson-meta"><span>M06 · S12</span><span>Partial</span></div>
+<div class="lesson-meta"><span>M06 · S12</span><span>Complete</span></div>
 
 ## Lessons
 
 - [#024 · Array Basics](../lessons/lesson-024.qmd).
 - [#025 · Array Exercises](../lessons/lesson-025.qmd).
 - [#026 · Char Arrays](../lessons/lesson-026.qmd).
-- `#027 · Passing Arrays to Methods` غير متاح بعد؛ لا توجد Exam كاملة تغطيه.
+- [#027 · Passing & Returning Arrays](../lessons/lesson-027.qmd).
 
-## Partial Review
+## Subject Exam
 
-خمس أسئلة × 4 علامات = 20 علامة على الصفحات المتاحة فقط.
+ثمانية أسئلة × 5 علامات = **40 علامة**. جرّب الحل قبل فتح الإجابات؛ الأسئلة تدريب إضافي على نفس المواضيع.
 
 1. إذا `int[] values = new int[4]`، ما `length` وآخر `Index` وDefault Value؟ وهل `values[4]` مسموحة؟
 2. احسب `Sum` و`Average` و`Min` و`Max` للقيم `{1,5,3,6,8}`؛ ما الذي يضيع إذا استعملنا `int / int`؟
 3. اكتب خطوات `Linear Search` عن `99` وفسر متى نطبع `Not found` ولماذا نبدأ `Flag=false`.
 4. ما نتيجة فرز `{'a','C','B','A'}`؟ وما أكواد `'A'` و`'a'` و`'0'`؟
 5. قارن `next().toCharArray()` و`nextLine().toCharArray()`، ثم فسر `new String(chars,2,3)` ولماذا `char[]` لا تعني تشفيرًا تلقائيًا.
+6. عرّف Method تطبع `int[]`، واستدعها باستخدام Anonymous Array. هل تحتاج Length كـ Parameter إضافية؟
+7. إذا `int[] a={1,2}; int[] b=a; b[0]=50;`، فما `a[0]`؟ ثم ماذا يحدث عند `b=new int[]{9}`؟ هل تتغير `a`؟
+8. قارن تعديل `int x` داخل Method بتعديل `values[0]` داخل Method تستقبل Array. سمّ آلية التمرير الصحيحة، واذكر Return Type عند إرجاع Array من `int`.
 
 <details><summary>Answers & Marking</summary>
 
-1. `4` و`3` و`0`؛ لا، ويحدث `ArrayIndexOutOfBoundsException`. علامة لكل جزء.
-2. `23,4.6,1,8`؛ قسمة `int` تعطي `4` فتخسر الجزء العشري قبل التخزين في `double`. أربع علامات للنتائج والتفسير.
-3. نبدأ `false`، نفحص كل قيمة، عند التطابق نغيّرها إلى `true` ونخرج. نطبع مرة بعد انتهاء المرور؛ `99` غير الموجودة تبقي الحالة `false`. علامة لكل خطوة.
-4. `ABCa` (علامة)؛ الأكواد `65,97,48` (3 علامات).
-5. الأولى Token واحدة، والثانية بقية السطر مع Spaces (علامتان). `2` بداية و`3` عدد، وليس نهاية (علامة). `char[]` قابلة للتعديل والمسح، وهذا غير التشفير (علامة).
+1. `4` و`3` و`0` (3)؛ لا، ويحدث `ArrayIndexOutOfBoundsException` (2).
+2. `23,4.6,1,8` (4)؛ قسمة `int` تعطي `4` فتخسر الجزء العشري قبل التخزين في `double` (1).
+3. نبدأ `false`، نفحص كل قيمة، عند التطابق نغيّرها إلى `true` ونخرج. نطبع مرة بعد انتهاء المرور؛ `99` غير الموجودة تبقي الحالة `false`. علامة لكل فكرة من الخمس.
+4. `ABCa` (2)؛ الأكواد `65,97,48` (3).
+5. الأولى Token واحدة، والثانية بقية السطر مع Spaces (2). `2` بداية و`3` عدد، وليس نهاية (2). `char[]` قابلة للتعديل والمسح، وهذا غير التشفير (1).
+6. `static void print(int[] values)` وLoop صحيحة (3)، Call هي `print(new int[]{1,2,3})` (1)، لا نحتاج Length منفصلة لأنها `values.length` (1). [الحل الكامل](../lessons/lesson-027.qmd#array-parameters).
+7. أولًا `a[0]=50` بسبب مشاركة Array (2). بعد Reassignment، `b[0]=9` لكن `a[0]` تبقى `50` و`a.length` تبقى `2` (3).
+8. تعديل Primitive Parameter لا يغير Variable عند Caller (1)؛ تعديل Element يصل لنفس Array المشتركة (1)؛ Java دائمًا `Pass-by-Value` (1)، والمنسوخ عند تمرير Array هو Reference (1)؛ Return Type هي `int[]` (1).
 
 </details>
 

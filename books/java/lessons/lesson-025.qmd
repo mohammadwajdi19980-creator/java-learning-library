@@ -190,6 +190,6 @@ Max: 8
 
 ## Related Pages
 
-[Array Basics](lesson-024.qmd) · [Char Arrays](lesson-026.qmd) · [S12 Partial Review](../subjects/s12.qmd).
+[Array Basics](lesson-024.qmd) · [Char Arrays](lesson-026.qmd) · [S12 Review & Exam](../subjects/s12.qmd).
 
 مرجع الدقة: [Arrays API — sort](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Arrays.html). البرنامج الكامل جُرّب على قيم موجبة وسالبة ومتساوية، ومع وجود قيمة البحث وغيابها.
