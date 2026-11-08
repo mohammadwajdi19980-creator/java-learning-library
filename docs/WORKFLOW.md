@@ -1,6 +1,6 @@
 # Java Learning Library — Working Guide
 
-Version 1.6 · 7 November 2026
+Version 1.7 · 8 November 2026
 
 The user has authorized implementation and publication of the audit fixes and appearance redesign. The earlier analysis-only limit was specific to the audit turn. Preserve original video IDs, Arabic explanations, English technical terminology, and source coverage.
 
@@ -210,7 +210,7 @@ Use RELEASE-CHECKLIST.md. Update this guide when requirements or workflow change
 ## Out-of-order batches
 
 - A received later Lesson can be published while earlier IDs remain unavailable; preserve every original ID and flag gaps in its Subject. Do not infer missing source content from later references.
-- Batch #017–#019 adds S09/S10 Partial Reviews only. #014–#016 and #020–#021 remain unavailable until supplied.
+- At the #017–#019 release, S09/S10 were partial. After #020–#026, S10 is complete; #014–#016 remain unavailable.
 - verify_batch.py merges all code-cases-*.json manifests and requires a case for every complete published batch program. It also runs independent method-boundary probes and intentional invalid cases.
 - validate_book.py checks every batch-*.json source hash and every coverage-*.json mapped heading, not only the first batch.
 
@@ -220,4 +220,5 @@ Use RELEASE-CHECKLIST.md. Update this guide when requirements or workflow change
 - M05 now has all six Lessons and a Module Exam/Project. S10/S11 have full Exams; S12 stays partial until #027 arrives. Preserve the separate missing #014–#016 gap.
 - Code manifests may declare `program_paths` for complete solutions outside Lessons, such as Module assessments. All such programs require independent expected outputs and boundary checks.
 - The custom navigation path resolver must include `assessments/` when computing the book root.
+- Verbatim attachment archives normalize CRLF to LF for UTF-8 repository transport; preserve the original attachment hash separately from the stored archive hash. Do not silently recalculate one as the other.
 - Do not equate a hash of an editorial source inventory with a verbatim transcript archive. `batch-020-026.json` explicitly marks four verbatim attachments and three inline-source inventories; original inline text is in the conversation. Never claim those three inventories are verbatim copies.
